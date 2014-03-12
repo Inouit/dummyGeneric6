@@ -348,6 +348,12 @@ return array (
       'packagePath' => 'typo3/sysext/perm/',
       'classesPath' => 'Classes/',
     ),
+    'skinDummy' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/skinDummy/',
+      'classesPath' => 'Classes/',
+    ),
     'indexed_search_mysql' => 
     array (
       'manifestPath' => '',

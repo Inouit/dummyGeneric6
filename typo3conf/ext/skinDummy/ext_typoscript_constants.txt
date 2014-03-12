@@ -1,0 +1,10 @@
+filepaths {
+  private = EXT:skin/Resources/Private/
+  public = EXT:skin/Resources/Public/css/
+  templates = {$filepaths.private}Templates/
+  partials = {$filepaths.private}Partials/
+  extensions = {$filepaths.private}extensions/
+  js = {$filepaths.public}js/
+  css = {$filepaths.public}css/
+  images = {$filepaths.public}img/
+}
