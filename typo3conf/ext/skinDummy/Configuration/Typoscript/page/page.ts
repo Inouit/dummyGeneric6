@@ -1,3 +1,8 @@
 page = PAGE
-page.10 = TEXT
-page.10.value = {$filepaths.css}
+page {
+  typeNum = 0
+  shortcutIcon = {$filepaths.images}favicon.ico
+
+  # Définition de la template principale
+  10 < temp.templateName
+}

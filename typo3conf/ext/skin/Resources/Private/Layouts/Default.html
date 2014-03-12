@@ -1,0 +1,24 @@
+<!--Header-->
+<div id="header" class="header">
+    <div class="page">
+         <!--Header-->
+         <div id="logo"><f:cObject typoscriptObjectPath="lib.logo" /></div>
+
+         <!--topNav-->
+         <f:cObject typoscriptObjectPath="menu.top" />
+
+         <!--mainNav-->
+         <f:cObject typoscriptObjectPath="menu.main" />
+    </div>
+</div>
+
+<!--Content-->
+<f:render section="mainContent" />
+
+<!--Footer-->
+<div id="footer" class="footer">
+    <div class="page">
+        <!--bottomNav-->
+         <f:cObject typoscriptObjectPath="menu.bottom" />
+    </div>
+</div>

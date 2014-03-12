@@ -1,0 +1,49 @@
+
+config {
+    siteName   = Dummy Generic
+
+    noCache = 0
+    cachePeriod = 0
+    sendCacheHeaders = 0
+    cacheClearAtMidnight = 0
+
+    adminPanel = 0
+
+    debug      = 0
+
+    realURL    = 0
+}
+
+page{
+    homeID         = 1
+    topID          = 3
+    bottomID       = 4
+    searchResultID = 13
+}
+
+tt_news{
+    news{
+        singlePid =
+        pid_list =
+    }
+    events{
+        singlePid =
+        pid_list =
+    }
+}
+
+indexed_search{
+    rootPidList = {$page.homeID}
+    targetPid   = {$page.searchResultID}
+}
+
+sitemap{
+  pid_list = {$page.homeID}
+  recursive = 1000
+}
+
+images{
+    maxW = 1200
+}
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/ext_typoscript_constants_local.txt">

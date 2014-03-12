@@ -20,284 +20,28 @@ return array (
       'packagePath' => 'typo3/sysext/core/',
       'classesPath' => 'Classes/',
     ),
-    'rtehtmlarea' => 
+    'perm' => 
     array (
       'manifestPath' => '',
-      'composerName' => 'typo3/cms-rtehtmlarea',
+      'composerName' => 'typo3/cms-perm',
       'state' => 'active',
-      'packagePath' => 'typo3/sysext/rtehtmlarea/',
+      'packagePath' => 'typo3/sysext/perm/',
       'classesPath' => 'Classes/',
     ),
-    'cms' => 
+    'sv' => 
     array (
       'manifestPath' => '',
-      'composerName' => 'typo3/cms-cms',
+      'composerName' => 'typo3/cms-sv',
       'state' => 'active',
-      'packagePath' => 'typo3/sysext/cms/',
+      'packagePath' => 'typo3/sysext/sv/',
       'classesPath' => 'Classes/',
     ),
-    'frontend' => 
+    'wizard_sortpages' => 
     array (
       'manifestPath' => '',
-      'composerName' => 'typo3/cms-frontend',
+      'composerName' => 'typo3/cms-wizard-sortpages',
       'state' => 'active',
-      'packagePath' => 'typo3/sysext/frontend/',
-      'classesPath' => 'Classes/',
-    ),
-    'extra_page_cm_options' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-extra-page-cm-options',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/extra_page_cm_options/',
-      'classesPath' => 'Classes/',
-    ),
-    'cshmanual' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-cshmanual',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/cshmanual/',
-      'classesPath' => 'Classes/',
-    ),
-    'recordlist' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-recordlist',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/recordlist/',
-      'classesPath' => 'Classes/',
-    ),
-    'beuser' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-beuser',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/beuser/',
-      'classesPath' => 'Classes/',
-    ),
-    'rsaauth' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-rsaauth',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/rsaauth/',
-      'classesPath' => 'Classes/',
-    ),
-    'func_wizards' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-func-wizards',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/func_wizards/',
-      'classesPath' => 'Classes/',
-    ),
-    'info_pagetsconfig' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-info-pagetsconfig',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/info_pagetsconfig/',
-      'classesPath' => 'Classes/',
-    ),
-    'wizard_crpages' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-wizard-crpages',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/wizard_crpages/',
-      'classesPath' => 'Classes/',
-    ),
-    'context_help' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-context-help',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/context_help/',
-      'classesPath' => 'Classes/',
-    ),
-    'felogin' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-felogin',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/felogin/',
-      'classesPath' => 'Classes/',
-    ),
-    'setup' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-setup',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/setup/',
-      'classesPath' => 'Classes/',
-    ),
-    'lang' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-lang',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/lang/',
-      'classesPath' => 'Classes/',
-    ),
-    'belog' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-belog',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/belog/',
-      'classesPath' => 'Classes/',
-    ),
-    'lowlevel' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-lowlevel',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/lowlevel/',
-      'classesPath' => 'Classes/',
-    ),
-    't3skin' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-t3skin',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/t3skin/',
-      'classesPath' => 'Classes/',
-    ),
-    'info' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-info',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/info/',
-      'classesPath' => 'Classes/',
-    ),
-    'viewpage' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-viewpage',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/viewpage/',
-      'classesPath' => 'Classes/',
-    ),
-    'sys_note' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-sys-note',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/sys_note/',
-      'classesPath' => 'Classes/',
-    ),
-    'saltedpasswords' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-saltedpasswords',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/saltedpasswords/',
-      'classesPath' => 'Classes/',
-    ),
-    'backend' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-backend',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/backend/',
-      'classesPath' => 'Classes/',
-    ),
-    'tstemplate' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-tstemplate',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/tstemplate/',
-      'classesPath' => 'Classes/',
-    ),
-    'aboutmodules' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-aboutmodules',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/aboutmodules/',
-      'classesPath' => 'Classes/',
-    ),
-    't3editor' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-t3editor',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/t3editor/',
-      'classesPath' => 'Classes/',
-    ),
-    'documentation' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-documentation',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/documentation/',
-      'classesPath' => 'Classes/',
-    ),
-    'func' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-func',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/func/',
-      'classesPath' => 'Classes/',
-    ),
-    'form' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-form',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/form/',
-      'classesPath' => 'Classes/',
-    ),
-    'reports' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-reports',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/reports/',
-      'classesPath' => 'Classes/',
-    ),
-    'filelist' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-filelist',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/filelist/',
-      'classesPath' => 'Classes/',
-    ),
-    'css_styled_content' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-css-styled-content',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/css_styled_content/',
-      'classesPath' => 'Classes/',
-    ),
-    'impexp' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-impexp',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/impexp/',
-      'classesPath' => 'Classes/',
-    ),
-    'about' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-about',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/about/',
-      'classesPath' => 'Classes/',
-    ),
-    'extensionmanager' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-extensionmanager',
-      'state' => 'active',
-      'packagePath' => 'typo3/sysext/extensionmanager/',
+      'packagePath' => 'typo3/sysext/wizard_sortpages/',
       'classesPath' => 'Classes/',
     ),
     'fluid' => 
@@ -324,34 +68,302 @@ return array (
       'packagePath' => 'typo3/sysext/install/',
       'classesPath' => 'Classes/',
     ),
-    'wizard_sortpages' => 
+    'extensionmanager' => 
     array (
       'manifestPath' => '',
-      'composerName' => 'typo3/cms-wizard-sortpages',
+      'composerName' => 'typo3/cms-extensionmanager',
       'state' => 'active',
-      'packagePath' => 'typo3/sysext/wizard_sortpages/',
+      'packagePath' => 'typo3/sysext/extensionmanager/',
       'classesPath' => 'Classes/',
     ),
-    'sv' => 
+    'about' => 
     array (
       'manifestPath' => '',
-      'composerName' => 'typo3/cms-sv',
+      'composerName' => 'typo3/cms-about',
       'state' => 'active',
-      'packagePath' => 'typo3/sysext/sv/',
+      'packagePath' => 'typo3/sysext/about/',
       'classesPath' => 'Classes/',
     ),
-    'perm' => 
+    'impexp' => 
     array (
       'manifestPath' => '',
-      'composerName' => 'typo3/cms-perm',
+      'composerName' => 'typo3/cms-impexp',
       'state' => 'active',
-      'packagePath' => 'typo3/sysext/perm/',
+      'packagePath' => 'typo3/sysext/impexp/',
+      'classesPath' => 'Classes/',
+    ),
+    'css_styled_content' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-css-styled-content',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/css_styled_content/',
+      'classesPath' => 'Classes/',
+    ),
+    'filelist' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-filelist',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/filelist/',
+      'classesPath' => 'Classes/',
+    ),
+    'reports' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-reports',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/reports/',
+      'classesPath' => 'Classes/',
+    ),
+    'form' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-form',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/form/',
+      'classesPath' => 'Classes/',
+    ),
+    'func' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-func',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/func/',
+      'classesPath' => 'Classes/',
+    ),
+    'documentation' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-documentation',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/documentation/',
+      'classesPath' => 'Classes/',
+    ),
+    't3editor' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-t3editor',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/t3editor/',
+      'classesPath' => 'Classes/',
+    ),
+    'aboutmodules' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-aboutmodules',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/aboutmodules/',
+      'classesPath' => 'Classes/',
+    ),
+    'tstemplate' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-tstemplate',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/tstemplate/',
+      'classesPath' => 'Classes/',
+    ),
+    'backend' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-backend',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/backend/',
+      'classesPath' => 'Classes/',
+    ),
+    'saltedpasswords' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-saltedpasswords',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/saltedpasswords/',
+      'classesPath' => 'Classes/',
+    ),
+    'sys_note' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-sys-note',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/sys_note/',
+      'classesPath' => 'Classes/',
+    ),
+    'viewpage' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-viewpage',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/viewpage/',
+      'classesPath' => 'Classes/',
+    ),
+    'info' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-info',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/info/',
+      'classesPath' => 'Classes/',
+    ),
+    't3skin' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-t3skin',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/t3skin/',
+      'classesPath' => 'Classes/',
+    ),
+    'lowlevel' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-lowlevel',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/lowlevel/',
+      'classesPath' => 'Classes/',
+    ),
+    'belog' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-belog',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/belog/',
+      'classesPath' => 'Classes/',
+    ),
+    'lang' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-lang',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/lang/',
+      'classesPath' => 'Classes/',
+    ),
+    'setup' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-setup',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/setup/',
+      'classesPath' => 'Classes/',
+    ),
+    'felogin' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-felogin',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/felogin/',
+      'classesPath' => 'Classes/',
+    ),
+    'context_help' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-context-help',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/context_help/',
+      'classesPath' => 'Classes/',
+    ),
+    'wizard_crpages' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-wizard-crpages',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/wizard_crpages/',
+      'classesPath' => 'Classes/',
+    ),
+    'info_pagetsconfig' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-info-pagetsconfig',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/info_pagetsconfig/',
+      'classesPath' => 'Classes/',
+    ),
+    'func_wizards' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-func-wizards',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/func_wizards/',
+      'classesPath' => 'Classes/',
+    ),
+    'rsaauth' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-rsaauth',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/rsaauth/',
+      'classesPath' => 'Classes/',
+    ),
+    'beuser' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-beuser',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/beuser/',
+      'classesPath' => 'Classes/',
+    ),
+    'recordlist' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-recordlist',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/recordlist/',
+      'classesPath' => 'Classes/',
+    ),
+    'cshmanual' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-cshmanual',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/cshmanual/',
+      'classesPath' => 'Classes/',
+    ),
+    'extra_page_cm_options' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-extra-page-cm-options',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/extra_page_cm_options/',
+      'classesPath' => 'Classes/',
+    ),
+    'cms' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-cms',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/cms/',
+      'classesPath' => 'Classes/',
+    ),
+    'frontend' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-frontend',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/frontend/',
+      'classesPath' => 'Classes/',
+    ),
+    'rtehtmlarea' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-rtehtmlarea',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/rtehtmlarea/',
       'classesPath' => 'Classes/',
     ),
     'skinDummy' => 
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/skinDummy/',
+      'classesPath' => 'Classes/',
+    ),
+    'skin' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/skin/',
+      'classesPath' => 'Classes/',
+    ),
+    'weeaar_googlesitemap' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/weeaar_googlesitemap/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 

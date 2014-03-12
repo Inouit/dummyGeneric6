@@ -9,8 +9,8 @@
 *********************************************************************/
 
 $EM_CONF[$_EXTKEY] = array (
-  'title' => 'Skin Dummy',
-  'description' => 'Dummy for template',
+  'title' => 'Skin',
+  'description' => 'Skin for template',
   'category' => 'plugin',
   'author' => '',
   'author_email' => 'gcopin@inouit.com',
@@ -37,6 +37,7 @@ $EM_CONF[$_EXTKEY] = array (
         'cms' => '1.1.0-0.0.0',
         'extbase' => '',
         'fluid' => '',
+        'skinDummy' => '',
       ),
     'conflicts' =>
       array (
