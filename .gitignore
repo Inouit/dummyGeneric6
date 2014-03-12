@@ -1,0 +1,21 @@
+.ht*
+*.sublime-*
+*.log
+typo3conf/localconf_local.php
+typo3conf/ext/skin/ext_typoscript_constants_local.txt
+typo3conf/ext/skin/realurl_conf/realurl_local.php
+typo3conf/temp_CACHED*
+typo3temp/*
+
+typo3conf/ext/skin/template/node_modules
+typo3conf/ext/skin/template/js/_bower_components/*
+typo3conf/ext/skin/template/.sass-cache/*
+typo3conf/ext/skin/template/.DS_Store
+typo3conf/ext/skin/template/Gemfile.lock
+typo3conf/ext/skin/template/docs/*
+
+typo3conf/ext/skin/template/css/*.css.map
+
+#Not these
+!.gitkeep
+
