@@ -8,6 +8,9 @@ return array_merge(array(
 		'installToolPassword' => '$P$CD4OthEhrPgXDC16sYBkmk7xF4klbf0',
 		'loginSecurityLevel' => 'rsa',
 	),
+	'DB' => array(
+		'extTablesDefinitionScript' => 'extTables.php',
+	),
 	'EXT' => array(
 		'extConf' => array(
 			'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
