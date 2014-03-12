@@ -1,9 +1,7 @@
 .ht*
 *.sublime-*
 *.log
-typo3conf/localconf_local.php
-typo3conf/ext/skin/ext_typoscript_constants_local.txt
-typo3conf/ext/skin/realurl_conf/realurl_local.php
+*_local.*
 typo3conf/temp_CACHED*
 typo3temp/*
 

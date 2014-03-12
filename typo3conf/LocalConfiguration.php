@@ -1,18 +1,12 @@
 <?php
-return array(
+require_once('LocalConfiguration_local.php');
+
+return array_merge(array(
 	'BE' => array(
 		'debug' => FALSE,
 		'explicitADmode' => 'explicitAllow',
 		'installToolPassword' => '$P$CD4OthEhrPgXDC16sYBkmk7xF4klbf0',
 		'loginSecurityLevel' => 'rsa',
-	),
-	'DB' => array(
-		'database' => 'local_typo3_dummyGeneric6',
-		'extTablesDefinitionScript' => 'extTables.php',
-		'host' => 'localhost',
-		'password' => 'ogerg4?A',
-		'socket' => '',
-		'username' => 'gcopin',
 	),
 	'EXT' => array(
 		'extConf' => array(
@@ -53,5 +47,5 @@ return array(
 		't3lib_cs_convMethod' => 'mbstring',
 		't3lib_cs_utils' => 'mbstring',
 	),
-);
+), $localConfiguration);
 ?>
