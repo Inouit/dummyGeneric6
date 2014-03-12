@@ -7,8 +7,6 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/menus/left.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/menus/main.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/menus/top.ts">
-### Include directory Configuration/Typoscript/page
 ### Include directory Configuration/Typoscript/templates
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/templates/home.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/templates/interne.ts">
-### Include directory Configuration/Typoscript/languages

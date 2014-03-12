@@ -360,12 +360,6 @@ return array (
       'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
-    'weeaar_googlesitemap' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/weeaar_googlesitemap/',
-      'classesPath' => 'Classes/',
-    ),
     'indexed_search_mysql' => 
     array (
       'manifestPath' => '',
