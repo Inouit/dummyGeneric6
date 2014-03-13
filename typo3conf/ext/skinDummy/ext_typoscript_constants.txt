@@ -1,11 +1,9 @@
 filepaths {
-  private = EXT:skin/Resources/Private/
-  public = EXT:skin/Resources/Public/
-  layouts = {$filepaths.private}Layouts/
-  templates = {$filepaths.private}Templates/
-  partials = {$filepaths.private}Partials/
-  extensions = {$filepaths.private}Extensions/
-  js = {$filepaths.public}js/
-  css = {$filepaths.public}css/
-  images = {$filepaths.public}img/
+  layouts    = typo3conf/ext/skin/Resources/Private/Layouts/
+  templates  = typo3conf/ext/skin/Resources/Private/Templates/
+  partials   = typo3conf/ext/skin/Resources/Private/Partials/
+  extensions = typo3conf/ext/skin/Resources/Private/Extensions/
+  js         = typo3conf/ext/skin/Resources/Public/js/
+  css        = typo3conf/ext/skin/Resources/Public/css/
+  images     = typo3conf/ext/skin/Resources/Public/img/
 }

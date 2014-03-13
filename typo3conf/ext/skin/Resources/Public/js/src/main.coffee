@@ -1,6 +1,5 @@
 $ ->
   $(window).ready ->
-
     # Handle src update on hover event
     $(".no-touch img.hover").hoverSrc()
 
