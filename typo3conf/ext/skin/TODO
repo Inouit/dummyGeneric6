@@ -5,8 +5,8 @@ Todo:
   ✔ Install & conf de fluid template pour les pages @done (14-03-12 17:52)
   ✔ Install des templates home et interne @done (14-03-12 17:56)
   ✔ Install all users conf @done (14-03-13 11:42)
-  ☐ Install des CSS & JS du dummy
-  ☐ Install de Grunt pour skin
+  ✔ Install des CSS & JS du dummy @done (14-03-13 14:46)
+  ✔ Install de Grunt pour skin @done (14-03-13 16:00)
   ☐ Install & conf powermail
   ☐ Install & conf tx_news
   ☐ Install & conf event

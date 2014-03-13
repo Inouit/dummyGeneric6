@@ -3,134 +3,48 @@
 mountFolder = (connect, dir) ->
     connect.static require('path').resolve(dir)
 
+loadConfig = (path)->
+  glob = require('glob')
+  object = {};
+
+  glob.sync('*', {cwd: path}).forEach((option)->
+    key = option.replace(/\.coffee$/,'')
+    object[key] = require(path + option)
+  )
+  return object
+
+registerTasks = (grunt, path)->
+  glob = require('glob')
+  object = [];
+  glob.sync('*.coffee', {cwd: path}).forEach((option)->
+    key = option.replace(/\.coffee$/,'')
+    grunt.registerTask 'key', require(path + option)(grunt)
+  )
+
+  return object
+
 module.exports = (grunt) ->
   # load all grunt tasks
   require("load-grunt-tasks")(grunt)
 
-  in8Config =
-    tsSrc   : '../Configuration/Typoscript'
-    jsSrc   : '../Resources/Public/js/src'
-    jsDest  : '../Resources/Public/js'
-    imgSrc  : '../Resources/Public/img'
-    cssSrc  : '../Resources/Public/css/src'
-    cssDest : '../Resources/Public/css'
-    htmlSrc : '../Resources/Private'
-    docDest : '../Resources/Public/docs'
+  config =
+    pkg: grunt.file.readJSON('package.json')
+    env: process.env
+    in8:
+      tsSrc   : '../Configuration/Typoscript'
+      jsSrc   : '../Resources/Public/js/src'
+      jsDest  : '../Resources/Public/js'
+      imgSrc  : '../Resources/Public/img'
+      cssSrc  : '../Resources/Public/css/src'
+      cssDest : '../Resources/Public/css'
+      htmlSrc : '../Resources/Private'
+      docDest : '../Resources/Public/docs'
+      port    : grunt.option('liveport') || 35729
 
-  grunt.initConfig
-    in8: in8Config
 
-    # You can't run the docco task alone, coffeFiles & sassFiles don't chain.
-    # You have to call them separatly.
-    docco:
-      coffeeFiles:
-        files:
-          src: ['<%= in8.jsSrc %>/*.coffee']
-        options:
-          output: '<%= in8.docDest %>/coffee'
-          css: '<%= in8.docDest %>/assets/custom.css'
-      sassFiles:
-        files:
-          src: ['<%= in8.cssSrc %>/*.scss']
-        options:
-          output: '<%= in8.docDest %>/sass'
-          css: '<%= in8.docDest %>/assets/custom.css'
+  # load tasks options
+  grunt.util._.extend(config, loadConfig('./tasks/options/'));
+  grunt.initConfig(config)
 
-    coffee:
-      build:
-        options:
-          sourceMap: true
-        expand: true
-        flatten: true
-        cwd: '<%= in8.jsSrc %>'
-        src: ['*.coffee']
-        dest: '<%= in8.jsDest %>'
-        ext: '.js'
-
-    uglify:
-      options:
-        banner: '/*! uglified <%= grunt.template.today("yyyy-mm-dd HH:MM:ss") %> */'
-      build:
-        files: [{
-          expand: true,
-          cwd: '<%= in8.jsDest %>',
-          src: '*.js',
-          dest: '<%= in8.jsDest %>'
-          ext: '.min.js'
-        }]
-
-    sass:
-      build:
-        options:
-          sourcemap: true
-          style: "compact"
-          precision: 20
-          lineNumbers: true
-        files:
-          '<%= in8.cssDest %>/main.css': '<%= in8.cssSrc %>/styles.scss'
-          '<%= in8.cssDest %>/ie.css': '<%= in8.cssSrc %>/ie.scss'
-
-    autoprefixer:
-      build:
-        browsers: ["last 3 version", "ie 8", "ie 7"]
-        src: '<%= in8.jcssDest %>/main.css'
-
-    cssmin:
-      minify:
-        options:
-          banner: '/*! minified <%= grunt.template.today("yyyy-mm-dd HH:MM:ss") %> */'
-        expand: true
-        cwd: '<%= in8.cssDest %>/'
-        src: '*.css'
-        dest: '<%= in8.cssDest %>/'
-
-    concurrent:
-      builds: ['coffee', 'sass']
-      optimize : ['autoprefixer']
-
-    watch:
-      options:
-        livereload: grunt.option('liveport') || 35729
-
-      html:
-        files:[
-          '<%= in8.htmlSrc %>/**/*.html'
-          '<%= in8.htmlSrc %>/**/*.tmpl'
-        ]
-
-      typoscript:
-        files:[
-          '<%= in8.tsSrc %>/**/*.ts'
-          '<%= in8.tsSrc %>/**/*.txt'
-        ]
-
-      sass:
-        files:'<%= in8.cssSrc %>/*.scss'
-        tasks: [
-          'newer:sass:build',
-          'newer:autoprefixer:build'
-        ]
-      images:
-        files:[
-          '<%= in8.imgSrc %>/**'
-        ]
-      coffee:
-        files: '<%= in8.jsSrc %>/*.coffee'
-        tasks: [
-          'newer:coffee:build'
-        ]
-
-    grunt.registerTask 'default', [
-      'concurrent:builds'
-      'concurrent:optimize'
-      'watch'
-    ]
-    grunt.registerTask 'serve', [
-      'sass:build'
-      'autoprefixer:build'
-      'docco:coffeeFiles'
-      # 'uglify:build'
-      'coffee:build'
-      'docco:sassFiles'
-      'cssmin:minify'
-    ]
+  # register tasks
+  registerTasks(grunt, './tasks/')
