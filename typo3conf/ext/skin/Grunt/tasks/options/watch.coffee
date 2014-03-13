@@ -7,12 +7,14 @@ module.exports =
       '<%= in8.htmlSrc %>/**/*.html'
       '<%= in8.htmlSrc %>/**/*.tmpl'
     ]
+    tasks: 'newer:coffee:build'
 
   typoscript:
     files:[
       '<%= in8.tsSrc %>/**/*.ts'
       '<%= in8.tsSrc %>/**/*.txt'
     ]
+    tasks: 'newer:coffee:build'
 
   sass:
     files:'<%= in8.cssSrc %>/*.scss'
@@ -26,6 +28,4 @@ module.exports =
     ]
   coffee:
     files: '<%= in8.jsSrc %>/*.coffee'
-    tasks: [
-      'newer:coffee:build'
-    ]
+    tasks: 'newer:coffee:build'
