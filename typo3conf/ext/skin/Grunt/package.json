@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-docco-multi": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-notify": "~0.2.16",
+    "grunt-contrib-watch": "*",
+    "load-grunt-tasks": "*"
+  }
+}
