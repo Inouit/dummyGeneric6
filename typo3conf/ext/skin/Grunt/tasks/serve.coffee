@@ -1,10 +1,9 @@
 module.exports = (grunt)->
   grunt.registerTask 'serve', [
-    'sass:build'
+    'concurrent:builds'
     'autoprefixer:build'
     'docco:coffeeFiles'
     # 'uglify:build'
-    'coffee:build'
     'docco:sassFiles'
     'cssmin:minify'
   ]
