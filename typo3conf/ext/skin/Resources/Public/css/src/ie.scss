@@ -2,7 +2,6 @@
 
 // import all scss files needed
 @import 'config';
-@import 'reset';
 @import 'functions';
 @import 'mixins';
 
@@ -30,7 +29,8 @@
 
 
 @import 'columns';
-@import 'main';
+@import 'layout';
+@import 'modules';
 @import 'powermail';
 
 
