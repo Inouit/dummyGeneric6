@@ -13,4 +13,3 @@
 ### Include directory Configuration/Typoscript/templates
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/templates/home.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/templates/interne.ts">
-### Include directory Configuration/Typoscript/languages
