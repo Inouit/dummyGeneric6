@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index="mod_linkvalidator">Linkvalidator</label>
+      <label index="tasks.validate.name">Linkvalidator</label>
+      <label index="tasks.validate.description">Recherche les liens brisés et enregistre les résultats dans la table temporaire tx_linkvalidator_link, afin de soulager le module backend.</label>
+      <label index="tasks.validate.page">Page de démarrage (uid)</label>
+      <label index="tasks.validate.depth">Profondeur</label>
+      <label index="tasks.validate.conf">Écraser TSconfig</label>
+      <label index="tasks.validate.email">Envoyer un rapport par e-mail à</label>
+      <label index="tasks.validate.emailOnBrokenLinkOnly">Envoyer un e-mail uniquement pour les nouveaux liens brisés</label>
+      <label index="tasks.validate.emailTemplateFile">Fichier gabarit d'e-mail</label>
+      <label index="tasks.validate.invalidEmail">Format d'e-mail invalide !</label>
+      <label index="tasks.validate.invalidPage">uid de page invalide. Veuillez entrer un uid de page valide !</label>
+      <label index="tasks.validate.invalidDepth">Aucune profondeur n'est paramétrée. Veuillez choisir une des valeurs proposées !</label>
+      <label index="tasks.error.noSubject">Aucun sujet pour l'e-mail de notification</label>
+      <label index="tasks.error.invalidToEmail">Format incorrect d'une ou plusieurs adresse e-mail de destinataires !</label>
+      <label index="tasks.error.invalidFromEmail"/>
+      <label index="tasks.error.invalidTSconfig"/>
+      <label index="tasks.error.invalidEmailTemplateFile">Le fichier de gabarit d'e-mail n'existe pas !</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

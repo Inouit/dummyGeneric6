@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index="subject">TYPO3 Note pour l'espace de travail : l'état change pour ###ELEMENT_NAME###</label>
+      <label index="message">Sur le site TYPO3  "###SITE_NAME###" (###SITE_URL###)
+dans l'espace de travail "###WORKSPACE_TITLE###" (###WORKSPACE_UID###)
+l'état a changé pour ces élement(s) "###RECORD_TITLE###" (###ELEMENT_NAME###) à cet emplacement "###RECORD_PATH###" dans l'arborescence :
+
+=&gt; ###NEXT_STAGE###
+
+Commentaire de l'utilisateur :
+"###COMMENT###"
+
+L'état a été changé par ###USER_FULLNAME### (nom de l'utilisateur : ###USER_USERNAME###)</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

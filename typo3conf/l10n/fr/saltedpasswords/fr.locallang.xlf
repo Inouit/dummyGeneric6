@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="saltedpasswords" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="ext.saltedpasswords.title.tx_saltedpasswords_salts_phpass" xml:space="preserve" approved="yes">
+        <source>Portable PHP password hashing (phpass)</source>
+      <target state="translated">Cryptage de mot de passe portable PHP (phpass)</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.tx_saltedpasswords_salts_md5" xml:space="preserve" approved="yes">
+        <source>MD5 salted hashing (secure)</source>
+      <target state="translated">Cryptage MD5 (sécurisé)</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.tx_saltedpasswords_salts_blowfish" xml:space="preserve" approved="yes">
+        <source>Blowfish salted hashing (advanced)</source>
+      <target state="translated">Cryptage Blowfish (avancé)</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.phpasssalt" xml:space="preserve" approved="yes">
+        <source>Portable PHP password hashing (phpass)</source>
+      <target state="translated">Cryptage de mot de passe portable PHP (phpass)</target><note>100%</note></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.md5salt" xml:space="preserve" approved="yes">
+        <source>MD5 salted hashing (secure)</source>
+      <target state="translated">Cryptage MD5 (sécurisé)</target><note>100%</note></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.blowfishsalt" xml:space="preserve" approved="yes">
+        <source>Blowfish salted hashing (advanced)</source>
+      <target state="translated">Cryptage Blowfish (avancé)</target><note>100%</note></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.name" xml:space="preserve" approved="yes">
+        <source>Convert user passwords to salted hashes</source>
+      <target state="translated">Convertir les mots de passes utilisateur en MD5</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.description" xml:space="preserve" approved="yes">
+        <source>Update all frontend and backend user passwords to salted hashes. This task deactivates itself when completed.</source>
+      <target state="translated">Mettre à jour tous les mots de passes utilisateurs (frontend et backend) en MD5. Cette tâche se désactive elle même lorsqu'elle est terminée.</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.numberOfRecords" xml:space="preserve" approved="yes">
+        <source>The number of records to process on each run</source>
+      <target state="translated">Nombre d'enregistrements à traiter à chaque exécution</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.invalidNumberOfRecords" xml:space="preserve" approved="yes">
+        <source>The number of records to process on each run must be greater than zero and numeric.</source>
+      <target state="translated">Le nombre d'enregistrements à traiter à chaque exécution doit être un nombre supérieur à zéro.</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.canDeactivateSelf" xml:space="preserve" approved="yes">
+        <source>Deactivate if all records are converted</source>
+      <target state="translated">Désactiver si tous les enregistrements sont convertis</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.deactivateself" xml:space="preserve">
+        <source>Deactivate=</source>
+      <target/></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.numberofrecords" xml:space="preserve" approved="yes">
+        <source>Number of records=</source>
+      <target state="translated">Nombre d'enregistrements</target><alt-trans xml:space="preserve" origin="filoucrackeur"><target>Nombre d'enregistrements</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>

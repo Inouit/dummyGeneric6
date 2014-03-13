@@ -1,0 +1,632 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="form" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Form Wizard</source>
+      <target state="translated">Assistant du formulaire</target></trans-unit>
+      <trans-unit id="yes" xml:space="preserve" approved="yes">
+        <source>Yes</source>
+      <target state="translated">Oui</target></trans-unit>
+      <trans-unit id="no" xml:space="preserve" approved="yes">
+        <source>No</source>
+      <target state="translated">Non</target></trans-unit>
+      <trans-unit id="refresh" xml:space="preserve" approved="yes">
+        <source>Refresh without saving</source>
+      <target state="translated">Actualiser sans enregistrer</target></trans-unit>
+      <trans-unit id="errorTitle" xml:space="preserve" approved="yes">
+        <source>Wizard error</source>
+      <target state="translated">Erreur dans l'assistant</target></trans-unit>
+      <trans-unit id="errorMessage" xml:space="preserve" approved="yes">
+        <source>No reference to record</source>
+      <target state="translated">Aucune référence à enregistrer</target></trans-unit>
+      <trans-unit id="save" xml:space="preserve" approved="yes">
+        <source>Save form</source>
+      <target state="translated">Enregistrer le formulaire</target></trans-unit>
+      <trans-unit id="saveAndClose" xml:space="preserve" approved="yes">
+        <source>Save and close form</source>
+      <target state="translated">Enregistrer et fermer le formulaire</target></trans-unit>
+      <trans-unit id="history_undo" xml:space="preserve" approved="yes">
+        <source>Undo</source>
+      <target state="translated">Annuler</target></trans-unit>
+      <trans-unit id="history_redo" xml:space="preserve" approved="yes">
+        <source>Redo</source>
+      <target state="translated">Refaire</target></trans-unit>
+      <trans-unit id="action_save" xml:space="preserve" approved="yes">
+        <source>Saving form</source>
+      <target state="translated">Enregistrement du formulaire</target></trans-unit>
+      <trans-unit id="action_save_error" xml:space="preserve" approved="yes">
+        <source>Server-side failure with status code</source>
+      <target state="translated">Erreur du côté serveur avec code de statut</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Erreur du côté serveur avec code de statut</target></alt-trans></trans-unit>
+      <trans-unit id="button_remove" xml:space="preserve" approved="yes">
+        <source>Remove</source>
+      <target state="translated">Retirer</target></trans-unit>
+      <trans-unit id="left_elements" xml:space="preserve" approved="yes">
+        <source>Elements</source>
+      <target state="translated">Éléments</target></trans-unit>
+      <trans-unit id="left_elements_intro_title" xml:space="preserve" approved="yes">
+        <source>Adding elements to the form</source>
+      <target state="translated">Ajoute des éléments au formulaire</target></trans-unit>
+      <trans-unit id="left_elements_intro_description" xml:space="preserve" approved="yes">
+        <source>Drag or double-click elements to add</source>
+      <target state="translated">Glisser les éléments ou double-cliquer dessus pour ajouter</target></trans-unit>
+      <trans-unit id="left_elements_basic" xml:space="preserve" approved="yes">
+        <source>Basic form elements</source>
+      <target state="translated">Éléments basiques de formulaire</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Éléments basiques de formulaire</target></alt-trans></trans-unit>
+      <trans-unit id="basic_button" xml:space="preserve" approved="yes">
+        <source>Button</source>
+      <target state="translated">Bouton</target></trans-unit>
+      <trans-unit id="basic_checkbox" xml:space="preserve" approved="yes">
+        <source>Checkbox</source>
+      <target state="translated">Case à cocher</target></trans-unit>
+      <trans-unit id="basic_fieldset" xml:space="preserve" approved="yes">
+        <source>Fieldset</source>
+      <target state="translated">Groupe de champs</target></trans-unit>
+      <trans-unit id="basic_fileupload" xml:space="preserve" approved="yes">
+        <source>Upload Field</source>
+      <target state="translated">Champ de téléversement</target></trans-unit>
+      <trans-unit id="basic_hidden" xml:space="preserve" approved="yes">
+        <source>Hidden Field</source>
+      <target state="translated">Champ caché</target></trans-unit>
+      <trans-unit id="basic_password" xml:space="preserve" approved="yes">
+        <source>Password Field</source>
+      <target state="translated">Champ Mot de passe</target></trans-unit>
+      <trans-unit id="basic_radio" xml:space="preserve" approved="yes">
+        <source>Radio Button</source>
+      <target state="translated">Bouton radio</target></trans-unit>
+      <trans-unit id="basic_reset" xml:space="preserve" approved="yes">
+        <source>Reset Button</source>
+      <target state="translated">Bouton de réinitialisation</target></trans-unit>
+      <trans-unit id="basic_select" xml:space="preserve" approved="yes">
+        <source>Drop Down</source>
+      <target state="translated">Liste déroulante</target></trans-unit>
+      <trans-unit id="basic_submit" xml:space="preserve" approved="yes">
+        <source>Submit Button</source>
+      <target state="translated">Bouton de soumission</target></trans-unit>
+      <trans-unit id="basic_textarea" xml:space="preserve" approved="yes">
+        <source>Text Area</source>
+      <target state="translated">Zone de texte</target></trans-unit>
+      <trans-unit id="basic_textline" xml:space="preserve" approved="yes">
+        <source>Text Field</source>
+      <target state="translated">Champ texte</target></trans-unit>
+      <trans-unit id="left_elements_content" xml:space="preserve" approved="yes">
+        <source>Content elements</source>
+      <target state="translated">Éléments de contenu</target></trans-unit>
+      <trans-unit id="content_header" xml:space="preserve" approved="yes">
+        <source>Header</source>
+      <target state="translated">En-tête</target></trans-unit>
+      <trans-unit id="content_textblock" xml:space="preserve" approved="yes">
+        <source>Text block</source>
+      <target state="translated">Bloc de texte</target></trans-unit>
+      <trans-unit id="left_elements_predefined" xml:space="preserve" approved="yes">
+        <source>Predefined form elements</source>
+      <target state="translated">Éléments de formulaire prédéfinis</target></trans-unit>
+      <trans-unit id="predefined_email" xml:space="preserve" approved="yes">
+        <source>Email</source>
+      <target state="translated">E-mail</target></trans-unit>
+      <trans-unit id="predefined_radiogroup" xml:space="preserve" approved="yes">
+        <source>Radio Button Group</source>
+      <target state="translated">Groupe de boutons radio</target></trans-unit>
+      <trans-unit id="predefined_checkboxgroup" xml:space="preserve" approved="yes">
+        <source>Checkbox Group</source>
+      <target state="translated">Groupe de cases à cocher</target></trans-unit>
+      <trans-unit id="predefined_name" xml:space="preserve" approved="yes">
+        <source>Full Name</source>
+      <target state="translated">Nom complet</target></trans-unit>
+      <trans-unit id="left_options" xml:space="preserve" approved="yes">
+        <source>Options</source>
+      <target state="translated">Options</target></trans-unit>
+      <trans-unit id="options_error" xml:space="preserve" approved="yes">
+        <source>Error</source>
+      <target state="translated">Erreur</target></trans-unit>
+      <trans-unit id="options_error_message" xml:space="preserve" approved="yes">
+        <source>There is an error in the settings of the current element. Please check!</source>
+      <target state="translated">Il y a une erreur dans les paramètres de l'élément courant. Veuillez vérifier!</target></trans-unit>
+      <trans-unit id="options_dummy_title" xml:space="preserve" approved="yes">
+        <source>Please select an element on the right</source>
+      <target state="translated">Veuillez sélectionner un élément à droite</target></trans-unit>
+      <trans-unit id="options_dummy_description" xml:space="preserve" approved="yes">
+        <source>When an element has been selected, this area will show the options for the selected element</source>
+      <target state="translated">Lorsqu'un élément a été sélectionné, cette zone présente les options pour l'élément sélectionné</target></trans-unit>
+      <trans-unit id="options_attributes" xml:space="preserve" approved="yes">
+        <source>Attributes Properties</source>
+      <target state="translated">Propriétés des attributs</target></trans-unit>
+      <trans-unit id="attributes_accept" xml:space="preserve" approved="yes">
+        <source>Accept</source>
+      <target state="translated">Accepter</target></trans-unit>
+      <trans-unit id="attributes_acceptcharset" xml:space="preserve" approved="yes">
+        <source>Acceptcharset</source>
+      <target state="translated">Accepter le jeu de caractères</target></trans-unit>
+      <trans-unit id="attributes_accesskey" xml:space="preserve" approved="yes">
+        <source>Accesskey</source>
+      <target state="translated">Accesskey</target></trans-unit>
+      <trans-unit id="attributes_action" xml:space="preserve" approved="yes">
+        <source>Action</source>
+      <target state="translated">Action</target></trans-unit>
+      <trans-unit id="attributes_alt" xml:space="preserve" approved="yes">
+        <source>Alt</source>
+      <target state="translated">Texte alternatif</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Texte alternatif</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_checked" xml:space="preserve" approved="yes">
+        <source>Checked</source>
+      <target state="translated">Cochée</target></trans-unit>
+      <trans-unit id="attributes_class" xml:space="preserve" approved="yes">
+        <source>Class</source>
+      <target state="translated">Classe</target></trans-unit>
+      <trans-unit id="attributes_cols" xml:space="preserve" approved="yes">
+        <source>Cols</source>
+      <target state="translated">Colonnes</target></trans-unit>
+      <trans-unit id="attributes_dir" xml:space="preserve" approved="yes">
+        <source>Dir</source>
+      <target state="translated">Direction</target></trans-unit>
+      <trans-unit id="attributes_dir_ltr" xml:space="preserve" approved="yes">
+        <source>Left to right</source>
+      <target state="translated">De gauche à droite</target></trans-unit>
+      <trans-unit id="attributes_dir_rtl" xml:space="preserve" approved="yes">
+        <source>Right to left</source>
+      <target state="translated">De droite à gauche</target></trans-unit>
+      <trans-unit id="attributes_disabled" xml:space="preserve" approved="yes">
+        <source>Disabled</source>
+      <target state="translated">Désactivé</target></trans-unit>
+      <trans-unit id="attributes_enctype" xml:space="preserve" approved="yes">
+        <source>Enctype</source>
+      <target state="translated">Enctype</target></trans-unit>
+      <trans-unit id="attributes_enctype_1" xml:space="preserve" approved="yes">
+        <source>Encoded</source>
+      <target state="translated">Encodé</target></trans-unit>
+      <trans-unit id="attributes_enctype_2" xml:space="preserve" approved="yes">
+        <source>No encoding - File upload</source>
+      <target state="translated">Pas d'encodage - chargement de fichier</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Pas d'encodage - chargement de fichier</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_enctype_3" xml:space="preserve" approved="yes">
+        <source>No encoding - Spaces converted</source>
+      <target state="translated">Pas d'encodage - Espaces convertis</target></trans-unit>
+      <trans-unit id="attributes_id" xml:space="preserve" approved="yes">
+        <source>Id</source>
+      <target state="translated">Id</target></trans-unit>
+      <trans-unit id="attributes_label" xml:space="preserve" approved="yes">
+        <source>Label</source>
+      <target state="translated">Label</target></trans-unit>
+      <trans-unit id="attributes_lang" xml:space="preserve" approved="yes">
+        <source>Lang</source>
+      <target state="translated">Lang</target></trans-unit>
+      <trans-unit id="attributes_maxlength" xml:space="preserve" approved="yes">
+        <source>Maxlength</source>
+      <target state="translated">Longueur maximal</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Longueur maximal</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_method" xml:space="preserve" approved="yes">
+        <source>Method</source>
+      <target state="translated">Méthode</target></trans-unit>
+      <trans-unit id="attributes_method_get" xml:space="preserve" approved="yes">
+        <source>Get</source>
+      <target state="translated">Get</target></trans-unit>
+      <trans-unit id="attributes_method_post" xml:space="preserve" approved="yes">
+        <source>Post</source>
+      <target state="translated">Post</target></trans-unit>
+      <trans-unit id="attributes_multiple" xml:space="preserve" approved="yes">
+        <source>Multiple</source>
+      <target state="translated">Multiples</target></trans-unit>
+      <trans-unit id="attributes_name" xml:space="preserve" approved="yes">
+        <source>Name</source>
+      <target state="translated">Nom</target></trans-unit>
+      <trans-unit id="attributes_readonly" xml:space="preserve" approved="yes">
+        <source>Readonly</source>
+      <target state="translated">Lecture seule</target></trans-unit>
+      <trans-unit id="attributes_rows" xml:space="preserve" approved="yes">
+        <source>Rows</source>
+      <target state="translated">Lignes</target></trans-unit>
+      <trans-unit id="attributes_selected" xml:space="preserve" approved="yes">
+        <source>Selected</source>
+      <target state="translated">Sélectionné</target></trans-unit>
+      <trans-unit id="attributes_size" xml:space="preserve" approved="yes">
+        <source>Size</source>
+      <target state="translated">Taille</target></trans-unit>
+      <trans-unit id="attributes_src" xml:space="preserve" approved="yes">
+        <source>Src</source>
+      <target state="translated">Source</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Source</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_style" xml:space="preserve" approved="yes">
+        <source>Style</source>
+      <target state="translated">Style</target></trans-unit>
+      <trans-unit id="attributes_tabindex" xml:space="preserve" approved="yes">
+        <source>Tabindex</source>
+      <target state="translated">Tabindex</target></trans-unit>
+      <trans-unit id="attributes_title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titre</target></trans-unit>
+      <trans-unit id="attributes_type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Type</target></trans-unit>
+      <trans-unit id="attributes_type_button" xml:space="preserve" approved="yes">
+        <source>button</source>
+      <target state="translated">bouton</target></trans-unit>
+      <trans-unit id="attributes_type_checkbox" xml:space="preserve" approved="yes">
+        <source>checkbox</source>
+      <target state="translated">case à cocher</target></trans-unit>
+      <trans-unit id="attributes_type_file" xml:space="preserve" approved="yes">
+        <source>file</source>
+      <target state="translated">fichier</target></trans-unit>
+      <trans-unit id="attributes_type_hidden" xml:space="preserve" approved="yes">
+        <source>hidden</source>
+      <target state="translated">caché</target></trans-unit>
+      <trans-unit id="attributes_type_image" xml:space="preserve" approved="yes">
+        <source>image</source>
+      <target state="translated">image</target></trans-unit>
+      <trans-unit id="attributes_type_password" xml:space="preserve" approved="yes">
+        <source>password</source>
+      <target state="translated">mot de passe</target></trans-unit>
+      <trans-unit id="attributes_type_radio" xml:space="preserve" approved="yes">
+        <source>radio</source>
+      <target state="translated">radio</target></trans-unit>
+      <trans-unit id="attributes_type_reset" xml:space="preserve" approved="yes">
+        <source>reset</source>
+      <target state="translated">réinitialiser</target></trans-unit>
+      <trans-unit id="attributes_type_submit" xml:space="preserve" approved="yes">
+        <source>submit</source>
+      <target state="translated">soumettre</target></trans-unit>
+      <trans-unit id="attributes_type_text" xml:space="preserve" approved="yes">
+        <source>text</source>
+      <target state="translated">texte</target></trans-unit>
+      <trans-unit id="attributes_value" xml:space="preserve" approved="yes">
+        <source>Value</source>
+      <target state="translated">Valeur</target></trans-unit>
+      <trans-unit id="options_label" xml:space="preserve" approved="yes">
+        <source>Label Properties</source>
+      <target state="translated">Propriétés de l'étiquette</target></trans-unit>
+      <trans-unit id="label_label" xml:space="preserve" approved="yes">
+        <source>Label</source>
+      <target state="translated">Étiquette</target></trans-unit>
+      <trans-unit id="label_layout" xml:space="preserve" approved="yes">
+        <source>Label position</source>
+      <target state="translated">Position de l'étiquette</target></trans-unit>
+      <trans-unit id="label_layout_front" xml:space="preserve" approved="yes">
+        <source>In front</source>
+      <target state="translated">Devant</target></trans-unit>
+      <trans-unit id="label_layout_back" xml:space="preserve" approved="yes">
+        <source>After</source>
+      <target state="translated">Après</target></trans-unit>
+      <trans-unit id="options_legend" xml:space="preserve" approved="yes">
+        <source>Legend Properties</source>
+      <target state="translated">Propriétés de la légende</target></trans-unit>
+      <trans-unit id="legend_legend" xml:space="preserve" approved="yes">
+        <source>Legend</source>
+      <target state="translated">Légende</target></trans-unit>
+      <trans-unit id="options_filters" xml:space="preserve" approved="yes">
+        <source>Filters</source>
+      <target state="translated">Filtres</target></trans-unit>
+      <trans-unit id="filters_emptytext" xml:space="preserve" approved="yes">
+        <source>Add a filter</source>
+      <target state="translated">Ajouter un filtre</target></trans-unit>
+      <trans-unit id="filters_alert_title" xml:space="preserve" approved="yes">
+        <source>Adding a filter</source>
+      <target state="translated">Ajoute un filtre</target></trans-unit>
+      <trans-unit id="filters_alert_description" xml:space="preserve" approved="yes">
+        <source>The selected filter is already present</source>
+      <target state="translated">Le filtre sélectionné est déjà présent</target></trans-unit>
+      <trans-unit id="filters_dummy_title" xml:space="preserve" approved="yes">
+        <source>No filter selected</source>
+      <target state="translated">Aucun filtre sélectionné</target></trans-unit>
+      <trans-unit id="filters_dummy_description" xml:space="preserve" approved="yes">
+        <source>To add a filter, select one from the dropdown</source>
+      <target state="translated">Pour ajouter un filtre, en sélectionner un dans la liste déroulante</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Pour ajouter un filtre, en sélectionner un dans la liste déroulante</target></alt-trans></trans-unit>
+      <trans-unit id="filters_alphabetic" xml:space="preserve" approved="yes">
+        <source>Alphabetic</source>
+      <target state="translated">Alphabétique</target></trans-unit>
+      <trans-unit id="filters_alphanumeric" xml:space="preserve" approved="yes">
+        <source>Alphanumeric</source>
+      <target state="translated">Alphanumérique</target></trans-unit>
+      <trans-unit id="filters_currency" xml:space="preserve" approved="yes">
+        <source>Currency</source>
+      <target state="translated">Devise</target></trans-unit>
+      <trans-unit id="filters_digit" xml:space="preserve" approved="yes">
+        <source>Digit</source>
+      <target state="translated">Chiffre</target></trans-unit>
+      <trans-unit id="filters_integer" xml:space="preserve" approved="yes">
+        <source>Integer</source>
+      <target state="translated">Entier</target></trans-unit>
+      <trans-unit id="filters_lowercase" xml:space="preserve" approved="yes">
+        <source>Lowercase</source>
+      <target state="translated">Minuscule</target></trans-unit>
+      <trans-unit id="filters_regexp" xml:space="preserve" approved="yes">
+        <source>Regular Expression</source>
+      <target state="translated">Expression régulière</target></trans-unit>
+      <trans-unit id="filters_removexss" xml:space="preserve" approved="yes">
+        <source>Remove XSS</source>
+      <target state="translated">Retirer XSS</target></trans-unit>
+      <trans-unit id="filters_stripnewlines" xml:space="preserve" approved="yes">
+        <source>Strip New Lines</source>
+      <target state="translated">Supprimer les nouvelles lignes</target></trans-unit>
+      <trans-unit id="filters_titlecase" xml:space="preserve" approved="yes">
+        <source>Titlecase</source>
+      <target state="translated">Casse du titre</target></trans-unit>
+      <trans-unit id="filters_trim" xml:space="preserve" approved="yes">
+        <source>Trim</source>
+      <target state="translated">Rogner</target></trans-unit>
+      <trans-unit id="filters_uppercase" xml:space="preserve" approved="yes">
+        <source>Uppercase</source>
+      <target state="translated">Majuscule</target></trans-unit>
+      <trans-unit id="filters_properties_allowwhitespace" xml:space="preserve" approved="yes">
+        <source>Allow whitespace</source>
+      <target state="translated">Autoriser les espaces</target></trans-unit>
+      <trans-unit id="filters_properties_decimalpoint" xml:space="preserve" approved="yes">
+        <source>Decimal point</source>
+      <target state="translated">Point décimal</target></trans-unit>
+      <trans-unit id="filters_properties_thousandseparator" xml:space="preserve" approved="yes">
+        <source>Thousand separator</source>
+      <target state="translated">Séparateur pour les milliers</target></trans-unit>
+      <trans-unit id="filters_properties_expression" xml:space="preserve" approved="yes">
+        <source>Expression</source>
+      <target state="translated">Expression</target></trans-unit>
+      <trans-unit id="filters_properties_characterlist" xml:space="preserve" approved="yes">
+        <source>Character list</source>
+      <target state="translated">Liste des caractères</target></trans-unit>
+      <trans-unit id="filters_properties_none" xml:space="preserve" approved="yes">
+        <source>This filter has no configuration settings</source>
+      <target state="translated">Ce filtre n'est pas configuré</target></trans-unit>
+      <trans-unit id="options_validation" xml:space="preserve" approved="yes">
+        <source>Validation</source>
+      <target state="translated">Validation</target></trans-unit>
+      <trans-unit id="validation_emptytext" xml:space="preserve" approved="yes">
+        <source>Add a validation rule</source>
+      <target state="translated">Ajouter une règle de validation</target></trans-unit>
+      <trans-unit id="validation_alert_title" xml:space="preserve" approved="yes">
+        <source>Adding a validation rule</source>
+      <target state="translated">Ajoute une règle de validation</target></trans-unit>
+      <trans-unit id="validation_alert_description" xml:space="preserve" approved="yes">
+        <source>The selected validation rule is already present</source>
+      <target state="translated">La règle de validation est déjà présente</target></trans-unit>
+      <trans-unit id="validation_dummy_title" xml:space="preserve" approved="yes">
+        <source>No validation rule selected</source>
+      <target state="translated">Aucune règle de validation n'est sélectionnée</target></trans-unit>
+      <trans-unit id="validation_dummy_description" xml:space="preserve" approved="yes">
+        <source>To add a validation rule, select one from the dropdown</source>
+      <target state="translated">Pour ajouter une règle de validation, il faut en sélectionner une dans la liste déroulante</target></trans-unit>
+      <trans-unit id="validation_alphabetic" xml:space="preserve" approved="yes">
+        <source>Alphabetic</source>
+      <target state="translated">Alphabétique</target></trans-unit>
+      <trans-unit id="validation_alphanumeric" xml:space="preserve" approved="yes">
+        <source>Alphanumeric</source>
+      <target state="translated">Alphanumérique</target></trans-unit>
+      <trans-unit id="validation_between" xml:space="preserve" approved="yes">
+        <source>Between</source>
+      <target state="translated">Entre</target></trans-unit>
+      <trans-unit id="validation_date" xml:space="preserve" approved="yes">
+        <source>Date</source>
+      <target state="translated">Date</target></trans-unit>
+      <trans-unit id="validation_digit" xml:space="preserve" approved="yes">
+        <source>Digit</source>
+      <target state="translated">Chiffre</target></trans-unit>
+      <trans-unit id="validation_email" xml:space="preserve" approved="yes">
+        <source>Email address</source>
+      <target state="translated">Adresse e-mail</target></trans-unit>
+      <trans-unit id="validation_equals" xml:space="preserve" approved="yes">
+        <source>Equals</source>
+      <target state="translated">Equivalents</target></trans-unit>
+      <trans-unit id="validation_fileallowedtypes" xml:space="preserve" approved="yes">
+        <source>Allowed mimetypes for file</source>
+      <target state="translated">Autoriser les types mimes pour les fichiers</target></trans-unit>
+      <trans-unit id="validation_filemaximumsize" xml:space="preserve" approved="yes">
+        <source>Maximum size for file (bytes)</source>
+      <target state="translated">Taille maximum du fichier (bytes)</target></trans-unit>
+      <trans-unit id="validation_fileminimumsize" xml:space="preserve" approved="yes">
+        <source>Minimum size for file (bytes)</source>
+      <target state="translated">Taille minimum du fichier (bytes)</target></trans-unit>
+      <trans-unit id="validation_float" xml:space="preserve" approved="yes">
+        <source>Float</source>
+      <target state="translated">Flottant</target></trans-unit>
+      <trans-unit id="validation_greaterthan" xml:space="preserve" approved="yes">
+        <source>Greater than</source>
+      <target state="translated">Supérieur à</target></trans-unit>
+      <trans-unit id="validation_inarray" xml:space="preserve" approved="yes">
+        <source>In array</source>
+      <target state="translated">Dans le tableau</target></trans-unit>
+      <trans-unit id="validation_integer" xml:space="preserve" approved="yes">
+        <source>Integer</source>
+      <target state="translated">Entier</target></trans-unit>
+      <trans-unit id="validation_ip" xml:space="preserve" approved="yes">
+        <source>Ip address</source>
+      <target state="translated">Adresse IP</target></trans-unit>
+      <trans-unit id="validation_length" xml:space="preserve" approved="yes">
+        <source>Length</source>
+      <target state="translated">Longueur</target></trans-unit>
+      <trans-unit id="validation_lessthan" xml:space="preserve" approved="yes">
+        <source>Less than</source>
+      <target state="translated">Inférieur à</target></trans-unit>
+      <trans-unit id="validation_regexp" xml:space="preserve" approved="yes">
+        <source>Regular Expression</source>
+      <target state="translated">Expression régulière</target></trans-unit>
+      <trans-unit id="validation_required" xml:space="preserve" approved="yes">
+        <source>Required</source>
+      <target state="translated">Requis</target></trans-unit>
+      <trans-unit id="validation_uri" xml:space="preserve" approved="yes">
+        <source>Uniform Resource Identifier</source>
+      <target state="translated">Identificateur de ressource uniforme (URI)</target></trans-unit>
+      <trans-unit id="validation_properties_message" xml:space="preserve" approved="yes">
+        <source>Message</source>
+      <target state="translated">Message</target></trans-unit>
+      <trans-unit id="validation_properties_error" xml:space="preserve" approved="yes">
+        <source>Error</source>
+      <target state="translated">Erreur</target></trans-unit>
+      <trans-unit id="validation_properties_breakonerror" xml:space="preserve" approved="yes">
+        <source>Break on error</source>
+      <target state="translated">Arrêt sur erreur</target></trans-unit>
+      <trans-unit id="validation_properties_showmessage" xml:space="preserve" approved="yes">
+        <source>Show message in label</source>
+      <target state="translated">Présenter le message dans le label</target></trans-unit>
+      <trans-unit id="validation_properties_allowwhitespace" xml:space="preserve" approved="yes">
+        <source>Allow whitespace</source>
+      <target state="translated">Autoriser les espaces</target></trans-unit>
+      <trans-unit id="validation_properties_minimum" xml:space="preserve" approved="yes">
+        <source>Minimum</source>
+      <target state="translated">Minimum</target></trans-unit>
+      <trans-unit id="validation_properties_maximum" xml:space="preserve" approved="yes">
+        <source>Maximum</source>
+      <target state="translated">Maximum</target></trans-unit>
+      <trans-unit id="validation_properties_inclusive" xml:space="preserve" approved="yes">
+        <source>Inclusive</source>
+      <target state="translated">Inclusif</target></trans-unit>
+      <trans-unit id="validation_properties_format" xml:space="preserve" approved="yes">
+        <source>Format</source>
+      <target state="translated">Format</target></trans-unit>
+      <trans-unit id="validation_properties_field" xml:space="preserve" approved="yes">
+        <source>Field</source>
+      <target state="translated">Champ</target></trans-unit>
+      <trans-unit id="validation_properties_array" xml:space="preserve" approved="yes">
+        <source>Array (Comma separated)</source>
+      <target state="translated">Tableau (liste séparée par des virgules)</target></trans-unit>
+      <trans-unit id="validation_properties_expression" xml:space="preserve" approved="yes">
+        <source>Expression</source>
+      <target state="translated">Expression</target></trans-unit>
+      <trans-unit id="validation_properties_types" xml:space="preserve" approved="yes">
+        <source>Mime types</source>
+      <target state="translated">Types Mime</target></trans-unit>
+      <trans-unit id="options_fieldoptions" xml:space="preserve" approved="yes">
+        <source>Field options</source>
+      <target state="translated">Options du champ</target></trans-unit>
+      <trans-unit id="fieldoptions_emptytext" xml:space="preserve" approved="yes">
+        <source>No options to display</source>
+      <target state="translated">Pas d'option à afficher</target></trans-unit>
+      <trans-unit id="fieldoptions_data" xml:space="preserve" approved="yes">
+        <source>Data</source>
+      <target state="translated">Donnée</target></trans-unit>
+      <trans-unit id="fieldoptions_selected" xml:space="preserve" approved="yes">
+        <source>Selected</source>
+      <target state="translated">Sélectionnés</target></trans-unit>
+      <trans-unit id="fieldoptions_button_add" xml:space="preserve" approved="yes">
+        <source>Add option</source>
+      <target state="translated">Ajouter une option</target></trans-unit>
+      <trans-unit id="fieldoptions_new" xml:space="preserve" approved="yes">
+        <source>New option</source>
+      <target state="translated">Nouvelle option</target></trans-unit>
+      <trans-unit id="options_various" xml:space="preserve" approved="yes">
+        <source>Various Properties</source>
+      <target state="translated">Propriétés diverses</target></trans-unit>
+      <trans-unit id="various_properties_name" xml:space="preserve" approved="yes">
+        <source>Name</source>
+      <target state="translated">Nom</target></trans-unit>
+      <trans-unit id="various_properties_content" xml:space="preserve" approved="yes">
+        <source>Content</source>
+      <target state="translated">Contenu</target></trans-unit>
+      <trans-unit id="various_properties_headingsize" xml:space="preserve" approved="yes">
+        <source>Heading size</source>
+      <target state="translated">Taille de l'en-tête</target></trans-unit>
+      <trans-unit id="various_properties_prefix" xml:space="preserve" approved="yes">
+        <source>Show prefix</source>
+      <target state="translated">Montrer le préfixe</target></trans-unit>
+      <trans-unit id="various_properties_suffix" xml:space="preserve" approved="yes">
+        <source>Show suffix</source>
+      <target state="translated">Montrer le suffixe</target></trans-unit>
+      <trans-unit id="various_properties_middlename" xml:space="preserve" approved="yes">
+        <source>Show middle name</source>
+      <target state="translated">Montrer le prénom</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Montrer le prénom</target></alt-trans></trans-unit>
+      <trans-unit id="left_form" xml:space="preserve" approved="yes">
+        <source>Form</source>
+      <target state="translated">Formulaire</target></trans-unit>
+      <trans-unit id="form_prefix" xml:space="preserve" approved="yes">
+        <source>Prefix</source>
+      <target state="translated">Préfixe</target></trans-unit>
+      <trans-unit id="form_behaviour" xml:space="preserve" approved="yes">
+        <source>Behaviour</source>
+      <target state="translated">Comportement</target></trans-unit>
+      <trans-unit id="behaviour_confirmation_page" xml:space="preserve" approved="yes">
+        <source>Confirmation page</source>
+      <target state="translated">Page de confirmation</target></trans-unit>
+      <trans-unit id="form_postprocessor" xml:space="preserve" approved="yes">
+        <source>Post Processors</source>
+      <target state="translated">Post processeurs</target></trans-unit>
+      <trans-unit id="postprocessor_emptytext" xml:space="preserve" approved="yes">
+        <source>Add a Post Processor</source>
+      <target state="translated">Ajouter un post processeur</target></trans-unit>
+      <trans-unit id="postprocessor_alert_title" xml:space="preserve" approved="yes">
+        <source>Adding a Post Processor</source>
+      <target state="translated">Ajout d'un post processeur</target></trans-unit>
+      <trans-unit id="postprocessor_alert_description" xml:space="preserve" approved="yes">
+        <source>The selected post processor is already present</source>
+      <target state="translated">Le post processeur sélectionné est déjà présent</target></trans-unit>
+      <trans-unit id="postprocessor_mail" xml:space="preserve" approved="yes">
+        <source>Send email</source>
+      <target state="translated">Envoyer un email</target></trans-unit>
+      <trans-unit id="postprocessor_redirect" xml:space="preserve" approved="yes">
+        <source>Redirect</source>
+      <target state="translated">Rediriger</target></trans-unit>
+      <trans-unit id="postprocessor_dummy_title" xml:space="preserve" approved="yes">
+        <source>No post processor selected</source>
+      <target state="translated">Pas de post processeur sélectionné</target></trans-unit>
+      <trans-unit id="postprocessor_dummy_description" xml:space="preserve" approved="yes">
+        <source>To add a post processor, select one from the dropdown</source>
+      <target state="translated">Pour ajouter un post processeur, sélectionner en un dans la liste déroulante</target></trans-unit>
+      <trans-unit id="postprocessor_properties_recipientemail" xml:space="preserve" approved="yes">
+        <source>Email address of the recipient</source>
+      <target state="translated">Adresse e-mail du destinataire</target></trans-unit>
+      <trans-unit id="postprocessor_properties_senderemail" xml:space="preserve" approved="yes">
+        <source>Email address of the sender</source>
+      <target state="translated">Adresse e-mail de l'expéditeur</target></trans-unit>
+      <trans-unit id="postprocessor_properties_subject" xml:space="preserve" approved="yes">
+        <source>Subject</source>
+      <target state="translated">Objet</target><alt-trans xml:space="preserve" origin="tm070193"><target>Objet</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_properties_destination" xml:space="preserve">
+        <source>Destination to redirect to</source>
+      <target>Rediriger vers</target></trans-unit>
+      <trans-unit id="prefix_prefix" xml:space="preserve" approved="yes">
+        <source>Prefix</source>
+      <target state="translated">Préfixe</target></trans-unit>
+      <trans-unit id="elements_dummy_title" xml:space="preserve" approved="yes">
+        <source>You haven't added any elements yet!</source>
+      <target state="translated">Vous n'avez pas ajouté d'éléments !</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Vous n'avez pas ajouté d'éléments !</target></alt-trans></trans-unit>
+      <trans-unit id="elements_dummy_description" xml:space="preserve" approved="yes">
+        <source>To get started, drag an element from the left panel onto this area</source>
+      <target state="translated">Pour commencer, glisser un élément du panneau de gauche dans cette zone</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Pour commencer, glisser un élément du panneau de gauche dans cette zone</target></alt-trans></trans-unit>
+      <trans-unit id="elements_button_delete" xml:space="preserve" approved="yes">
+        <source>Delete this element</source>
+      <target state="translated">Supprimer cet élément</target></trans-unit>
+      <trans-unit id="elements_button_edit" xml:space="preserve" approved="yes">
+        <source>Edit this element</source>
+      <target state="translated">Editer cet élément</target></trans-unit>
+      <trans-unit id="elements_confirm_delete_title" xml:space="preserve" approved="yes">
+        <source>Delete element</source>
+      <target state="translated">Supprimer cet élément</target></trans-unit>
+      <trans-unit id="elements_confirm_delete_description" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to delete the selected element?</source>
+      <target state="translated">Etes-vous sûr de vouloir supprimer l'élément sélectionné ?</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Etes-vous sûr de vouloir supprimer l'élément sélectionné ?</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label" xml:space="preserve" approved="yes">
+        <source>Edit this label</source>
+      <target state="translated">Modifier cette étiquette</target></trans-unit>
+      <trans-unit id="elements_label_email" xml:space="preserve" approved="yes">
+        <source>Email</source>
+      <target state="translated">E-mail</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>E-mail</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label_prefix" xml:space="preserve" approved="yes">
+        <source>Prefix</source>
+      <target state="translated">Préfixe</target></trans-unit>
+      <trans-unit id="elements_label_firstname" xml:space="preserve" approved="yes">
+        <source>First name</source>
+      <target state="translated">Prénom</target></trans-unit>
+      <trans-unit id="elements_label_middlename" xml:space="preserve" approved="yes">
+        <source>Middle name</source>
+      <target state="translated">Prénom</target></trans-unit>
+      <trans-unit id="elements_label_lastname" xml:space="preserve" approved="yes">
+        <source>Last name</source>
+      <target state="translated">Nom de famille</target></trans-unit>
+      <trans-unit id="elements_label_suffix" xml:space="preserve" approved="yes">
+        <source>Suffix</source>
+      <target state="translated">Suffixe</target></trans-unit>
+      <trans-unit id="elements_legend" xml:space="preserve" approved="yes">
+        <source>Edit this legend</source>
+      <target state="translated">Editer cette légende</target></trans-unit>
+      <trans-unit id="elements_legend_name" xml:space="preserve" approved="yes">
+        <source>Full name</source>
+      <target state="translated">Nom et prénom</target></trans-unit>
+      <trans-unit id="elements_header_content" xml:space="preserve" approved="yes">
+        <source>Edit this header</source>
+      <target state="translated">Editer cette en-tête</target><note>82%</note></trans-unit>
+      <trans-unit id="elements_textblock_content" xml:space="preserve" approved="yes">
+        <source>Edit this textblock</source>
+      <target state="translated">Editer ce bloc de texte</target></trans-unit>
+      <trans-unit id="elements_option_1" xml:space="preserve" approved="yes">
+        <source>Option 1</source>
+      <target state="translated">Option 1</target></trans-unit>
+      <trans-unit id="elements_option_2" xml:space="preserve" approved="yes">
+        <source>Option 2</source>
+      <target state="translated">Option 2</target></trans-unit>
+      <trans-unit id="elements_option_3" xml:space="preserve" approved="yes">
+        <source>Option 3</source>
+      <target state="translated">Option 3</target></trans-unit>
+    </body>
+  </file>
+</xliff>

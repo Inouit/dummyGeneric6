@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="PasteToggleTooltip" xml:space="preserve">
+        <source>Toggle paste behaviour</source>
+      <target/></trans-unit>
+      <trans-unit id="plainText" xml:space="preserve" approved="yes">
+        <source>Paste as plain text</source>
+      <target state="translated">Coller en texte brut</target><alt-trans xml:space="preserve" origin="alienlebarge"><target>Coller en texte brut</target></alt-trans></trans-unit>
+      <trans-unit id="pasteStructure" xml:space="preserve" approved="yes">
+        <source>Paste structure only</source>
+      <target state="translated">Coller uniquement la structure</target><alt-trans xml:space="preserve" origin="alienlebarge"><target>Coller uniquement la structure</target></alt-trans></trans-unit>
+      <trans-unit id="pasteFormat" xml:space="preserve">
+        <source>Paste structure and basic format</source>
+      <target/></trans-unit>
+      <trans-unit id="PasteBehaviourTooltip" xml:space="preserve">
+        <source>Select alternate paste behaviour</source>
+      <target/></trans-unit>
+      <trans-unit id="Paste-as-Plain-Text" xml:space="preserve" approved="yes">
+        <source>Paste as plain text</source>
+      <target state="translated">Coller en texte brut</target><alt-trans xml:space="preserve" origin="alienlebarge"><target>Coller en texte brut</target></alt-trans></trans-unit>
+      <trans-unit id="Access-to-clipboard-denied" xml:space="preserve" approved="yes">
+        <source>Content could not be pasted as plain text because permission to access the clipboard was denied.</source>
+      <target state="translated">Le contenu ne peut pas être collé en texte brut, car l'autorisation d'accéder au presse-papiers a été refusée.</target><alt-trans xml:space="preserve" origin="alienlebarge"><target>Le contenu ne peut pas être collé en texte brut, car l'autorisation d'accéder au presse-papiers a été refusée.</target></alt-trans></trans-unit>
+      <trans-unit id="enableplainText" xml:space="preserve">
+        <source>Enable paste as plain text</source>
+      <target/></trans-unit>
+      <trans-unit id="enablepasteStructure" xml:space="preserve" approved="yes">
+        <source>Enable paste structure only</source>
+      <target state="translated">Activer seulement la copie de la structure</target><alt-trans xml:space="preserve" origin="jlthirot"><target>Activer, coller la structure uniquement</target></alt-trans><alt-trans xml:space="preserve" origin="thirot"><target>Activer coller uniquement la structure</target></alt-trans></trans-unit>
+      <trans-unit id="enablepasteFormat" xml:space="preserve">
+        <source>Enable paste structure and basic format</source>
+      <target/></trans-unit>
+      <trans-unit id="disableplainText" xml:space="preserve">
+        <source>Disable paste as plain text</source>
+      <target/></trans-unit>
+      <trans-unit id="disablepasteStructure" xml:space="preserve">
+        <source>Disable paste structure only</source>
+      <target/><alt-trans xml:space="preserve" origin="jlthirot"><target>Inactiver, coller la structure uniquement</target></alt-trans><alt-trans xml:space="preserve" origin="thirot"><target>Inactiver coller uniquement la structure</target></alt-trans></trans-unit>
+      <trans-unit id="disablepasteFormat" xml:space="preserve">
+        <source>Disable paste structure and basic format</source>
+      <target/></trans-unit>
+      <trans-unit id="pasteInPastingPad" xml:space="preserve">
+        <source>Paste the content into this pasting pad and click OK.</source>
+      <target/></trans-unit>
+      <trans-unit id="rteCleanPasteBehaviour" xml:space="preserve">
+        <source>Clean paste behaviour</source>
+      <target/></trans-unit>
+    </body>
+  </file>
+</xliff>

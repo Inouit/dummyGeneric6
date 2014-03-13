@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index="mlang_labels_tablabel">Outil d'installation</label>
+      <label index="mlang_labels_tabdescr"/>
+      <label index="mlang_tabs_tab">Installation</label>
+      <label index="confirmUnlockInstallToolTitle">L'outil d'installation est verrouillé</label>
+      <label index="confirmUnlockInstallToolMessage"/>
+      <label index="confirmUnlockInstallToolButton">Déverouiller l'outil d'installation</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

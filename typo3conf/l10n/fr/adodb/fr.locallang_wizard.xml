@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index="dbtype">Type de base de données</label>
+      <label index="host">Hôte ou DSN</label>
+      <label index="dbname">Nom de la base de données</label>
+      <label index="username">Nom d'utiliateur</label>
+      <label index="password">Mot de passe</label>
+      <label index="table">Nom de la table</label>
+      <label index="checkconnectionwizard">Valider la connexion à la base de données avec les informations ci-dessus.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>
