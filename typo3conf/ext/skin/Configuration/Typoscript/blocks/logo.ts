@@ -7,4 +7,5 @@ lib.logo {
 	  parameter = http://{$config.domain}/
 	  extTarget  = _self
 	}
+  wrap = <div id="logo">|</div>
 }
