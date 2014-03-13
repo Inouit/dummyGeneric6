@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>base.coffee</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="custom.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="base.html">
+                base.coffee
+              </a>
+            
+              
+              <a class="source" href="main.html">
+                main.coffee
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>base.coffee</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>$<span class="hljs-function"> -&gt;</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <h2 id="gethash">getHash</h2>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  $.<span class="hljs-function"><span class="hljs-title">getHash</span> = <span class="hljs-params">(url)</span> -&gt;</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>Return the HashTag of the given url : parameter or current</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    (<span class="hljs-keyword">if</span> url <span class="hljs-keyword">then</span> url.substring(url.indexOf(<span class="hljs-string">"#"</span>) + <span class="hljs-number">1</span>) <span class="hljs-keyword">else</span> <span class="hljs-built_in">window</span>.location.hash)</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <h2 id="placeholder">placeholder</h2>
+<p>Must only be called for browser not supporting placeholder attribute</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  $.fn.<span class="hljs-function"><span class="hljs-title">placeholder</span> = -&gt;</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p>Store placeholder value and fill the input</p>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>Empty the previous value on focus</p>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>Reset the value if nothing is found in the input on blur</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-function"><span class="hljs-title">emptyMe</span> = -&gt;</span>
+      $(<span class="hljs-keyword">this</span>).data <span class="hljs-string">"placeholder"</span>, $(<span class="hljs-keyword">this</span>).val()
+      $(<span class="hljs-keyword">this</span>).val <span class="hljs-string">""</span>
+    <span class="hljs-function"><span class="hljs-title">fullMe</span> = -&gt;</span>
+      $(<span class="hljs-keyword">this</span>).val $(<span class="hljs-keyword">this</span>).data(<span class="hljs-string">"placeholder"</span>)  <span class="hljs-keyword">if</span> $(<span class="hljs-keyword">this</span>).val() <span class="hljs-keyword">is</span> <span class="hljs-string">""</span>
+    $(<span class="hljs-keyword">this</span>).data <span class="hljs-string">"placeholder"</span>, $(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">"placeholder"</span>)
+    $(<span class="hljs-keyword">this</span>).val jQuery(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">"placeholder"</span>)
+    $(<span class="hljs-keyword">this</span>).focus emptyMe
+    $(<span class="hljs-keyword">this</span>).blur fullMe
+    <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>)</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <h2 id="hoversrc">hoverSrc</h2>
+<p>Emulate a hover state for images</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  $.fn.<span class="hljs-function"><span class="hljs-title">hoverSrc</span> = <span class="hljs-params">(on_, off_)</span> -&gt;</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>Use hover / off suffixes or those given</p>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              <p>Bind events</p>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-11">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-11">&#182;</a>
+              </div>
+              <p>Add the on suffixe to the image name</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-function"><span class="hljs-title">hoverIn</span> = -&gt;</span>
+      <span class="hljs-keyword">unless</span> $(<span class="hljs-keyword">this</span>).hasClass(<span class="hljs-string">"active"</span>)
+        srcName = $(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">"src"</span>)
+        srcName = srcName.replace(suffixeOff, suffixeOn)
+        $(<span class="hljs-keyword">this</span>).attr <span class="hljs-attribute">src</span>: srcName</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-12">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-12">&#182;</a>
+              </div>
+              <p>Add the off suffixe to the image name</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-function"><span class="hljs-title">hoverOut</span> = -&gt;</span>
+      <span class="hljs-keyword">unless</span> $(<span class="hljs-keyword">this</span>).hasClass(<span class="hljs-string">"active"</span>)
+        srcName = $(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">"src"</span>)
+        srcName = srcName.replace(suffixeOn, suffixeOff)
+        $(<span class="hljs-keyword">this</span>).attr <span class="hljs-attribute">src</span>: srcName
+    suffixeOn = (<span class="hljs-keyword">if</span> on_ <span class="hljs-keyword">then</span> on_ <span class="hljs-keyword">else</span> <span class="hljs-string">"-hover"</span>)
+    suffixeOff = (<span class="hljs-keyword">if</span> off_ <span class="hljs-keyword">then</span> off_ <span class="hljs-keyword">else</span> <span class="hljs-string">"-off"</span>)
+    $(<span class="hljs-keyword">this</span>).each<span class="hljs-function"> -&gt;</span>
+      $(<span class="hljs-keyword">this</span>).bind <span class="hljs-string">"focus mouseenter"</span>, hoverIn
+      $(<span class="hljs-keyword">this</span>).bind <span class="hljs-string">"blur mouseleave"</span>, hoverOut
+      (<span class="hljs-keyword">new</span> Image()).src = $(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">"src"</span>).replace(<span class="hljs-string">"-off"</span>, <span class="hljs-string">"-hover"</span>)
+
+    <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>)</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-13">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-13">&#182;</a>
+              </div>
+              <h2 id="fixtotop">fixToTop</h2>
+<p>Fix any element to the top when scroll pass it
+&amp; add optionnal class for each step defined</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  $.fn.<span class="hljs-function"><span class="hljs-title">fixToTop</span> = <span class="hljs-params">(gap, steps)</span> -&gt;</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-14">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-14">&#182;</a>
+              </div>
+              <p>Initialize</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    $that = $(<span class="hljs-keyword">this</span>)
+    origin = (<span class="hljs-keyword">if</span> gap <span class="hljs-keyword">then</span> $that[<span class="hljs-number">0</span>].offsetTop + gap <span class="hljs-keyword">else</span> $that[<span class="hljs-number">0</span>].offsetTop)
+    originOffSet = parseFloat($that.next().css(<span class="hljs-string">"marginTop"</span>))
+    offSet = parseFloat($that.height()) + parseFloat($that.next().css(<span class="hljs-string">"marginTop"</span>))
+    $(<span class="hljs-built_in">window</span>).scroll<span class="hljs-function"> -&gt;</span>
+      <span class="hljs-keyword">if</span> $that.css(<span class="hljs-string">"visibility"</span>) <span class="hljs-keyword">isnt</span> <span class="hljs-string">"hidden"</span> <span class="hljs-keyword">and</span> $(<span class="hljs-built_in">window</span>).scrollTop() &gt; origin
+        fix()
+      <span class="hljs-keyword">else</span>
+        free()
+
+    <span class="hljs-function"><span class="hljs-title">fix</span> = -&gt;</span>
+      <span class="hljs-keyword">unless</span> $that.hasClass(<span class="hljs-string">"fixed"</span>)
+        offSet = parseFloat($that.height()) + parseFloat($that.next().css(<span class="hljs-string">"marginTop"</span>))
+        $that.addClass <span class="hljs-string">"fixed"</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-15">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-15">&#182;</a>
+              </div>
+              <p>Set margin to balance the fixed position</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        $that.next().css <span class="hljs-string">"marginTop"</span>, offSet + <span class="hljs-string">"px"</span>
+
+    <span class="hljs-function"><span class="hljs-title">free</span> = -&gt;</span>
+      $that.removeClass <span class="hljs-string">"fixed"</span>
+      $that.next().css <span class="hljs-string">"marginTop"</span>, originOffSet + <span class="hljs-string">"px"</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-16">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-16">&#182;</a>
+              </div>
+              <p>If steps option found, listen to scroll to set classes for each step</p>
+<pre><code class="lang-JavaScript">var steps = {
+  &quot;className&quot;: offsetValue
+}
+</code></pre>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">if</span> steps
+      stepsClasses = <span class="hljs-string">""</span>
+      <span class="hljs-keyword">for</span> step <span class="hljs-keyword">of</span> steps
+        stepsClasses += <span class="hljs-string">' '</span>+step
+      $(<span class="hljs-built_in">window</span>).scroll<span class="hljs-function"> -&gt;</span>
+        <span class="hljs-keyword">for</span> step <span class="hljs-keyword">of</span> steps
+          <span class="hljs-keyword">if</span> $that.css(<span class="hljs-string">"visibility"</span>) <span class="hljs-keyword">isnt</span> <span class="hljs-string">"hidden"</span> <span class="hljs-keyword">and</span> $(<span class="hljs-built_in">window</span>).scrollTop() &gt; steps[step]
+            $that
+              .removeClass(stepsClasses)
+              .addClass(step)
+
+    <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>)</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-17">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-17">&#182;</a>
+              </div>
+              <h2 id="pulldown">Pulldown</h2>
+<p>Show/Hide content of pulldown element on click on the first child (button) of each elements
+Use css to do the toggle.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  $.fn.<span class="hljs-function"><span class="hljs-title">pulldown</span> = -&gt;</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-18">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-18">&#182;</a>
+              </div>
+              <p>Initialize</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    $list = $(<span class="hljs-keyword">this</span>)
+    $items = $list.children()
+    $buttons = $items.find(<span class="hljs-string">"&gt; *:first-child"</span>)
+    $items.addClass <span class="hljs-string">"close"</span>
+    $buttons.addClass <span class="hljs-string">"pulldownButton"</span>
+    $buttons.unbind <span class="hljs-string">" click"</span>
+    $buttons.bind <span class="hljs-string">"click"</span>, <span class="hljs-function"><span class="hljs-params">(e)</span> -&gt;</span>
+      e.preventDefault()</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-19">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-19">&#182;</a>
+              </div>
+              <p>Add class to hide non-button elements</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    $items.children().<span class="hljs-keyword">not</span>($buttons).addClass <span class="hljs-string">"pulldownContent"</span>
+    $items.data <span class="hljs-string">"state"</span>, <span class="hljs-number">0</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-20">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-20">&#182;</a>
+              </div>
+              <p>Bind click and focus event</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    $items.bind <span class="hljs-string">"click"</span>, <span class="hljs-function"><span class="hljs-params">(e)</span> -&gt;</span>
+      e.preventDefault()
+      $item = $(<span class="hljs-keyword">this</span>)
+      <span class="hljs-keyword">if</span> $item.data(<span class="hljs-string">"state"</span>)</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-21">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-21">&#182;</a>
+              </div>
+              <p>Close</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        $item.data(<span class="hljs-string">"state"</span>, <span class="hljs-number">0</span>).addClass <span class="hljs-string">"close"</span>
+      <span class="hljs-keyword">else</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-22">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-22">&#182;</a>
+              </div>
+              <p>Open</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        $item.data(<span class="hljs-string">"state"</span>, <span class="hljs-number">1</span>).removeClass <span class="hljs-string">"close"</span>
+        $items.<span class="hljs-keyword">not</span>($item).data(<span class="hljs-string">"state"</span>, <span class="hljs-number">0</span>).addClass <span class="hljs-string">"close"</span>
+
+    $list.data <span class="hljs-string">"pulldown"</span>, <span class="hljs-number">1</span>
+    <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>)</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-23">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-23">&#182;</a>
+              </div>
+              <h2 id="backtotop">backToTop</h2>
+<p>Display / hide a <em>back to top</em> button when scrolling under the gap</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  $.fn.<span class="hljs-function"><span class="hljs-title">backToTop</span> = <span class="hljs-params">(gap)</span> -&gt;</span>
+    $that = $(<span class="hljs-keyword">this</span>)
+    gap = (<span class="hljs-keyword">if</span> gap <span class="hljs-keyword">then</span> gap <span class="hljs-keyword">else</span> <span class="hljs-number">0</span>)
+    $(<span class="hljs-keyword">this</span>).unbind <span class="hljs-string">"click"</span>
+    $<span class="hljs-function"><span class="hljs-params">(<span class="hljs-keyword">this</span>)</span>.<span class="hljs-title">bind</span> "<span class="hljs-title">click</span>", <span class="hljs-params">(e)</span> -&gt;</span>
+      e.preventDefault()
+      $(<span class="hljs-string">"html"</span>).scrollTo <span class="hljs-number">0</span>,
+        <span class="hljs-attribute">duration</span>: <span class="hljs-number">800</span>
+
+
+    $(<span class="hljs-keyword">this</span>).unbind <span class="hljs-string">"backToTop.scroll"</span>
+    $(<span class="hljs-keyword">this</span>).bind <span class="hljs-string">"backToTop.scroll"</span>,<span class="hljs-function"> -&gt;</span>
+      <span class="hljs-keyword">if</span> $(<span class="hljs-built_in">window</span>).scrollTop() &gt;= gap
+        $that.fadeIn()
+      <span class="hljs-keyword">else</span>
+        $that.fadeOut()</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-24">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-24">&#182;</a>
+              </div>
+              <p>If backToTop isn’t initiated we trigger a scroll event on the element</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">unless</span> $(<span class="hljs-keyword">this</span>).data(<span class="hljs-string">"backToTop"</span>)
+      $(<span class="hljs-built_in">window</span>).scroll<span class="hljs-function"> -&gt;</span>
+        $that.trigger <span class="hljs-string">"backToTop.scroll"</span>
+
+    $(<span class="hljs-keyword">this</span>).data <span class="hljs-string">"backToTop"</span>, <span class="hljs-number">1</span>
+    <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>)</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-25">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-25">&#182;</a>
+              </div>
+              <h2 id="smoothanchors">smoothAnchors</h2>
+<p>Add an automatic smooth Scroll to the section menu of typo3 or any child link matching <strong> a[href*=”#c”] </strong></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>  $.fn.<span class="hljs-function"><span class="hljs-title">smoothAnchors</span> = <span class="hljs-params">(offsetTop, screenOffset)</span> -&gt;</span>
+    $anchors = $(<span class="hljs-keyword">this</span>).find(<span class="hljs-string">"a[href*=\"#c\"]"</span>)
+    anchorsOffsets = []
+    offsetTop = (<span class="hljs-keyword">if</span> offsetTop <span class="hljs-keyword">then</span> offsetTop <span class="hljs-keyword">else</span> <span class="hljs-number">50</span>)
+    screenOffset = (<span class="hljs-keyword">if</span> screenOffset <span class="hljs-keyword">then</span> screenOffset <span class="hljs-keyword">else</span> $(<span class="hljs-built_in">window</span>).height() / <span class="hljs-number">6</span>)
+    $anchors.each<span class="hljs-function"> -&gt;</span>
+      anchorsOffsets.push $((<span class="hljs-string">"#"</span> + $.getHash($(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">"href"</span>)))).offset().top
+
+    anchorsOffsetsLength = anchorsOffsets.length
+    $anchors.unbind <span class="hljs-string">"click"</span>
+    $anchors.click <span class="hljs-function"><span class="hljs-params">(e)</span> -&gt;</span>
+      e.preventDefault()
+      $(<span class="hljs-string">"html"</span>).scrollTo $((<span class="hljs-string">"#"</span> + $.getHash($(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">"href"</span>)))),
+        <span class="hljs-attribute">offset</span>:
+          <span class="hljs-attribute">top</span>: -offsetTop
+
+        <span class="hljs-attribute">duration</span>: <span class="hljs-number">800</span>
+
+
+    timeWindow = <span class="hljs-number">500</span>
+    lastExecution = <span class="hljs-keyword">new</span> Date((<span class="hljs-keyword">new</span> Date()).getTime())
+    $<span class="hljs-function"><span class="hljs-params">(<span class="hljs-built_in">window</span>)</span>.<span class="hljs-title">scroll</span> <span class="hljs-params">(e)</span> -&gt;</span>
+      <span class="hljs-keyword">if</span> (lastExecution.getTime() + timeWindow) &lt;= (<span class="hljs-keyword">new</span> Date()).getTime()
+        scrollTop = $(<span class="hljs-built_in">window</span>).scrollTop() + offsetTop + screenOffset
+        $anchors.removeClass <span class="hljs-string">"active"</span>
+        i = <span class="hljs-number">0</span>
+
+        <span class="hljs-keyword">while</span> i &lt; anchorsOffsetsLength
+          j = i + <span class="hljs-number">1</span>
+          <span class="hljs-keyword">if</span> scrollTop &gt;= anchorsOffsets[i] <span class="hljs-keyword">and</span> <span class="hljs-keyword">not</span> anchorsOffsets[j]
+            $anchors.<span class="hljs-keyword">not</span>($anchors[i]).removeClass <span class="hljs-string">"active"</span>
+            $($anchors[i]).addClass <span class="hljs-string">"active"</span>
+            lastExecution = <span class="hljs-keyword">new</span> Date((<span class="hljs-keyword">new</span> Date()).getTime())
+            <span class="hljs-keyword">return</span>
+          <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> scrollTop &gt;= anchorsOffsets[i] <span class="hljs-keyword">and</span> scrollTop &lt; anchorsOffsets[j]
+            $anchors.<span class="hljs-keyword">not</span>($anchors[i]).removeClass <span class="hljs-string">"active"</span>
+            $($anchors[i]).addClass <span class="hljs-string">"active"</span>
+            lastExecution = <span class="hljs-keyword">new</span> Date((<span class="hljs-keyword">new</span> Date()).getTime())
+            <span class="hljs-keyword">return</span>
+          i++
+
+    <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>)</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>

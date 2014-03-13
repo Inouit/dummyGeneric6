@@ -13,7 +13,6 @@ _bower_components
 .sass-cache
 Gemfile.lock
 *.css.map
-typo3conf/ext/skin/Resources/Public/docs/
 
 #Not these
 !.gitkeep

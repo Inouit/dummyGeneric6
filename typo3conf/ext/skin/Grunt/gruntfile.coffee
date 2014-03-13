@@ -84,6 +84,10 @@ module.exports = (grunt) ->
         src: '*.css'
         dest: '<%= in8.cssDest %>/'
 
+    concurrent:
+      builds: ['coffee', 'sass']
+      optimize : ['autoprefixer']
+
     watch:
       options:
         livereload: grunt.option('liveport') || 35729
@@ -117,9 +121,8 @@ module.exports = (grunt) ->
         ]
 
     grunt.registerTask 'default', [
-      'sass:build'
-      'autoprefixer:build'
-      'coffee:build'
+      'concurrent:builds'
+      'concurrent:optimize'
       'watch'
     ]
     grunt.registerTask 'serve', [
