@@ -1,5 +1,6 @@
 ### Include directory Configuration/Typoscript/extensions
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/extensions/tx_indexedsearch.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/extensions/tx_news.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/extensions/tx_powermail.ts">
 ### Include directory Configuration/Typoscript/blocks
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/blocks/logo.ts">

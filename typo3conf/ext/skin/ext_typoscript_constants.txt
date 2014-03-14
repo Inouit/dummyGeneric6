@@ -21,14 +21,14 @@ page{
     searchResultID = 13
 }
 
-tt_news{
+tx_news{
     news{
         singlePid =
-        pid_list = 17
+        storage = 17
     }
     events{
         singlePid =
-        pid_list = 18
+        storage = 18
     }
 }
 
