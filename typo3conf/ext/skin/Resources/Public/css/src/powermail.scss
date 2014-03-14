@@ -18,6 +18,7 @@
     .powermail_check_outer  { @include inline-block; width: 75%; vertical-align: middle; }
     .powermail_radio_outer label,
     .powermail_check_outer label { width: 90%; text-align: left; }
+    .powermail_fieldwrap_textarea label { vertical-align: top; }
 
     .powermail_mandatory { margin-left: 5px; }
     input, select, textarea { vertical-align: middle; }

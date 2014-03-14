@@ -177,27 +177,29 @@ body { color: #444444; }
 .tx-powermail .powermail_radio_outer, .tx-powermail .powermail_check_outer { display: inline-block; width: 75%; vertical-align: middle; }
 /* line 19, src/powermail.scss */
 .tx-powermail .powermail_radio_outer label, .tx-powermail .powermail_check_outer label { width: 90%; text-align: left; }
-/* line 22, src/powermail.scss */
-.tx-powermail .powermail_mandatory { margin-left: 5px; }
+/* line 21, src/powermail.scss */
+.tx-powermail .powermail_fieldwrap_textarea label { vertical-align: top; }
 /* line 23, src/powermail.scss */
-.tx-powermail input, .tx-powermail select, .tx-powermail textarea { vertical-align: middle; }
+.tx-powermail .powermail_mandatory { margin-left: 5px; }
 /* line 24, src/powermail.scss */
-.tx-powermail textarea { height: 80px; }
+.tx-powermail input, .tx-powermail select, .tx-powermail textarea { vertical-align: middle; }
 /* line 25, src/powermail.scss */
+.tx-powermail textarea { height: 80px; }
+/* line 26, src/powermail.scss */
 .tx-powermail input[type="text"], .tx-powermail input[type="email"], .tx-powermail input[type="password"], .tx-powermail input[type="submit"], .tx-powermail select, .tx-powermail textarea { position: relative; padding: 4px 1%; width: 70%; border: 1px solid #333333; background-color: white; }
-/* line 31, src/powermail.scss */
-.tx-powermail select { width: auto; cursor: pointer; }
 /* line 32, src/powermail.scss */
+.tx-powermail select { width: auto; cursor: pointer; }
+/* line 33, src/powermail.scss */
 .tx-powermail input[type="submit"] { margin-left: 17.5%; width: auto; cursor: pointer; background-color: #aad4ff; border: 0; font-size: 1.5em; font-family: Arial, sans-serif; font-weight: 700; color: white; text-transform: uppercase; }
-/* line 35, src/powermail.scss */
+/* line 36, src/powermail.scss */
 .tx-powermail input[type="text"]:focus, .tx-powermail input[type="email"]:focus, .tx-powermail input[type="password"]:focus, .tx-powermail textarea:focus { box-shadow: 0 0 3px #aad4ff; outline: 0; }
-/* line 39, src/powermail.scss */
+/* line 40, src/powermail.scss */
 .tx-powermail input[type="text"].invalid, .tx-powermail input[type="email"].invalid, .tx-powermail input[type="password"].invalid, .tx-powermail textarea.invalid { box-shadow: 0 0 3px #e04831; }
-/* line 44, src/powermail.scss */
+/* line 45, src/powermail.scss */
 .tx-powermail .formError { padding: 5px; height: auto; background-color: #e04831; z-index: 10; color: white; }
-/* line 46, src/powermail.scss */
-.tx-powermail .formError .formErrorContent { margin: 0; padding: 0; font-weight: bold; }
 /* line 47, src/powermail.scss */
+.tx-powermail .formError .formErrorContent { margin: 0; padding: 0; font-weight: bold; }
+/* line 48, src/powermail.scss */
 .tx-powermail .formError .formErrorArrow { display: block; position: absolute; bottom: -10px; left: 5px; width: 0; height: 0; border: 10px solid; border-bottom: 0 none; border-color: #e04831 transparent transparent; }
 
 @media screen and (min-width: 0px) { /* line 3, src/mediaqueries.scss */
