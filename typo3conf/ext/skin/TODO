@@ -7,7 +7,7 @@ Todo:
   ✔ Install all users conf @done (14-03-13 11:42)
   ✔ Install des CSS & JS du dummy @done (14-03-13 14:46)
   ✔ Install de Grunt pour skin @done (14-03-13 16:00)
-  ☐ Install & conf powermail
+  ✔ Install & conf powermail @done (14-03-14 16:13)
   ☐ Install & conf tx_news
   ☐ Install & conf event
   ☐ Install & conf sitemap
@@ -15,3 +15,4 @@ Todo:
   ☐ Install & conf gridelements
   ☐ Install & conf de realurl
   ☐ install integrator and publisher profile
+  ☐ install scriptmerger

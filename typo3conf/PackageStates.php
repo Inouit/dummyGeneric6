@@ -348,6 +348,12 @@ return array (
       'packagePath' => 'typo3/sysext/rtehtmlarea/',
       'classesPath' => 'Classes/',
     ),
+    'powermail' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
+      'classesPath' => 'Classes/',
+    ),
     'skinDummy' => 
     array (
       'state' => 'active',

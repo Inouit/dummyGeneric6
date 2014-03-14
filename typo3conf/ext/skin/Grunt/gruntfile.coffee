@@ -31,15 +31,16 @@ module.exports = (grunt) ->
     pkg: grunt.file.readJSON('package.json')
     env: process.env
     in8:
-      tsSrc   : '../Configuration/Typoscript'
-      jsSrc   : '../Resources/Public/js/src'
-      jsDest  : '../Resources/Public/js'
-      imgSrc  : '../Resources/Public/img'
-      cssSrc  : '../Resources/Public/css/src'
-      cssDest : '../Resources/Public/css'
-      htmlSrc : '../Resources/Private'
-      docDest : '../Resources/Public/docs'
-      port    : grunt.option('liveport') || 35729
+      tsSrc          : '../Configuration/Typoscript'
+      jsSrc          : '../Resources/Public/js/src'
+      jsComponentSrc : '../Resources/Public/js/components'
+      jsDest         : '../Resources/Public/js'
+      imgSrc         : '../Resources/Public/img'
+      cssSrc         : '../Resources/Public/css/src'
+      cssDest        : '../Resources/Public/css'
+      htmlSrc        : '../Resources/Private'
+      docDest        : '../Resources/Public/docs'
+      liveport       : grunt.option('liveport') || 35729
 
 
   # load tasks options

@@ -1,6 +1,6 @@
 module.exports =
   options:
-    livereload: '<%= in8.port %>'
+    livereload: '<%= in8.liveport %>'
 
   html:
     files:[
@@ -19,13 +19,19 @@ module.exports =
   sass:
     files:'<%= in8.cssSrc %>/*.scss'
     tasks: [
-      'newer:sass:build',
-      'newer:autoprefixer:build'
+      'sass:build',
+      'autoprefixer:build'
     ]
+
   images:
     files:[
       '<%= in8.imgSrc %>/**'
     ]
+
   coffee:
     files: '<%= in8.jsSrc %>/*.coffee'
+    tasks: 'newer:coffee:build'
+
+  components:
+    files:'<%= in8.jsComponentSrc %>/*.js'
     tasks: 'newer:coffee:build'

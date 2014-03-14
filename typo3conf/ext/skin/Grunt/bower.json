@@ -13,15 +13,15 @@
     "Shatimes <contact@shatimes.fr> (http://www.shatimes.fr)",
     "JViste <jviste@inouit.com> (https://github.com/FeetloveR)"
   ],
-  "repository": {
-  },
-  "bugs" : {
-  },
+  "repository": {},
+  "bugs": {},
   "dependencies": {
     "modernizr": "latest",
     "jquery": "~1.10.0",
     "jquery.scrollTo": "latest",
     "jscrollpane": "~2.0.0"
+  },
+  "devDependencies": {
+    "jquery-ui": "~1.10.4"
   }
 }
-
