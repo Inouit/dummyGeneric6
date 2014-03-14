@@ -24,11 +24,11 @@ page{
 tt_news{
     news{
         singlePid =
-        pid_list =
+        pid_list = 17
     }
     events{
         singlePid =
-        pid_list =
+        pid_list = 18
     }
 }
 

@@ -348,6 +348,12 @@ return array (
       'packagePath' => 'typo3/sysext/rtehtmlarea/',
       'classesPath' => 'Classes/',
     ),
+    'news' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/news/',
+      'classesPath' => 'Classes/',
+    ),
     'powermail' => 
     array (
       'state' => 'active',
