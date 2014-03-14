@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index=".description">Enregistrement de balise</label>
+      <label index=".details">Les enregistrements d'actualités peuvent être balisés par ces enregistrements</label>
+      <label index="_.seeAlso">Visitez aussi le site http://www.news.com/</label>
+      <label index="hidden.description">Les éléments cachés ne sont jamais affichés dans le Frontend</label>
+      <label index="title.description">Titre de la balise.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

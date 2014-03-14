@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index=".description">Enregistrement de catégorie</label>
+      <label index=".details">Catégorie des enregistrements d'actualités.</label>
+      <label index="_.seeAlso">Visitez aussi le site http://www.news.com/</label>
+      <label index="sys_language_uid.description">Langue de la catégorie</label>
+      <label index="hidden.description">Les catégories cachées ne sont jamais affichées dans le Frontend.</label>
+      <label index="title.description">Titre de la catégorie</label>
+      <label index="parentcategory.description">Sélectionner une catégorie parente de cet enregistrement pour construire un arbre de catégorie.</label>
+      <label index="image.description">Image optionnelle d'une catégorie.</label>
+      <label index="description.description">Description facultative d'une catégorie.</label>
+      <label index="single_pid.description">Choisissez une page qui est utilisée pour montrer la vue de détail des enregistrements d’actualités en relation avec cette catégorie. Une page configuré à l'intérieur des configurations de plugin passe avant cette configuration.</label>
+      <label index="shortcut.description">Lien optionnel d'une catégorie.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

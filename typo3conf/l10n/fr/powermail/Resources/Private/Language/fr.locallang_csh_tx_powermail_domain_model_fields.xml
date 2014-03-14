@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index="title.description">Entrer un libellé pour votre champs</label>
+      <label index="type.description">Choisissez un type pour votre champs</label>
+      <label index="settings.description">Une option par ligne. Si vous souhaitez séparer les valeurs et les libellés, merci d'utiliser le symbole | . Présélectionner avec * </label>
+      <label index="sender_email.description">Est-ce que ce champs va contenir le courriel de l'utilisateur?</label>
+      <label index="sender_name.description">Est-ce que ce champs va contenir le nom de l'utilisateur?</label>
+      <label index="validation_title.description">Paramètres de validation</label>
+      <label index="mandatory.description"/>
+      <label index="validation.description">Valider la valeur des champs (url, email, etc...)</label>
+      <label index="prefill_title.description"/>
+      <label index="prefill_value.description"/>
+      <label index="feuser_value.description"/>
+      <label index="css.description"/>
+      <label index="marker_title.description">Paramètres de variables</label>
+      <label index="auto_marker.description">Cette variable a été générée automatiquement par le système</label>
+      <label index="marker.description">Utilisez votre propre variable dans l'éditeur de texte (RTE) par exemple</label>
+      <label index="own_marker_select.description">Cochez ceci si vous souhaitez changer automatiquement la variable générée</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

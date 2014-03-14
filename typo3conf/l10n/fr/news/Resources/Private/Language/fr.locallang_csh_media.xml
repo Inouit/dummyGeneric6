@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index=".description">Enregistrement Media</label>
+      <label index=".details">Relation vers des enregistements Media</label>
+      <label index="_.seeAlso">Voir également le site http://www.news.com/</label>
+      <label index="hidden.description">Les éléments cachés ne sont jamais affichés sur le Frontend</label>
+      <label index="caption.description">Titre de l'élément Media</label>
+      <label index="title.description">Information complémentaire à la balise Titre.</label>
+      <label index="alt.description">Information complémentaire pour la balise alternative.</label>
+      <label index="type.description">Type de l'élément Media. A choix (par défaut): image, vidéo et audio, HTML pur.</label>
+      <label index="showinpreview.description">Si sélectionné, l'élément Media est également disponible dans la vue en liste.</label>
+      <label index="video.description">Définir l'URL vers la ressource vidéo ou audio. Peut être un chemin relatif (par ex. fileadmin/video.flv) ou un chemin absolut (par exemple une vidéo Youtube).</label>
+      <label index="media.description">Sélectionne l'image.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

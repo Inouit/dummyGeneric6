@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index=".description">Enregistrement d'actualités</label>
+      <label index=".details">Système d'actualités souple.</label>
+      <label index="sys_language_uid.description">Langue de l'enregistrement d'actualités.</label>
+      <label index="starttime.description">Définissez une date dès laquelle l’enregistrement d'actualité sera affiché.</label>
+      <label index="endtime.description">Définissez une date après laquelle l’enregistrement d'actualité sera caché.</label>
+      <label index="fe_group.description">Sélectionnez les groupes d'utilisateurs qui sont autorisés à voir l'enregistrement d'actualité.</label>
+      <label index="editlock.description">Si coché, cet enregistrement d'actualité peut être seulement modifié par des administrateurs.</label>
+      <label index="hidden.description">Les enregistrements cachés ne sont pas affichés dans le Fontend.</label>
+      <label index="title.description">Titre d'actualité</label>
+      <label index="alternative_title.description">Le titre alternatif sera utilisé comme titre de la fenêtre du navigateur / onglet</label>
+      <label index="teaser.description">Soyez conscient que ce texte peut-être rogné.</label>
+      <label index="type.description">Sélectionnez le type qui peut soit être un enregistrement d'actualité normal, soit un lien vers une page interne, soit un lien vers une page externe.</label>
+      <label index="istopnews.description">Les enregistrements d'actualités prioritaires peuvent avoir une disposition spéciale, un tri spécial, ...</label>
+      <label index="author.description">Auteur de l'enregistrement d'actualités</label>
+      <label index="author_email.description">Adresse e-mail de l'auteur</label>
+      <label index="datetime.description">Date de l'enregistrement d'actualité</label>
+      <label index="archive.description">Date d'archive. Une date est requise si les actualités doivent être archivées.</label>
+      <label index="bodytext.description">Contenu principal de l'enregistrement d'actualité</label>
+      <label index="categories.description">Sélectionner les catégories liées à cet enregistrement.</label>
+      <label index="tags.description">Définir et sélectionner les balises qui s'appliquent à cet article.</label>
+      <label index="content_elements.description">Les éléments de contenu peuvent être utilisés pour générer des fonctionnalités d'articles d'actualités riches. </label>
+      <label index="keywords.description">Définissez les mots-clés qui peuvent être utilisés pour les optimisation du SEO.</label>
+      <label index="description.description">Définissez les mots-clés qui peuvent être utilisés pour les optimisation du SEO.</label>
+      <label index="related.description">Sélectionnez les enregistrements d'actualité en relation.</label>
+      <label index="related_from.description"/>
+      <label index="related_files.description">Définir des fichiers en relation, ex. PDFs</label>
+      <label index="related_links.description">Définissez des liens en relation avec les pages internes et externes.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

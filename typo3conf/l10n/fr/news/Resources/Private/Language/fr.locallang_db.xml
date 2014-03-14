@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index="tx_news_domain_model_news.tabs.relations">Relations</label>
+      <label index="tx_news_domain_model_news.palettes.alternativeTitles">Titre alternatif</label>
+      <label index="tx_news_domain_model_news">Actualités</label>
+      <label index="tx_news_domain_model_news.alternative_title">Titre alternatif</label>
+      <label index="tx_news_domain_model_news.teaser">Texte d'accroche</label>
+      <label index="tx_news_domain_model_news.datetime">Date et heure</label>
+      <label index="tx_news_domain_model_news.archive">Archives</label>
+      <label index="tx_news_domain_model_news.archive.placeholder">Définition du moment à partir duquel l'actualité doit être listée dans les archives</label>
+      <label index="tx_news_domain_model_news.categories">Catégories</label>
+      <label index="tx_news_domain_model_news.related">Actualités en relation</label>
+      <label index="tx_news_domain_model_news.related_from">Actualités en relation (inverse)</label>
+      <label index="tx_news_domain_model_news.related_files">Fichiers en relation</label>
+      <label index="tx_news_domain_model_news.related_links">Liens en relation</label>
+      <label index="tx_news_domain_model_news.type.I.0">Actualités</label>
+      <label index="tx_news_domain_model_news.type.I.1">Page interne</label>
+      <label index="tx_news_domain_model_news.type.I.2">Page externe</label>
+      <label index="tx_news_domain_model_news.media">Élément de média</label>
+      <label index="tx_news_domain_model_news.istopnews">Actualités principales</label>
+      <label index="tx_news_domain_model_news.content_elements">Éléments de contenu</label>
+      <label index="tx_news_domain_model_news.tags">Balises</label>
+      <label index="tx_news_domain_model_news.tags.add">Ajouter une nouvelle balise</label>
+      <label index="tx_news_domain_model_news.tags.list">Lister toutes les balises</label>
+      <label index="tx_news_domain_model_news.tags.edit">Editer les tag</label>
+      <label index="tx_news_domain_model_news.keywords.placeholder">Mot-clé1, mot-clé2, mot-clé3</label>
+      <label index="tx_news_domain_model_category">Catégorie d'actualité</label>
+      <label index="tx_news_domain_model_category.title">Titre</label>
+      <label index="tx_news_domain_model_category.description">Description</label>
+      <label index="tx_news_domain_model_category.image">Image</label>
+      <label index="tx_news_domain_model_category.parentcategory">Catégorie parente</label>
+      <label index="tx_news_domain_model_category.single_pid">Page de détail pour les actualités de cette catégorie</label>
+      <label index="tx_news_domain_model_category.shortcut">Raccourci de la catégorie d'actualité</label>
+      <label index="tx_news_domain_model_media">Élément média d'actualité</label>
+      <label index="tx_news_domain_model_media.caption">Légende</label>
+      <label index="tx_news_domain_model_media.media">Image</label>
+      <label index="tx_news_domain_model_media.type.I.0">Image</label>
+      <label index="tx_news_domain_model_media.type.I.1">Vidéo et audio</label>
+      <label index="tx_news_domain_model_media.type.I.2">HTML</label>
+      <label index="tx_news_domain_model_media.type.I.3">Enregistrement DAM</label>
+      <label index="tx_news_domain_model_media.multimedia">URL de vidéo / audio</label>
+      <label index="tx_news_domain_model_media.dam">Enregistrement DAM</label>
+      <label index="tx_news_domain_model_media.show">Montrer</label>
+      <label index="tx_news_domain_model_media.showinpreview">Montrer dans les vues de prévisualisation</label>
+      <label index="tx_news_domain_model_media.copyright">Copyright</label>
+      <label index="tx_news_domain_model_file">Élément fichier des actualités</label>
+      <label index="tx_news_domain_model_file.title">Titre</label>
+      <label index="tx_news_domain_model_file.description">Description</label>
+      <label index="tx_news_domain_model_file.file">Fichier</label>
+      <label index="tx_news_domain_model_link">Élément lien des actualités</label>
+      <label index="tx_news_domain_model_link.title">Titre</label>
+      <label index="tx_news_domain_model_link.description">Description</label>
+      <label index="tx_news_domain_model_link.uri">URL</label>
+      <label index="tx_news_domain_model_link.uri.placeholder">www.nom-de-domaine.org</label>
+      <label index="tx_news_domain_model_tag">Balise d'actualité</label>
+      <label index="tx_news_domain_model_tag.title">Titre</label>
+      <label index="tx_news_domain_model_news.path_segment">Chemin de l'URL parlante</label>
+      <label index="be_user.tx_news_categorymounts">Actualités: restriction de catégorie</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

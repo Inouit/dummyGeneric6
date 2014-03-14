@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index=".description">Enregistrement de type fichier</label>
+      <label index=".details">Relation vers les fichiers</label>
+      <label index="_.seeAlso">Visitez aussi le site http://www.news.com/</label>
+      <label index="hidden.description">Les éléments cachés ne sont jamais affichés sur le Frontend</label>
+      <label index="title.description">Titre optionnel du fichier sélectionné.</label>
+      <label index="description.description">Description facultative du fichier sélectionné.</label>
+      <label index="file.description">Tout fichier (autorisé)</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

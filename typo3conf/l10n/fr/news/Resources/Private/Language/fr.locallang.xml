@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index="search-text">Il y a %1$s résultats pour "%2$s".</label>
+      <label index="search-start">Démarrer la recherche</label>
+      <label index="search-noresult">Aucune actualité trouvée.</label>
+      <label index="more-link">En savoir plus</label>
+      <label index="back-link">Retour</label>
+      <label index="related-news">Actualités connexes</label>
+      <label index="related-files">Fichiers associés</label>
+      <label index="related-links">Liens associés</label>
+      <label index="author">Créée par %s</label>
+      <label index="paginate_overall">Page %s de %s.</label>
+      <label index="paginate_next">Suivant</label>
+      <label index="paginate_previous">Précédent</label>
+      <label index="categories">Catégories</label>
+      <label index="tags">Tags</label>
+      <label index="entry">entrée</label>
+      <label index="entries">entrées</label>
+      <label index="month.01">Janvier</label>
+      <label index="month.02">Février</label>
+      <label index="month.03">Mars</label>
+      <label index="month.04">Avril</label>
+      <label index="month.05">Mai</label>
+      <label index="month.06">Juin</label>
+      <label index="month.07">Juillet</label>
+      <label index="month.08">Août</label>
+      <label index="month.09">Septembre</label>
+      <label index="month.10">Octobre</label>
+      <label index="month.11">Novembre</label>
+      <label index="month.12">Décembre</label>
+      <label index="day.1">Lundi</label>
+      <label index="day.2">Mardi</label>
+      <label index="day.3">Mercredi</label>
+      <label index="day.4">Jeudi</label>
+      <label index="day.5">Vendredi</label>
+      <label index="day.6">Samedi</label>
+      <label index="day.7">Dimanche</label>
+      <label index="dateFormat">%m/%d/%Y</label>
+      <label index="list_nonewsfound">Aucune actualité disponible.</label>
+      <label index="list_nocategoriesfound">Aucune catégorie disponible.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

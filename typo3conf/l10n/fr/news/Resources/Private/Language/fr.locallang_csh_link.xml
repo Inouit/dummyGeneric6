@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index=".description">Enregistrement de lien</label>
+      <label index=".details">Relation vers les autres pages et enregistrements</label>
+      <label index="_.seeAlso">Visitez aussi le site http://www.news.com/</label>
+      <label index="hidden.description">Les éléments cachés ne sont jamais affichés sur le Frontend</label>
+      <label index="title.description">Titre optionnel d'un lien.</label>
+      <label index="description.description">Description d'un lien.</label>
+      <label index="uri.description">Lien vers un fichier, ...</label>
+    </languageKey>
+  </data>
+</T3locallangExt>
