@@ -6,6 +6,7 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/blocks/logo.ts">
 ### Include directory Configuration/Typoscript/menus
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/menus/bottom.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/menus/breadCrumb.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/menus/left.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/menus/main.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/Configuration/Typoscript/menus/top.ts">

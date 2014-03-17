@@ -8,7 +8,7 @@ Todo:
   ✔ Install des CSS & JS du dummy @done (14-03-13 14:46)
   ✔ Install de Grunt pour skin @done (14-03-13 16:00)
   ✔ Install & conf powermail @done (14-03-14 16:13)
-  ☐ Install & conf tx_news
+  ✔ Install & conf tx_news @done (14-03-17 14:35)
   ☐ Install & conf event
   ☐ Install & conf sitemap
   ☐ Conf indexed_search
@@ -16,3 +16,4 @@ Todo:
   ☐ Install & conf de realurl
   ☐ install integrator and publisher profile
   ☐ install scriptmerger
+  ☐ install & conf d'image_autoresize (http://typo3.org/extensions/repository/view/image_autoresize)

@@ -23,7 +23,7 @@ page{
 
 tx_news{
     news{
-        singlePid =
+        singlePid = 19
         storage = 17
     }
     events{

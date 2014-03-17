@@ -3,10 +3,7 @@ module.exports =
     livereload: '<%= in8.liveport %>'
 
   html:
-    files:[
-      '<%= in8.htmlSrc %>/**/*.html'
-      '<%= in8.htmlSrc %>/**/*.tmpl'
-    ]
+    files:'<%= in8.htmlSrc %>/**'
     tasks: 'newer:coffee:build'
 
   typoscript:

@@ -161,6 +161,11 @@ body { color: #444444; }
 /* line 24, src/ie.scss */
 .nav .second { position: absolute; display: none; }
 
+/* line 16, src/modules.scss */
+.breadCrumb li { margin: 0; padding: 0; }
+/* line 17, src/modules.scss */
+.breadCrumb li + li:before { margin: 0 5px; content: ">"; }
+
 /* line 2, src/powermail.scss */
 .tx-powermail fieldset { border: 0; }
 /* line 3, src/powermail.scss */
