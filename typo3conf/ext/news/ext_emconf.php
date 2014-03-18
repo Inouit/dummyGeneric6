@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "news".
  *
- * Auto generated 14-03-2014 16:58
+ * Auto generated 18-03-2014 10:08
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
