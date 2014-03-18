@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-18T16:30:43Z" product-name="in_events">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_inevents_domain_model_event" approved="yes">
+				<source>Event</source> <target state="translated">Événement</target></trans-unit>
+			<trans-unit id="tx_inevents_domain_model_event.tx_inevents_from" approved="yes">
+				<source>from</source> <target state="translated">Date de début</target></trans-unit>
+			<trans-unit id="tx_inevents_domain_model_event.tx_inevents_to" approved="yes">
+				<source>to</source> <target state="translated">Date de fin</target></trans-unit>
+			<trans-unit id="tx_inevents_domain_model_event.tx_inevents_furtherInfo" approved="yes">
+				<source>further informations</source> <target state="translated">Informations complémentaires</target></trans-unit>
+
+		</body>
+	</file>
+</xliff>
