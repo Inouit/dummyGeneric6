@@ -10,6 +10,10 @@
       <label index="cachingFrameworkGarbageCollection.description">Cette tâches lance le ramasse-miettes du système de cache. Cela permettra de libérer de l'espace pour les backends qui n'ont pas de ramasse-miettes interne. Dans le cas du backend par défaut (base de données), il est conseillé de lancer cette tâches une fois par jour.</label>
       <label index="fileIndexing.name"/>
       <label index="fileIndexing.description"/>
+      <label index="fileStorageIndexing.name"/>
+      <label index="fileStorageIndexing.description"/>
+      <label index="fileStorageExtraction.name"/>
+      <label index="fileStorageExtraction.description"/>
       <label index="tableGarbageCollection.name">Table de recyclage des données</label>
       <label index="tableGarbageCollection.description">Tâche pour supprimer les anciennes entrées de tables spécifiques, comme sys_log. Utilisez $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_scheduler_TableGarbageCollection']['options']['tables'] pour configurer les tables. Consultez le manuel pour plus de détails.</label>
       <label index="recyclerGarbageCollection.name">Dossier fileadmin de recyclage des données</label>

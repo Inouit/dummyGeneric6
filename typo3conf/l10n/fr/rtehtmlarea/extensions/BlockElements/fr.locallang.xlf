@@ -38,22 +38,22 @@
       <target state="translated">Adresse</target></trans-unit>
       <trans-unit id="Article" xml:space="preserve">
         <source>Article</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="Aside" xml:space="preserve">
         <source>Aside</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="Container" xml:space="preserve" approved="yes">
         <source>Container</source>
       <target state="translated">Conteneur</target><note>100%</note></trans-unit>
       <trans-unit id="Footer" xml:space="preserve">
         <source>Footer</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="Header" xml:space="preserve">
         <source>Header</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="Navigation" xml:space="preserve">
         <source>Navigation</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="Section" xml:space="preserve" approved="yes">
         <source>Section</source>
       <target state="translated">Conteneur</target></trans-unit>

@@ -5,10 +5,10 @@
     <body>
       <trans-unit id="label1" xml:space="preserve">
         <source>This is my 1st label</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="label2" xml:space="preserve">
         <source>This is my 2nd label</source>
-      <target></target></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

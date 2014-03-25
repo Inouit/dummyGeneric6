@@ -14,19 +14,19 @@
       <target state="translated">Liste</target></trans-unit>
       <trans-unit id="clip_pasteAfter" xml:space="preserve" approved="yes">
         <source>Paste after: Clipboard content is inserted after this record</source>
-      <target state="translated">Coller après: Le contenu du presse-papiers est inséré après cet enregistrement</target></trans-unit>
+      <target state="translated">Coller après: Le contenu du presse-papier est inséré après cet enregistrement</target></trans-unit>
       <trans-unit id="clip_pasteInto" xml:space="preserve" approved="yes">
         <source>Paste into: Clipboard content is inserted on this page</source>
-      <target state="translated">Coller dans: Le contenu du presse-papiers est inséré dans cette page</target></trans-unit>
+      <target state="translated">Coller dans: Le contenu du presse-papier est inséré dans cette page</target></trans-unit>
       <trans-unit id="clip_paste" xml:space="preserve" approved="yes">
         <source>Paste in clipboard content</source>
-      <target state="translated">Coller le contenu du presse-papiers</target></trans-unit>
+      <target state="translated">Coller le contenu du presse-papier</target></trans-unit>
       <trans-unit id="clip_markRecords" xml:space="preserve" approved="yes">
         <source>Mark All/Mark none</source>
       <target state="translated">Sélectionner tout/rien</target></trans-unit>
       <trans-unit id="clip_selectMarked" xml:space="preserve" approved="yes">
         <source>Transfer the selection of records to clipboard</source>
-      <target state="translated">Transférer les enregistrements sélectionnés dans le presse-papiers</target></trans-unit>
+      <target state="translated">Transférer les enregistrements sélectionnés dans le presse-papier</target></trans-unit>
       <trans-unit id="clip_duplicates" xml:space="preserve" approved="yes">
         <source>Mark duplicates</source>
       <target state="translated">Sélectionner les doublons</target></trans-unit>
@@ -116,7 +116,7 @@
       <target state="translated">Lister uniquement cette table</target></trans-unit>
       <trans-unit id="showClipBoard" xml:space="preserve" approved="yes">
         <source>Show clipboard</source>
-      <target state="translated">Afficher le presse-papiers</target></trans-unit>
+      <target state="translated">Afficher le presse-papier</target></trans-unit>
       <trans-unit id="editShownColumns" xml:space="preserve" approved="yes">
         <source>Edit all shown fields of the listed records</source>
       <target state="translated">Editer tous les champs de l'enregistrement</target></trans-unit>

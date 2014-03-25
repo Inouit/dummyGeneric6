@@ -24,6 +24,7 @@
       <label index="eIcon.bodytext">Editer le texte corps du texte</label>
       <label index="eIcon.images">Editer les images</label>
       <label index="eIcon.caption">Edite le titre de l'image</label>
+      <label index="eIcon.caption_position">Editer l'alignement du titre de l'image</label>
       <label index="eIcon.bullets">Editer la liste à puce</label>
       <label index="eIcon.table">Edite le tableau</label>
       <label index="eIcon.filelist">Edite la liste de fichier</label>

@@ -5,10 +5,10 @@
     <body>
       <trans-unit id=".description" xml:space="preserve" approved="yes">
         <source>The Indexed Search configuration allows you to set up indexing of resources which are external to the TYPO3 page tree. This could be a library of records (like news), a directory structure of files (like PDFs) or an external URL to be crawled to some depth - or third-party content provided from other extensions via hooks.</source>
-      <target state="translated">La configuration de la recherche indexée permet de paramétrer les sources d'indexation extérieures à l'arborescence de TYPO3. Cela peut être une librairie de contenu (comme des actualités), une structure de répertoire avec des fichiers (comme des PDFs) ou une URL externe à indexer à plusieurs niveaux de profondeurs - ou le contenu d'une application tierce provenant d'autres extensions via des hooks.</target><alt-trans xml:space="preserve" origin="badr"><target>La configuration de la recherche indexée permet de paramétrer les sources d'indexation extérieures à l'arborescence de TYPO3. Cela peut être une librairie de contenu (comme des actualités), une structure de répertoire avec des fichiers (comme des PDFs) ou une URL externe à indexer à plusieurs niveaux de profondeurs - ou le contenu d'une application tierce provenant d'autres extensions via des hooks.</target></alt-trans></trans-unit>
+      <target state="translated">La configuration de la recherche indexée permet de paramétrer les sources d'indexation extérieures à l'arborescence de TYPO3. Cela peut être une librairie de contenu (comme des actualités), une structure de répertoire avec des fichiers (comme des PDFs) ou une URL externe à indexer à plusieurs niveaux de profondeurs - ou le contenu d'une application tierce provenant d'autres extensions via des hooks.</target></trans-unit>
       <trans-unit id=".details" xml:space="preserve">
         <source>The Indexing Configuration records are used to set up how the indexing occurs, at which time and related to which part of the page tree. An important requirement to keep in mind is that the "crawler" extension must be installed since the indexing engine uses the "crawler" extensions queue as a timing device - and using the "crawler" extension means using a cron-job to activate it from the shell.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="title.description" xml:space="preserve" approved="yes">
         <source>Provide a title for the configuration.</source>
       <target state="translated">Donner un titre à la configuration.</target></trans-unit>
@@ -17,51 +17,49 @@
       <target state="translated">Si nécessaire, indiquer une description ou d'autres notes importantes dans ce champ.</target></trans-unit>
       <trans-unit id="hidden.description" xml:space="preserve" approved="yes">
         <source>Disable the configuration by this checkbox. If disabled, the configuration will be bypassed by the crawlers cron job.</source>
-      <target state="translated">Désactiver la configuration via la case à cocher. Si elle est désactivée, la configuration sera gérée par les cron jobs des robots d'indexation</target><alt-trans xml:space="preserve" origin="badr"><target>Désactiver la configuration via la case à cocher. Si elle est désactivée, la configuration sera gérée par les cron jobs des robots d'indexation</target></alt-trans></trans-unit>
+      <target state="translated">Désactiver la configuration via la case à cocher. Si elle est désactivée, la configuration sera gérée par les cron jobs des robots d'indexation</target></trans-unit>
       <trans-unit id="hidden.details" xml:space="preserve" approved="yes">
         <source>Notice; Disabling the indexing process will not hide already indexed content in search results!</source>
-      <target state="translated">Remarque : Désactiver le processus d'indexation ne permettra pas de faire disparaitre de suite votre contenu indexé dans les pages de résultat !</target><alt-trans xml:space="preserve" origin="badr"><target>Remarque : Désactiver le processus d'indexation ne permettra pas de faire disparaitre de suite votre contenu indexé dans les pages de résultat !</target></alt-trans></trans-unit>
+      <target state="translated">Remarque : Désactiver le processus d'indexation ne permettra pas de faire disparaitre de suite votre contenu indexé dans les pages de résultat !</target></trans-unit>
       <trans-unit id="_hidden.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:starttime</source>
         <target state="translated">index_config:starttime</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:starttime</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="starttime.description" xml:space="preserve">
         <source>Set a start time for the configuration. If set, the configuration will be bypassed by the crawlers cron job until this time is reached.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_starttime.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:hidden</source>
         <target state="translated">index_config:hidden</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:hidden</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="timer_frequency.description" xml:space="preserve" approved="yes">
         <source>Use this setting to adjust how often you would like a re-indexing process to run for the configuration.</source>
-      <target state="translated">utiliser ces paramètres pour ajuster la fréquence d’exécution de votre processus de ré-indexation</target><alt-trans xml:space="preserve" origin="badr"><target>utiliser ces paramètres pour ajuster la fréquence d’exécution de votre processus de ré-indexation</target></alt-trans></trans-unit>
+      <target state="translated">utiliser ces paramètres pour ajuster la fréquence d’exécution de votre processus de ré-indexation</target></trans-unit>
       <trans-unit id="_timer_frequency.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:timer_next_indexing,
 index_config:timer_offset</source>
         <target state="translated">index_config:timer_next_indexing,
 index_config:timer_offset</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:timer_next_indexing,
-index_config:timer_offset</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="timer_offset.description" xml:space="preserve" approved="yes">
         <source>The offset adjusts at what time of day you want the indexing process to run.</source>
-      <target state="translated">Ce paramètre ajuste à quelle heure de la journée vous souhaitez lancer le processus d'indexation</target><alt-trans xml:space="preserve" origin="badr"><target>Ce paramètre ajuste à quelle heure de la journée vous souhaitez lancer le processus d'indexation</target></alt-trans></trans-unit>
+      <target state="translated">Ce paramètre ajuste à quelle heure de la journée vous souhaitez lancer le processus d'indexation</target></trans-unit>
       <trans-unit id="_timer_offset.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:timer_frequency</source>
         <target state="translated">index_config:timer_frequency</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:timer_frequency</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="timer_next_indexing.description" xml:space="preserve" approved="yes">
         <source>This field contains the date and time of the next occuring indexing session. If left blank the next indexing will occur as soon as the cron-script is run again (typically within the next minute) and afterwards set to the next time according to frequency and offset.</source>
-      <target state="translated">Ce champ contient la date et l'heure de la prochaine indexation. Si champ vide, la prochaine indexation se fera dés que le script de cron sera de nouveau exécuté (typiquement, à la prochaine minute) et après la prochaine indexation se fera selon la fréquence.</target><alt-trans xml:space="preserve" origin="badr"><target>Ce champ contient la date et l'heure de la prochaine indexation. Si champ vide, la prochaine indexation se fera dés que le script de cron sera de nouveau exécuté (typiquement, à la prochaine minute) et après la prochaine indexation se fera selon la fréquence</target></alt-trans></trans-unit>
+      <target state="translated">Ce champ contient la date et l'heure de la prochaine indexation. Si champ vide, la prochaine indexation se fera dés que le script de cron sera de nouveau exécuté (typiquement, à la prochaine minute) et après la prochaine indexation se fera selon la fréquence.</target></trans-unit>
       <trans-unit id="_timer_next_indexing.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:timer_offset,
 index_config:timer_frequency</source>
         <target state="translated">index_config:timer_offset,
 index_config:timer_frequency</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:timer_offset,
-index_config:timer_frequency</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="type.description" xml:space="preserve" approved="yes">
         <source>Select the type of Indexing Configuration here.</source>
-      <target state="translated">Sélectionner le type de configuration d'indexation ici</target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionner le type de configuration d'indexation ici</target></alt-trans></trans-unit>
+      <target state="translated">Sélectionner le type de configuration d'indexation ici</target></trans-unit>
       <trans-unit id="type.details" xml:space="preserve">
         <source>&lt;b&gt;Records&lt;/b&gt; - You will be able to index records on a specified page from a specified database table. You can determine which fields from that record you want to index and how additional GET parameters should look like when linking to the search result.
 &lt;b&gt;Files&lt;/b&gt; - Allows you to index a whole directory of files from the fileadmin/ folder. You can optionally specify how many levels of recursion you want.
@@ -69,65 +67,65 @@ index_config:timer_frequency</target></alt-trans></trans-unit>
 &lt;b&gt;Page tree&lt;/b&gt; - Allows you to index the page tree using the cron script. This type will not be useful as a category for searching like the other types.
 &lt;b&gt;Meta configuration&lt;/b&gt; - Points to a collection of other indexing configurations in which the search will be done. Cannot be used for cron-job based indexing.
 &lt;b&gt;Custom&lt;/b&gt; - Other extensions might register custom types of configurations.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="table2index.description" xml:space="preserve" approved="yes">
         <source>Specify the database table to index records from.</source>
-      <target state="translated">Spécifier les tables de la base de données à indexer</target><alt-trans xml:space="preserve" origin="badr"><target>Spécifier les tables de la base de données à indexer</target></alt-trans></trans-unit>
+      <target state="translated">Spécifier les tables de la base de données à indexer</target></trans-unit>
       <trans-unit id="alternative_source_pid.description" xml:space="preserve">
         <source>By default the indexer will select records from the page id where the Indexing Configuration is stored. If you want an alternative page as the source of your records you can enter it here.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_alternative_source_pid.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:table2index</source>
         <target state="translated">index_config:table2index</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:table2index</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="get_params.description" xml:space="preserve">
         <source>Enter the GET parameters necessary to display the search results. You can use ###UID### as a marker in the parameter template.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="get_params.details" xml:space="preserve">
         <source>Notice: The GET parameters are appended to the URL of the page where the Indexing Configuration is stored (which must be the page where a plugin exists that can display the records with the given parameters!).
 Example value: "&amp;showUid=###UID###"</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_get_params.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:table2index</source>
         <target state="translated">index_config:table2index</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:table2index</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="fieldlist.description" xml:space="preserve">
         <source>Enter a comma-list of fields to be indexed. The first field name will be used for the search result title.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="fieldlist.details" xml:space="preserve">
         <source>&lt;b&gt;Example:&lt;/b&gt; "header,bodytext,image_caption" would index the Header, Bodytext and Image Caption fields from "tt_content". Notice that you must use the real database field names, don't spell them wrong!</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_fieldlist.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:table2index</source>
         <target state="translated">index_config:table2index</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:table2index</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="chashcalc.description" xml:space="preserve">
         <source>If checked, the URL in the search result for records will be encoded with a "&amp;cHash" parameter to make it cachable. Use only if supported by the plugin!</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_chashcalc.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:table2index</source>
         <target state="translated">index_config:table2index</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:table2index</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="recordsbatch.description" xml:space="preserve" approved="yes">
         <source>Enter how many records to index for each instance of the indexing process (how many per minute). Default is 100 records.</source>
-      <target state="translated">Entrer le nombre d'enregistrement à indexer à chaque instance d'indexation (nombre par minute). Par défaut, le nombre est de 100 enregistrements.</target><alt-trans xml:space="preserve" origin="badr"><target>Entrer le nombre d'enregistrement à indexer à chaque instance d'indexation (nombre par minute). Par défaut, le nombre est de 100 enregistrements.</target></alt-trans></trans-unit>
+      <target state="translated">Entrer le nombre d'enregistrement à indexer à chaque instance d'indexation (nombre par minute). Par défaut, le nombre est de 100 enregistrements.</target></trans-unit>
       <trans-unit id="_recordsbatch.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:table2index</source>
         <target state="translated">index_config:table2index</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:table2index</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="records_indexonchange.description" xml:space="preserve">
         <source>If set, new and changed records from this table will be indexed through a hook in the core (TCEmain) meaning that they will be searchable immediately after addition to the system.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_records_indexonchange.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:table2index</source>
         <target state="translated">index_config:table2index</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:table2index</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="externalUrl.description" xml:space="preserve" approved="yes">
         <source>Enter the URL of the external website you want to index.</source>
-      <target state="translated">Entrer l'URL du site internet externe que vous souhaitez indexer</target><alt-trans xml:space="preserve" origin="badr"><target>Entrer l'URL du site internet externe que vous souhaitez indexer</target></alt-trans></trans-unit>
+      <target state="translated">Entrer l'URL du site internet externe que vous souhaitez indexer</target></trans-unit>
       <trans-unit id="url_deny.description" xml:space="preserve">
         <source>Enter a URL on each line inside of which the crawler should not decend.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="url_deny.details" xml:space="preserve" approved="yes">
         <source>Example:
 If you wish to index "http://typo3.org/" but not "http://typo3.org/extensions/" and "http://typo3.org/downloads/" then you simply enter those two URLs into the box like this:
@@ -138,44 +136,39 @@ http://typo3.org/extensions/</source>
 Si vous souhaitez indexer  "http://typo3.org/" sans "http://typo3.org/extensions/" et sans "http://typo3.org/downloads/", alors entrer simplement ces deux URLs dans le champ comme ceci:
 
 http://typo3.org/downloads/
-http://typo3.org/extensions/</target><alt-trans xml:space="preserve" origin="badr"><target>Exemple:
-Si vous souhaitez indexer  "http://typo3.org/" sans "http://typo3.org/extensions/" et sans "http://typo3.org/downloads/", alors entrer simplement ces deux URLs dans le champ comme ceci:
-
-http://typo3.org/downloads/
-http://typo3.org/extensions/</target></alt-trans></trans-unit>
+http://typo3.org/extensions/</target></trans-unit>
       <trans-unit id="_url_deny.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:externalUrl</source>
         <target state="translated">index_config:externalUrl</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:externalUrl</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="filepath.description" xml:space="preserve">
         <source>Enter a filepath inside fileadmin/ where you want the files to be indexed.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="filepath.details" xml:space="preserve" approved="yes">
         <source>Example: "fileadmin/newsletters/"</source>
-      <target state="translated">Exemple: "fileadmin/newsletters/"</target><alt-trans xml:space="preserve" origin="badr"><target>Exemple: "fileadmin/newsletters/"</target></alt-trans></trans-unit>
+      <target state="translated">Exemple: "fileadmin/newsletters/"</target></trans-unit>
       <trans-unit id="extensions.description" xml:space="preserve" approved="yes">
         <source>If you want to index only specific files in the directory, enter a list of file extensions here. For example: "html,pdf,doc"</source>
-      <target state="translated">SI vous souhaitez indexer seulement certains types de fichiers présent dans un dossier, entrer une liste d'extensions ici. Par exemple : "html, pdf, doc" </target><alt-trans xml:space="preserve" origin="badr"><target>SI vous souhaitez indexer seulement certains types de fichiers présent dans un dossier, entrer une liste d'extensions ici. Par exemple : "html, pdf, doc" </target></alt-trans></trans-unit>
+      <target state="translated">SI vous souhaitez indexer seulement certains types de fichiers présent dans un dossier, entrer une liste d'extensions ici. Par exemple : "html, pdf, doc" </target></trans-unit>
       <trans-unit id="_extensions.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:filepath</source>
         <target state="translated">index_config:filepath</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:filepath</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="depth.description" xml:space="preserve" approved="yes">
         <source>Levels of recursion.</source>
-      <target state="translated">Niveau de récursivité</target><alt-trans xml:space="preserve" origin="badr"><target>Niveau de récursivité</target></alt-trans></trans-unit>
+      <target state="translated">Niveau de récursivité</target></trans-unit>
       <trans-unit id="depth.details" xml:space="preserve">
         <source>For file indexing it is the level of directories to decend. For External URLs it's the depth to which the crawler will go with links.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_depth.seeAlso" xml:space="preserve" approved="yes">
         <source>index_config:externalUrl,
 index_config:filepath</source>
         <target state="translated">index_config:externalUrl,
 index_config:filepath</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>index_config:externalUrl,
-index_config:filepath</target></alt-trans></trans-unit>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="indexcfgs.description" xml:space="preserve">
         <source>When a search is conducted in this indexing configuration the actual search will take place in the indexed content from the configurations listed here. You can also enter pages and if you do so the search will take place in indexing configurations found on those pages.</source>
-      <target/></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

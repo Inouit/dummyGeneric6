@@ -15,12 +15,10 @@ Any existing abbreviation is underlined with a broken line and the cursor change
 The dialogue allows to associate an abbreviation to a term. The abbreviation may be selected among abbreviations that have been pre-defined in the database or may be entered directly in the dialogue.</source>
       <target state="translated">Cliquer sur l'icône "insérer abréviation" dans la barre d'outil du RTE ouvre une boîte de dialogue permettant d'insérer une abréviation  ou d'éditer une abréviation déjà existante dans le contenu.
 Toute abréviation déjà existante est sous-lignée avec un trait interrompu et le curseur se transforme en point d'interrogation lorsque la souris la survole.
-La boîte de dialogue permet d'associer une abréviation à un terme. L'abréviation peut être sélectionnée parmi les abréviations qui ont été pré-définies dans la base de données ou peut-être entrée directement dans la boîte de dialogue.</target><alt-trans xml:space="preserve" origin="Akheraphin"><target>Cliquer sur l'icône "insérer abréviation" dans la barre d'outil du RTE ouvre une boîte de dialogue permettant d'insérer une abréviation  ou d'éditer une abréviation déjà existante dans le contenu.
-Toute abréviation déjà existante est sous-lignée avec un trait interrompu et le curseur se transforme en point d'interrogation lorsque la souris la survole.
-La boîte de dialogue permet d'associer une abréviation à un terme. L'abréviation peut être sélectionnée parmi les abréviations qui ont été pré-définies dans la base de données ou peut-être entrée directement dans la boîte de dialogue.</target></alt-trans></trans-unit>
+La boîte de dialogue permet d'associer une abréviation à un terme. L'abréviation peut être sélectionnée parmi les abréviations qui ont été pré-définies dans la base de données ou peut-être entrée directement dans la boîte de dialogue.</target></trans-unit>
       <trans-unit id=".image" xml:space="preserve">
         <source>EXT:rtehtmlarea/extensions/Acronym/skin/images/acronym.gif</source>
-        <target/><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve" approved="yes">
         <source>"Insert abbreviation" icon in the editor tool bar.</source>
@@ -33,7 +31,7 @@ xEXT_rtehtmlarea_Acronym:language,
 xEXT_rtehtmlarea_Acronym:termToAbridge,
 xEXT_rtehtmlarea_Acronym:useThisTerm
 tx_rtehtmlarea_acronym</source>
-        <target/><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="preDefinedAbbreviation.alttitle" xml:space="preserve" approved="yes">
         <source>Pre-defined abbreviations</source>
@@ -43,7 +41,7 @@ tx_rtehtmlarea_acronym</source>
       <target state="translated">Cette section vous permet de sélectionner des abréviations pré-définies dans la base de données.</target></trans-unit>
       <trans-unit id="preDefinedAbbreviation.seeAlso" xml:space="preserve">
         <source>tx_rtehtmlarea_acronym</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="preDefinedAcronym.alttitle" xml:space="preserve" approved="yes">
         <source>Pre-defined acronyms</source>
       <target state="translated">Acronymes prédéfinis</target></trans-unit>
@@ -52,7 +50,7 @@ tx_rtehtmlarea_acronym</source>
       <target state="translated">Cette section vous permet de sélectionner des acronymes pré-définis dans la base de données.</target></trans-unit>
       <trans-unit id="preDefinedAcronym.seeAlso" xml:space="preserve">
         <source>tx_rtehtmlarea_acronym</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="unabridgedTerm.alttitle" xml:space="preserve" approved="yes">
         <source>Unabbreviated term</source>
       <target state="translated">Terme non-abrégé</target></trans-unit>

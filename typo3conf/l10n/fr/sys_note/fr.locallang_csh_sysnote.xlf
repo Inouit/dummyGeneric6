@@ -5,10 +5,10 @@
     <body>
       <trans-unit id=".description" xml:space="preserve" approved="yes">
         <source>Internal reminder note attached to a page.</source>
-      <target state="translated">Note interne rattachée à une page.</target><alt-trans xml:space="preserve" origin="djul"><target>Note interne rattachée à une page.</target></alt-trans></trans-unit>
+      <target state="translated">Note interne rattachée à une page.</target></trans-unit>
       <trans-unit id=".details" xml:space="preserve" approved="yes">
         <source>This provides a simple way to attach informative notes to a page regarding backend-related issues. Use it as you like for reminders, instructions, etc.</source>
-      <target state="translated">Un moyen simple d'attacher des notes d'informations à une page relatif au backend. Utilisez-le comme pense-bête, instructions, etc...</target><alt-trans xml:space="preserve" origin="djul"><target>Un moyen simple d'attacher des notes d'informations à une page relatif au backend. Utilisez-le comme pense-bête, instructions, etc...</target></alt-trans></trans-unit>
+      <target state="translated">Un moyen simple d'attacher des notes d'informations à une page relatif au backend. Utilisez-le comme pense-bête, instructions, etc...</target></trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
         <source>pages</source>
       <target state="translated">pages</target></trans-unit>
@@ -23,7 +23,7 @@
       <target state="translated">C'est la note à proprement parler.</target></trans-unit>
       <trans-unit id="author.description" xml:space="preserve" approved="yes">
         <source>Enter your name.</source>
-      <target state="translated">Entrez votre nom.</target><alt-trans xml:space="preserve" origin="djul"><target>Entrez votre nom.</target></alt-trans></trans-unit>
+      <target state="translated">Entrez votre nom.</target></trans-unit>
       <trans-unit id="email.description" xml:space="preserve" approved="yes">
         <source>Enter your email address.</source>
       <target state="translated">Entrez votre adresse email.</target></trans-unit>

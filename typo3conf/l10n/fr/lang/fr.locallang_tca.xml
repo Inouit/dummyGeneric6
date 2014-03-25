@@ -64,7 +64,7 @@
       <label index="be_groups.fileoper_perms">Permissions sur les manipulations de fichiers :</label>
       <label index="be_groups.file_permissions.folder"/>
       <label index="be_groups.file_permissions.folder_read"/>
-      <label index="be_groups.file_permissions.folder_write"/>
+      <label index="be_groups.file_permissions.folder_write">Dossier : Copier</label>
       <label index="be_groups.file_permissions.folder_add"/>
       <label index="be_groups.file_permissions.folder_rename"/>
       <label index="be_groups.file_permissions.folder_move">Dossier : Copier</label>
@@ -138,6 +138,7 @@
       <label index="sys_file_storage.description"/>
       <label index="sys_file_storage.hidden"/>
       <label index="sys_file_storage.is_online"/>
+      <label index="sys_file_storage.is_default"/>
       <label index="sys_file_storage.is_browsable"/>
       <label index="sys_file_storage.is_public"/>
       <label index="sys_file_storage.is_writable"/>
@@ -167,6 +168,7 @@
       <label index="sys_file.alternative"/>
       <label index="sys_file.missing"/>
       <label index="sys_file.metadata"/>
+      <label index="sys_file_metadata"/>
       <label index="sys_file_reference"/>
       <label index="sys_file_reference.uid_local"/>
       <label index="sys_file_reference.uid_foreign"/>
@@ -184,6 +186,9 @@
       <label index="sys_file_collection.files"/>
       <label index="sys_file_collection.title"/>
       <label index="sys_file_collection.type"/>
+      <label index="sys_file_collection.type.0"/>
+      <label index="sys_file_collection.type.1"/>
+      <label index="sys_file_collection.type.2"/>
       <label index="sys_file_collection.storage"/>
       <label index="sys_file_collection.folder">Dossier</label>
       <label index="sys_file_collection.category"/>

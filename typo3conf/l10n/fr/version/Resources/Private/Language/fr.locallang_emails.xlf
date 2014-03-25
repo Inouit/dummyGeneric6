@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="subject" xml:space="preserve" approved="yes">
         <source>TYPO3 Workspace Note: Stage Change for ###ELEMENT_NAME###</source>
-      <target state="translated">TYPO3 Note pour l'espace de travail : l'état change pour ###ELEMENT_NAME###</target><alt-trans xml:space="preserve" origin="badr"><target>TYPO3 Note pour l'espace de travail : l'état change pour ###ELEMENT_NAME###</target></alt-trans></trans-unit>
+      <target state="translated">TYPO3 Note pour l'espace de travail : l'état change pour ###ELEMENT_NAME###</target></trans-unit>
       <trans-unit id="message" xml:space="preserve" approved="yes">
         <source>At the TYPO3 site "###SITE_NAME###" (###SITE_URL###)
 in workspace "###WORKSPACE_TITLE###" (###WORKSPACE_UID###)
@@ -26,16 +26,7 @@ l'état a changé pour ces élement(s) "###RECORD_TITLE###" (###ELEMENT_NAME###)
 Commentaire de l'utilisateur :
 "###COMMENT###"
 
-L'état a été changé par ###USER_FULLNAME### (nom de l'utilisateur : ###USER_USERNAME###)</target><alt-trans xml:space="preserve" origin="badr"><target>Sur le site TYPO3  "###SITE_NAME###" (###SITE_URL###)
-dans l'espace de travail "###WORKSPACE_TITLE###" (###WORKSPACE_UID###)
-l'état a changé pour ces élement(s) "###RECORD_TITLE###" (###ELEMENT_NAME###) à cet emplacement "###RECORD_PATH###" dans l'arborescence :
-
-=&gt; ###NEXT_STAGE###
-
-Commentaire de l'utilisateur :
-"###COMMENT###"
-
-L'état a été changé par ###USER_FULLNAME### (nom de l'utilisateur : ###USER_USERNAME###)</target></alt-trans></trans-unit>
+L'état a été changé par ###USER_FULLNAME### (nom de l'utilisateur : ###USER_USERNAME###)</target></trans-unit>
     </body>
   </file>
 </xliff>

@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="sys_filemounts.tabs.staging" xml:space="preserve" approved="yes">
         <source>Staging</source>
-      <target state="translated">Etapes</target><alt-trans xml:space="preserve" origin="wagner51"><target>État</target></alt-trans></trans-unit>
+      <target state="translated">Etapes</target></trans-unit>
       <trans-unit id="sys_workspace.custom_stages" xml:space="preserve" approved="yes">
         <source>Custom stages:</source>
       <target state="translated">Étapes personnalisées :</target></trans-unit>

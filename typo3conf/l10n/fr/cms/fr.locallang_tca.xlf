@@ -239,7 +239,7 @@
       <target state="translated">1 mois</target></trans-unit>
       <trans-unit id="pages.cache_tags" xml:space="preserve">
         <source>Cache Tags:</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="pages.editlock_formlabel" xml:space="preserve" approved="yes">
         <source>Editable for Admins Only</source>
       <target state="translated">Editable par les administrateurs uniquement</target></trans-unit>
@@ -449,7 +449,7 @@
       <target state="translated">Aucune</target></trans-unit>
       <trans-unit id="pages.backend_layout.default" xml:space="preserve">
         <source>Default</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="tt_content" xml:space="preserve" approved="yes">
         <source>Page Content</source>
       <target state="translated">Contenu de la page</target></trans-unit>

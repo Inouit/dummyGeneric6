@@ -8,19 +8,19 @@
       <target state="translated">Vue avancée</target></trans-unit>
       <trans-unit id="clipBoard" xml:space="preserve" approved="yes">
         <source>Show clipboard</source>
-      <target state="translated">Afficher le presse-papiers</target></trans-unit>
+      <target state="translated">Afficher le presse-papier</target></trans-unit>
       <trans-unit id="clip_paste" xml:space="preserve" approved="yes">
         <source>Paste in clipboard content</source>
-      <target state="translated">Coller le contenu du presse-papiers</target></trans-unit>
+      <target state="translated">Coller le contenu du presse-papier</target></trans-unit>
       <trans-unit id="clip_pasteInto" xml:space="preserve" approved="yes">
         <source>Paste into: Clipboard content is inserted into this folder</source>
-      <target state="translated">Coller dans: le contenu du presse-papiers est inséré dans ce dossier</target></trans-unit>
+      <target state="translated">Coller dans: le contenu du presse-papier est inséré dans ce dossier</target></trans-unit>
       <trans-unit id="clip_markRecords" xml:space="preserve" approved="yes">
         <source>Mark All/Mark none</source>
       <target state="translated">Sélectionner tout/rien</target></trans-unit>
       <trans-unit id="clip_selectMarked" xml:space="preserve" approved="yes">
         <source>Transfer the selection of files to clipboard</source>
-      <target state="translated">Transférer les fichiers sélectionnés dans le presse-papiers</target></trans-unit>
+      <target state="translated">Transférer les fichiers sélectionnés dans le presse-papier</target></trans-unit>
       <trans-unit id="clip_deleteMarked" xml:space="preserve" approved="yes">
         <source>Delete marked</source>
       <target state="translated">Supprimer la sélection</target></trans-unit>
@@ -95,6 +95,9 @@
       <target></target></trans-unit>
       <trans-unit id="localDriverFlexform_pathType_absolute" xml:space="preserve">
         <source>absolute</source>
+      <target></target></trans-unit>
+      <trans-unit id="localDriverFlexform_caseSensitive" xml:space="preserve">
+        <source>Uses case sensitive identifiers</source>
       <target></target></trans-unit>
       <trans-unit id="storageNotBrowsableTitle" xml:space="preserve">
         <source>Access denied.</source>

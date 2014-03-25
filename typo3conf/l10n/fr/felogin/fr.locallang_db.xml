@@ -4,6 +4,7 @@
     <languageKey index="fr" type="array">
       <label index="tt_content.CType_pi1">Connexion d'utilisateur web</label>
       <label index="felogin_redirectPid">Redirection à la connexion vers la page (felogin)</label>
+      <label index="felogin_forgotHash"/>
       <label index="tt_content.pi_flexform.general_header">En-tête général</label>
       <label index="tt_content.pi_flexform.general_message">Message général</label>
       <label index="tt_content.pi_flexform.redirect_header">En-tête de redirection</label>

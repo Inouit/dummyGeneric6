@@ -109,7 +109,7 @@ The Scheduler supports the full cron syntax.</source>
       <target state="translated">Sélectionner une table</target></trans-unit>
       <trans-unit id="task_tableGarbageCollection_table.description" xml:space="preserve" approved="yes">
         <source>Select one of the registered tables to be cleaned up with this task.</source>
-      <target state="translated">Sélectionnez l'une des tables enregistrées pour être nettoyés avec cette tâche.</target><alt-trans xml:space="preserve" origin="dfeyer"><target>Sélectionnez l'une des tables enregistrées pour être nettoyés avec cette tâche.</target></alt-trans></trans-unit>
+      <target state="translated">Sélectionnez l'une des tables enregistrées pour être nettoyés avec cette tâche.</target></trans-unit>
       <trans-unit id="task_tableGarbageCollection_allTables.alttitle" xml:space="preserve" approved="yes">
         <source>Clean up all tables</source>
       <target state="translated">Nettoyez toutes les tables</target></trans-unit>

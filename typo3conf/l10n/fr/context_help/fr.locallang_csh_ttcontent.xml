@@ -47,21 +47,6 @@
       <label index="bodytext.description">Entrez le corps du texte.</label>
       <label index="bodytext.details"/>
       <label index="_bodytext.seeAlso"/>
-      <label index="text_align.description">Place le corps du texte à gauche, au centre ou à droite.</label>
-      <label index="text_align.details"/>
-      <label index="_text_align.seeAlso"/>
-      <label index="text_face.description">Choisissez une police de caractères pour le corps du texte.</label>
-      <label index="text_face.details"/>
-      <label index="_text_face.seeAlso"/>
-      <label index="text_size.description">Choisissez la taille de police pour le corps du texte.</label>
-      <label index="text_size.details"/>
-      <label index="_text_size.seeAlso"/>
-      <label index="text_color.description">Choisissez une couleur pour le corps du texte.</label>
-      <label index="text_color.details"/>
-      <label index="_text_color.seeAlso"/>
-      <label index="text_properties.description"/>
-      <label index="text_properties.details"/>
-      <label index="_text_properties.seeAlso"/>
       <label index="image.description">Insérez une pu plusieurs images.</label>
       <label index="image.details"/>
       <label index="_image.seeAlso"/>
@@ -143,6 +128,9 @@
       <label index="pi_flexform.description"/>
       <label index="pi_flexform.details"/>
       <label index="_pi_flexform.seeAlso"/>
+      <label index="selected_categories.description"/>
+      <label index="category_field.description"/>
+      <label index="category_field.details"/>
     </languageKey>
   </data>
 </T3locallangExt>

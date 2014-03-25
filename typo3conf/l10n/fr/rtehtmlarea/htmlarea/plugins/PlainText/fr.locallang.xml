@@ -13,7 +13,7 @@
       <label index="enablepasteStructure">Activer seulement la copie de la structure</label>
       <label index="enablepasteFormat"/>
       <label index="disableplainText"/>
-      <label index="disablepasteStructure"/>
+      <label index="disablepasteStructure">Activer seulement la copie de la structure</label>
       <label index="disablepasteFormat"/>
       <label index="pasteInPastingPad"/>
       <label index="rteCleanPasteBehaviour"/>

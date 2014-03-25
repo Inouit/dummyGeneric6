@@ -12,9 +12,6 @@
       <trans-unit id="title" xml:space="preserve" approved="yes">
         <source>Import / Export</source>
       <target state="translated">Importer / Exporter</target></trans-unit>
-      <trans-unit id="moduleFunction.tx_impexp_modfunc1" xml:space="preserve" approved="yes">
-        <source>Export Presets</source>
-      <target state="translated">Exports préparamétrés</target></trans-unit>
       <trans-unit id="tableselec_configuration" xml:space="preserve" approved="yes">
         <source>Configuration</source>
       <target state="translated">Configuration</target></trans-unit>

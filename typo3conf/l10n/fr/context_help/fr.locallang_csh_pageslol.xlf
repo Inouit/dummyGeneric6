@@ -14,7 +14,7 @@ Before you can create Alternative Page Language records you should create a 'mas
 The TypoScript template must be configured to allow other languages as well.
 
 Technically when an alternative language is being viewed, the content of the Alternative Page Language record is simply overlaid on the actual page records thus substituting the content of the fields in the default language.</source>
-      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Ces archives contiennent des champs très similaires aux archives de pages, précisément ces champs qui devraient être traduit dans d'autres langages dans le cas où vous voudriez une version localisée de la page.Créez seulement une archive de langue de page alternative, pour une langue spécifique, dans chaque page. Avoir plus d'une archive pourra prêter à confusion quant à l'archive à utiliser lors de l'affichage de la page.Avant de pouvoir créer des archives de langue de page alternative, vous devez créer une langue "maîtresse" qui seront disponible à la racine du site ("Langue du site web")Le gabarit du TypoScript doit être configuré pour autoriser les autres langues aussi.Techniquement, quand une langue alternative est vue, le contenu de l'archive de langue de page alternative est simplement superposée sur l'archive de la page actuelle, se substituant ainsi au contenu dans les champs de la langue par défaut.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
         <source>sys_language,
 _MOD_web_layout:language_list</source>
@@ -22,10 +22,10 @@ _MOD_web_layout:language_list</source>
 _MOD_web_layout:language_list</target></trans-unit>
       <trans-unit id="hidden.description" xml:space="preserve">
         <source>Use this to temporarily disable the alternative language overlay for this page.</source>
-      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Utilisez ceci pour désactiver temporairement la superposition de la langue alternative sur cette page.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="hidden.details" xml:space="preserve">
-        <source>Setting this option is practical in the phase of adding the extra language. When it is set, the alternative content will not be displayed unless you - as an logged in backend user - enableds the Admin Panel&gt;Preview&gt;Show hidden records option.</source>
-      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Choisir cette option est pratique durant la phase d'ajout d'une langue supplémentaire. Si elle est active, le contenu alternatif ne sera pas affiché à moins que vous - en tant qu'utilisateur connecté au backend - n'activiez l'option d'archives cachées: Admin&gt;Panneau&gt;Vue d'ensemble&gt;Montrer.</target></alt-trans></trans-unit>
+        <source>Setting this option is practical in the phase of adding the extra language. When it is set, the alternative content will not be displayed unless you - as an logged in backend user - enables the Admin Panel&gt;Preview&gt;Show hidden records option.</source>
+      </trans-unit>
       <trans-unit id="_hidden.seeAlso" xml:space="preserve" approved="yes">
         <source>pages_language_overlay:starttime,
 pages_language_overlay:endtime</source>
@@ -34,7 +34,7 @@ pages_language_overlay:endtime</target><note from="developer">This string contai
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="starttime.description" xml:space="preserve">
         <source>The 'Start' time determines the date from which the alternative language will be available online.</source>
-      <target></target><alt-trans xml:space="preserve" origin="badr"><target>L'heure de Début détermine la date à partir de laquelle la langue alternative sera disponible en ligne.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="_starttime.seeAlso" xml:space="preserve" approved="yes">
         <source>pages_language_overlay:endtime,
 pages_language_overlay:hidden,
@@ -45,7 +45,7 @@ pages:starttime</target><note from="developer">This string contains an internal 
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="endtime.description" xml:space="preserve">
         <source>The 'End' time determines the date from which the alternative language will be available online.</source>
-      <target></target><alt-trans xml:space="preserve" origin="badr"><target>La date de Fin détermine la date à partir de laquelle la langue alternative sera disponible en ligne.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="_endtime.seeAlso" xml:space="preserve" approved="yes">
         <source>pages_language_overlay:starttime,
 pages_language_overlay:hidden,
@@ -105,7 +105,7 @@ pages:endtime</target><note from="developer">This string contains an internal te
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="media.description" xml:space="preserve" approved="no">
         <source>Enter the media files of the alternative language.</source>
-      <target state="needs-translation">Saisissez le titre de la langue alternative.</target><note>84%</note><alt-trans xml:space="preserve" origin="badr"><target>Entrez les fichiers media de la langue alternative.</target></alt-trans></trans-unit>
+      <target state="needs-translation">Saisissez le titre de la langue alternative.</target><note>84%</note></trans-unit>
       <trans-unit id="_media.seeAlso" xml:space="preserve" approved="yes">
         <source>pages:media</source>
         <target state="translated">pages:media</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>

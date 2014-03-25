@@ -5,10 +5,10 @@
     <body>
       <trans-unit id=".alttitle" xml:space="preserve">
         <source>htmlArea RTE &gt; Remove Format</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id=".description" xml:space="preserve">
         <source>The Remove Format feature offers options for cleaning up the HTML markup of the text being edited.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id=".details" xml:space="preserve">
         <source>This feature may be useful in order to clean up text that was copied from some external source and pasted into the editing area.
 
@@ -18,77 +18,77 @@ In the dialogue window that opens when the button is clicked:
 - First, select the area to be cleaned;
 - Second, choose the format removal options that you wish to be applied to the selected area;
 - Press the OK button for the format removal operation to be performed. The dialogue window will be automatically closed.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id=".image" xml:space="preserve">
         <source>EXT:rtehtmlarea/extensions/RemoveFormat/skin/images/remove-format.gif</source>
-        <target/><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve">
         <source>Remove format icon in the editor tool bar.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id=".seeAlso" xml:space="preserve">
         <source>xEXT_rtehtmlarea_RemoveFormat:area,xEXT_rtehtmlarea_RemoveFormat:options</source>
-        <target/><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="area.alttitle" xml:space="preserve" approved="yes">
         <source>Select the area to be cleaned</source>
-      <target state="translated">Sélectionner la zone à enlever</target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionner la zone à enlever</target></alt-trans></trans-unit>
+      <target state="translated">Sélectionner la zone à enlever</target></trans-unit>
       <trans-unit id="area.description" xml:space="preserve">
         <source>The format removal operation may be applied either to the currently highlighted text or to the whole contents of the editing area.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="area.details" xml:space="preserve">
         <source>Use one of these two radio buttons to select the area to which you wish to apply the format removal operation.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="selection.alttitle" xml:space="preserve">
         <source>Remove format on selected text only</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="selection.description" xml:space="preserve">
         <source>Select this option to perform the format removal operation on the currently selected text only.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_selection.seeAlso" xml:space="preserve">
         <source>xEXT_rtehtmlarea_RemoveFormat:area</source>
-        <target/><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="all.alttitle" xml:space="preserve" approved="yes">
         <source>Remove format on all contents</source>
-      <target state="translated">Supprimer le format pour tous les contenus</target><alt-trans xml:space="preserve" origin="badr"><target>Supprimer le format pour tous les contenus</target></alt-trans></trans-unit>
+      <target state="translated">Supprimer le format pour tous les contenus</target></trans-unit>
       <trans-unit id="all.description" xml:space="preserve">
         <source>Select this option to perform the format removal operation on the whole contents of the editing area.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_all.seeAlso" xml:space="preserve">
         <source>xEXT_rtehtmlarea_RemoveFormat:area</source>
-        <target/><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="options.alttitle" xml:space="preserve">
         <source>Select the types of format to be removed</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="options.description" xml:space="preserve">
         <source>The format removal operation may remove various types of format.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="options.details" xml:space="preserve">
         <source>Check one or more of these check boxes to select the type(s) of format you wish to be removed.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="options.seeAlso" xml:space="preserve">
         <source>xEXT_rtehtmlarea_RemoveFormat:htmlFormat,xEXT_rtehtmlarea_RemoveFormat:msWordFormat,xEXT_rtehtmlarea_RemoveFormat:typographicalPunctuation,xEXT_rtehtmlarea_RemoveFormat:nonBreakingSpace,xEXT_rtehtmlarea_RemoveFormat:images,xEXT_rtehtmlarea_RemoveFormat:allHtml</source>
-        <target/><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       </trans-unit>
-      <trans-unit id="htmlFormat.alttitle" xml:space="preserve">
+      <trans-unit id="htmlFormat.alttitle" xml:space="preserve" approved="no">
         <source>Remove all HTML inline markup and style</source>
-      <target/></trans-unit>
-      <trans-unit id="htmlFormat.description" xml:space="preserve">
+      <target state="needs-translation">Supprimer toutes les balises et styles de MS word</target><note>76%</note></trans-unit>
+      <trans-unit id="htmlFormat.description" xml:space="preserve" approved="no">
         <source>Check this option if you wish to remove all HTML inline markup and style.</source>
-      <target/></trans-unit>
+      <target state="needs-translation">Sélectionner cette option si vous souhaitez supprimer toutes les balises et styles de MS word</target><note>82%</note></trans-unit>
       <trans-unit id="htmlFormat.details" xml:space="preserve">
         <source>This option removes:
 - the following HTML elements, but keeps their textual contents: abbr, acronym, b, big, cite, code, em, font, i, q, s, samp, small, span, strike, strong, sub, sup, tt, u, var;
 - the following attributes on all HTML elements: align, bgcolor, cellpadding, cellspacing, class, frame, style.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="msWordFormat.alttitle" xml:space="preserve" approved="yes">
         <source>Remove all MS Word markup and style</source>
-      <target state="translated">Supprimer toutes les balises et styles de MS word</target><alt-trans xml:space="preserve" origin="badr"><target>Supprimer toutes les balises et styles de MS word</target></alt-trans></trans-unit>
+      <target state="translated">Supprimer toutes les balises et styles de MS word</target></trans-unit>
       <trans-unit id="msWordFormat.description" xml:space="preserve" approved="yes">
         <source>Check this option if you wish to remove all MS Word markup and style.</source>
-      <target state="translated">Sélectionner cette option si vous souhaitez supprimer toutes les balises et styles de MS word</target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionner cette option si vous souhaitez supprimer toutes les balises et styles de MS word</target></alt-trans></trans-unit>
+      <target state="translated">Sélectionner cette option si vous souhaitez supprimer toutes les balises et styles de MS word</target></trans-unit>
       <trans-unit id="msWordFormat.details" xml:space="preserve" approved="yes">
         <source>This option removes:
 - all attributes on the following elements: b, em, i, li, p, strong, ul;
@@ -111,23 +111,13 @@ In the dialogue window that opens when the button is clicked:
 - balises xml;
 - les balises suivantes quand ils n'ont pas de contenu textuel : b, big, i, s, small, strike, tt, u;
 - balises ouvertes ou fermées en double;
-- multiples espaces remplacés par des espaces simples.</target><alt-trans xml:space="preserve" origin="badr"><target>Cette option supprime:
-- tous les attributs des éléments suivants: b, em, i, li, p, strong, ul;
-- les attributs des balises HTML: align, class, style;
-- les balises suivantes, mais conserve le contenu textuel : div, f, formulas, link, lock, meta, path, shape, shapetype, span, stroke, ?xml, tout élément contenant ":" dans son nom;
-- les balises suivantes avec leur contenu : style, title;
-- les commentaires HTML;
-- balises img, imagedata;
-- balises xml;
-- les balises suivantes quand ils n'ont pas de contenu textuel : b, big, i, s, small, strike, tt, u;
-- balises ouvertes ou fermées en double;
-- multiples espaces remplacés par des espaces simples.</target></alt-trans></trans-unit>
+- multiples espaces remplacés par des espaces simples.</target></trans-unit>
       <trans-unit id="typographicalPunctuation.alttitle" xml:space="preserve">
         <source>Replace typographical punctuation</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="typographicalPunctuation.description" xml:space="preserve">
         <source>Check this option if you wish to replace typographical punctuation with ASCII character codes.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="typographicalPunctuation.details" xml:space="preserve">
         <source>This option replaces typographical punctuation entities with ASCII character codes. The following substitutions are performed:
 - replace horizontal ellipsis with three periods;
@@ -137,34 +127,34 @@ In the dialogue window that opens when the button is clicked:
 - replace single left/right-pointing angle quotation mark with single quote;
 - replace left/right-pointing double angle quotation mark (also known as left/right pointing guillemet) with double quote;
 - replace grave accent (spacing grave) and acute accent (spacing acute) with single quote.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="nonBreakingSpace.alttitle" xml:space="preserve">
         <source>Replace non-breaking spaces</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="nonBreakingSpace.description" xml:space="preserve">
         <source>Check this option if you wish to replace non-breaking spaces with normal spaces.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="nonBreakingSpace.details" xml:space="preserve">
         <source>This option replaces any non-breaking space with a simple normal space.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="images.alttitle" xml:space="preserve" approved="yes">
         <source>Remove images</source>
-      <target state="translated">Supprimer les images</target><alt-trans xml:space="preserve" origin="badr"><target>Supprimer les images</target></alt-trans></trans-unit>
+      <target state="translated">Supprimer les images</target></trans-unit>
       <trans-unit id="images.description" xml:space="preserve" approved="yes">
         <source>Check this option if you wish to remove all images.</source>
-      <target state="translated">Cocher cette option si vous souhaiter supprimer toutes les images</target><alt-trans xml:space="preserve" origin="badr"><target>Cocher cette option si vous souhaiter supprimer toutes les images</target></alt-trans></trans-unit>
+      <target state="translated">Cocher cette option si vous souhaiter supprimer toutes les images</target></trans-unit>
       <trans-unit id="images.details" xml:space="preserve" approved="yes">
         <source>This option removes all images from the selected text.</source>
-      <target state="translated">Cette option supprime toutes les images à partir texte sélectionné</target><alt-trans xml:space="preserve" origin="badr"><target>Cette option supprime toutes les images présentes le texte sélectionné</target></alt-trans></trans-unit>
+      <target state="translated">Cette option supprime toutes les images à partir texte sélectionné</target></trans-unit>
       <trans-unit id="allHtml.alttitle" xml:space="preserve" approved="yes">
         <source>Remove all HTML format</source>
-      <target state="translated">Supprimer tout le format HTML</target><alt-trans xml:space="preserve" origin="badr"><target>Supprimer tout le format HTML</target></alt-trans></trans-unit>
+      <target state="translated">Supprimer tout le format HTML</target></trans-unit>
       <trans-unit id="allHtml.description" xml:space="preserve" approved="yes">
         <source>Check this option if you wish to remove all HTML format.</source>
-      <target state="translated">Cocher cette option si vous souhaitez supprimer tout le format HTML</target><alt-trans xml:space="preserve" origin="badr"><target>Cocher cette option su vous souhaitez supprimer tout le format HTML</target></alt-trans></trans-unit>
+      <target state="translated">Cocher cette option si vous souhaitez supprimer tout le format HTML</target></trans-unit>
       <trans-unit id="allHtml.details" xml:space="preserve" approved="yes">
         <source>This option removes all HTML markup from the selected text.</source>
-      <target state="translated">Cette option supprime toutes les balises HTML présentes dans le texte selectionné</target><alt-trans xml:space="preserve" origin="badr"><target>Cette option supprime toutes les balises HTML présentes dans le texte selectionné</target></alt-trans></trans-unit>
+      <target state="translated">Cette option supprime toutes les balises HTML présentes dans le texte selectionné</target></trans-unit>
     </body>
   </file>
 </xliff>

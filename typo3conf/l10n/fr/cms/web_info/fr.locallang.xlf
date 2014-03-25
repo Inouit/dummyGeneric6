@@ -53,7 +53,7 @@
       <target state="translated">Voir la page</target></trans-unit>
       <trans-unit id="lang_title" xml:space="preserve" approved="yes">
         <source>Localization overview</source>
-      <target state="translated">Vue d'ensemble pour la localisation</target><alt-trans xml:space="preserve" origin="badr"><target>Vue d'ensemble des localisations</target></alt-trans><alt-trans xml:space="preserve" origin="yucky"><target>Vue d'ensemble pour la localisation</target></alt-trans></trans-unit>
+      <target state="translated">Vue d'ensemble pour la localisation</target></trans-unit>
       <trans-unit id="lang_renderl10n_editDefaultLanguagePage" xml:space="preserve" approved="yes">
         <source>Edit default language page properties</source>
       <target state="translated">Editer la langue par défaut du titre de la page</target></trans-unit>

@@ -40,6 +40,17 @@
       <label index="tsdebug_displayContent">Afficher le contenu</label>
       <label index="tsdebug_displayQueries">Expliquer les requêtes SELECT (EXPLAIN)</label>
       <label index="info">Info</label>
+      <label index="info_imagesOnPage"/>
+      <label index="info_imagesSize"/>
+      <label index="info_DocumentSize"/>
+      <label index="info_id"/>
+      <label index="info_type"/>
+      <label index="info_groupList"/>
+      <label index="info_noCache"/>
+      <label index="info_countUserInt"/>
+      <label index="info_feuserName"/>
+      <label index="info_feuserId"/>
+      <label index="info_totalParsetime"/>
       <label index="div_Levels_0">Cette page</label>
       <label index="div_Levels_1">+ 1 sous-niveau</label>
       <label index="div_Levels_2">+ 2 sous-niveaux</label>

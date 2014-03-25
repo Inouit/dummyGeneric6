@@ -47,10 +47,10 @@
       <target state="translated">Format incorrect d'une ou plusieurs adresse e-mail de destinataires !</target></trans-unit>
       <trans-unit id="tasks.error.invalidFromEmail" xml:space="preserve">
         <source>Invalid format of the email address in the from header</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="tasks.error.invalidTSconfig" xml:space="preserve">
         <source>Invalid TSconfig in the task configuration!</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="tasks.error.invalidEmailTemplateFile" xml:space="preserve" approved="yes">
         <source>The email template file is not existing!</source>
       <target state="translated">Le fichier de gabarit d'e-mail n'existe pas !</target></trans-unit>

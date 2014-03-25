@@ -26,10 +26,10 @@
       <target state="translated">Commande CommandController</target></trans-unit>
       <trans-unit id="task.name" xml:space="preserve">
         <source>Extbase CommandController Task</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="task.description" xml:space="preserve">
         <source>Allows Extbase CommandController commands to be configured and executed through the scheduler framework.</source>
-      <target></target></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

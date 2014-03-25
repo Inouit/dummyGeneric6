@@ -9,25 +9,21 @@
       <trans-unit id=".details" xml:space="preserve">
         <source>The Static templates are meant to be included by your TypoScript Template records depending on your needs. Refer to the 'TSref' document (see below) for details on this process.
 Notice that by each release of TYPO3 you should reinstall the Static Templates table by the install tool. See the 'Install/Upgrade' document for details (see below).</source>
-      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Les gabarits statiques sont faits pour être inclus par vos archives de gabarit TypoScript, suivant vos besoins.Référez-vous au document "TSref" (voir ci-dessous) pour des détails sur le processus.Notez qu'à chaque parution de TYPO3, vous devriez réinstaller le tableau de gabarit statique pour l'outil d'installation. Voir le document "Installation/Amélioration" pour les détails (voir ci-dessous).</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve">
         <source>sys_template
 TSref | http://typo3.org/documentation/document-library/doc_core_tsref/
 TypoScript by Example | http://typo3.org/documentation/document-library/doc_core_tsbyex/
 Install/Upgrade | http://typo3.org/documentation/document-library/doc_inst_upgr/,
 sys_template:include_static</source>
-      <target></target><alt-trans xml:space="preserve" origin="badr"><target>sys_template
-TSref | http://typo3.org/documentation/document-library/doc_core_tsref/
-TypoScript by Example | http://typo3.org/documentation/document-library/doc_core_tsbyex/
-Install/Upgrade | http://typo3.org/documentation/document-library/doc_inst_upgr/,
-sys_template:include_static</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="_.image" xml:space="preserve">
         <source>EXT:context_help/cshimages/static.png</source>
-        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      <alt-trans xml:space="preserve" origin="badr"><target>EXT:context_help/cshimages/static.png</target></alt-trans></trans-unit>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve">
         <source>The static templates are located in the page tree root where only the Admin users can access them. However they are read-only by default so you can only look at their content, not change it.</source>
-      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Les gabarits statiques sont localisés à la racine des l'arborescence de pages, là où seuls les utilisateurs administrateurs peuvent y accéder. Cependant, il sont en lecture seule par défaut, donc vous ne pouvez que regarder le document, sans pouvoir le changer.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="title.description" xml:space="preserve" approved="yes">
         <source>Template Title. Will be visible in the list of static templates in Template Records</source>
       <target state="translated">Titre de gabarit. Sera visible dans la liste des gabarits statiques</target></trans-unit>

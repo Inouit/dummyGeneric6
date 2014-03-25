@@ -35,7 +35,7 @@
       <target state="translated">couleur</target></trans-unit>
       <trans-unit id="extConfTemplate.type.wrap" xml:space="preserve">
         <source>wrap</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="extConfTemplate.type.offset" xml:space="preserve" approved="yes">
         <source>offset</source>
       <target state="translated">décalage</target></trans-unit>
@@ -66,15 +66,18 @@
       <trans-unit id="updateScript.none" xml:space="preserve" approved="yes">
         <source>No update necessary.</source>
       <target state="translated">Aucune mise à jour nécessaire.</target></trans-unit>
+      <trans-unit id="extensionList.clickToConfigure" xml:space="preserve">
+        <source>(Click to configure)</source>
+      </trans-unit>
       <trans-unit id="extensionList.configure" xml:space="preserve" approved="yes">
         <source>Configure</source>
       <target state="translated">Configurer</target></trans-unit>
       <trans-unit id="extensionList.update.script" xml:space="preserve" approved="yes">
         <source>Execute the update script</source>
       <target state="translated">Exécuter le script de mise à jour</target></trans-unit>
-      <trans-unit id="extensionList.downloadsql" xml:space="preserve">
+      <trans-unit id="extensionList.downloadsql" xml:space="preserve" approved="no">
         <source>Download SQL Dump</source>
-      <target>Télécharger un export SQL</target></trans-unit>
+      <target state="needs-translation">Télécharger un export SQL</target></trans-unit>
       <trans-unit id="extensionList.remove" xml:space="preserve" approved="yes">
         <source>Remove</source>
       <target state="translated">Supprimer</target></trans-unit>
@@ -198,12 +201,12 @@
       <trans-unit id="extensionList.removalConfirmation.question" xml:space="preserve" approved="yes">
         <source>Are you sure you want to remove the extension?</source>
       <target state="translated">Êtes-vous sûr de vouloir supprimer cette extension ?</target></trans-unit>
-      <trans-unit id="downloadExtension.dependencies.headline" xml:space="preserve">
+      <trans-unit id="downloadExtension.dependencies.headline" xml:space="preserve" approved="no">
         <source>The following dependencies have to be resolved before installation:
 
 
 				</source>
-      <target>Les erreurs de dépendances suivantes doivent être résolues avant installation: 
+      <target state="needs-translation">Les erreurs de dépendances suivantes doivent être résolues avant installation: 
 
 
 	 	 	 	</target></trans-unit>
@@ -213,7 +216,7 @@
 
 
 				</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="downloadExtension.dependencies.resolveAutomatically" xml:space="preserve" approved="yes">
         <source>Shall these dependencies be resolved automatically?</source>
       <target state="translated">Est-ce que ces dépendances doivent être résolues automatiquement ?</target></trans-unit>
@@ -284,14 +287,29 @@
         <source>Read online</source>
       <target state="translated">Lire en ligne</target></trans-unit>
       <trans-unit id="extensionList.distribution.key" xml:space="preserve">
-        <source>Distribution-Key:</source>
-      <target></target></trans-unit>
+        <source>Key:</source>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.author" xml:space="preserve">
+        <source>Author:</source>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.title" xml:space="preserve">
+        <source>Title:</source>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.version" xml:space="preserve">
+        <source>Version:</source>
+      </trans-unit>
+      <trans-unit id="extensionList.distribution.lastUpdated" xml:space="preserve">
+        <source>Last Update:</source>
+      </trans-unit>
+      <trans-unit id="extensionList.officialDistribution" xml:space="preserve">
+        <source>Official distribution</source>
+      </trans-unit>
       <trans-unit id="distributions" xml:space="preserve">
         <source>Get preconfigured distribution</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="extensionList.installDistribution" xml:space="preserve">
-        <source>Install distribution</source>
-      <target></target></trans-unit>
+        <source>Install</source>
+      </trans-unit>
       <trans-unit id="extensionList.updateFromTer.label" xml:space="preserve" approved="yes">
         <source>Retrieving Extension-List from TYPO3 Extension Repository (TER)</source>
       <target state="translated">Récupération de la liste des extensions depuis le dépôt d'extensions TYPO3 (TER)</target></trans-unit>
@@ -315,19 +333,19 @@
       <target state="translated">Dernière mise à jour :</target></trans-unit>
       <trans-unit id="extensionList.updateFromTer.lastUpdate.noTimeOfLastUpdate" xml:space="preserve">
         <source>No last update time known.</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="extensionList.updateFromTer.never" xml:space="preserve" approved="yes">
         <source>Never</source>
       <target state="translated">Jamais</target></trans-unit>
       <trans-unit id="extensionList.uninstall.dependencyError" xml:space="preserve">
         <source>Cannot deactivate extension '%s' - The extension(s) '%s' depend on it.</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="distribution.welcome.headline" xml:space="preserve" approved="yes">
         <source>Congratulations...</source>
       <target state="translated">Félicitations...</target></trans-unit>
       <trans-unit id="distribution.welcome.message" xml:space="preserve">
         <source>You successfully installed the distribution:</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="distribution.welcome.nextSteps" xml:space="preserve" approved="yes">
         <source>Now you can:</source>
       <target state="translated">Maintenant vous pouvez:</target></trans-unit>
@@ -345,82 +363,82 @@
       <target state="translated">Mettre à jour la liste des extensions du TER de façon régulière. Une fois par jour est un bon intervalle.</target></trans-unit>
       <trans-unit id="report.status.mainRepository.title" xml:space="preserve">
         <source>Update status of typo3.org main repository extension list</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.mainRepository.notFound.value" xml:space="preserve" approved="yes">
         <source>Error</source>
       <target state="translated">Erreur</target></trans-unit>
       <trans-unit id="report.status.mainRepository.notFound.message" xml:space="preserve">
         <source>The typo3.org extension repository was not found. Please import the main typo3.org extension repository in the install tool wizard.</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.mainRepository.notUpToDate.value" xml:space="preserve" approved="yes">
         <source>Extension list is not up to date!</source>
       <target state="translated">La liste des extensions n'est pas à jour!</target></trans-unit>
       <trans-unit id="report.status.mainRepository.notUpToDate.message" xml:space="preserve">
         <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.mainRepository.upToDate.value" xml:space="preserve">
         <source>OK</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.title" xml:space="preserve">
         <source>Security status of loaded extensions</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value" xml:space="preserve">
         <source>OK</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" xml:space="preserve">
         <source>%s insecure extension(s) found</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message" xml:space="preserve">
         <source>The following extensions are insecure and usage might damage your system. Please update these extensions as soon as possible or remove them from your system:&lt;br&gt;&lt;br&gt;%s</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message.extension" xml:space="preserve">
         <source>&lt;strong&gt;%1s&lt;/strong&gt; (version %2s)&lt;br&gt;</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.title" xml:space="preserve">
         <source>Security status of existing, but not loaded extensions</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value" xml:space="preserve">
         <source>OK</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" xml:space="preserve">
         <source>%s insecure extension(s) found</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message" xml:space="preserve">
         <source>The following extensions were found on your system, but are currently not installed. Please delete the extensions using the extension manager:&lt;br&gt;&lt;br&gt;%s</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message.extension" xml:space="preserve">
         <source>&lt;strong&gt;%1s&lt;/strong&gt; (version %2s)&lt;br&gt;</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.title" xml:space="preserve">
         <source>Outdated status of loaded extensions</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value" xml:space="preserve">
         <source>OK</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" xml:space="preserve">
         <source>%s outdated extension(s) found</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message" xml:space="preserve">
         <source>The following extensions are outdated and may not be compatible with your installation. Please make sure these extensions are compatible and ask the extension author to publish updates:&lt;br&gt;&lt;br&gt;%s</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message.extension" xml:space="preserve">
         <source>&lt;strong&gt;%1s&lt;/strong&gt; (version %2s)&lt;br&gt;</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.title" xml:space="preserve">
         <source>Outdated status of existing, but not loaded extensions</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value" xml:space="preserve">
         <source>OK</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" xml:space="preserve">
         <source>%s outdated extension(s) found</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message" xml:space="preserve">
         <source>The following extensions were found on your system, but are currently not installed. Please make sure they are compatible with your system before installing them:&lt;br&gt;&lt;br&gt;%s</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message.extension" xml:space="preserve">
         <source>&lt;strong&gt;%1s&lt;/strong&gt; (version %2s)&lt;br&gt;</source>
-      <target></target></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

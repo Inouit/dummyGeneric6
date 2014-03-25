@@ -348,12 +348,6 @@ return array (
       'packagePath' => 'typo3/sysext/rtehtmlarea/',
       'classesPath' => 'Classes/',
     ),
-    'in_news' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/in_news/',
-      'classesPath' => 'Classes/',
-    ),
     'skinDummy' => 
     array (
       'state' => 'active',
@@ -370,18 +364,6 @@ return array (
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/powermail/',
-      'classesPath' => 'Classes/',
-    ),
-    'news' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/news/',
-      'classesPath' => 'Classes/',
-    ),
-    'in_events' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/in_events/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 
@@ -502,6 +484,24 @@ return array (
       'composerName' => 'typo3/cms-workspaces',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/workspaces/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_events' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_events/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_news' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_news/',
+      'classesPath' => 'Classes/',
+    ),
+    'news' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/news/',
       'classesPath' => 'Classes/',
     ),
   ),

@@ -5,19 +5,19 @@
     <body>
       <trans-unit id="environment.status.title" xml:space="preserve">
         <source>System environment check</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="environment.status.value" xml:space="preserve" approved="yes">
         <source>%1s Test(s)</source>
       <target state="translated">%1s test(s)</target></trans-unit>
       <trans-unit id="environment.status.message.error" xml:space="preserve">
         <source>The system environment check returned errors. Those errors will affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="environment.status.message.warning" xml:space="preserve">
         <source>The system environment check returned warnings. Those warnings might have a negative effect on the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="environment.status.message.notice" xml:space="preserve">
         <source>The system environment check returned notices. Those should not affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="environment.status.message.ok" xml:space="preserve">
         <source/>
       </trans-unit>

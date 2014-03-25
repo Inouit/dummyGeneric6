@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="activeSessions" xml:space="preserve" approved="yes">
         <source>Active Sessions</source>
-      <target state="translated">Sessions actives</target><alt-trans xml:space="preserve" origin="mtoscanelli"><target>Sessions actives</target></alt-trans></trans-unit>
+      <target state="translated">Sessions actives</target></trans-unit>
       <trans-unit id="userName" xml:space="preserve" approved="yes">
         <source>Username</source>
       <target state="translated">Nom d'utilisateur</target></trans-unit>
@@ -20,7 +20,7 @@
       <target state="translated">Adresse IP</target></trans-unit>
       <trans-unit id="backendUserListing" xml:space="preserve">
         <source>Backend User Listing</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="email" xml:space="preserve" approved="yes">
         <source>Email</source>
       <target state="translated">E-mail</target></trans-unit>
@@ -44,25 +44,25 @@
       <target state="translated">Désactiver</target></trans-unit>
       <trans-unit id="startDateAndTime" xml:space="preserve" approved="yes">
         <source>Start</source>
-      <target state="translated">Début</target><alt-trans xml:space="preserve" origin="philippe.herault"><target>Démarrer</target></alt-trans></trans-unit>
+      <target state="translated">Début</target></trans-unit>
       <trans-unit id="endDateAndTime" xml:space="preserve" approved="yes">
         <source>Stop</source>
-      <target state="translated">Fin</target><alt-trans xml:space="preserve" origin="philippe.herault"><target>Arrêter</target></alt-trans></trans-unit>
+      <target state="translated">Fin</target></trans-unit>
       <trans-unit id="lastLogin" xml:space="preserve" approved="yes">
         <source>Last login</source>
       <target state="translated">Dernière connexion</target></trans-unit>
       <trans-unit id="allowedLanguages" xml:space="preserve" approved="yes">
         <source>Limit to languages</source>
-      <target state="translated">Limiter aux langues</target><alt-trans xml:space="preserve" origin="mtoscanelli"><target>Limiter aux langues</target></alt-trans></trans-unit>
+      <target state="translated">Limiter aux langues</target></trans-unit>
       <trans-unit id="dbMountPoints" xml:space="preserve" approved="yes">
         <source>DB mountpoints</source>
       <target state="translated">Points de montage en DB</target></trans-unit>
       <trans-unit id="fileMounts" xml:space="preserve" approved="yes">
         <source>File mountpoints</source>
-      <target state="translated">Points de montage sur les fichiers</target><alt-trans xml:space="preserve" origin="mtoscanelli"><target>Points de montage sur les fichiers</target></alt-trans></trans-unit>
+      <target state="translated">Points de montage sur les fichiers</target></trans-unit>
       <trans-unit id="disableIpLock" xml:space="preserve" approved="yes">
         <source>Disable IP lock</source>
-      <target state="translated">Désactiver le verrouillage d'IP</target><alt-trans xml:space="preserve" origin="mtoscanelli"><target>Désactiver le verrouillage d'IP</target></alt-trans></trans-unit>
+      <target state="translated">Désactiver le verrouillage d'IP</target></trans-unit>
       <trans-unit id="compareBackendUsers" xml:space="preserve" approved="yes">
         <source>Compare backend users</source>
       <target state="translated">Comparer des utilisateurs backend</target></trans-unit>
@@ -71,13 +71,13 @@
       <target state="translated">Comparer la liste des utilisateurs</target></trans-unit>
       <trans-unit id="status" xml:space="preserve" approved="yes">
         <source>Status</source>
-      <target state="translated">État</target><alt-trans xml:space="preserve" origin="mtoscanelli"><target>État</target></alt-trans></trans-unit>
+      <target state="translated">État</target></trans-unit>
       <trans-unit id="both" xml:space="preserve" approved="yes">
         <source>Both</source>
-      <target state="translated">Les deux</target><alt-trans xml:space="preserve" origin="philippe.herault"><target>Les deux</target></alt-trans></trans-unit>
+      <target state="translated">Les deux</target></trans-unit>
       <trans-unit id="any" xml:space="preserve">
         <source>Any</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="adminOnly" xml:space="preserve" approved="yes">
         <source>Admin only</source>
       <target state="translated">Administrateur seulement</target></trans-unit>
@@ -92,19 +92,19 @@
       <target state="translated">Inactifs seulement</target></trans-unit>
       <trans-unit id="loginBefore" xml:space="preserve">
         <source>Logged in before</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="neverLoggedIn" xml:space="preserve">
         <source>Never logged in</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="filter" xml:space="preserve" approved="yes">
         <source>Filter</source>
       <target state="translated">Filtre</target></trans-unit>
       <trans-unit id="reallyLogout" xml:space="preserve">
         <source>Really logout</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="endSession" xml:space="preserve">
         <source>End session</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="backendUsers" xml:space="preserve" approved="yes">
         <source>Backend users</source>
       <target state="translated">Utilisateurs backend</target></trans-unit>
@@ -131,10 +131,10 @@
       <target state="translated">Êtes-vous sûr(e) de vouloir supprimer cet utilisateur backend %s ?</target></trans-unit>
       <trans-unit id="section.compare" xml:space="preserve">
         <source>Compare</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="compare" xml:space="preserve">
         <source>Compare</source>
-      <target/></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

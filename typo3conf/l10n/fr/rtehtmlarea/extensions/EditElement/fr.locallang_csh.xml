@@ -9,7 +9,7 @@
       <label index=".image_descr"/>
       <label index=".seeAlso"/>
       <label index="id.alttitle"/>
-      <label index="id.description"/>
+      <label index="id.description">Entrez ou modifiez la valeur du titre de l'attribut de l'élément</label>
       <label index="title.alttitle">Titre de l'attribut</label>
       <label index="title.description">Entrez ou modifiez la valeur du titre de l'attribut de l'élément</label>
       <label index="className.alttitle"/>
@@ -19,15 +19,15 @@
       <label index="onkeydown.alttitle"/>
       <label index="onkeydown.description">Entrer ou modifier le script à lancer quand une touche est appuyée</label>
       <label index="onkeypress.alttitle"/>
-      <label index="onkeypress.description"/>
+      <label index="onkeypress.description">Entrer ou modifier le script à lancer quand une touche est appuyée</label>
       <label index="onkeyup.alttitle"/>
-      <label index="onkeyup.description"/>
+      <label index="onkeyup.description">Entrer ou modifier le script à lancer quand une touche est appuyée</label>
       <label index="onclick.alttitle"/>
       <label index="onclick.description"/>
       <label index="ondblclick.alttitle"/>
       <label index="ondblclick.description"/>
       <label index="onmousedown.alttitle"/>
-      <label index="onmousedown.description"/>
+      <label index="onmousedown.description">Entrer ou modifier le script à lancer quand une touche est appuyée</label>
       <label index="onmousemove.alttitle"/>
       <label index="onmousemove.description"/>
       <label index="onmouseout.alttitle"/>
@@ -35,7 +35,7 @@
       <label index="onmouseover.alttitle"/>
       <label index="onmouseover.description"/>
       <label index="onmouseup.alttitle"/>
-      <label index="onmouseup.description"/>
+      <label index="onmouseup.description">Entrer ou modifier le script à lancer quand une touche est appuyée</label>
     </languageKey>
   </data>
 </T3locallangExt>

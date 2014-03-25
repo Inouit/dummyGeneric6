@@ -212,7 +212,7 @@
       <target state="translated">Fichiers manquants:</target></trans-unit>
       <trans-unit id="select_db" xml:space="preserve" approved="yes">
         <source>Select fields</source>
-      <target state="translated">Champs de sélection:</target><alt-trans xml:space="preserve" origin="mygoddess"><target>Champs de sélection:</target></alt-trans></trans-unit>
+      <target state="translated">Champs de sélection:</target></trans-unit>
       <trans-unit id="group_db" xml:space="preserve" approved="yes">
         <source>Group fields</source>
       <target state="translated">Champs de groupe:</target></trans-unit>

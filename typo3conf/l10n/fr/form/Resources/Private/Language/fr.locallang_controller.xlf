@@ -26,7 +26,7 @@
       <target state="translated">Utilisez des caractères alphanumériques</target></trans-unit>
       <trans-unit id="tx_form_system_validate_alphanumeric.message2" xml:space="preserve" approved="yes">
         <source>whitespace allowed</source>
-      <target state="translated">espaces autorisés</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>espaces autorisés</target></alt-trans></trans-unit>
+      <target state="translated">espaces autorisés</target></trans-unit>
       <trans-unit id="tx_form_system_validate_alphanumeric.error" xml:space="preserve" approved="yes">
         <source>The value contains not only alphanumeric characters</source>
       <target state="translated">La valeur ne contient pas que des caractères alphanumériques</target></trans-unit>

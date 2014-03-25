@@ -21,8 +21,8 @@
       <label index="options.description"/>
       <label index="options.details"/>
       <label index="options.seeAlso"/>
-      <label index="htmlFormat.alttitle"/>
-      <label index="htmlFormat.description"/>
+      <label index="htmlFormat.alttitle">Supprimer toutes les balises et styles de MS word</label>
+      <label index="htmlFormat.description">Sélectionner cette option si vous souhaitez supprimer toutes les balises et styles de MS word</label>
       <label index="htmlFormat.details"/>
       <label index="msWordFormat.alttitle">Supprimer toutes les balises et styles de MS word</label>
       <label index="msWordFormat.description">Sélectionner cette option si vous souhaitez supprimer toutes les balises et styles de MS word</label>

@@ -38,6 +38,8 @@
       <label index="label.serverTime">Date du serveur</label>
       <label index="label.sleepTime">Durée du sommeil</label>
       <label index="label.start">Début (HH:MM DD-MM-YYYY)</label>
+      <label index="label.fileStorageIndexing.storage"/>
+      <label index="label.fileStorageExtraction.fileCount"/>
       <label index="label.tableGarbageCollection.allTables">Nettoyer toutes les tables disponibles</label>
       <label index="label.tableGarbageCollection.table">Table à nettoyer</label>
       <label index="label.tableGarbageCollection.additionalInformationTable">Table: %s</label>

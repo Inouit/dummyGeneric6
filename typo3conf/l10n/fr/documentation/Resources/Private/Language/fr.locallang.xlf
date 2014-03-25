@@ -51,9 +51,9 @@
       <trans-unit id="tx_documentation_domain_model_documenttranslation.description" xml:space="preserve" approved="yes">
         <source>Description</source>
       <target state="translated">Description</target></trans-unit>
-      <trans-unit id="tx_documentation_domain_model_documenttranslation.formats" xml:space="preserve" approved="yes">
-        <source>Formats</source>
-      <target state="translated">Formats</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documenttranslation.actions" xml:space="preserve" approved="yes">
+        <source>Actions</source>
+      <target state="translated">Actions</target><note>100%</note></trans-unit>
       <trans-unit id="tx_documentation_domain_model_documentformat" xml:space="preserve" approved="yes">
         <source>Document Format</source>
       <target state="translated">Format de document</target></trans-unit>
@@ -63,12 +63,15 @@
       <trans-unit id="tx_documentation_domain_model_documentformat.path" xml:space="preserve" approved="yes">
         <source>Path</source>
       <target state="translated">Chemin</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documentformat.format.title" xml:space="preserve">
+        <source>Show documentation as %s</source>
+      </trans-unit>
       <trans-unit id="showDocumentation" xml:space="preserve" approved="yes">
         <source>Show Documentation</source>
       <target state="translated">Afficher la documentation</target></trans-unit>
-      <trans-unit id="manageDocumentation" xml:space="preserve" approved="yes">
-        <source>Manage Documentation</source>
-      <target state="translated">Gérer la documentation</target></trans-unit>
+      <trans-unit id="downloadDocumentation" xml:space="preserve">
+        <source>Download Documentation</source>
+      </trans-unit>
       <trans-unit id="searchTemplate.submitButton" xml:space="preserve" approved="yes">
         <source>Go</source>
       <target state="translated">Aller</target></trans-unit>

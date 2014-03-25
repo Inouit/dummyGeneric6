@@ -5,7 +5,6 @@
       <label index="import">Importer depuis un .t3d</label>
       <label index="export">Exporter vers un .t3d</label>
       <label index="title">Importer / Exporter</label>
-      <label index="moduleFunction.tx_impexp_modfunc1">Exports préparamétrés</label>
       <label index="tableselec_configuration">Configuration</label>
       <label index="exportdata_savedFile">FICHIER SAUVEGARDÉ</label>
       <label index="exportdata_savedInSBytes">Sauvegardé dans %s, %s bytes</label>

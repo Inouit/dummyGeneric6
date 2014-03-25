@@ -38,7 +38,7 @@
       <target state="translated">Enregistrement du formulaire</target></trans-unit>
       <trans-unit id="action_save_error" xml:space="preserve" approved="yes">
         <source>Server-side failure with status code</source>
-      <target state="translated">Erreur du côté serveur avec code de statut</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Erreur du côté serveur avec code de statut</target></alt-trans></trans-unit>
+      <target state="translated">Erreur du côté serveur avec code de statut</target></trans-unit>
       <trans-unit id="button_remove" xml:space="preserve" approved="yes">
         <source>Remove</source>
       <target state="translated">Retirer</target></trans-unit>
@@ -53,7 +53,7 @@
       <target state="translated">Glisser les éléments ou double-cliquer dessus pour ajouter</target></trans-unit>
       <trans-unit id="left_elements_basic" xml:space="preserve" approved="yes">
         <source>Basic form elements</source>
-      <target state="translated">Éléments basiques de formulaire</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Éléments basiques de formulaire</target></alt-trans></trans-unit>
+      <target state="translated">Éléments basiques de formulaire</target></trans-unit>
       <trans-unit id="basic_button" xml:space="preserve" approved="yes">
         <source>Button</source>
       <target state="translated">Bouton</target></trans-unit>
@@ -146,7 +146,7 @@
       <target state="translated">Action</target></trans-unit>
       <trans-unit id="attributes_alt" xml:space="preserve" approved="yes">
         <source>Alt</source>
-      <target state="translated">Texte alternatif</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Texte alternatif</target></alt-trans></trans-unit>
+      <target state="translated">Texte alternatif</target></trans-unit>
       <trans-unit id="attributes_checked" xml:space="preserve" approved="yes">
         <source>Checked</source>
       <target state="translated">Cochée</target></trans-unit>
@@ -176,7 +176,7 @@
       <target state="translated">Encodé</target></trans-unit>
       <trans-unit id="attributes_enctype_2" xml:space="preserve" approved="yes">
         <source>No encoding - File upload</source>
-      <target state="translated">Pas d'encodage - chargement de fichier</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Pas d'encodage - chargement de fichier</target></alt-trans></trans-unit>
+      <target state="translated">Pas d'encodage - chargement de fichier</target></trans-unit>
       <trans-unit id="attributes_enctype_3" xml:space="preserve" approved="yes">
         <source>No encoding - Spaces converted</source>
       <target state="translated">Pas d'encodage - Espaces convertis</target></trans-unit>
@@ -191,7 +191,7 @@
       <target state="translated">Lang</target></trans-unit>
       <trans-unit id="attributes_maxlength" xml:space="preserve" approved="yes">
         <source>Maxlength</source>
-      <target state="translated">Longueur maximal</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Longueur maximal</target></alt-trans></trans-unit>
+      <target state="translated">Longueur maximal</target></trans-unit>
       <trans-unit id="attributes_method" xml:space="preserve" approved="yes">
         <source>Method</source>
       <target state="translated">Méthode</target></trans-unit>
@@ -221,7 +221,7 @@
       <target state="translated">Taille</target></trans-unit>
       <trans-unit id="attributes_src" xml:space="preserve" approved="yes">
         <source>Src</source>
-      <target state="translated">Source</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Source</target></alt-trans></trans-unit>
+      <target state="translated">Source</target></trans-unit>
       <trans-unit id="attributes_style" xml:space="preserve" approved="yes">
         <source>Style</source>
       <target state="translated">Style</target></trans-unit>
@@ -305,7 +305,7 @@
       <target state="translated">Aucun filtre sélectionné</target></trans-unit>
       <trans-unit id="filters_dummy_description" xml:space="preserve" approved="yes">
         <source>To add a filter, select one from the dropdown</source>
-      <target state="translated">Pour ajouter un filtre, en sélectionner un dans la liste déroulante</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Pour ajouter un filtre, en sélectionner un dans la liste déroulante</target></alt-trans></trans-unit>
+      <target state="translated">Pour ajouter un filtre, en sélectionner un dans la liste déroulante</target></trans-unit>
       <trans-unit id="filters_alphabetic" xml:space="preserve" approved="yes">
         <source>Alphabetic</source>
       <target state="translated">Alphabétique</target></trans-unit>
@@ -515,7 +515,7 @@
       <target state="translated">Montrer le suffixe</target></trans-unit>
       <trans-unit id="various_properties_middlename" xml:space="preserve" approved="yes">
         <source>Show middle name</source>
-      <target state="translated">Montrer le prénom</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Montrer le prénom</target></alt-trans></trans-unit>
+      <target state="translated">Montrer le prénom</target></trans-unit>
       <trans-unit id="left_form" xml:space="preserve" approved="yes">
         <source>Form</source>
       <target state="translated">Formulaire</target></trans-unit>
@@ -560,19 +560,19 @@
       <target state="translated">Adresse e-mail de l'expéditeur</target></trans-unit>
       <trans-unit id="postprocessor_properties_subject" xml:space="preserve" approved="yes">
         <source>Subject</source>
-      <target state="translated">Objet</target><alt-trans xml:space="preserve" origin="tm070193"><target>Objet</target></alt-trans></trans-unit>
-      <trans-unit id="postprocessor_properties_destination" xml:space="preserve">
+      <target state="translated">Objet</target></trans-unit>
+      <trans-unit id="postprocessor_properties_destination" xml:space="preserve" approved="no">
         <source>Destination to redirect to</source>
-      <target>Rediriger vers</target></trans-unit>
+      <target state="needs-translation">Rediriger vers</target></trans-unit>
       <trans-unit id="prefix_prefix" xml:space="preserve" approved="yes">
         <source>Prefix</source>
       <target state="translated">Préfixe</target></trans-unit>
       <trans-unit id="elements_dummy_title" xml:space="preserve" approved="yes">
         <source>You haven't added any elements yet!</source>
-      <target state="translated">Vous n'avez pas ajouté d'éléments !</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Vous n'avez pas ajouté d'éléments !</target></alt-trans></trans-unit>
+      <target state="translated">Vous n'avez pas ajouté d'éléments !</target></trans-unit>
       <trans-unit id="elements_dummy_description" xml:space="preserve" approved="yes">
         <source>To get started, drag an element from the left panel onto this area</source>
-      <target state="translated">Pour commencer, glisser un élément du panneau de gauche dans cette zone</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Pour commencer, glisser un élément du panneau de gauche dans cette zone</target></alt-trans></trans-unit>
+      <target state="translated">Pour commencer, glisser un élément du panneau de gauche dans cette zone</target></trans-unit>
       <trans-unit id="elements_button_delete" xml:space="preserve" approved="yes">
         <source>Delete this element</source>
       <target state="translated">Supprimer cet élément</target></trans-unit>
@@ -584,13 +584,13 @@
       <target state="translated">Supprimer cet élément</target></trans-unit>
       <trans-unit id="elements_confirm_delete_description" xml:space="preserve" approved="yes">
         <source>Are you sure you want to delete the selected element?</source>
-      <target state="translated">Etes-vous sûr de vouloir supprimer l'élément sélectionné ?</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Etes-vous sûr de vouloir supprimer l'élément sélectionné ?</target></alt-trans></trans-unit>
+      <target state="translated">Etes-vous sûr de vouloir supprimer l'élément sélectionné ?</target></trans-unit>
       <trans-unit id="elements_label" xml:space="preserve" approved="yes">
         <source>Edit this label</source>
       <target state="translated">Modifier cette étiquette</target></trans-unit>
       <trans-unit id="elements_label_email" xml:space="preserve" approved="yes">
         <source>Email</source>
-      <target state="translated">E-mail</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>E-mail</target></alt-trans></trans-unit>
+      <target state="translated">E-mail</target></trans-unit>
       <trans-unit id="elements_label_prefix" xml:space="preserve" approved="yes">
         <source>Prefix</source>
       <target state="translated">Préfixe</target></trans-unit>

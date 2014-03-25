@@ -3,11 +3,11 @@
   <data type="array">
     <languageKey index="fr" type="array">
       <label index="bigControlPanel">Vue avancée</label>
-      <label index="clipBoard">Afficher le presse-papiers</label>
-      <label index="clip_paste">Coller le contenu du presse-papiers</label>
-      <label index="clip_pasteInto">Coller dans: le contenu du presse-papiers est inséré dans ce dossier</label>
+      <label index="clipBoard">Afficher le presse-papier</label>
+      <label index="clip_paste">Coller le contenu du presse-papier</label>
+      <label index="clip_pasteInto">Coller dans: le contenu du presse-papier est inséré dans ce dossier</label>
       <label index="clip_markRecords">Sélectionner tout/rien</label>
-      <label index="clip_selectMarked">Transférer les fichiers sélectionnés dans le presse-papiers</label>
+      <label index="clip_selectMarked">Transférer les fichiers sélectionnés dans le presse-papier</label>
       <label index="clip_deleteMarked">Supprimer la sélection</label>
       <label index="clip_deleteMarkedWarning">Etes-vous sûr de vouloir supprimer de ce dossier tous les fichiers sélectionnés?</label>
       <label index="displayThumbs">Afficher les miniatures</label>
@@ -33,6 +33,7 @@
       <label index="localDriverFlexform_pathType"/>
       <label index="localDriverFlexform_pathType_relative"/>
       <label index="localDriverFlexform_pathType_absolute"/>
+      <label index="localDriverFlexform_caseSensitive"/>
       <label index="storageNotBrowsableTitle"/>
       <label index="storageNotBrowsableMessage"/>
       <label index="folderNotFoundTitle"/>

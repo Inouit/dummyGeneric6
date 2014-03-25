@@ -5,11 +5,11 @@
       <label index="mlang_labels_tablabel">Liste des enregistrements</label>
       <label index="mlang_labels_tabdescr">Le module Web&gt;Liste fournit un accès de bas-niveau aux enregistrements de la page.</label>
       <label index="mlang_tabs_tab">Liste</label>
-      <label index="clip_pasteAfter">Coller après: Le contenu du presse-papiers est inséré après cet enregistrement</label>
-      <label index="clip_pasteInto">Coller dans: Le contenu du presse-papiers est inséré dans cette page</label>
-      <label index="clip_paste">Coller le contenu du presse-papiers</label>
+      <label index="clip_pasteAfter">Coller après: Le contenu du presse-papier est inséré après cet enregistrement</label>
+      <label index="clip_pasteInto">Coller dans: Le contenu du presse-papier est inséré dans cette page</label>
+      <label index="clip_paste">Coller le contenu du presse-papier</label>
       <label index="clip_markRecords">Sélectionner tout/rien</label>
-      <label index="clip_selectMarked">Transférer les enregistrements sélectionnés dans le presse-papiers</label>
+      <label index="clip_selectMarked">Transférer les enregistrements sélectionnés dans le presse-papier</label>
       <label index="clip_duplicates">Sélectionner les doublons</label>
       <label index="clip_editMarked">Editer la sélection</label>
       <label index="clip_deleteMarked">Supprimer la sélection</label>
@@ -39,7 +39,7 @@
       <label index="largeControl">Vue étendue</label>
       <label index="contractView">Lister toutes les tables</label>
       <label index="expandView">Lister uniquement cette table</label>
-      <label index="showClipBoard">Afficher le presse-papiers</label>
+      <label index="showClipBoard">Afficher le presse-papier</label>
       <label index="editShownColumns">Editer tous les champs de l'enregistrement</label>
       <label index="editThisColumn">Editer le champs '%s' de l'enregistrement</label>
       <label index="deleteWarning">Etes-vous sûr de vouloir supprimer cet enregistrement?</label>

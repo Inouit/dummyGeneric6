@@ -20,7 +20,7 @@
       <target state="translated">TYPO3 est un Système de Gestion de Contenu (CMS) libre, flexible et professionnel basé sur PHP et MySQL.&lt;br /&gt;&lt;br /&gt;TYPO3 est &lt;b&gt;disponible gratuitement&lt;/b&gt; selon les termes de la &lt;a href="http://typo3.com/1316.0.html" target="_blank"&gt;licence TYPO3 (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</target></trans-unit>
       <trans-unit id="cms_description" xml:space="preserve">
         <source>TYPO3 CMS is a enterprise-class, Open Source Content Management System, used internationally to build and manage websites of all types, from small sites for non-profits to multilingual enterprise solutions for large corporations.&lt;br /&gt;&lt;br /&gt;For further information visit &lt;a href="http://typo3.org/about/typo3-the-cms/" target="_blank"&gt;typo3.org&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;TYPO3 CMS is &lt;b&gt;freely available&lt;/b&gt; under the &lt;a href="http://typo3.org/license" target="_blank"&gt;TYPO3-license (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;You are using version %s - Copyright %s %s</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="community_credits" xml:space="preserve" approved="yes">
         <source>Community Credits</source>
       <target state="translated">Communauté</target></trans-unit>

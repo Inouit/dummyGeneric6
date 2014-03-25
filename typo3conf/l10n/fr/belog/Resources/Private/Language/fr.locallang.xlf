@@ -154,8 +154,12 @@
         <source>Delete</source>
       <target state="translated">Supprimer</target></trans-unit>
       <trans-unit id="action_1_4" xml:space="preserve" approved="yes">
-        <source>Check</source>
+        <source>Move</source>
       <target state="translated">Vérifier</target></trans-unit>
+      <trans-unit id="action_1_5" xml:space="preserve" approved="yes">
+        <source>Check</source>
+      <target state="translated">Vérifier</target><note>100%
+100%</note></trans-unit>
       <trans-unit id="msg_1_0_1" xml:space="preserve" approved="yes">
         <source>Referer host '%s' and server host '%s' did not match!</source>
       <target state="translated">le referer "%s" et le serveur "%s" sont différents</target></trans-unit>

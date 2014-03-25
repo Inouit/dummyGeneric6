@@ -31,7 +31,7 @@
         <source>Catalan</source>
       <target state="translated">Catalan</target></trans-unit>
       <trans-unit id="lang_ch" xml:space="preserve" approved="yes">
-        <source>Chinese (Simpl)</source>
+        <source>Chinese (Simple)</source>
       <target state="translated">Chinois (Simplifié)</target></trans-unit>
       <trans-unit id="lang_cs" xml:space="preserve" approved="yes">
         <source>Czech</source>

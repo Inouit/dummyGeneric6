@@ -168,120 +168,6 @@
       <trans-unit id="header_layout.I.6" xml:space="preserve" approved="yes">
         <source>Hidden</source>
       <target state="translated">Caché</target></trans-unit>
-      <trans-unit id="text_align" xml:space="preserve" approved="yes">
-        <source>Align:</source>
-      <target state="translated">Alignement:</target></trans-unit>
-      <trans-unit id="text_align_formlabel" xml:space="preserve" approved="yes">
-        <source>Text Alignment</source>
-      <target state="translated">Alignement du texte</target></trans-unit>
-      <trans-unit id="text_align.I.1" xml:space="preserve" approved="yes">
-        <source>Center</source>
-      <target state="translated">Centré</target></trans-unit>
-      <trans-unit id="text_align.I.2" xml:space="preserve" approved="yes">
-        <source>Right</source>
-      <target state="translated">Aligné à droite</target></trans-unit>
-      <trans-unit id="text_align.I.3" xml:space="preserve" approved="yes">
-        <source>Left</source>
-      <target state="translated">Aligné à gauche</target></trans-unit>
-      <trans-unit id="text_face" xml:space="preserve" approved="yes">
-        <source>Fontface:</source>
-      <target state="translated">Police:</target></trans-unit>
-      <trans-unit id="text_face_formlabel" xml:space="preserve" approved="yes">
-        <source>Text Face</source>
-      <target state="translated">Police</target></trans-unit>
-      <trans-unit id="text_size" xml:space="preserve" approved="yes">
-        <source>Size:</source>
-      <target state="translated">Taille:</target></trans-unit>
-      <trans-unit id="text_size_formlabel" xml:space="preserve" approved="yes">
-        <source>Text Size</source>
-      <target state="translated">Taille du texte</target></trans-unit>
-      <trans-unit id="text_size.I.1" xml:space="preserve" approved="yes">
-        <source>1: Small</source>
-      <target state="translated">1: Petite</target></trans-unit>
-      <trans-unit id="text_size.I.2" xml:space="preserve" approved="yes">
-        <source>2: Medium</source>
-      <target state="translated">2: Moyenne</target></trans-unit>
-      <trans-unit id="text_size.I.3" xml:space="preserve" approved="yes">
-        <source>3: Large</source>
-      <target state="translated">3: Grande</target></trans-unit>
-      <trans-unit id="text_size.I.4" xml:space="preserve" approved="yes">
-        <source>4: Header 1</source>
-      <target state="translated">4: Titre 1</target></trans-unit>
-      <trans-unit id="text_size.I.5" xml:space="preserve" approved="yes">
-        <source>5: Header 2</source>
-      <target state="translated">5: Titre 2</target></trans-unit>
-      <trans-unit id="text_size.I.6" xml:space="preserve" approved="yes">
-        <source>Default +1</source>
-      <target state="translated">Défaut +1</target></trans-unit>
-      <trans-unit id="text_size.I.7" xml:space="preserve" approved="yes">
-        <source>Default -1</source>
-      <target state="translated">Défaut -1</target></trans-unit>
-      <trans-unit id="text_color" xml:space="preserve" approved="yes">
-        <source>Color:</source>
-      <target state="translated">Couleur:</target></trans-unit>
-      <trans-unit id="text_color_formlabel" xml:space="preserve" approved="yes">
-        <source>Text Color</source>
-      <target state="translated">Couleur du texte</target></trans-unit>
-      <trans-unit id="text_color.I.1" xml:space="preserve" approved="yes">
-        <source>Color 1</source>
-      <target state="translated">Couleur 1</target></trans-unit>
-      <trans-unit id="text_color.I.2" xml:space="preserve" approved="yes">
-        <source>Color 2</source>
-      <target state="translated">Couleur 2</target></trans-unit>
-      <trans-unit id="text_color.I.3" xml:space="preserve" approved="yes">
-        <source>None</source>
-      <target state="translated">Aucune</target></trans-unit>
-      <trans-unit id="text_color.I.5" xml:space="preserve" approved="yes">
-        <source>Black</source>
-      <target state="translated">Noir</target></trans-unit>
-      <trans-unit id="text_color.I.6" xml:space="preserve" approved="yes">
-        <source>White</source>
-      <target state="translated">Blanc</target></trans-unit>
-      <trans-unit id="text_color.I.7" xml:space="preserve" approved="yes">
-        <source>Dark Gray</source>
-      <target state="translated">Gris foncé</target></trans-unit>
-      <trans-unit id="text_color.I.8" xml:space="preserve" approved="yes">
-        <source>Gray</source>
-      <target state="translated">Gris clair</target></trans-unit>
-      <trans-unit id="text_color.I.9" xml:space="preserve" approved="yes">
-        <source>Silver</source>
-      <target state="translated">Argent</target></trans-unit>
-      <trans-unit id="text_color.I.10" xml:space="preserve" approved="yes">
-        <source>Red</source>
-      <target state="translated">Rouge</target></trans-unit>
-      <trans-unit id="text_color.I.11" xml:space="preserve" approved="yes">
-        <source>Navy Blue</source>
-      <target state="translated">Bleu marine</target></trans-unit>
-      <trans-unit id="text_color.I.12" xml:space="preserve" approved="yes">
-        <source>Yellow</source>
-      <target state="translated">Jaune</target></trans-unit>
-      <trans-unit id="text_color.I.13" xml:space="preserve" approved="yes">
-        <source>Green</source>
-      <target state="translated">Vert</target></trans-unit>
-      <trans-unit id="text_color.I.14" xml:space="preserve" approved="yes">
-        <source>Olive</source>
-      <target state="translated">Olive</target></trans-unit>
-      <trans-unit id="text_color.I.15" xml:space="preserve" approved="yes">
-        <source>Maroon</source>
-      <target state="translated">Maron</target></trans-unit>
-      <trans-unit id="text_properties" xml:space="preserve" approved="yes">
-        <source>Properties:</source>
-      <target state="translated">Propriétés:</target></trans-unit>
-      <trans-unit id="text_properties_formlabel" xml:space="preserve" approved="yes">
-        <source>Text Decoration</source>
-      <target state="translated">Décoration du texte</target></trans-unit>
-      <trans-unit id="text_properties.I.0" xml:space="preserve" approved="yes">
-        <source>Bold</source>
-      <target state="translated">Gras</target></trans-unit>
-      <trans-unit id="text_properties.I.1" xml:space="preserve" approved="yes">
-        <source>Italics</source>
-      <target state="translated">Italique</target></trans-unit>
-      <trans-unit id="text_properties.I.2" xml:space="preserve" approved="yes">
-        <source>Underline</source>
-      <target state="translated">Souligné</target></trans-unit>
-      <trans-unit id="text_properties.I.3" xml:space="preserve" approved="yes">
-        <source>Uppercase</source>
-      <target state="translated">Majuscule</target></trans-unit>
       <trans-unit id="bodytext.W.RTE" xml:space="preserve" approved="yes">
         <source>Fullscreen Rich Text Editing</source>
       <target state="translated">Edition texte riche plein écran</target></trans-unit>
@@ -564,9 +450,12 @@
       <trans-unit id="menu_type.I.8" xml:space="preserve" approved="yes">
         <source>Sitemaps of selected pages</source>
       <target state="translated">Plan du site des pages sélectionnées</target></trans-unit>
-      <trans-unit id="menu_type.I.9" xml:space="preserve">
+      <trans-unit id="menu_type.I.categorized_pages" xml:space="preserve">
         <source>Pages for selected categories</source>
-      <target/></trans-unit>
+      </trans-unit>
+      <trans-unit id="menu_type.I.categorized_content" xml:space="preserve">
+        <source>Content elements for selected categories</source>
+      </trans-unit>
       <trans-unit id="list_type" xml:space="preserve" approved="yes">
         <source>Plugin:</source>
       <target state="translated">Plugin:</target></trans-unit>
@@ -626,7 +515,7 @@
       <target state="translated">Fichiers</target></trans-unit>
       <trans-unit id="media.dataAttributes" xml:space="preserve">
         <source>Additional data-* Attributes for HTML5 video tag</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="media.dataAttributes.attributeName" xml:space="preserve" approved="yes">
         <source>Name of attribute (without data-)</source>
       <target state="translated">Nom de l'attribut (sans data-)</target></trans-unit>
@@ -647,10 +536,10 @@
       <target state="translated">Fichier média sélectionné</target></trans-unit>
       <trans-unit id="file_collections" xml:space="preserve">
         <source>File collections</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="file_collections.ALT.uploads_formlabel" xml:space="preserve">
         <source>Select file collections</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="filelink_size" xml:space="preserve" approved="yes">
         <source>Show File Size:</source>
       <target state="translated">Afficher la taille du fichier:</target></trans-unit>
@@ -785,7 +674,10 @@
       <target state="translated">Lien texte pour contourner le bloc</target></trans-unit>
       <trans-unit id="selected_categories" xml:space="preserve">
         <source>Selected categories</source>
-      <target/></trans-unit>
+      </trans-unit>
+      <trans-unit id="category_field" xml:space="preserve">
+        <source>Category field</source>
+      </trans-unit>
       <trans-unit id="ALT.imgOptions" xml:space="preserve" approved="yes">
         <source>Image Options</source>
       <target state="translated">Options d'image</target></trans-unit>
@@ -893,7 +785,7 @@
       <target state="translated">Chemin ou URL vers le fichier source de la vidéo (Flash ou QuickTime)</target></trans-unit>
       <trans-unit id="media.previewImage" xml:space="preserve">
         <source>Preview-Image for the Video (HTML5 only)</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="media.sources" xml:space="preserve" approved="yes">
         <source>Video sources for HTML5 &lt;video&gt; element</source>
       <target state="translated">Sources vidéo pour l'élément HTML5 &lt;video&gt;</target></trans-unit>
@@ -947,7 +839,7 @@
       <target state="translated">Balise HTML5 video / audio de repli à Flash</target></trans-unit>
       <trans-unit id="media.renderType.preferFlashOverHtml5" xml:space="preserve" approved="yes">
         <source>Flash with fallback to HTML5 video/audio tag</source>
-      <target state="translated">Flash avec repli aux balises video/audio HTML5</target><alt-trans xml:space="preserve" origin="badr"><target>Flash avec repli aux balises video/audio HTML5</target></alt-trans></trans-unit>
+      <target state="translated">Flash avec repli aux balises video/audio HTML5</target></trans-unit>
       <trans-unit id="media.renderType.qt" xml:space="preserve" approved="yes">
         <source>QuickTime Browser Plugin</source>
       <target state="translated">Plugin QuickTime</target></trans-unit>
@@ -1004,13 +896,13 @@
       <target state="translated">Pré-charger le média</target></trans-unit>
       <trans-unit id="media.params.controlsBelow" xml:space="preserve" approved="yes">
         <source>Display controls below video</source>
-      <target state="translated">Afficher les commandes sous la vidéo</target><alt-trans xml:space="preserve" origin="wembley"><target>Afficher les commandes sous la vidéo</target></alt-trans></trans-unit>
+      <target state="translated">Afficher les commandes sous la vidéo</target></trans-unit>
       <trans-unit id="media.params.controlsAtStart" xml:space="preserve" approved="yes">
         <source>Make controls visible when page loads</source>
-      <target state="translated">Rendre les commandes visibles au chargement de la page</target><alt-trans xml:space="preserve" origin="wembley"><target>Rendre les commandes visibles au chargement de la page</target></alt-trans></trans-unit>
+      <target state="translated">Rendre les commandes visibles au chargement de la page</target></trans-unit>
       <trans-unit id="media.params.controlsHiding" xml:space="preserve" approved="yes">
         <source>Hide controls when not over the video</source>
-      <target state="translated">Masquer la barre de contrôle lorsqu'ils ne sont pas sur la vidéo</target><alt-trans xml:space="preserve" origin="yucky"><target>Masquer la barre de contrôle lorsqu'ils ne sont pas sur la vidéo</target></alt-trans></trans-unit>
+      <target state="translated">Masquer la barre de contrôle lorsqu'ils ne sont pas sur la vidéo</target></trans-unit>
       <trans-unit id="media.params.defaultVolume" xml:space="preserve" approved="yes">
         <source>Default volume</source>
       <target state="translated">Volume par défaut</target></trans-unit>

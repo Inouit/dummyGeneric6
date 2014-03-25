@@ -5,22 +5,22 @@
     <body>
       <trans-unit id=".description" xml:space="preserve">
         <source>Internal reminder note attached to a page.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id=".details" xml:space="preserve">
         <source>This provides a simple way to attach informative notes to a page regarding backend-related issues. Use it as you like for reminders, instructions, etc.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve" approved="yes">
         <source>pages</source>
       <target state="translated">pages</target></trans-unit>
       <trans-unit id="category.description" xml:space="preserve">
         <source>Select a category which describes the character of the note.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="subject.description" xml:space="preserve">
         <source>Enter a title for the note.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="message.description" xml:space="preserve">
         <source>This is the note itself.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="author.description" xml:space="preserve" approved="yes">
         <source>Enter your name.</source>
       <target state="translated">Entrez votre nom.</target></trans-unit>

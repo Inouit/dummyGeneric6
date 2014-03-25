@@ -21,7 +21,7 @@ Actions can be assigned to a Backend usergroup and they are activated by a singl
       <target state="translated">Cochez cette option si vous souhaitez masquer l'action pour des utilisateurs ordinaires.</target></trans-unit>
       <trans-unit id="hidden.details" xml:space="preserve">
         <source>This option is a great way to disable an action during changes made to it because it still allows you as an 'Admin'-user to activate it for test purposes.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="type.description" xml:space="preserve" approved="yes">
         <source>Select the action type.</source>
       <target state="translated">Sélectionnez le type d'action.</target></trans-unit>
@@ -30,7 +30,7 @@ Actions can be assigned to a Backend usergroup and they are activated by a singl
 When you select this option, you get to enter a 'template' user, enter a prefix which the new users will automatically have and whether or not a user home-dir is created in the proces. Finally you can select a limited number of usergroups which the can be selected among.
 
 &lt;strong&gt;"SQL-query"&lt;/strong&gt; allows to make a fixed SQL SELECT-query in the database returned as CSV lists. When you have created an action of this type, you need to go to the Tools&gt;DBint module and enter the Advanced Search feature. Here you can design your SQL-query. When you have designed it to select what you want correctly, you can select this action (by it's name) and save the query to the action there. From that point it will be effective from the Task Center. (Notice that the form of output selected in the Advanced Search function is also stored, so make sure to select CSV output there!)</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="assign_to_groups.description" xml:space="preserve" approved="yes">
         <source>Select the backend users groups allowed to activate the action in the Task Center.</source>
       <target state="translated">Sélectionnez les groupes d'utilisateurs backend autorisés à activer l'action dans le Centre des tâches.</target></trans-unit>
@@ -39,29 +39,29 @@ When you select this option, you get to enter a 'template' user, enter a prefix 
       <target state="translated">Entrez un préfixe qui est ajouté au début des nouveaux comptes utilisateurs (ex: "news_")</target></trans-unit>
       <trans-unit id="t1_allowed_groups.description" xml:space="preserve">
         <source>Enter the Backend user groups which the user performing the action is able to choose among (if any).</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="t1_create_user_dir.description" xml:space="preserve" approved="yes">
         <source>If checked, a private home-directory is also created during user creation. </source>
-      <target state="translated">Si coché, un répertoire personnel est crée au cours de la création du compte utilisateur</target><alt-trans xml:space="preserve" origin="badr"><target>Si coché, un répertoire personnel est crée au cours de la création du compte utilisateur</target></alt-trans></trans-unit>
+      <target state="translated">Si coché, un répertoire personnel est crée au cours de la création du compte utilisateur</target></trans-unit>
       <trans-unit id="t1_create_user_dir.details" xml:space="preserve">
         <source>&lt;strong&gt;Notice:&lt;/strong&gt; $TYPO3_CONF_VARS["BE"]["userHomePath"] must be configured correctly along with $TYPO3_CONF_VARS["BE"]["lockRootPath"] and writable!</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="t1_copy_of_user.description" xml:space="preserve" approved="yes">
         <source>Insert a current Backend user which will be used as a template for the new users created. </source>
-      <target state="translated">Insérer un compte utilisateur qui sera utilisé comme modèle pour les futures comptes crées</target><alt-trans xml:space="preserve" origin="badr"><target>Insérer un compte utilisateur qui sera utilisé comme modèle pour les futures comptes crées</target></alt-trans></trans-unit>
+      <target state="translated">Insérer un compte utilisateur qui sera utilisé comme modèle pour les futures comptes crées</target></trans-unit>
       <trans-unit id="t1_copy_of_user.details" xml:space="preserve">
         <source>All values are copied to the new user, except username, password, name and email is of course overridden.
 If the template user is a member of a group which is not defined among the "Groups which may be assigned through the action" that group is still set for the user and cannot be removed by the user carrying out the action.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="t4_recordsToEdit.description" xml:space="preserve">
         <source>[FILL IN] sys_action-&gt;t4_recordsToEdit</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="t3_listPid.description" xml:space="preserve">
         <source>[FILL IN] sys_action-&gt;t3_listPid</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="t3_tables.description" xml:space="preserve">
         <source>[FILL IN] sys_action-&gt;t3_tables</source>
-      <target/></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

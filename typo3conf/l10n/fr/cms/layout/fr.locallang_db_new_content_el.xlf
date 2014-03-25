@@ -121,7 +121,7 @@
         <source>Search Form</source>
       <target state="translated">Formulaire de recherche</target></trans-unit>
       <trans-unit id="forms_search_description" xml:space="preserve" approved="yes">
-        <source>Draws a search form and the searchresult if a search is performed.</source>
+        <source>Draws a search form and the search result if a search is performed.</source>
       <target state="translated">Insère un formulaire de recherche et les résultats si une recherche est lancée.</target></trans-unit>
       <trans-unit id="forms_login_title" xml:space="preserve" approved="yes">
         <source>Login Form</source>

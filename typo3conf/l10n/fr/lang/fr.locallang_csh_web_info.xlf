@@ -11,11 +11,11 @@
       <target state="translated">L'idée du module Web&gt;Info est d'être un module hôte pour les applications back-end permettant de présenter les informations / analyses d'une page ou d'une branche de l'arborescence. Cela peut être des statistiques de site web, des informations de statuts de mise en cache etc.</target></trans-unit>
       <trans-unit id=".details" xml:space="preserve">
         <source>Conceptually the Web&gt;Info module is different from the Web&gt;Functions module only by primarily showing information rather than offering functionality. It is up to extension programmers to decide in which of these two modules they want to insert functionality.</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve">
         <source>_MOD_web_func,
 More about Web&gt;Info module framework | http://typo3.org/documentation/document-library/doc_core_inside/Info_module/,</source>
-        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/pagetree_overview_10.png</source>
@@ -23,7 +23,7 @@ More about Web&gt;Info module framework | http://typo3.org/documentation/documen
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve">
         <source>The Web&gt;Info module as provided by the core is an empty shell. It provides an API that extensions can use to attach function menu items to the Info module. Here you see the "Page TSconfig" overview from the extension "info_pagetsconfig".</source>
-      <target></target></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

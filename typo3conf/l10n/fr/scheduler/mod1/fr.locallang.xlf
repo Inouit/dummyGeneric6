@@ -111,6 +111,12 @@
       <trans-unit id="label.start" xml:space="preserve" approved="yes">
         <source>Start (HH:MM DD-MM-YYYY)</source>
       <target state="translated">Début (HH:MM DD-MM-YYYY)</target></trans-unit>
+      <trans-unit id="label.fileStorageIndexing.storage" xml:space="preserve">
+        <source>Storage to index</source>
+      </trans-unit>
+      <trans-unit id="label.fileStorageExtraction.fileCount" xml:space="preserve">
+        <source>Number of files per run</source>
+      </trans-unit>
       <trans-unit id="label.tableGarbageCollection.allTables" xml:space="preserve" approved="yes">
         <source>Clean all available tables</source>
       <target state="translated">Nettoyer toutes les tables disponibles</target></trans-unit>
@@ -313,7 +319,7 @@
         <source>Disabled, will not be executed, except manually</source>
       <target state="translated">Désactivée, ne sera pas exécutée, sauf manuellement</target></trans-unit>
       <trans-unit id="status.legend.failure" xml:space="preserve" approved="yes">
-        <source>Failure! An error occured during the last execution (move over bullet for more details)</source>
+        <source>Failure! An error occurred during the last execution (move over bullet for more details)</source>
       <target state="translated">Échec ! Une erreur est survenue lors de la dernière exécution (passez la souris au dessus de la puce pour avoir plus de détails)</target></trans-unit>
       <trans-unit id="status.legend.late" xml:space="preserve" approved="yes">
         <source>Late, will run with next execution</source>

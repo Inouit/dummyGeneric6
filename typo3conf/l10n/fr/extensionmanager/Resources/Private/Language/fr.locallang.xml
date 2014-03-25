@@ -23,6 +23,7 @@
       <label index="extConfTemplate.submitButton">Envoyer</label>
       <label index="updateScript.headline">Script de mise à jour pour %s</label>
       <label index="updateScript.none">Aucune mise à jour nécessaire.</label>
+      <label index="extensionList.clickToConfigure"/>
       <label index="extensionList.configure">Configurer</label>
       <label index="extensionList.update.script">Exécuter le script de mise à jour</label>
       <label index="extensionList.downloadsql">Télécharger un export SQL</label>
@@ -96,6 +97,11 @@
       <label index="extensionList.showAllVersions.author">Auteur</label>
       <label index="extensionList.showAllVersions.readOnline">Lire en ligne</label>
       <label index="extensionList.distribution.key"/>
+      <label index="extensionList.distribution.author"/>
+      <label index="extensionList.distribution.title"/>
+      <label index="extensionList.distribution.version"/>
+      <label index="extensionList.distribution.lastUpdated"/>
+      <label index="extensionList.officialDistribution"/>
       <label index="distributions"/>
       <label index="extensionList.installDistribution"/>
       <label index="extensionList.updateFromTer.label">Récupération de la liste des extensions depuis le dépôt d'extensions TYPO3 (TER)</label>

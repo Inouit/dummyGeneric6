@@ -120,7 +120,7 @@ Do you want to continue WITHOUT saving?</source>
       <target state="translated">Télécharger le fichier CSV</target></trans-unit>
       <trans-unit id="labels.clear_cache" xml:space="preserve" approved="yes">
         <source>Clear cache for this page</source>
-      <target state="translated">Effacer la cache de la page</target></trans-unit>
+      <target state="translated">Effacer le cache de cette page</target></trans-unit>
       <trans-unit id="labels.no_title" xml:space="preserve" approved="yes">
         <source>No title</source>
       <target state="translated">Sans titre</target></trans-unit>
@@ -264,10 +264,10 @@ Do you want to continue WITHOUT saving?</source>
       <target state="translated">Naviguer dans les enregistrements</target></trans-unit>
       <trans-unit id="labels.clipInsert_file" xml:space="preserve" approved="yes">
         <source>Insert %s file(s) from the clipboard</source>
-      <target state="translated">Insérer %s fichier(s) depuis le presse-papiers</target><note>Le tampon, il est de quelle marque ? Vania, Always, ... ? Cohérence.</note></trans-unit>
+      <target state="translated">Insérer %s fichier(s) depuis le presse-papier</target><note>Le tampon, il est de quelle marque ? Vania, Always, ... ? Cohérence.</note></trans-unit>
       <trans-unit id="labels.clipInsert_db" xml:space="preserve" approved="yes">
         <source>Insert %s record(s) from the clipboard</source>
-      <target state="translated">Insérer %s enregistrement(s) depuis le presse-papiers</target></trans-unit>
+      <target state="translated">Insérer %s enregistrement(s) depuis le presse-papier</target></trans-unit>
       <trans-unit id="labels.generalOptions" xml:space="preserve" approved="yes">
         <source>General options:</source>
       <target state="translated">Options générales</target></trans-unit>
@@ -285,16 +285,28 @@ Do you want to continue WITHOUT saving?</source>
       <target state="translated">VALEUR NON-VALIDE ("%s")</target></trans-unit>
       <trans-unit id="labels.thumbmode_clip" xml:space="preserve" approved="yes">
         <source>Show Thumbnails on ClipBoard</source>
-      <target state="translated">Visualiser les miniatures dans le presse-papiers</target></trans-unit>
+      <target state="translated">Visualiser les miniatures dans le presse-papier</target></trans-unit>
       <trans-unit id="labels.copymode" xml:space="preserve" approved="yes">
         <source>Copy items instead of moving them</source>
       <target state="translated">Copier les éléments plutôt que les déplacer</target></trans-unit>
       <trans-unit id="labels.clipNoEl" xml:space="preserve" approved="yes">
         <source>No elements</source>
       <target state="translated">Pas d'éléments</target></trans-unit>
+      <trans-unit id="labels.normal" xml:space="preserve" approved="yes">
+        <source>Normal (single record mode)</source>
+      <target state="translated">Normal (mode enregistrement unique)</target></trans-unit>
+      <trans-unit id="labels.normal-description" xml:space="preserve" approved="yes">
+        <source>"Normal" clipboard allows to copy/move one record at time.</source>
+      <target state="translated">Le presse-papier "Normal" vous permet de copier/déplacer un enregistrement à la fois.</target></trans-unit>
       <trans-unit id="labels.cliptabs" xml:space="preserve" approved="yes">
         <source>Clipboard #</source>
-      <target state="translated">Presse-papiers No</target><note>n° = n+symbole du degré. L'abréviation correcte est "no".</note></trans-unit>
+      <target state="translated">Presse-papier No </target><note>n° = n+symbole du degré. L'abréviation correcte est "no".</note></trans-unit>
+      <trans-unit id="labels.cliptabs-name" xml:space="preserve" approved="yes">
+        <source>Clipboard #%s (multi-selection mode)</source>
+      <target state="translated">Presse-papier No %s (mode enregistrements multiples)</target></trans-unit>
+      <trans-unit id="labels.cliptabs-description" xml:space="preserve" approved="yes">
+        <source>This clipboard allows to select and edit/copy/move multiple records at once. Choose it to show a checkbox by each record.</source>
+      <target state="translated">Ce presse-papier vous permet de sélectionner et éditer/copier/déplacer plusieurs enregistrements à la fois. Choisissez-le pour afficher une case à cocher pour chaque enregistrement.</target></trans-unit>
       <trans-unit id="labels.removeItem" xml:space="preserve" approved="yes">
         <source>Remove item</source>
       <target state="translated">Supprimer l'élément</target></trans-unit>
@@ -313,9 +325,9 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="labels.uncheckAll" xml:space="preserve" approved="yes">
         <source>Uncheck all</source>
       <target state="translated">Tout désélectionner</target></trans-unit>
-      <trans-unit id="labels.placeholder.override" xml:space="preserve">
+      <trans-unit id="labels.placeholder.override" xml:space="preserve" approved="yes">
         <source>Override "%s"?</source>
-      <target></target></trans-unit>
+      <target state="translated">Surcharger "%s" ?</target></trans-unit>
       <trans-unit id="labels.changeInOrig" xml:space="preserve" approved="yes">
         <source>Changed in original translation</source>
       <target state="translated">Changer dans la version originale</target></trans-unit>
@@ -439,36 +451,39 @@ Do you want to continue WITHOUT saving?</source>
       <trans-unit id="file_upload.php.files" xml:space="preserve" approved="yes">
         <source>files</source>
       <target state="translated">fichiers</target></trans-unit>
-      <trans-unit id="file_upload.draginformation.message" xml:space="preserve">
-        <source>You simply can drag your files into the filelist. Click again for classic mode.</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.draginformation.title" xml:space="preserve">
-        <source>Drag &amp; Drop available</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.dropzonehint" xml:space="preserve">
-        <source>Drop your files here!</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.maxFilesizeExceeded" xml:space="preserve">
-        <source>File "{0}" exceeds maximum filesize of {1} bytes!</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.fileNotAllowwed" xml:space="preserve">
+      <trans-unit id="file_upload.dropzonehint.title" xml:space="preserve">
+        <source>Drag &amp; drop to upload files</source>
+      <target/></trans-unit>
+      <trans-unit id="file_upload.dropzonehint.message" xml:space="preserve">
+        <source>Drop your files here, or &lt;u&gt;click, browse &amp; choose files&lt;/u&gt;</source>
+      <target/></trans-unit>
+      <trans-unit id="file_upload.select-and-submit" xml:space="preserve">
+        <source>Select &amp; upload files</source>
+      <target/></trans-unit>
+      <trans-unit id="file_upload.maxFileSizeExceeded" xml:space="preserve" approved="no">
+        <source>File "{0}" exceeds maximum file size of {1}!</source>
+      <target state="needs-translation">Le fichier "{0}" dépasse la taille de fichier maximum de {1} octets !</target><note>85%</note></trans-unit>
+      <trans-unit id="file_upload.fileNotAllowed" xml:space="preserve" approved="yes">
         <source>Filename "{0}" is not allowed!</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.uploadFailed" xml:space="preserve">
+      <target state="translated">Le fichier "{0}" n'est pas autorisé !</target><note>100%</note></trans-unit>
+      <trans-unit id="file_upload.fileExtensionExpected" xml:space="preserve">
+        <source>Upload failed! A file with "{0}" extension is expected!</source>
+      <target/></trans-unit>
+      <trans-unit id="file_upload.uploadFailed" xml:space="preserve" approved="yes">
         <source>Upload of file "{0}" failed!</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.upload-in-progress" xml:space="preserve">
+      <target state="translated">L'envoi du fichier "{0}" a échoué !</target></trans-unit>
+      <trans-unit id="file_upload.upload-in-progress" xml:space="preserve" approved="yes">
         <source>File upload in progress...</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.upload-progress-info" xml:space="preserve">
+      <target state="translated">Envoi du fichier en cours...</target></trans-unit>
+      <trans-unit id="file_upload.upload-progress-info" xml:space="preserve" approved="yes">
         <source>Uploading file {0} out of {1} files.</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.upload-finished" xml:space="preserve">
+      <target state="translated">Envoi du fichier {0} sur {1}.</target></trans-unit>
+      <trans-unit id="file_upload.upload-finished" xml:space="preserve" approved="yes">
         <source>Upload complete! Filelist reloading...</source>
-      <target></target></trans-unit>
-      <trans-unit id="file_upload.overwriteExistingFiles" xml:space="preserve">
+      <target state="translated">Envoi terminé ! La liste de fichiers se recharge...</target></trans-unit>
+      <trans-unit id="file_upload.overwriteExistingFiles" xml:space="preserve" approved="yes">
         <source>Shall existing files be overwritten?</source>
-      <target></target></trans-unit>
+      <target state="translated">Les fichiers existants doivent-ils être écrasés ?</target></trans-unit>
       <trans-unit id="file_upload.php.number_of_files" xml:space="preserve" approved="yes">
         <source>Number of files:</source>
       <target state="translated">Nombre de fichiers :</target></trans-unit>
@@ -522,7 +537,7 @@ Do you want to continue WITHOUT saving?</source>
       <target state="translated">Etes-vous sûr de vouloir supprimer "%s" ?</target></trans-unit>
       <trans-unit id="mess.deleteClip" xml:space="preserve" approved="yes">
         <source>Are you sure you want to delete ALL selected elements (%s) on the clipboard?</source>
-      <target state="translated">Etes-vous sûr de vouloir supprimer TOUS les éléments sélectionnés (%s) dans le presse-papiers ?</target></trans-unit>
+      <target state="translated">Etes-vous sûr de vouloir supprimer TOUS les éléments sélectionnés (%s) dans le presse-papier ?</target></trans-unit>
       <trans-unit id="mess.refresh_login" xml:space="preserve" approved="yes">
         <source>Your login has probably expired.
 Do you want to refresh it now?</source>
@@ -591,27 +606,33 @@ Would you like to save now in order to refresh the display?</source>
       <trans-unit id="mess.move_into" xml:space="preserve" approved="yes">
         <source>Move "%s" into "%s"?</source>
       <target state="translated">Déplacer "%s" dans "%s" ?</target></trans-unit>
+      <trans-unit id="mess.move_into_colPos" xml:space="preserve">
+        <source>Move "%1$s" into column "%3$s" on page "%2$s"?</source>
+      <target/></trans-unit>
       <trans-unit id="mess.move_after" xml:space="preserve" approved="yes">
         <source>Move "%s" to after "%s"?</source>
       <target state="translated">Déplacer "%s" après "%s" ?</target></trans-unit>
       <trans-unit id="mess.copy_into" xml:space="preserve" approved="yes">
         <source>Copy "%s" into "%s"?</source>
       <target state="translated">Copier "%s" dans "%s" ?</target></trans-unit>
+      <trans-unit id="mess.copy_into_colPos" xml:space="preserve">
+        <source>Copy "%1$s" into column "%3$s" on page "%2$s"?</source>
+      <target/></trans-unit>
       <trans-unit id="mess.copy_after" xml:space="preserve" approved="yes">
         <source>Copy "%s" to after "%s"?</source>
       <target state="translated">Copier "%s" après "%s" ?</target></trans-unit>
       <trans-unit id="mess.copycb_into" xml:space="preserve" approved="yes">
         <source>Copy all elements (%s) from the clipboard into "%s"?</source>
-      <target state="translated">Copier tous les éléments (%s) du presse-papiers dans "%s" ?</target></trans-unit>
+      <target state="translated">Copier tous les éléments (%s) du presse-papier dans "%s" ?</target></trans-unit>
       <trans-unit id="mess.copycb_after" xml:space="preserve" approved="yes">
         <source>Copy all elements (%s) from the clipboard to the position after "%s"?</source>
-      <target state="translated">Copier tous les éléments (%s) du presse-papiers après "%s" ?</target></trans-unit>
+      <target state="translated">Copier tous les éléments (%s) du presse-papier après "%s" ?</target></trans-unit>
       <trans-unit id="mess.movecb_into" xml:space="preserve" approved="yes">
         <source>Move all elements (%s) from the clipboard into "%s"?</source>
-      <target state="translated">Déplacer tous les éléments (%s) du presse-papiers dans "%s" ?</target></trans-unit>
+      <target state="translated">Déplacer tous les éléments (%s) du presse-papier dans "%s" ?</target></trans-unit>
       <trans-unit id="mess.movecb_after" xml:space="preserve" approved="yes">
         <source>Move all elements (%s) from the clipboard to the position after "%s"?</source>
-      <target state="translated">Déplacer tous les éléments (%s) du presse-papiers après "%s" ?</target></trans-unit>
+      <target state="translated">Déplacer tous les éléments (%s) du presse-papier après "%s" ?</target></trans-unit>
       <trans-unit id="rm.menu" xml:space="preserve" approved="yes">
         <source>[menu]</source>
       <target state="translated">[menu]</target></trans-unit>
@@ -666,6 +687,30 @@ Would you like to save now in order to refresh the display?</source>
       <trans-unit id="rm.clearCacheMenu_allTypo3Conf" xml:space="preserve" approved="yes">
         <source>Clear configuration cache</source>
       <target state="translated">Vider le cache de configuration</target></trans-unit>
+      <trans-unit id="flushPageCachesTitle" xml:space="preserve" approved="yes">
+        <source>Flush frontend caches</source>
+      <target state="translated">Vider le cache frontend</target></trans-unit>
+      <trans-unit id="flushPageCachesDescription" xml:space="preserve" approved="yes">
+        <source>Clear frontend and page-related caches.</source>
+      <target state="translated">Vide le cache frontend et les caches liés aux pages</target></trans-unit>
+      <trans-unit id="flushAllCachesTitle" xml:space="preserve" approved="yes">
+        <source>Flush all caches</source>
+      <target state="translated">Vider tous les caches</target></trans-unit>
+      <trans-unit id="flushAllCachesDescription" xml:space="preserve" approved="yes">
+        <source>Clear all caches, including frontend caches, and extension-specific caches. Compile-time caches / system caches that are needed for TYPO3 to run are not touched.</source>
+      <target state="translated">Vide tous les caches, y.c. les caches frontend et les caches spécifiques aux extensions. Les caches de compilation et les caches systèmes qui sont nécessaires au fonctionnement de TYPO3 ne sont pas touchés.</target></trans-unit>
+      <trans-unit id="flushGeneralCachesTitle" xml:space="preserve" approved="yes">
+        <source>Flush general caches</source>
+      <target state="translated">Vider les caches généraux</target></trans-unit>
+      <trans-unit id="flushGeneralCachesDescription" xml:space="preserve" approved="yes">
+        <source>Clear frontend and page-related caches, plus some backend-related caches.</source>
+      <target state="translated">Vide le cache frontend et les caches liés aux pages, ainsi que certains caches liés au backend.</target></trans-unit>
+      <trans-unit id="flushSystemCachesTitle" xml:space="preserve" approved="yes">
+        <source>Flush system caches</source>
+      <target state="translated">Vider les caches systèmes</target></trans-unit>
+      <trans-unit id="flushSystemCachesDescription" xml:space="preserve" approved="yes">
+        <source>Clear all system-related caches, including the class loader, localization and extension configuration file caches. Rebuilding this cache may take some time. </source>
+      <target state="translated">Vide tous les caches systèmes, y.c. celui du chargeur de classes, des langues et des fichiers de configuration des extensions. La recréation de ce cache peut prendre du temps.</target></trans-unit>
       <trans-unit id="rm.adminFunctions" xml:space="preserve" approved="yes">
         <source>Admin functions</source>
       <target state="translated">Fonctions d'administration</target></trans-unit>
@@ -678,30 +723,30 @@ Would you like to save now in order to refresh the display?</source>
       <trans-unit id="rm.delete" xml:space="preserve" approved="yes">
         <source>Delete</source>
       <target state="translated">Supprimer</target></trans-unit>
-      <trans-unit id="message.header.fileNotDeletedHasReferences" xml:space="preserve">
+      <trans-unit id="message.header.fileNotDeletedHasReferences" xml:space="preserve" approved="yes">
         <source>File not deleted</source>
-      <target></target></trans-unit>
-      <trans-unit id="message.description.fileNotDeletedHasReferences" xml:space="preserve">
+      <target state="translated">Fichier non supprimé</target></trans-unit>
+      <trans-unit id="message.description.fileNotDeletedHasReferences" xml:space="preserve" approved="yes">
         <source>The file cannot be deleted since it is still used at the following places:</source>
-      <target></target></trans-unit>
-      <trans-unit id="message.header.fileDeleted" xml:space="preserve">
+      <target state="translated">Le fichier ne peut pas être supprimé parce qu'il est encore utilisé dans les endroits suivants :</target></trans-unit>
+      <trans-unit id="message.header.fileDeleted" xml:space="preserve" approved="yes">
         <source>File deleted</source>
-      <target></target></trans-unit>
-      <trans-unit id="message.description.fileDeleted" xml:space="preserve">
+      <target state="translated">Fichier supprimé</target></trans-unit>
+      <trans-unit id="message.description.fileDeleted" xml:space="preserve" approved="yes">
         <source>The file "%s" was successfully deleted.</source>
-      <target></target></trans-unit>
-      <trans-unit id="message.header.folderDeleted" xml:space="preserve">
+      <target state="translated">Le fichier "%s" a été supprimé avec succès.</target></trans-unit>
+      <trans-unit id="message.header.folderDeleted" xml:space="preserve" approved="yes">
         <source>Folder deleted</source>
-      <target></target></trans-unit>
-      <trans-unit id="message.description.folderDeleted" xml:space="preserve">
+      <target state="translated">Dossier supprimé</target></trans-unit>
+      <trans-unit id="message.description.folderDeleted" xml:space="preserve" approved="yes">
         <source>The folder "%s" was successfully deleted.</source>
-      <target></target></trans-unit>
-      <trans-unit id="message.header.folderNotDeletedHasFiles" xml:space="preserve">
+      <target state="translated">Le dossier "%s" a été supprimé avec succès.</target></trans-unit>
+      <trans-unit id="message.header.folderNotDeletedHasFiles" xml:space="preserve" approved="yes">
         <source>Folder not deleted</source>
-      <target></target></trans-unit>
-      <trans-unit id="message.description.folderNotDeletedHasFiles" xml:space="preserve">
+      <target state="translated">Dossier non supprimé</target></trans-unit>
+      <trans-unit id="message.description.folderNotDeletedHasFiles" xml:space="preserve" approved="yes">
         <source>The folder cannot be deleted since it still contains files.</source>
-      <target></target></trans-unit>
+      <target state="translated">Le dossier n'a pas pu être supprimé parce qu'il contient encore des fichiers.</target></trans-unit>
       <trans-unit id="buttons.logout" xml:space="preserve" approved="yes">
         <source>Logout</source>
       <target state="translated">Déconnexion</target><note>"Fermer la session" est plus un langage d'informaticien. "Quitter" ou "Déconnexion" semble plus courant. A noter que lors du "login" au backend TYPO3, le label est bien "Connexion" et non "Ouvrir la session". Erreur de cohérence donc en plus.</note></trans-unit>
@@ -716,7 +761,7 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Effacer</target></trans-unit>
       <trans-unit id="buttons.clipboard" xml:space="preserve" approved="yes">
         <source>Clipboard</source>
-      <target state="translated">Presse-papiers</target></trans-unit>
+      <target state="translated">Presse-papier</target></trans-unit>
       <trans-unit id="cm.copy" xml:space="preserve" approved="yes">
         <source>Copy</source>
       <target state="translated">Copier</target></trans-unit>
@@ -729,6 +774,9 @@ Would you like to save now in order to refresh the display?</source>
       <trans-unit id="cm.edit" xml:space="preserve" approved="yes">
         <source>Edit</source>
       <target state="translated">Editer</target></trans-unit>
+      <trans-unit id="cm.editcontent" xml:space="preserve">
+        <source>Edit content</source>
+      <target/></trans-unit>
       <trans-unit id="cm.new" xml:space="preserve" approved="yes">
         <source>New</source>
       <target state="translated">Nouveau</target></trans-unit>
@@ -761,10 +809,10 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Afficher</target></trans-unit>
       <trans-unit id="cm.online" xml:space="preserve">
         <source>Turn online</source>
-      <target></target></trans-unit>
+      <target/></trans-unit>
       <trans-unit id="cm.offline" xml:space="preserve">
         <source>Turn offline</source>
-      <target></target></trans-unit>
+      <target/></trans-unit>
       <trans-unit id="cm.upload" xml:space="preserve" approved="yes">
         <source>Upload Files</source>
       <target state="translated">Envoyer des fichiers</target></trans-unit>
@@ -786,6 +834,9 @@ Would you like to save now in order to refresh the display?</source>
       <trans-unit id="cm.createnew" xml:space="preserve" approved="yes">
         <source>Create new</source>
       <target state="translated">Créer nouveau</target></trans-unit>
+      <trans-unit id="cm.createnew.link" xml:space="preserve" approved="yes">
+        <source>Create new %s</source>
+      <target state="translated">Créer un nouvel enregistrement %s</target><note>100%</note></trans-unit>
       <trans-unit id="cm.tempMountPoint" xml:space="preserve" approved="yes">
         <source>Mount as treeroot</source>
       <target state="translated">Zoomer sur la rubrique</target></trans-unit>
@@ -854,7 +905,7 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Le module d'installation utilise actuellement le mot de passe par défaut "joh316". N'oubliez pas de le modifier dans la section %sAbout section%s du module d'installation.</target></trans-unit>
       <trans-unit id="warning.installtool_default_password" xml:space="preserve">
         <source>The Install Tool is still using the default password "joh316". Update this within the %sImportant actions section%s of the Install Tool.</source>
-      <target></target></trans-unit>
+      <target/></trans-unit>
       <trans-unit id="warning.backend_admin" xml:space="preserve" approved="yes">
         <source>The default backend user "admin" with password "password" is still present. %sEdit this account%s, either deleting it completely or changing the username and password.</source>
       <target state="translated">L'utilisateur backend "admin", utilisant le mot de passe "password" est toujours actif. %sEdit this account%s, supprimez ce compte ou modifiez l'identifiant et le mot de passe.</target></trans-unit>
@@ -897,6 +948,12 @@ Would you like to save now in order to refresh the display?</source>
       <trans-unit id="warning.file_missing_text" xml:space="preserve" approved="yes">
         <source>This file is marked as missing:</source>
       <target state="translated">Ce contenu fait référence à un fichier qui semble ne pas exister :</target></trans-unit>
+      <trans-unit id="warning.header.storage_is_no_public" xml:space="preserve">
+        <source>Storage is not public</source>
+      <target/></trans-unit>
+      <trans-unit id="warning.message.storage_is_no_public" xml:space="preserve">
+        <source>The storage has been marked to be "publicly available" but is not detected as such by the driver. The setting has been reverted.</source>
+      <target/></trans-unit>
       <trans-unit id="error.formProtection.tokenInvalid" xml:space="preserve" approved="yes">
         <source>Validating the security token of this form has failed. Please reload the form and submit it again.</source>
       <target state="translated">La validation du jeton de sécurité du formulaire a échoué. Rechargez le formulaire et envoyez le de nouveau.</target></trans-unit>
@@ -991,10 +1048,13 @@ Check also the following points:\n
       <target state="translated">Chargement de l'aide...</target></trans-unit>
       <trans-unit id="error.database_schema_mismatch" xml:space="preserve">
         <source>A SQL error occurred. This may indicate a schema mismatch between TCA and the database. Try running database compare in the Install Tool.</source>
-      <target></target></trans-unit>
+      <target/></trans-unit>
       <trans-unit id="error.database_schema_mismatch_title" xml:space="preserve" approved="yes">
         <source>Database Error</source>
       <target state="translated">Erreur en base de données</target></trans-unit>
+      <trans-unit id="error.items_proc_func_error" xml:space="preserve">
+        <source>An error occurred trying to process items for field "%1$s" (%2$s).</source>
+      <target/></trans-unit>
     </body>
   </file>
 </xliff>

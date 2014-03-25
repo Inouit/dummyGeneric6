@@ -109,7 +109,7 @@
       <target state="translated">Modification</target></trans-unit>
       <trans-unit id="column.stage" xml:space="preserve" approved="yes">
         <source>Current Stage</source>
-      <target state="translated">État actuel</target><alt-trans xml:space="preserve" origin="wagner51"><target>État courant</target></alt-trans></trans-unit>
+      <target state="translated">État actuel</target></trans-unit>
       <trans-unit id="column.actions" xml:space="preserve" approved="yes">
         <source>Actions</source>
       <target state="translated">Actions</target></trans-unit>
@@ -184,7 +184,7 @@
       <target state="translated">Traitement par lots en cours de préparation</target></trans-unit>
       <trans-unit id="error.stageId.integer" xml:space="preserve" approved="yes">
         <source>StageId is supposed to be an integer</source>
-      <target state="translated">Le StageId est supposé être un entier</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Le StageId est supposé être un entier</target></alt-trans></trans-unit>
+      <target state="translated">Le StageId est supposé être un entier</target></trans-unit>
       <trans-unit id="error.stageId.invalid" xml:space="preserve" approved="yes">
         <source>The stage to be used seems to be invalid and cannot be used. Please consider to use the update
 					wizard in the install tool to fix this.
@@ -197,16 +197,16 @@
       <target state="translated">Cet élément ne peut pas être trouvé. </target></trans-unit>
       <trans-unit id="error.sendToPrevStage.noPreviousStage" xml:space="preserve" approved="yes">
         <source>The record element is already in editing stage, there is no previous stage.</source>
-      <target state="translated">L'enregistrement est déjà dans l'état d'édition, il n'y a pas d'état précédent.</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>L'enregistrement est déjà dans l'état d'édition, il n'y a pas d'état précédent.</target></alt-trans></trans-unit>
+      <target state="translated">L'enregistrement est déjà dans l'état d'édition, il n'y a pas d'état précédent.</target></trans-unit>
       <trans-unit id="window.sendToNextStageWindow.itemsWillBeSentTo" xml:space="preserve" approved="yes">
         <source>The selected element(s) will be sent to</source>
-      <target state="translated">Les éléments sélectionnés seront envoyés</target><alt-trans xml:space="preserve" origin="c.laval"><target>L'(es) élément(s) sélectionné(s) passera(ont) à l'état</target></alt-trans><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Les éléments sélectionnés seront envoyés</target></alt-trans></trans-unit>
+      <target state="translated">Les éléments sélectionnés seront envoyés</target></trans-unit>
       <trans-unit id="window.sendToNextStageWindow.sendMailTo" xml:space="preserve" approved="yes">
         <source>Send mail to</source>
-      <target state="translated">Envoyer le mail à</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Envoyer le mail à</target></alt-trans></trans-unit>
+      <target state="translated">Envoyer le mail à</target></trans-unit>
       <trans-unit id="window.sendToNextStageWindow.additionalRecipients" xml:space="preserve" approved="yes">
         <source>Additional recipients</source>
-      <target state="translated">Envoyer une copie à</target><alt-trans xml:space="preserve" origin="c.laval"><target>Envoyer une copie à</target></alt-trans></trans-unit>
+      <target state="translated">Envoyer une copie à</target></trans-unit>
       <trans-unit id="window.sendToNextStageWindow.comments" xml:space="preserve" approved="yes">
         <source>Comments</source>
       <target state="translated">Commentaires</target></trans-unit>
@@ -233,7 +233,7 @@
       <target state="translated">Vue en liste</target></trans-unit>
       <trans-unit id="preview.livePreview" xml:space="preserve" approved="yes">
         <source>Live</source>
-      <target state="translated">Live</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>Live</target></alt-trans></trans-unit>
+      <target state="translated">Live</target></trans-unit>
       <trans-unit id="preview.livePreviewDetail" xml:space="preserve" approved="yes">
         <source>Click this element to hide the workspace version and see the live version of the page.</source>
       <target state="translated">Cliquer sur cet élément pour masquer la version de l'espace de travail, et voir la version En ligne de la page.</target></trans-unit>
@@ -242,7 +242,7 @@
       <target state="translated">Espace de travail</target></trans-unit>
       <trans-unit id="preview.workspacePreviewDetail" xml:space="preserve" approved="yes">
         <source>Click this element to hide the live version and see the workspace version of the page.</source>
-      <target state="translated">Cliquez sur cet élément pour masquer la version live de la page et en voir la version de l'espace de travail.</target><alt-trans xml:space="preserve" origin="sgroulx"><target>Cliquez sur cet élément pour masquer la version live de la page et en voir la version de l\'espace de travail.</target></alt-trans></trans-unit>
+      <target state="translated">Cliquez sur cet élément pour masquer la version live de la page et en voir la version de l'espace de travail.</target></trans-unit>
       <trans-unit id="preview.modeSlider" xml:space="preserve" approved="yes">
         <source>Slider</source>
       <target state="translated">Curseur</target></trans-unit>
@@ -275,7 +275,7 @@
       <target state="translated">Version de l'espace de travail</target></trans-unit>
       <trans-unit id="current_step" xml:space="preserve" approved="yes">
         <source><![CDATA[<b>Current stage step</b>: {0} (<b>{1}</b>/{2})]]></source>
-      <target state="translated">&lt;b&gt;État courant&lt;/b&gt; : {0} (&lt;b&gt;{1}&lt;/b&gt;/{2})</target><alt-trans xml:space="preserve" origin="thierry.brodard"><target>&lt;b&gt;État courant&lt;/b&gt; : {0} (&lt;b&gt;{1}&lt;/b&gt;/{2})</target></alt-trans></trans-unit>
+      <target state="translated">&lt;b&gt;État courant&lt;/b&gt; : {0} (&lt;b&gt;{1}&lt;/b&gt;/{2})</target></trans-unit>
       <trans-unit id="path" xml:space="preserve" approved="yes">
         <source><![CDATA[<b>Path</b>: {0}]]></source>
       <target state="translated">&lt;b&gt;Chemin&lt;/b&gt; : {0}</target></trans-unit>
@@ -296,22 +296,22 @@
       <target state="translated">L'enregistrement "%s" dépend de la langue de l'enregistrement</target></trans-unit>
       <trans-unit id="integrity.isDefaultLanguageRecord" xml:space="preserve">
         <source><![CDATA[Default language record for record "%s"]]></source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="integrity.hasIssuesDescription" xml:space="preserve">
         <source>The integrity check discovered several issues, see status icons infront of each record for further details.</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="integrity.hasIssuesQuestion" xml:space="preserve">
         <source>Do you want to continue?</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="status.info" xml:space="preserve">
         <source>Information</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="status.warning" xml:space="preserve">
         <source>Warning</source>
-      <target/></trans-unit>
+      </trans-unit>
       <trans-unit id="status.error" xml:space="preserve">
         <source>Error</source>
-      <target/></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

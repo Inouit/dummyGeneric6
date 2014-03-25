@@ -53,6 +53,7 @@
       <label index="action_1_2">Mettre à jour</label>
       <label index="action_1_3">Supprimer</label>
       <label index="action_1_4">Vérifier</label>
+      <label index="action_1_5">Vérifier</label>
       <label index="msg_1_0_1">le referer "%s" et le serveur "%s" sont différents</label>
       <label index="msg_1_1_11">Tentative d'insertion d'un enregistrement sur la page '%s' (%s) où cette table, %s, n'est pas autorisée</label>
       <label index="msg_1_1_12">Tentative d'insertion d'un enregistrement sur la page '%s' (%s) à partir de la table "%s" sans autorisation. Ou bien la page n'existe pas.</label>

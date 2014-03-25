@@ -14,7 +14,7 @@
       <target state="translated">Insérer un caractère spécial</target></trans-unit>
       <trans-unit id="InsertSoftHyphen-Tooltip" xml:space="preserve">
         <source>Insert soft hyphen</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="general" xml:space="preserve" approved="yes">
         <source>General</source>
       <target state="translated">Général</target></trans-unit>

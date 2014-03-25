@@ -69,6 +69,9 @@
       <trans-unit id="eIcon.caption" xml:space="preserve" approved="yes">
         <source>Edit image caption</source>
       <target state="translated">Edite le titre de l'image</target></trans-unit>
+      <trans-unit id="eIcon.caption_position" xml:space="preserve" approved="yes">
+        <source>Edit image caption alignment</source>
+      <target state="translated">Editer l'alignement du titre de l'image</target></trans-unit>
       <trans-unit id="eIcon.bullets" xml:space="preserve" approved="yes">
         <source>Edit bullet list</source>
       <target state="translated">Editer la liste à puce</target></trans-unit>

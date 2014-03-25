@@ -8,7 +8,7 @@
       <target state="translated">Assistants de Page</target></trans-unit>
       <trans-unit id="tx_funcwizards.description" xml:space="preserve" approved="yes">
         <source>This submodule provides a framework where wizards can be added. Available wizards currently include a wizard for creating pages and sorting pages by title etc.</source>
-      <target state="translated">Ce sous-module permet d'ajouter des assistants. Les assistants actuellement disponibles permettent la création de plusieurs pages et le tri des pages par titre, date de création, etc.</target><alt-trans xml:space="preserve" origin="rhinoferos"><target>Ce sous-module permet d'ajouter des assistants. Les assistants actuellement disponibles permettent la création de plusieurs pages et le tri des pages par titre, date de création, etc.</target></alt-trans></trans-unit>
+      <target state="translated">Ce sous-module permet d'ajouter des assistants. Les assistants actuellement disponibles permettent la création de plusieurs pages et le tri des pages par titre, date de création, etc.</target></trans-unit>
       <trans-unit id="_tx_funcwizards.seeAlso" xml:space="preserve" approved="yes">
         <source>_MOD_web_func:tx_wizardcrpages,
 _MOD_web_func:tx_wizardsortpages</source>

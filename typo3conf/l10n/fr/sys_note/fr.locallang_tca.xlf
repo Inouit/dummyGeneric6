@@ -14,19 +14,19 @@
       <target state="translated">Notes</target></trans-unit>
       <trans-unit id="sys_note.category.I.3" xml:space="preserve" approved="yes">
         <source>To-do</source>
-      <target state="translated">Tâches</target><alt-trans xml:space="preserve" origin="djul"><target>Tâches</target></alt-trans></trans-unit>
+      <target state="translated">Tâches</target></trans-unit>
       <trans-unit id="sys_note.category.I.4" xml:space="preserve" approved="yes">
         <source>Template</source>
-      <target state="translated">Modèle</target><alt-trans xml:space="preserve" origin="djul"><target>Modèle</target></alt-trans></trans-unit>
+      <target state="translated">Modèle</target></trans-unit>
       <trans-unit id="sys_note.subject" xml:space="preserve" approved="yes">
         <source>Subject:</source>
-      <target state="translated">Sujet :</target><alt-trans xml:space="preserve" origin="djul"><target>Sujet :</target></alt-trans></trans-unit>
+      <target state="translated">Sujet :</target></trans-unit>
       <trans-unit id="sys_note.message" xml:space="preserve" approved="yes">
         <source>Message:</source>
-      <target state="translated">Message :</target><alt-trans xml:space="preserve" origin="djul"><target>Message :</target></alt-trans></trans-unit>
+      <target state="translated">Message :</target></trans-unit>
       <trans-unit id="sys_note.personal" xml:space="preserve" approved="yes">
         <source>Personal:</source>
-      <target state="translated">Personnel :</target><alt-trans xml:space="preserve" origin="djul"><target>Personnel :</target></alt-trans></trans-unit>
+      <target state="translated">Personnel :</target></trans-unit>
     </body>
   </file>
 </xliff>

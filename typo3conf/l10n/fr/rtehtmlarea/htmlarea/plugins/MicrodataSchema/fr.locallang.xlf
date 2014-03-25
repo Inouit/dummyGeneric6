@@ -5,22 +5,22 @@
     <body>
       <trans-unit id="ShowMicrodata-Tooltip" xml:space="preserve">
         <source>Show microdata</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="microdata" xml:space="preserve">
         <source>Microdata</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="itemscope" xml:space="preserve">
         <source>Item scope</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="itemtype" xml:space="preserve">
         <source>Item type</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="currentItemType" xml:space="preserve">
         <source>Current item type</source>
-      <target></target></trans-unit>
+      </trans-unit>
       <trans-unit id="itemprop" xml:space="preserve">
         <source>Item property</source>
-      <target></target></trans-unit>
+      </trans-unit>
     </body>
   </file>
 </xliff>

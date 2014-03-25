@@ -79,29 +79,6 @@ tt_content:bodytext</label>
 tt_content:subheader,
 xMOD_csh_corebe:wizard_forms_wiz,
 xMOD_csh_corebe:wizard_table_wiz</label>
-      <label index="text_align.description">Aligne le corps du texte sur la gauche, au centre ou à droite.</label>
-      <label index="text_align.details">Voir le Contenu de la Page/ Fontface pour les commentaires. &lt;strong&gt;Note:&lt;/strong&gt; Cette option est obsolète quand vous utilisez CSS pour le rendu.</label>
-      <label index="_text_align.seeAlso">tt_content:text_face,
-tt_content:bodytext</label>
-      <label index="text_face.description">Sélectionnez une famille de police pour le corps de texte.</label>
-      <label index="text_face.details">&lt;strong&gt;Note:&lt;/strong&gt; Ces options sont faites pour un design spécial. Le design général par défaut devrait être configuré dans le modèle à la place. De plus, vous ne devriez pas utiliser ces options si votre modèle met en œuvre des feuilles de style et et sont basés sur l'utilisation de style de manière générale.</label>
-      <label index="_text_face.seeAlso">tt_content:text_face,
-tt_content:bodytext</label>
-      <label index="text_size.description">Sélectionnez une taille de police pour le corps de texte.</label>
-      <label index="text_size.details">Voir le contenu de la page/ fontface pour les commentaires.&lt;strong&gt;Note:&lt;/strong&gt; Cette option est obsolète quand vous utilisez CSS pour le rendu.</label>
-      <label index="_text_size.seeAlso">tt_content:text_face,
-tt_content:bodytext</label>
-      <label index="text_color.description">Sélectionnez une couleur pour le corps du texte.</label>
-      <label index="text_color.details">Voir le contenu de la page / Fontface pour commentaires.&lt;strong&gt;Note:&lt;/strong&gt; Cette option est obsolète quand vous utilisez CSS pour le rendu.</label>
-      <label index="_text_color.seeAlso">tt_content:text_face,
-tt_content:bodytext</label>
-      <label index="text_properties.description">Sélectionnez des propriétés additionnelles de police.</label>
-      <label index="text_properties.details">Ces options vont sélectionner des propriétés de police pour tout le corps du texte. Cependant, vous pouvez vouloir marquer seulement une partie du corps de texte, en gras, en souligné, auquel cas vous devriez utiliser les options de formatage dans l'Editeur de texte riche. Autrement, vous pouvez utilisez les tags HTML ici:&amp;lt;b&amp;gt;&lt;strong&gt;Ceci est en gras&lt;/strong&gt;&amp;lt;b&amp;gt;
-&amp;lt;i&amp;gt;&lt;em&gt;Voici l'italic&lt;/em&gt;&amp;lt;i&amp;gt;
-&amp;lt;u&amp;gt;&lt;u&gt;ce contenu est souligné&lt;/u&gt;&amp;lt;u&amp;gt;
-Voir le Contenu de la page/ Fontface pour les commentaires.Note: Cette option est obsolète quand vous utilisez CSS pour le rendu.</label>
-      <label index="_text_properties.seeAlso">tt_content:text_face,
-tt_content:bodytext</label>
       <label index="image.description">Insérez une ou plusieurs images.</label>
       <label index="image.details">Vous pouvez joindre de multiples images à l'élément de contenu.Suivant la configuration de TYPO3, vous pouvez joindre des images dans différents formats sans vous soucier de leur taille et type de compression. Le traitement graphique de TYPO3 gère ces détails pour vous.Quand vous utilisez le type "Texte &amp; Image", il est important de sélectionner une position convenable pour les images. Pour cela, utilisez le sélecteur de Position et d'Alignement. Voir le lien pour "Contenu de page/ Position" ci-dessous.Vous pour aussi afficher des images dans de multiples colonnes et même permettre de choisir une option qui ouvre les images en taille maximale quand on clique sur un miniature.</label>
       <label index="_image.seeAlso">tt_content:imagewidth,
@@ -165,7 +142,8 @@ tt_content:image</label>
       <label index="_imagecaption.seeAlso">tt_content:imagecaption_position,
 tt_content:image</label>
       <label index="imagecaption_position.description">Aligne les headers sur la gauche, au centre, ou à droite.</label>
-      <label index="_imagecaption_position.seeAlso"/>
+      <label index="_imagecaption_position.seeAlso">tt_content:imagecols,
+tt_content:image</label>
       <label index="cols.description"/>
       <label index="pages.description"/>
       <label index="pages.details"/>
