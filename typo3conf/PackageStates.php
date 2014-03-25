@@ -354,12 +354,6 @@ return array (
       'packagePath' => 'typo3conf/ext/in_news/',
       'classesPath' => 'Classes/',
     ),
-    'powermail' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
-      'classesPath' => 'Classes/',
-    ),
     'skinDummy' => 
     array (
       'state' => 'active',
@@ -372,9 +366,15 @@ return array (
       'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
+    'powermail' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
+      'classesPath' => 'Classes/',
+    ),
     'news' => 
     array (
-      'state' => 'inactive',
+      'state' => 'active',
       'packagePath' => 'typo3conf/ext/news/',
       'classesPath' => 'Classes/',
     ),
