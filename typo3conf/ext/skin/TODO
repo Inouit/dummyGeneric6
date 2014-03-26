@@ -13,9 +13,12 @@ Todo:
   ☐ Develop in_news
   ☐ Install & conf sitemap
   ☐ Conf indexed_search
-  ☐ Install & conf gridelements
+  ✔ Install & conf gridelements @done (14-03-26 14:29)
+  ☐ Install FCE with gridelements
   ☐ Install & conf de realurl
   ☐ install integrator and publisher profile
   ☐ install scriptmerger
   ☐ install & conf d'image_autoresize (http://typo3.org/extensions/repository/view/image_autoresize)
   ☐ install & conf RTE
+  ☐ generator for gridelements
+  ☐ check for conf for responsive image

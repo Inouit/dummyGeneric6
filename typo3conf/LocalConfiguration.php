@@ -11,6 +11,9 @@ return array(
 	),
 	'EXT' => array(
 		'extConf' => array(
+			'adx_gridelements_accordion' => 'a:0:{}',
+			'adx_gridelements_columns' => 'a:0:{}',
+			'gridelements' => 'a:1:{s:20:"additionalStylesheet";s:0:"";}',
 			'in_news' => 'a:1:{s:11:"newsDoktype";s:3:"180";}',
 			'powermail' => 'a:6:{s:12:"disableIpLog";s:1:"0";s:20:"disableBackendModule";s:1:"0";s:24:"disablePluginInformation";s:1:"0";s:13:"enableCaching";s:1:"0";s:15:"l10n_mode_merge";s:1:"0";s:29:"replaceIrreWithElementBrowser";s:1:"0";}',
 			'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
