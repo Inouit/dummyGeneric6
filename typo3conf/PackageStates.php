@@ -348,10 +348,22 @@ return array (
       'packagePath' => 'typo3/sysext/rtehtmlarea/',
       'classesPath' => 'Classes/',
     ),
+    'powermail' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
+      'classesPath' => 'Classes/',
+    ),
     'skinDummy' => 
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/skinDummy/',
+      'classesPath' => 'Classes/',
+    ),
+    'skin' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
     'gridelements' => 
@@ -364,24 +376,6 @@ return array (
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/skinFlex/',
-      'classesPath' => 'Classes/',
-    ),
-    'skin' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skin/',
-      'classesPath' => 'Classes/',
-    ),
-    'powermail' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
-      'classesPath' => 'Classes/',
-    ),
-    'adx_gridelements_columns' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/adx_gridelements_columns/',
       'classesPath' => 'Classes/',
     ),
     'adx_gridelements_accordion' => 
