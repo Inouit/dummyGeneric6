@@ -9,4 +9,7 @@
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/TSconfig/columns-70-30.ts">');
   // # columns 33 33 33
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/TSconfig/columns-33-33-33.ts">');
+  // # imageCaption
+  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/TSconfig/imageCaption.ts">');
+
 ?>

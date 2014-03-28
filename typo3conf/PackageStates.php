@@ -366,10 +366,10 @@ return array (
       'packagePath' => 'typo3conf/ext/skinFlex/',
       'classesPath' => 'Classes/',
     ),
-    'skin' => 
+    'adx_gridelements_accordion' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skin/',
+      'packagePath' => 'typo3conf/ext/adx_gridelements_accordion/',
       'classesPath' => 'Classes/',
     ),
     'powermail' => 
@@ -378,16 +378,10 @@ return array (
       'packagePath' => 'typo3conf/ext/powermail/',
       'classesPath' => 'Classes/',
     ),
-    'adx_gridelements_columns' => 
+    'skin' => 
     array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/adx_gridelements_columns/',
-      'classesPath' => 'Classes/',
-    ),
-    'adx_gridelements_accordion' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/adx_gridelements_accordion/',
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
     'in_news' => 

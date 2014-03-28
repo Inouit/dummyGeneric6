@@ -3,6 +3,10 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2012-06-13T20:22:32Z" product-name="adx_gridelements_columns">
     <header/>
     <body>
+      <trans-unit id="flexform.sheets.general" xml:space="preserve">
+        <source>Contenu général</source>
+      </trans-unit>
+
       <trans-unit id="TSconfig.columns-50-50.title" xml:space="preserve">
         <source>Colonne 50/50</source>
       </trans-unit>
@@ -15,6 +19,7 @@
       <trans-unit id="TSconfig.columns-50-50.field-2" xml:space="preserve">
         <source>Colonne 2</source>
       </trans-unit>
+
       <trans-unit id="TSconfig.columns-30-70.title" xml:space="preserve">
         <source>Colonne 30/70</source>
       </trans-unit>
@@ -27,6 +32,7 @@
       <trans-unit id="TSconfig.columns-30-70.field-2" xml:space="preserve">
         <source>Contenu principal</source>
       </trans-unit>
+
       <trans-unit id="TSconfig.columns-70-30.title" xml:space="preserve">
         <source>Colonne 70/30</source>
       </trans-unit>
@@ -39,6 +45,7 @@
       <trans-unit id="TSconfig.columns-70-30.field-2" xml:space="preserve">
         <source>Contenu adjacent</source>
       </trans-unit>
+
       <trans-unit id="TSconfig.columns-33-33-33.title" xml:space="preserve">
         <source>Colonne 33/33/33</source>
       </trans-unit>
@@ -53,6 +60,19 @@
       </trans-unit>
       <trans-unit id="TSconfig.columns-33-33-33.field-3" xml:space="preserve">
         <source>Colonne 3</source>
+      </trans-unit>
+
+      <trans-unit id="TSconfig.imageCaption.title" xml:space="preserve">
+        <source>Image légendée</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.imageCaption.description" xml:space="preserve">
+        <source>Image avec légende</source>
+      </trans-unit>
+      <trans-unit id="flexform.imageCaption.image" xml:space="preserve">
+        <source>Image</source>
+      </trans-unit>
+      <trans-unit id="flexform.imageCaption.title" xml:space="preserve">
+        <source>Légende</source>
       </trans-unit>
     </body>
   </file>
