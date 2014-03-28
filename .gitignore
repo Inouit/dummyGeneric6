@@ -8,6 +8,7 @@ typo3temp/*
 typo3conf/ext/in_events
 
 ENABLE_INSTALL_TOOL
+adx_*
 
 node_modules
 _bower_components
