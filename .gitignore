@@ -6,8 +6,8 @@
 typo3conf/AdditionalConfiguration.php
 typo3temp/*
 
-typo3conf/ext/in_events
-adx_*
+typo3conf/ext/skinDummy/ext_typoscript_setup.txt
+typo3conf/ext/skin/ext_typoscript_setup.txt
 
 ENABLE_INSTALL_TOOL
 

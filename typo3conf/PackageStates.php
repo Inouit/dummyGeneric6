@@ -348,10 +348,10 @@ return array (
       'packagePath' => 'typo3/sysext/rtehtmlarea/',
       'classesPath' => 'Classes/',
     ),
-    'gridelements' => 
+    'powermail' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/gridelements/',
+      'packagePath' => 'typo3conf/ext/powermail/',
       'classesPath' => 'Classes/',
     ),
     'skinDummy' => 
@@ -360,22 +360,22 @@ return array (
       'packagePath' => 'typo3conf/ext/skinDummy/',
       'classesPath' => 'Classes/',
     ),
-    'skinFlex' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skinFlex/',
-      'classesPath' => 'Classes/',
-    ),
     'skin' => 
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
-    'powermail' => 
+    'gridelements' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
+      'packagePath' => 'typo3conf/ext/gridelements/',
+      'classesPath' => 'Classes/',
+    ),
+    'skinFlex' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/skinFlex/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 
@@ -502,6 +502,18 @@ return array (
     array (
       'state' => 'inactive',
       'packagePath' => 'typo3conf/ext/news/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_news' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_news/',
+      'classesPath' => 'Classes/',
+    ),
+    'adx_gridelements_accordion' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/adx_gridelements_accordion/',
       'classesPath' => 'Classes/',
     ),
   ),
