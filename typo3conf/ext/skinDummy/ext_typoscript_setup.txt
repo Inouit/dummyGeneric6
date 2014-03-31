@@ -1,4 +1,3 @@
-### Include directory Configuration/Typoscript/extensions
 ### Include directory Configuration/Typoscript/blocks
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinDummy/Configuration/Typoscript/blocks/1-defaultColumn.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinDummy/Configuration/Typoscript/blocks/borderColumn.ts">

@@ -486,23 +486,12 @@ return array (
       'packagePath' => 'typo3/sysext/workspaces/',
       'classesPath' => 'Classes/',
     ),
-    'in_events' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/in_events/',
-      'classesPath' => 'Classes/',
-    ),
-    'in_news' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/in_news/',
-      'classesPath' => 'Classes/',
-    ),
     'news' => 
     array (
       'state' => 'inactive',
       'packagePath' => 'typo3conf/ext/news/',
       'classesPath' => 'Classes/',
+      'dependencies' => NULL,
     ),
   ),
   'version' => 4,
