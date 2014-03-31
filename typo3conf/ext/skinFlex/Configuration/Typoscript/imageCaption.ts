@@ -13,7 +13,8 @@ tt_content.gridelements_pi1.20.10.setup.imageCaption {
 
     20 = TEXT
     20{
-      field = flexform_title
+      field = flexform_caption
+      required = 1
       wrap = <p class="caption">|</p>
     }
 
