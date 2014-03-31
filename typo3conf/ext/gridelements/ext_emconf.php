@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "gridelements".
  *
- * Auto generated 26-03-2014 09:38
+ * Auto generated 31-03-2014 16:10
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next

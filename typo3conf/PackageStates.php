@@ -348,16 +348,16 @@ return array (
       'packagePath' => 'typo3/sysext/rtehtmlarea/',
       'classesPath' => 'Classes/',
     ),
-    'skinDummy' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skinDummy/',
-      'classesPath' => 'Classes/',
-    ),
     'gridelements' => 
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/gridelements/',
+      'classesPath' => 'Classes/',
+    ),
+    'skinDummy' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/skinDummy/',
       'classesPath' => 'Classes/',
     ),
     'skinFlex' => 
@@ -366,28 +366,16 @@ return array (
       'packagePath' => 'typo3conf/ext/skinFlex/',
       'classesPath' => 'Classes/',
     ),
-    'adx_gridelements_accordion' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/adx_gridelements_accordion/',
-      'classesPath' => 'Classes/',
-    ),
-    'powermail' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
-      'classesPath' => 'Classes/',
-    ),
     'skin' => 
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
-    'in_news' => 
+    'powermail' => 
     array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/in_news/',
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 
@@ -510,18 +498,11 @@ return array (
       'packagePath' => 'typo3/sysext/workspaces/',
       'classesPath' => 'Classes/',
     ),
-    'in_events' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/in_events/',
-      'classesPath' => 'Classes/',
-    ),
     'news' => 
     array (
       'state' => 'inactive',
       'packagePath' => 'typo3conf/ext/news/',
       'classesPath' => 'Classes/',
-      'dependencies' => NULL,
     ),
   ),
   'version' => 4,
