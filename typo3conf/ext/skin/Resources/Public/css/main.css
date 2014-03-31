@@ -1,55 +1,55 @@
 /* line 1, src/columns.scss */
-.column { display: inline-block; margin: 0; vertical-align: top; }
+.column { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; }
 /* line 12, src/mixins.scss */
-.column + .column { margin: 0 0 0 2.5%; }
+.column:first-child { margin: 0; }
 
 /*
 HTML columns : <div> <div class="column-50"> <h1>50</h1> </div><!-- --><div class="column-25"> <h1>25</h1> </div><!-- --><div class="column-25"> <h1>25</h1> </div> </div>
 */
 /* line 31, src/columns.scss */
-.column-80 { display: inline-block; margin: 0; vertical-align: top; width: 79.5%; }
+.column-80 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 79.5%; }
 /* line 12, src/mixins.scss */
-.column-80 + .column-80 { margin: 0 0 0 2.5%; }
+.column-80:first-child { margin: 0; }
 
 /* line 32, src/columns.scss */
-.column-75 { display: inline-block; margin: 0; vertical-align: top; width: 74.3750000000625%; }
+.column-75 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 74.3750000000625%; }
 /* line 12, src/mixins.scss */
-.column-75 + .column-75 { margin: 0 0 0 2.5%; }
+.column-75:first-child { margin: 0; }
 
 /* line 33, src/columns.scss */
-.column-70 { display: inline-block; margin: 0; vertical-align: top; width: 65.83333332675%; }
+.column-70 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 65.83333332675%; }
 /* line 12, src/mixins.scss */
-.column-70 + .column-70 { margin: 0 0 0 2.5%; }
+.column-70:first-child { margin: 0; }
 
 /* line 34, src/columns.scss */
-.column-60 { display: inline-block; margin: 0; vertical-align: top; width: 59.0000000001%; }
+.column-60 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 59.0000000001%; }
 /* line 12, src/mixins.scss */
-.column-60 + .column-60 { margin: 0 0 0 2.5%; }
+.column-60:first-child { margin: 0; }
 
 /* line 35, src/columns.scss */
-.column-50 { display: inline-block; margin: 0; vertical-align: top; width: 48.75%; }
+.column-50 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 48.75%; }
 /* line 12, src/mixins.scss */
-.column-50 + .column-50 { margin: 0 0 0 2.5%; }
+.column-50:first-child { margin: 0; }
 
 /* line 36, src/columns.scss */
-.column-40 { display: inline-block; margin: 0; vertical-align: top; width: 38.5%; }
+.column-40 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 38.5%; }
 /* line 12, src/mixins.scss */
-.column-40 + .column-40 { margin: 0 0 0 2.5%; }
+.column-40:first-child { margin: 0; }
 
 /* line 37, src/columns.scss */
-.column-30 { display: inline-block; margin: 0; vertical-align: top; width: 31.6666666635%; }
+.column-30 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 31.6666666635%; }
 /* line 12, src/mixins.scss */
-.column-30 + .column-30 { margin: 0 0 0 2.5%; }
+.column-30:first-child { margin: 0; }
 
 /* line 38, src/columns.scss */
-.column-25 { display: inline-block; margin: 0; vertical-align: top; width: 23.125%; }
+.column-25 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 23.125%; }
 /* line 12, src/mixins.scss */
-.column-25 + .column-25 { margin: 0 0 0 2.5%; }
+.column-25:first-child { margin: 0; }
 
 /* line 39, src/columns.scss */
-.column-20 { display: inline-block; margin: 0; vertical-align: top; width: 18%; }
+.column-20 { display: inline-block; margin: 0 0 0 2.5%; vertical-align: top; width: 18%; }
 /* line 12, src/mixins.scss */
-.column-20 + .column-20 { margin: 0 0 0 2.5%; }
+.column-20:first-child { margin: 0; }
 
 /* line 3, src/layout.scss */
 html { font-size: 62.5%; line-height: 1.3em; }

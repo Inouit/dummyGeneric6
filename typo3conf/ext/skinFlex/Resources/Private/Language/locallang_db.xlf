@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2012-06-13T20:22:32Z" product-name="adx_gridelements_columns">
+    <header/>
+    <body>
+      <trans-unit id="flexform.CType" xml:space="preserve">
+        <source>Type de contenu : </source>
+      </trans-unit>
+      <trans-unit id="flexform.fieldName" xml:space="preserve">
+        <source>Champ</source>
+      </trans-unit>
+      <trans-unit id="flexform.value" xml:space="preserve">
+        <source>Valeur</source>
+      </trans-unit>
+
+      <trans-unit id="flexform.sheets.general" xml:space="preserve">
+        <source>Contenu général</source>
+      </trans-unit>
+
+      <trans-unit id="TSconfig.columns-50-50.title" xml:space="preserve">
+        <source>Colonne 50/50</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-50-50.description" xml:space="preserve">
+        <source>Contenu divisé en deux colonnes de 50%</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-50-50.field-1" xml:space="preserve">
+        <source>Colonne 1</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-50-50.field-2" xml:space="preserve">
+        <source>Colonne 2</source>
+      </trans-unit>
+
+      <trans-unit id="TSconfig.columns-30-70.title" xml:space="preserve">
+        <source>Colonne 30/70</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-30-70.description" xml:space="preserve">
+        <source>Contenu divisé en deux colonnes de 30 et 70%</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-30-70.field-1" xml:space="preserve">
+        <source>Contenu adjacent</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-30-70.field-2" xml:space="preserve">
+        <source>Contenu principal</source>
+      </trans-unit>
+
+      <trans-unit id="TSconfig.columns-70-30.title" xml:space="preserve">
+        <source>Colonne 70/30</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-70-30.description" xml:space="preserve">
+        <source>Contenu divisé en deux colonnes de 70 et 30%</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-70-30.field-1" xml:space="preserve">
+        <source>Contenu principal</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-70-30.field-2" xml:space="preserve">
+        <source>Contenu adjacent</source>
+      </trans-unit>
+
+      <trans-unit id="TSconfig.columns-33-33-33.title" xml:space="preserve">
+        <source>Colonne 33/33/33</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-33-33-33.description" xml:space="preserve">
+        <source>Contenu divisé en deux colonnes de 33%</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-33-33-33.field-1" xml:space="preserve">
+        <source>Colonne 1</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-33-33-33.field-2" xml:space="preserve">
+        <source>Colonne 2</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.columns-33-33-33.field-3" xml:space="preserve">
+        <source>Colonne 3</source>
+      </trans-unit>
+
+      <trans-unit id="TSconfig.imageCaption.title" xml:space="preserve">
+        <source>Image légendée</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.imageCaption.description" xml:space="preserve">
+        <source>Image avec légende</source>
+      </trans-unit>
+      <trans-unit id="flexform.imageCaption.image" xml:space="preserve">
+        <source>Image</source>
+      </trans-unit>
+      <trans-unit id="flexform.imageCaption.caption" xml:space="preserve">
+        <source>Légende</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

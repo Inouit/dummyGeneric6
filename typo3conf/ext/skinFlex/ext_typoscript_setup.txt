@@ -1,0 +1,5 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-50-50.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-30-70.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-70-30.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-33-33-33.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">

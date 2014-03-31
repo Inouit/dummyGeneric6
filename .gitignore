@@ -5,7 +5,9 @@
 *_local.*
 typo3conf/AdditionalConfiguration.php
 typo3temp/*
+
 typo3conf/ext/in_events
+adx_*
 
 ENABLE_INSTALL_TOOL
 
