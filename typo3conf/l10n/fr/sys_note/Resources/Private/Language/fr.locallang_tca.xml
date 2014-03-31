@@ -8,8 +8,8 @@
       <label index="sys_note.category.I.3">Notes</label>
       <label index="sys_note.category.I.4">À faire</label>
       <label index="sys_note.subject"/>
-      <label index="sys_note.message"/>
-      <label index="sys_note.personal"/>
+      <label index="sys_note.message">Message :</label>
+      <label index="sys_note.personal">Personnel :</label>
     </languageKey>
   </data>
 </T3locallangExt>

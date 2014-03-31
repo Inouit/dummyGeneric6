@@ -63,15 +63,15 @@
       <trans-unit id="tx_documentation_domain_model_documentformat.path" xml:space="preserve" approved="yes">
         <source>Path</source>
       <target state="translated">Chemin</target></trans-unit>
-      <trans-unit id="tx_documentation_domain_model_documentformat.format.title" xml:space="preserve">
+      <trans-unit id="tx_documentation_domain_model_documentformat.format.title" xml:space="preserve" approved="yes">
         <source>Show documentation as %s</source>
-      </trans-unit>
+      <target state="translated">Afficher la documentation en %s</target></trans-unit>
       <trans-unit id="showDocumentation" xml:space="preserve" approved="yes">
         <source>Show Documentation</source>
       <target state="translated">Afficher la documentation</target></trans-unit>
-      <trans-unit id="downloadDocumentation" xml:space="preserve">
+      <trans-unit id="downloadDocumentation" xml:space="preserve" approved="yes">
         <source>Download Documentation</source>
-      </trans-unit>
+      <target state="translated">Télécharger la documentation</target></trans-unit>
       <trans-unit id="searchTemplate.submitButton" xml:space="preserve" approved="yes">
         <source>Go</source>
       <target state="translated">Aller</target></trans-unit>

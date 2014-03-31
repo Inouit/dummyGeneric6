@@ -110,7 +110,7 @@
       <target state="translated">Éditer les propriétés de la page</target></trans-unit>
       <trans-unit id="editPageLanguageOverlayProperties" xml:space="preserve">
         <source>Edit page language overlay properties</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="newRecordGeneral" xml:space="preserve" approved="yes">
         <source>Create new record</source>
       <target state="translated">Créer un nouvel élément</target></trans-unit>

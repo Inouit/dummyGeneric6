@@ -89,6 +89,8 @@ This string contains an internal text, which must not be changed. Just copy the 
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 100%</note></trans-unit>
       <trans-unit id="fe_group.description" xml:space="preserve" approved="yes">
         <source>If Usergroup Access Rights is set to a usergroup name, only website users who are members of the selected usergroup will be able to view the page. The special option 'Hide at Login' means the page will &lt;em&gt;not&lt;/em&gt; be visible for any website users that are logged in. Likewise "Show at Any Login" will make the page visible for any logged in Frontend user.</source>
@@ -153,7 +155,7 @@ The following syntax is used to open the page in a popup window:
 Combined:
 100 600x350 - Opens the page in a 600x350 popup with type=100
 2 _blank - Opens the page with target "_blank" and type=2</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>La Cible du Lien annule le comportement par défaut de la Cible du Lien, qui devrait déjà être configuré correctement pour la plupart des pages au modèle du site web TypoScript. Il y a des options additionnelles disponible en utilisant le champ Cible du Lien.Mettre une valeur entière au début du champ en fait le type par défaut pour la page.Par exemple, si un RSS feed est configuré en TypoScript par typeNum=100, configurer la Cible du Lien à 100 pourrait être utilisé pour ajouter un lien RSS dans le menu.La syntaxe suivante est utilisée pour ouvrir la page dans une fenêtre pop-up.400x200 - Ouvre la page dans un fenêtre pop-up de taille 400x200.230x450:resizable=0,location=1 - Ouvre la page dans une fenêtre pop-up qui n'est pas redimensionnable et qui a une barre d'adresse.De manière combinée :100 600x350 - Ouvre une page dans un pop-up 600x350 avec type=100.2-blank - Ouvre la page avec la cible "_blank" et type=2.</target></alt-trans></trans-unit>
       <trans-unit id="no_cache.description" xml:space="preserve" approved="yes">
         <source>This option disables server caching of the page.</source>
       <target state="translated">Cette option désactive la mise en cache serveur de la page.</target></trans-unit>
@@ -161,7 +163,7 @@ Combined:
         <source>Normally pages in TYPO3 are cached on the server after being constructed for the first time. This means a page is displayed much faster the second time it's requested.
 For most pages this presents no problems; indeed, it boosts the performance of the website.
 However you may need to disable caching for a page if it contains dynamic content which must not be cached under any circumstances. Normally the PHP-code rendering such content is programmed to disable the caching automatically. But with this option you can force the page not to be cached.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Normalement, les pages en TYPO3 sont cachées sur le serveur après être construites pour la première fois. Cela implique qu'une page est affichée bien plus vite la seconde fois qu'elle est appelée.Pour la plupart des pages, cela ne présente pas de problème; en effet, cela boost les performances du site web.Cependant, vous pouvez avoir besoin de déactiver la mise en cache pour une page si elle contient du contenu dynamique qui ne doit pas être caché quelles que soient les circonstances. Normalement, le code PHP qui donne un tel contenu est programmé pour désactiver la mise en cache automatiquement. Mais avec cette option, vous pouvez forcer une page à ne pas être cachée.</target></alt-trans></trans-unit>
       <trans-unit id="_no_cache.seeAlso" xml:space="preserve" approved="yes">
         <source>pages:cache_timeout</source>
         <target state="translated">pages:cache_timeout</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -210,7 +212,7 @@ Marking a page as containing a 'Shop' plugin simply means it'll show up in the s
 For additional details on this option, refer to the administration documentation.
 
 It's recommended that only admin-users have access to this field!</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Appliquer cette option laisse le Backend savoir que la page contient un contenu spécifique ou a un but spécifique, tel que contenir un forum ou jouer le rôle de page racine d'une section de vente d'un site web. En se basant sur ce paramètre, le Backend est capable d'afficher une liste de raccourcis aussi bien que des fonctionnalités pertinentes dans le module web. L'affiche Frontend n'est pas du tout affecté.Marquer une page comme contenant un plug-in "Shop", signifie simplement qu'elle apparaîtra dans la liste de raccourcis de modules dans le Backend.Pour des détails supplémentaires à propos de cette option, se référer à la documentation administrative.Il est recommandé que seuls les utilisateurs-administrateur aient accès à ce domaine.</target></alt-trans></trans-unit>
       <trans-unit id="media.description" xml:space="preserve" approved="yes">
         <source>Attach media files related to the page.</source>
       <target state="translated">Joindre des fichiers media relatifs à cette page.</target></trans-unit>
@@ -232,7 +234,7 @@ As an example the template could be use this field to allow a logo to be attache
 Use the 'Protocol' selector to select a prefix for the URL.
 
 This option is used only if the page 'Type' is set to 'Link to External URL.'</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Par exemple, "http://typo3.org" ou juste "www.typo3.org" si le sélecteur de Protocole est fixé sur "http://"Utilisez le sélecteur de Protocole pour sélectionner un préfixe pour l'URL.Cette option n'est utilisée que si le "Type" de la page est fixé sur "Lien vers une URL externe".</target></alt-trans></trans-unit>
       <trans-unit id="_url.seeAlso" xml:space="preserve" approved="yes">
         <source>pages:urltype</source>
         <target state="translated">pages:urltype</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -244,7 +246,7 @@ This option is used only if the page 'Type' is set to 'Link to External URL.'</s
         <source>Click the 'Browse for Records' icon and a new window will appear in which you can easily select a page to act as the Shortcut Target.
 
 This option is used only if the page 'Type' is set to 'Shortcut.'</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Cliquez sur l'icône "Parcourir les archives" et une nouvelle fenêtre apparaîtra, dans laquelle vous pouvez facilement sélectionner une page pour qu'elle joue le rôle de cible de raccourci.Cette option est uniquement utilisée si la page est de type "Raccourci".</target></alt-trans></trans-unit>
       <trans-unit id="_shortcut.seeAlso" xml:space="preserve" approved="yes">
         <source>pages:doktype,
 pages:shortcut_mode</source>
@@ -358,7 +360,7 @@ Ce champ est utilisé ou non suivant le modèle TypoScript du site web.</target>
       <target state="translated">Sélectionnez un mode de raccourcis. Par défaut la page raccourci doit avoir une cible de raccourci vers qui aller. D'autres options sont d'aller à la première sous-page, à une sous-page aléatoire, ou remonter à la page parente.</target></trans-unit>
       <trans-unit id="mount_pid.description" xml:space="preserve">
         <source>Mount this page. If set, subpages of this page come from the Mounted Page instead.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="mount_pid.details" xml:space="preserve" approved="yes">
         <source>In the Frontend this is done by adding a new variable, &amp;MP, to the URL. This links the mounted branch to the main branch by pairing page ids.</source>
       <target state="translated">Dans le Frontend, cela est fait en ajoutant une nouvelle variable, &amp;MP, à l'URL. Cela relie la branche montée à la branche principale en couplant les ID des pages.</target></trans-unit>

@@ -38,7 +38,7 @@
       <target state="translated">Désactiver si tous les enregistrements sont convertis</target></trans-unit>
       <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.deactivateself" xml:space="preserve">
         <source>Deactivate=</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.numberofrecords" xml:space="preserve" approved="yes">
         <source>Number of records=</source>
       <target state="translated">Nombre d'enregistrements</target></trans-unit>

@@ -11,21 +11,21 @@
       <target state="translated">L'idée du module Web&gt;Fonctions est d'être un module hôte pour les applications back-end pour optimiser le traitement des pages ou branches dans l'arborescence.</target></trans-unit>
       <trans-unit id=".details" xml:space="preserve">
         <source>Conceptually the Web&gt;Functions module is different from the Web&gt;Info module only by offering processing  functionality rather than offering information only. It is up to extension programmers to decide in which of these two modules they want to insert functionality.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve">
         <source>_MOD_web_info,
 More about the Web&gt;Functions module | http://typo3.org/documentation/document-library/doc_core_inside/Functions_module/,,
 _MOD_web_func:tx_funcwizards,
 _MOD_web_func:tx_wizardsortpages</source>
-        <note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_.image" xml:space="preserve">
         <source>EXT:lang/cshimages/pagetree_overview_11.png</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id=".image_descr" xml:space="preserve">
         <source>The Web&gt;Functions module as provided by the core is an empty shell. It provides an API that extensions can use to attach function menu items to the Web&gt;Function module. This shows the Wizard extension (func_wizards) providing the main Function Menu item in upper right corner. The "Select Wizard" selectorbox allows the user to select another level of functionality (different wizards) which are provided by other extensions, here the "wizard_sortpages" extension.</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

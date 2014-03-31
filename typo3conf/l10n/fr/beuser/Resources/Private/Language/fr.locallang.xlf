@@ -18,9 +18,9 @@
       <trans-unit id="ipAddress" xml:space="preserve" approved="yes">
         <source>IP address</source>
       <target state="translated">Adresse IP</target></trans-unit>
-      <trans-unit id="backendUserListing" xml:space="preserve">
+      <trans-unit id="backendUserListing" xml:space="preserve" approved="yes">
         <source>Backend User Listing</source>
-      </trans-unit>
+      <target state="translated">Liste des utilisateurs backend</target></trans-unit>
       <trans-unit id="email" xml:space="preserve" approved="yes">
         <source>Email</source>
       <target state="translated">E-mail</target></trans-unit>
@@ -75,9 +75,9 @@
       <trans-unit id="both" xml:space="preserve" approved="yes">
         <source>Both</source>
       <target state="translated">Les deux</target></trans-unit>
-      <trans-unit id="any" xml:space="preserve">
+      <trans-unit id="any" xml:space="preserve" approved="yes">
         <source>Any</source>
-      </trans-unit>
+      <target state="translated">Tous</target></trans-unit>
       <trans-unit id="adminOnly" xml:space="preserve" approved="yes">
         <source>Admin only</source>
       <target state="translated">Administrateur seulement</target></trans-unit>
@@ -90,21 +90,21 @@
       <trans-unit id="inactiveOnly" xml:space="preserve" approved="yes">
         <source>Inactive only</source>
       <target state="translated">Inactifs seulement</target></trans-unit>
-      <trans-unit id="loginBefore" xml:space="preserve">
+      <trans-unit id="loginBefore" xml:space="preserve" approved="yes">
         <source>Logged in before</source>
-      </trans-unit>
-      <trans-unit id="neverLoggedIn" xml:space="preserve">
+      <target state="translated">Déjà authentifié</target></trans-unit>
+      <trans-unit id="neverLoggedIn" xml:space="preserve" approved="yes">
         <source>Never logged in</source>
-      </trans-unit>
+      <target state="translated">Jamais authentifié</target></trans-unit>
       <trans-unit id="filter" xml:space="preserve" approved="yes">
         <source>Filter</source>
       <target state="translated">Filtre</target></trans-unit>
-      <trans-unit id="reallyLogout" xml:space="preserve">
+      <trans-unit id="reallyLogout" xml:space="preserve" approved="yes">
         <source>Really logout</source>
-      </trans-unit>
-      <trans-unit id="endSession" xml:space="preserve">
+      <target state="translated">Vraiment déconnecter</target></trans-unit>
+      <trans-unit id="endSession" xml:space="preserve" approved="yes">
         <source>End session</source>
-      </trans-unit>
+      <target state="translated">Terminer la session</target></trans-unit>
       <trans-unit id="backendUsers" xml:space="preserve" approved="yes">
         <source>Backend users</source>
       <target state="translated">Utilisateurs backend</target></trans-unit>
@@ -131,10 +131,10 @@
       <target state="translated">Êtes-vous sûr(e) de vouloir supprimer cet utilisateur backend %s ?</target></trans-unit>
       <trans-unit id="section.compare" xml:space="preserve">
         <source>Compare</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="compare" xml:space="preserve">
         <source>Compare</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

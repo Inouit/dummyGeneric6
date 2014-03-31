@@ -30,9 +30,9 @@
       <trans-unit id="wiz_newPages_hidePages" xml:space="preserve" approved="yes">
         <source>Hide new pages</source>
       <target state="translated">Masquer les nouvelles pages</target></trans-unit>
-      <trans-unit id="wiz_newPages_hidePagesInMenus" xml:space="preserve">
+      <trans-unit id="wiz_newPages_hidePagesInMenus" xml:space="preserve" approved="yes">
         <source>Hide new pages in menus</source>
-      </trans-unit>
+      <target state="translated">Masquer les nouvelles pages dans les menus</target></trans-unit>
       <trans-unit id="wiz_newPages_lCreate_msg1" xml:space="preserve" approved="yes">
         <source>You're about to create many new pages. Are you sure you want to continue?</source>
       <target state="translated">Vous êtes sur le point de créer de nombreuse nouvelles pages. Souhaitez vous continuer ?</target></trans-unit>

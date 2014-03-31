@@ -24,8 +24,10 @@
       <label index="status_referenceIndex">Index de référence</label>
       <label index="status_fal"/>
       <label index="status_missingFiles"/>
+      <label index="status_contentAdapterActive"/>
       <label index="status_missingFilesCount"/>
       <label index="status_missingFilesMessage"/>
+      <label index="status_contentAdapterActiveMessage"/>
       <label index="status_memcachedConfiguration">Configuration du cache</label>
       <label index="status_PhpSafeMode">PHP safe_mode</label>
       <label index="status_PhpMagicQuotesGpc">PHP magic_quotes_gpc</label>

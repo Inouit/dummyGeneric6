@@ -3,21 +3,21 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="install" target-language="fr">
     <header/>
     <body>
-      <trans-unit id="environment.status.title" xml:space="preserve">
+      <trans-unit id="environment.status.title" xml:space="preserve" approved="yes">
         <source>System environment check</source>
-      </trans-unit>
+      <target state="translated">Vérification de l'environnement système</target></trans-unit>
       <trans-unit id="environment.status.value" xml:space="preserve" approved="yes">
         <source>%1s Test(s)</source>
       <target state="translated">%1s test(s)</target></trans-unit>
       <trans-unit id="environment.status.message.error" xml:space="preserve">
         <source>The system environment check returned errors. Those errors will affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="environment.status.message.warning" xml:space="preserve">
         <source>The system environment check returned warnings. Those warnings might have a negative effect on the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="environment.status.message.notice" xml:space="preserve">
         <source>The system environment check returned notices. Those should not affect the functionality and stability of your TYPO3 CMS instance. Please check the install tool "System environment" for all details.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="environment.status.message.ok" xml:space="preserve">
         <source/>
       </trans-unit>
@@ -30,9 +30,9 @@
       <trans-unit id="status_writable" xml:space="preserve" approved="yes">
         <source>Writable</source>
       <target state="translated">Autorisé en écriture</target></trans-unit>
-      <trans-unit id="status_missingDirectory" xml:space="preserve" approved="no">
+      <trans-unit id="status_missingDirectory" xml:space="preserve" approved="yes">
         <source>Required directory missing</source>
-      <target state="needs-translation">Le répertoire requis est manquant</target></trans-unit>
+      <target state="translated">Un répertoire nécessaire manque</target></trans-unit>
       <trans-unit id="status_nonExistingDirectory" xml:space="preserve" approved="yes">
         <source>Directory not existing</source>
       <target state="translated">Le répertoire n'existe pas</target></trans-unit>

@@ -23,22 +23,22 @@
       <target state="translated">Cette tâches lance le ramasse-miettes du système de cache. Cela permettra de libérer de l'espace pour les backends qui n'ont pas de ramasse-miettes interne. Dans le cas du backend par défaut (base de données), il est conseillé de lancer cette tâches une fois par jour.</target></trans-unit>
       <trans-unit id="fileIndexing.name" xml:space="preserve">
         <source>[OBSOLETE] File Abstraction Layer: Indexing job</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="fileIndexing.description" xml:space="preserve">
         <source>Runs indexing tasks based on an indexing configuration and a storage/folder information.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="fileStorageIndexing.name" xml:space="preserve">
         <source>File Abstraction Layer: Update storage index</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="fileStorageIndexing.description" xml:space="preserve">
         <source>Updates the Index/Cache Data of a Storage; only needed if changes to the storage are possible outside the backend (FTP, RemoteStorages).</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="fileStorageExtraction.name" xml:space="preserve">
         <source>File Abstraction Layer: Extract metadata in storage</source>
-      </trans-unit>
-      <trans-unit id="fileStorageExtraction.description" xml:space="preserve">
+      <target></target></trans-unit>
+      <trans-unit id="fileStorageExtraction.description" xml:space="preserve" approved="yes">
         <source>Extracts metadata for all files in storage which have been changed since last run.</source>
-      </trans-unit>
+      <target state="translated">Extrait les méta-données pour tous les fichiers du stockage qui ont été modifiés depuis la dernière exécution.</target></trans-unit>
       <trans-unit id="tableGarbageCollection.name" xml:space="preserve" approved="yes">
         <source>Table garbage collection</source>
       <target state="translated">Table de recyclage des données</target></trans-unit>

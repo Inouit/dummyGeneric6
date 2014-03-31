@@ -56,7 +56,7 @@
       <target state="translated">Hauteur maximale du RTE lors du redimensionnement</target></trans-unit>
       <trans-unit id="deprecatedPropertyMessage" xml:space="preserve">
         <source>Page TSConfig property "%1$s" used on page id #%4$s is DEPRECATED and will be removed in TYPO3 %3$s. Use "%2$s" instead.</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

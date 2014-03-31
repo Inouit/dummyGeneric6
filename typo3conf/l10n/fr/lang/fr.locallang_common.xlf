@@ -71,7 +71,7 @@
       <target state="translated">Fichiers</target></trans-unit>
       <trans-unit id="folder" xml:space="preserve">
         <source>Folder</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="first" xml:space="preserve" approved="yes">
         <source>First</source>
       <target state="translated">Premier</target></trans-unit>

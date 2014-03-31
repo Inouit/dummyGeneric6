@@ -254,6 +254,8 @@ This string contains an internal text, which must not be changed. Just copy the 
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 100%</note></trans-unit>
       <trans-unit id="header_layout.description" xml:space="preserve" approved="yes">
         <source>Select a visual design for the header.</source>
@@ -278,7 +280,9 @@ This string contains an internal text, which must not be changed. Just copy the 
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
-100%</note></trans-unit>
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+100%</note><alt-trans xml:space="preserve" origin="badr"><target>tt_content:header</target></alt-trans></trans-unit>
       <trans-unit id="subheader.description" xml:space="preserve" approved="yes">
         <source>Enter a subheader to be displayed below the main header. If the Content Element is a "Form" this field is instead used as the Recipient Email.</source>
       <target state="translated">Entrez un sous-titre à afficher sous le titre principal. Si l'élément de contenu est une Forme, ce champ est utilisé comme étant l'e-mail du destinataire à la place.</target></trans-unit>
@@ -383,6 +387,8 @@ Using images (Animation) | FILE:EXT:welcome/modsub/ani_10.gif</target><note from
         <source>EXT:context_help/cshimages/ttcontent_5.png</source>
         <target state="translated">EXT:context_help/cshimages/ttcontent_5.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
@@ -536,7 +542,7 @@ tt_content:image</target><note from="developer">This string contains an internal
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="imagecaption_position.description" xml:space="preserve" approved="no">
         <source>Aligns the image captions to the left, center, or right.</source>
-      <target state="needs-translation">Aligne les headers sur la gauche, au centre, ou à droite.</target><note>78%</note></trans-unit>
+      <target state="needs-translation">Aligne les headers sur la gauche, au centre, ou à droite.</target><note>78%</note><alt-trans xml:space="preserve" origin="badr"><target>Aligne les légendes d'image sur la gauche, au centre, sur la droite.</target></alt-trans></trans-unit>
       <trans-unit id="_imagecaption_position.seeAlso" xml:space="preserve" approved="no">
         <source>tt_content:imagecaption,
 tt_content:image</source>
@@ -545,13 +551,16 @@ tt_content:image</target><note from="developer">This string contains an internal
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
-85%</note></trans-unit>
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+85%</note><alt-trans xml:space="preserve" origin="badr"><target>tt_content:imagecaption,
+tt_content:image</target></alt-trans></trans-unit>
       <trans-unit id="cols.description" xml:space="preserve">
         <source>Select a fixed number of table columns</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionnez un nombre fixe de colonnes de tableau.</target></alt-trans></trans-unit>
       <trans-unit id="pages.description" xml:space="preserve">
         <source>Select a target page or multiple target pages.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionnez une ou plusieurs pages cibles.</target></alt-trans></trans-unit>
       <trans-unit id="pages.details" xml:space="preserve">
         <source>This field is used by many of the Content Element types to create a relation to either a single target page or multiple target pages. If no target page is specified, the current page will generally be used.
 
@@ -564,20 +573,21 @@ In order for the login procedure to work you must make sure that you have create
 The "Menu/Sitemap" Content Elements also use this field. In this case the page will determine the starting point for the menu or the actual pages shown in the menu. This behavior depends on the menu type you have selected.
 
 Finally the "Form" element uses this field as the target page to which the form is submitted. A common use is the "Thank you" page after the form is completed.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Ce champ est utilisé par de nombreux types d’éléments de contenu pour créer une relation vers une ou plusieurs pages cibles. Si aucune page cible n'est précisée, la page courante sera généralement utilisée.En utilisant l'élément de contenu "Rechercher", la page cible est là où les résultats de la recherche vont apparaitre. Vous devez vous assurer que cette page a un élément de contenu "Rechercher" similaire pour afficher les résultats.L'élément de contenu "Connexion" (à ne pas confondre avec le plug-in "Se Connecter" disponible  quand l'extension felogin est installée) utilise également ce champ pour rediriger la Connexion vers une certaine page. Cette page n'a pas besoin de contenir un élément de contenu "connexion" pour pouvoir réaliser l'authentification puisque toute page TYPO3 peut gérer une demande de connexion.Si vous spécifiez une seconde pas de la liste, l'ID va passer dans le système de connexion comme la page dans TYPO3 où les utilisateur du site sont trouvés. Vous devriez utiliser cela uniquement si votre modèle n'est pas encore configuré pour transmettre cette valeur.Afin que la procédure de connexion marche, vous devez vous assurer d'avoir créé des statuts d'utilisateurs et des groupes utilisateurs, d'avoir spécifié où ces utilisateur peuvent être trouvés (typiquement un SysFolder), d'avoir stipulé une ID de page dans la liste de page, et d'être sûr que les cookies sont activé pour ce site.L'élément de contenu "Menu/plan du site" utilise aussi ce champ. Dans ce cas, la page va déterminer le point de départ pour le menu, ou les pages véritablement montrées dans le menu. Ce comportement dépend du type de menu que vous avez choisi.Finalement, l'élément "Formulaire" utilise ce champ comme une page cible à laquelle le formulaire est soumise. Un usage commun de cela est la page "Merci" qu'on trouve une fois que le formulaire est rempli.</target></alt-trans></trans-unit>
       <trans-unit id="_pages.seeAlso" xml:space="preserve">
         <source>tt_content:CType,
 tt_content:recursive</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:CType,
+tt_content:recursive</target></alt-trans></trans-unit>
       <trans-unit id="recursive.description" xml:space="preserve">
         <source>The number of subpage levels that should also be included for each page in the list.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Le nombre de niveaux de sous-pages qui devraient être inclues pour chaque page de la liste.</target></alt-trans></trans-unit>
       <trans-unit id="recursive.details" xml:space="preserve">
         <source>This feature depends on the TypoScript template configuration and Content Element type. If enabled, each page listed in the "Pages" field will also have its subpages included to the specified depth.
 
 &lt;strong&gt;Warning:&lt;/strong&gt; If there are many subpages, be aware that this option may return a large number of results</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Les caractéristiques dépendent de la configuration du modèle TypoScript et du type de l'élément de contenu. Si activé, chaque page listée dans le champ "Page" aura également ses sous-pages inclues au niveau spécifié.Attention : S'il y a beaucoup de sous-pages, faites attention à ce que l'option puisse retourner un grand nombre de résultats.</target></alt-trans></trans-unit>
       <trans-unit id="_recursive.seeAlso" xml:space="preserve" approved="no">
         <source>tt_content:pages</source>
         <target state="needs-translation">tt_content:header</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -593,10 +603,12 @@ This string contains an internal text, which must not be changed. Just copy the 
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
-76%</note></trans-unit>
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+76%</note><alt-trans xml:space="preserve" origin="badr"><target>tt_content:pages</target></alt-trans></trans-unit>
       <trans-unit id="menu_type.description" xml:space="preserve">
         <source>Select the type of menu you wish to create.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionnez le type de menu que vous voulez créer.</target></alt-trans></trans-unit>
       <trans-unit id="menu_type.details" xml:space="preserve">
         <source>This is a short description of each type:
 
@@ -625,22 +637,23 @@ This displays the 10 most recently updated pages.
 
 &lt;strong&gt;Related pages (based on keywords)&lt;/strong&gt;
 Displays other related pages based on the keywords of the selected pages matched against the keywords of other pages.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Voici une courte description de chaque type: Menu des pages sélectionnéesCela va créer un menu avec des liens vers la pages de liste des Pages SélectionnéesMenu des sous-pages des pages sélectionnéesCela va créer un menu avec des liens vers les sous-pages des pages de la liste des Pages sélectionnées. Si vous n'avez pas spécifié de page, les sous-pages de la page courante seront utilisées.Menu des sous-pages des pages sélectionnées (avec résumé)Comme l'option précédente, mais affiche également le contenu du champ Résumé (ou du champ Description) pour chaque page dans le menu. Le champ Résumé a la priorité sur le champ Description si les deux sont renseignés.Menu des sous-pages des pages sélectionnées + paragraphesComme l'option précédente, mais inclut des liens vers tout les éléments de contenu de la page qui sont marqués "A montrer dans le menu des paragraphes"Plan du siteGénère un plan du site en arborescence classique. Notez que le plan du site commencera depuis la page courante à moins que vous ne sélectionniez une autre page à la place.Index de paragraphes (contenu de page marqué pour le menu de paragraphe)Cela créé un menu d'éléments de contenu sur les pages choisies pour tous les éléments de contenu marqués "A montrer dans le menu des paragraphes". C'est un très bonne manière de faire un index en haut de la page.Si vous ne voulez pas que certains éléments de contenu apparaissent dans la liste, décocher la case à cocher "A montrer dans le menu des paragraphes" pour ces éléments.Pages récemment mises à jourCela affiche les 10 pages les plus récemment mises à jour.Note: Si vous mettez à jour une page et que la page n'est pas inclue dans la liste, effacer la cache de la page devrait résoudre le problème.Pages connexes (basés sur des mots-clésAffiche les autres pages connexes sur la base de mots-clés des pages sélectionnées comparés aux mots-clés des autres pages.</target></alt-trans></trans-unit>
       <trans-unit id="_menu_type.seeAlso" xml:space="preserve">
         <source>tt_content:pages,
 tt_content:sectionIndex</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:pages,
+tt_content:sectionIndex</target></alt-trans></trans-unit>
       <trans-unit id="list_type.description" xml:space="preserve">
         <source>Select a plugin to insert.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionner un plug-in à insérer</target></alt-trans></trans-unit>
       <trans-unit id="list_type.details" xml:space="preserve">
         <source>The list of plugins you can insert on a page. The available plugins depend on which extensions are installed.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>La liste de plug-in que vous pouvez insérer dans une page. Les plug-ins disponibles dépendent des extensions installées.</target></alt-trans></trans-unit>
       <trans-unit id="_list_type.seeAlso" xml:space="preserve">
         <source>_MOD_tools_em</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>_MOD_tools_em</target></alt-trans></trans-unit>
       <trans-unit id="_list_type.image" xml:space="preserve" approved="no">
         <source>EXT:context_help/cshimages/ttcontent_7.png</source>
         <target state="needs-translation">EXT:context_help/cshimages/ttcontent_4.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -656,101 +669,106 @@ This string contains an internal text, which must not be changed. Just copy the 
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
-97%</note></trans-unit>
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+97%</note><alt-trans xml:space="preserve" origin="badr"><target>EXT:context_help/cshimages/ttcontent_7.png</target></alt-trans></trans-unit>
       <trans-unit id="select_key.description" xml:space="preserve">
         <source>Enter a special string to define the Content Element's operation or leave it blank for the default mode. Possible values depend on the Content Element being used.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Entrez une chaine de caractères spéciale pour définir le fonctionnement de l'élément de contenu, ou laissez le blanc pour le mode par défaut. Les valeurs possibles dépendent de l'élément de contenu utilisé.</target></alt-trans></trans-unit>
       <trans-unit id="select_key.details" xml:space="preserve">
         <source>Whether or not the content of this field is used and how it's intepreted depends on the Content Element and/or plugin being used. It is considered obsolete for plugins today, but is used in some Content Elements such as File Links.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Que le contenu de ce champ soit utilisé ou pas, et la manière dont il serait interprétré, dépendent de l'élément de contenu et/ou le plug-in utilisé. Cela est considéré obsolète pour les plug-ins actuels, mais c'est utilisé dans certains éléments de contenu tels que les Liens de fichiers.</target></alt-trans></trans-unit>
       <trans-unit id="_select_key.seeAlso" xml:space="preserve">
         <source>tt_content:list_type</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:list_type</target></alt-trans></trans-unit>
       <trans-unit id="table_bgColor.description" xml:space="preserve">
         <source>Select the table background color.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionnez la couleur de fond du tableau.</target></alt-trans></trans-unit>
       <trans-unit id="table_border.description" xml:space="preserve">
         <source>Select the table border thickness.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionnez l'épaisseur de la bordure du tableau.</target></alt-trans></trans-unit>
       <trans-unit id="table_cellspacing.description" xml:space="preserve">
         <source>Select the table cell spacing.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionnez l'espacement des cellules du tableau.</target></alt-trans></trans-unit>
       <trans-unit id="table_cellspacing.details" xml:space="preserve">
         <source>Cell spacing is the distance between table cells in rows and columns. The distance is equally applied in all directions, top, bottom, left, and right.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>L'espacement des cellules est la distance entre les cellules du tableau dans les rangées et les colonnes. La distance est également appliquée dans toutes les directions : vers le haut, le bas, la gauche et la droite.</target></alt-trans></trans-unit>
       <trans-unit id="table_cellpadding.description" xml:space="preserve">
         <source>Select the table cellpadding.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionnez la marge intérieure des cellules du tableau.</target></alt-trans></trans-unit>
       <trans-unit id="table_cellpadding.details" xml:space="preserve">
         <source>Cell padding is the 'internal' margin of a table cell. The distance is equally applied in all directions, top, bottom, left, and right.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>La marge intérieure des cellules est la marge interne d'une cellule de tableau. La distance est également appliquée dans toutes les direction : haut, bas, gauche et droite.</target></alt-trans></trans-unit>
       <trans-unit id="media.description" xml:space="preserve">
         <source>Files can be added to the list here.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Les fichiers peuvent être ajoutés à la liste ici.</target></alt-trans></trans-unit>
       <trans-unit id="multimedia.description" xml:space="preserve">
         <source>Insert a multimedia element here (ex. Flash movie)</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Insérer un élément multimedia ici.(ex. Films Flash)</target></alt-trans></trans-unit>
       <trans-unit id="filelink_size.description" xml:space="preserve">
         <source>Enable the display of file sizes.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Active l'affichage de la taille des fichiers.</target></alt-trans></trans-unit>
       <trans-unit id="records.description" xml:space="preserve">
         <source>Insert records to be displayed on this page.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Insérez les archives à afficher sur cette page.</target></alt-trans></trans-unit>
       <trans-unit id="spaceBefore.description" xml:space="preserve">
         <source>Top Margin (in pixels) inserts whitespace &lt;em&gt;before&lt;/em&gt; this Content Element.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>La marge supérieure insère un blanc avant cet élément de contenu.</target></alt-trans></trans-unit>
       <trans-unit id="_spaceBefore.seeAlso" xml:space="preserve">
         <source>tt_content:spaceAfter,
 tt_content:section_frame</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:spaceAfter,
+tt_content:section_frame</target></alt-trans></trans-unit>
       <trans-unit id="spaceAfter.description" xml:space="preserve">
         <source>Bottom Margin (in pixels) inserts whitespace &lt;em&gt;after&lt;/em&gt; this Content Element.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>La marge inférieure (en pixels) insère un blanc après l'élément de contenu.</target></alt-trans></trans-unit>
       <trans-unit id="_spaceAfter.seeAlso" xml:space="preserve">
         <source>tt_content:spaceBefore,
 tt_content:section_frame</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:spaceBefore,
+tt_content:section_frame</target></alt-trans></trans-unit>
       <trans-unit id="section_frame.description" xml:space="preserve">
         <source>Select indention or framing options for the Content Element.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Sélectionnez les options d'alinéa et de cadrage pour l'élément de contenu.</target></alt-trans></trans-unit>
       <trans-unit id="_section_frame.seeAlso" xml:space="preserve">
         <source>tt_content:spaceAfter,
 tt_content:spaceBefore</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:spaceAfter,
+tt_content:spaceBefore</target></alt-trans></trans-unit>
       <trans-unit id="sectionIndex.description" xml:space="preserve">
         <source>If set, the Content Element will appear in Section Menus.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>si activé, l'élément de contenu apparaitra dans le menu des paragraphes.</target></alt-trans></trans-unit>
       <trans-unit id="sectionIndex.details" xml:space="preserve">
         <source>See more details about Section Menus by clicking below.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Plus de détails sur les Menus de Paragraphe en cliquant ci-dessous.</target></alt-trans></trans-unit>
       <trans-unit id="_sectionIndex.seeAlso" xml:space="preserve">
         <source>tt_content:menu_type</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:menu_type</target></alt-trans></trans-unit>
       <trans-unit id="linkToTop.description" xml:space="preserve">
         <source>If checked, a small  "To Top" link will be added after the Content Element, linking back to the top of the page.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Si vérifié, un petit lien "Retour haut de page" sera ajouté après l'élément de contenu, renvoyant au haut de la page.</target></alt-trans></trans-unit>
       <trans-unit id="rte_enabled.description" xml:space="preserve">
         <source>If checked, the Rich Text Editor will be disabled for the "Text" and "Text &amp; Image" types (&lt;em&gt;in this Content Element only&lt;/em&gt;).</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Si vérifié, l'Editeur de texte riche sera désactivé pour les types "Texte" et "Texte &amp; Image". (pour cet élément de contenu uniquement)</target></alt-trans></trans-unit>
       <trans-unit id="_rte_enabled.seeAlso" xml:space="preserve">
         <source>tt_content:bodytext</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:bodytext</target></alt-trans></trans-unit>
       <trans-unit id="pi_flexform.description" xml:space="preserve">
         <source>Plugin Configuration</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Configuration du Plug-In</target></alt-trans></trans-unit>
       <trans-unit id="pi_flexform.details" xml:space="preserve">
         <source>Some plugins may provide configuration options, but the actual options vary based on the plugin. Behind the scenes, these are based on FlexForms and stored as XML.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Certains plug-ins permettent des options de configuration, mais les options réelles varient suivant le plug-in. En réalité, elles sont basées sur FlexForms et stockées sous format XML.</target></alt-trans></trans-unit>
       <trans-unit id="_pi_flexform.seeAlso" xml:space="preserve">
         <source>tt_content:list_type</source>
-        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
-      </trans-unit>
+        <target></target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <alt-trans xml:space="preserve" origin="badr"><target>tt_content:list_type</target></alt-trans></trans-unit>
     </body>
   </file>
 </xliff>

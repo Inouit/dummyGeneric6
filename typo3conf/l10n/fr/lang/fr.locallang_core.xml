@@ -318,6 +318,7 @@
       <label index="warning.file_missing_text">Ce contenu fait référence à un fichier qui semble ne pas exister :</label>
       <label index="warning.header.storage_is_no_public"/>
       <label index="warning.message.storage_is_no_public"/>
+      <label index="warning.inline_use_combination"/>
       <label index="error.formProtection.tokenInvalid">La validation du jeton de sécurité du formulaire a échoué. Rechargez le formulaire et envoyez le de nouveau.</label>
       <label index="toolbarItems.shortcuts">Raccourcis</label>
       <label index="toolbarItems.shortcut">Raccourci</label>

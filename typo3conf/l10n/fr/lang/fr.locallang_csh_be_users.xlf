@@ -19,13 +19,13 @@ Backend users are always created in the root of the page tree (like Backend grou
 
 &lt;b&gt;Comparing Users&lt;/b&gt;
 To manage and compare users, getting an overview of their access credentials etc. you can use the Tools &gt; User Admin module (extension: beuser). It allows you to group users by various categories of permissions. You can also switch to another users account by a single click of a button.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_.seeAlso" xml:space="preserve">
         <source>be_groups,
 About backend users | http://typo3.org/documentation/document-library/doc_tut_quickstart/Backend_users/
 Setting up a new user and group | http://typo3.org/documentation/document-library/doc_core_inside/Setting_up_a_new_use/
 Users and Groups [Technical] | http://typo3.org/documentation/document-library/doc_core_inside/Users_and_groups/</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/beuser_2.png,
 EXT:lang/cshimages/beuser_1.png,
@@ -36,7 +36,7 @@ EXT:lang/cshimages/beuser_3.png</source>
         <source>Backend users are found in the root of the page tree. "Admin" backend users can always be recognized on their icon being red while normal users have a blue icon.
 The editing form of a backend users record.
 The "Tools &gt; User Admin" module where you can get an overview of the users on the system and what permissions they have. Click the "SU" button to switch to a users account.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="username.description" xml:space="preserve" approved="yes">
         <source>Enter the login name of the backend user.</source>
       <target state="translated">Entrez le nom d'utilisateur du backend.</target></trans-unit>
@@ -60,7 +60,7 @@ When you enter the password in the password field it is initially visible in cle
 
 &lt;b&gt;User changing password&lt;/b&gt;
 Users can change their password from the User &gt; Setup module</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_password.seeAlso" xml:space="preserve" approved="yes">
         <source>_MOD_user_setup:option_newPassword</source>
         <target state="translated">_MOD_user_setup:option_newPassword</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -71,7 +71,7 @@ Users can change their password from the User &gt; Setup module</source>
       <trans-unit id="usergroup.details" xml:space="preserve">
         <source>The backend user groups defines the permissions which the backend user will inherit. So unless the backend user is an 'Admin' user, he needs to be a member of one or more user groups in order to have practically any permissions assigned. The properties set in the user groups are mostly added together.
 The first (top) group in the list is the group which will, by default, be the owner of pages the user creates.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_usergroup.seeAlso" xml:space="preserve" approved="yes">
         <source>be_users:TSconfig,
 be_groups</source>
@@ -82,7 +82,7 @@ be_groups</source>
       <target state="translated">Entrez le nom de machine à partir de laquelle l'utilisateur doit s'enregistrer.</target></trans-unit>
       <trans-unit id="lockToDomain.details" xml:space="preserve">
         <source>A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_lockToDomain.seeAlso" xml:space="preserve" approved="yes">
         <source>be_groups:lockToDomain,
 fe_users:lockToDomain,
@@ -94,7 +94,7 @@ fe_groups:lockToDomain</source>
       <target state="translated">Désactive le verrou sur adresse IP distant des utilisateurs backend.</target></trans-unit>
       <trans-unit id="disableIPlock.details" xml:space="preserve">
         <source>You will have to disable this lock if backend users are accessing TYPO3 from ISDN or modem connections which may shutdown and reconnect with a new IP. The same would be true for DHCP assignment of IP numbers where new IP numbers are frequently assigned.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="db_mountpoints.description" xml:space="preserve" approved="yes">
         <source>Assign startpoints for the users page tree.</source>
       <target state="translated">Assigne un point d'entrée pour l'arborescence utilisateur.</target></trans-unit>
@@ -102,7 +102,7 @@ fe_groups:lockToDomain</source>
         <source>The page tree used my all Web-submodules to navigate must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a 'Database mount'.
 
 &lt;strong&gt;Notice&lt;/strong&gt; that backend user groups also has DB mounts which can be inherited by the user. So if you want a group of users to share a page tree, you should probably mount the page tree in the backend user group which they share instead.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_db_mountpoints.seeAlso" xml:space="preserve" approved="yes">
         <source>be_groups:db_mountpoints,
 be_users:file_mountpoints,
@@ -119,7 +119,7 @@ EXT:lang/cshimages/be_groups_4.png</source>
       <trans-unit id="db_mountpoints.image_descr" xml:space="preserve">
         <source>A DB mount is assigned to the user. Users can only operate on pages and records which are inside their DB mounts!
 When a page is mounted for a user it will become the root of their page tree. The user must have access to the page through the regular page permissions set in the Web &gt; Access module.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="file_mountpoints.description" xml:space="preserve" approved="yes">
         <source>Assign startpoints for the file folder tree.</source>
       <target state="translated">Assigne un point d'entrée pour l'arborescence de fichier.</target></trans-unit>
@@ -127,7 +127,7 @@ When a page is mounted for a user it will become the root of their page tree. Th
         <source>The file folder tree is used by all File-submodules to navigate between the file folders on the webserver.
 Notice as with 'DB mounts' the file folder mounts may be inherited from the member groups of the user.
 See Backend Groups for details</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_file_mountpoints.seeAlso" xml:space="preserve" approved="yes">
         <source>be_groups:file_mountpoints,
 be_users:db_mountpoints,
@@ -176,18 +176,18 @@ be_users:endtime</source>
 'Admin' users are easily recognized as they appear with a red icon instead of the ordinary blue user-icon.
 
 You should probably not assign any other users than yourself as an 'Admin' user.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_admin.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/beuser_4.png</source>
         <target state="translated">EXT:lang/cshimages/beuser_4.png</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="options.description" xml:space="preserve">
         <source>Select if the user should inherit page tree or folder tree mountpoints from member groups.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="options.details" xml:space="preserve">
         <source>It's a great advantage to let users inherit mountpoints from membergroups because it makes administration of the same mountpoints for many users extremely easy.
 If you don't check these options, you must make sure the mount points for the page tree and file folder tree is set specifically for the user.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_options.seeAlso" xml:space="preserve" approved="yes">
         <source>be_users:db_mountpoints,
 be_users:file_mountpoints</source>
@@ -195,12 +195,12 @@ be_users:file_mountpoints</source>
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="file_permissions.description" xml:space="preserve">
         <source>Select file operation permissions for the user.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="file_permissions.details" xml:space="preserve">
         <source>These settings relate to the functions found in the File&gt;List module as well as general upload of files.
 
 &lt;strong&gt;Notice&lt;/strong&gt; that backend user groups also have file operation permissions which automatically apply to the user if he's member of an accordant group. So if you want a group of users share identical file operation permissions, you should probably define them in a backend user group instead.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="file_permissions.seeAlso" xml:space="preserve" approved="no">
         <source>be_users:file_mountpoints,
 be_group:file_permissions</source>
@@ -208,15 +208,17 @@ be_group:file_permissions</source>
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
+This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.
 84%</note></trans-unit>
       <trans-unit id="fileoper_perms.description" xml:space="preserve">
         <source>Select file operation permissions for the user.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="fileoper_perms.details" xml:space="preserve">
         <source>These settings relate to the functions found in the File&gt;List module as well as general upload of files.
 
 &lt;strong&gt;Notice&lt;/strong&gt; that backend user groups also have file operation permissions which automatically apply to the user if he's member of an accordant group. So if you want a group of users share identical file operation permissions, you should probably define them in a backend user group instead.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_fileoper_perms.seeAlso" xml:space="preserve" approved="yes">
         <source>be_users:file_mountpoints,
 be_group:file_permissions</source>
@@ -242,7 +244,7 @@ pages:starttime</source>
       <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="lastlogin.description" xml:space="preserve">
         <source>This field shows the user's last log in date.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="lang.description" xml:space="preserve" approved="yes">
         <source>Select the &lt;i&gt;default&lt;/i&gt; language.</source>
       <target state="translated">Sélectionnez la langue par &lt;em&gt;défaut&lt;/em&gt;</target></trans-unit>
@@ -251,7 +253,7 @@ pages:starttime</source>
 'Admin'-users however will experience that the 'Admin'-only parts of TYPO3 is in english. This includes all submodules in "Tools" and the Web&gt;Template module.
 
 &lt;b&gt;Notice&lt;/b&gt; this is only setting the default language. As soon as the user has logged in the language must be changed through the User&gt;Setup module. Also you will have to install the corresponding language pack which can be found as an extension on TYPO3.org with the prefix "csh_XX" where XX is the TYPO3 language key.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_lang.seeAlso" xml:space="preserve" approved="yes">
         <source>_MOD_user_setup:language</source>
         <target state="translated">_MOD_user_setup:language</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -263,7 +265,7 @@ pages:starttime</source>
         <source>This determines which 'menu items' are available for the user in the backend.
 
 Notice that the same list of modules may be configured for the backend user groups and that these will be inherited by the user in addition to the modules you select here. It's highly likely that you should not set any modules for the user himself but rather select the modules in the backend groups he's a member of. However this list provides a great way to add a single module for specific users.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_userMods.seeAlso" xml:space="preserve" approved="yes">
         <source>be_groups:groupMods</source>
         <target state="translated">be_groups:groupMods</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -273,7 +275,7 @@ Notice that the same list of modules may be configured for the backend user grou
       <target state="translated">Entrez un TSconfig additionnel pour l'utilisateur (avancé).</target></trans-unit>
       <trans-unit id="TSconfig.details" xml:space="preserve">
         <source>This field allows you to extend the configuration of the user in severe details. A brief summary of the options include a more detailed configuration of the backend modules, setting of user specific default table field values, setting of Rich Text Editor options etc.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_TSconfig.seeAlso" xml:space="preserve" approved="yes">
         <source>pages:TSconfig,
 fe_users:TSconfig,
@@ -283,10 +285,10 @@ User TSconfig | http://typo3.org/documentation/document-library/doc_core_tsconfi
       <note>A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note></trans-unit>
       <trans-unit id="allowed_languages.description" xml:space="preserve">
         <source>Select which record languages the group members are limited to edit.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="allowed_languages.details" xml:space="preserve">
         <source>You can also limit users to specific languages with user group settings. Please see the same field for backend user groups for more details.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_allowed_languages.seeAlso" xml:space="preserve" approved="yes">
         <source>be_groups:allowed_languages</source>
         <target state="translated">be_groups:allowed_languages</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>

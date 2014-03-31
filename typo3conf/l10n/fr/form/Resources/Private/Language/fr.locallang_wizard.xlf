@@ -561,9 +561,9 @@
       <trans-unit id="postprocessor_properties_subject" xml:space="preserve" approved="yes">
         <source>Subject</source>
       <target state="translated">Objet</target></trans-unit>
-      <trans-unit id="postprocessor_properties_destination" xml:space="preserve" approved="no">
+      <trans-unit id="postprocessor_properties_destination" xml:space="preserve" approved="yes">
         <source>Destination to redirect to</source>
-      <target state="needs-translation">Rediriger vers</target></trans-unit>
+      <target state="translated">Destination vers laquelle rediriger</target></trans-unit>
       <trans-unit id="prefix_prefix" xml:space="preserve" approved="yes">
         <source>Prefix</source>
       <target state="translated">Préfixe</target></trans-unit>

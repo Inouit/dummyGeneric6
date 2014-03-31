@@ -185,10 +185,10 @@
       <target state="translated">Ecraser les fichiers existants</target></trans-unit>
       <trans-unit id="uploadMultipleFilesInfo" xml:space="preserve">
         <source>Upload multiple files by holding the Shift or CTRL-file pressed while selecting your files (works on modern browsers only).</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="fileMetaDataLocation" xml:space="preserve">
         <source>Location</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="fileMetaErrorInvalidRecord" xml:space="preserve" approved="yes">
         <source>File meta data not found</source>
       <target state="translated">Aucune méta-information de fichier trouvée</target></trans-unit>
@@ -290,7 +290,7 @@
       <target state="translated">Traduire tous les enregistrements</target></trans-unit>
       <trans-unit id="localizeMergeIfNotBlank" xml:space="preserve">
         <source>The value of the default language will be used if this field is left empty in the translation.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="synchronizeWithOriginalLanguage" xml:space="preserve" approved="yes">
         <source>Synchronize with original language</source>
       <target state="translated">Synchroniser avec la langue d'origine</target></trans-unit>

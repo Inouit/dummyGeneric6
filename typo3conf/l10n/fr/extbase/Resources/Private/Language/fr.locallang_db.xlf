@@ -26,10 +26,10 @@
       <target state="translated">Commande CommandController</target></trans-unit>
       <trans-unit id="task.name" xml:space="preserve">
         <source>Extbase CommandController Task</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="oktopuce"><target>Tâches du CommandController Extbase</target></alt-trans></trans-unit>
       <trans-unit id="task.description" xml:space="preserve">
         <source>Allows Extbase CommandController commands to be configured and executed through the scheduler framework.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="oktopuce"><target>Autoriser les commandes du CommandController Extbase à être configurées et exécutées avec le planificateur (scheduler).</target></alt-trans></trans-unit>
     </body>
   </file>
 </xliff>

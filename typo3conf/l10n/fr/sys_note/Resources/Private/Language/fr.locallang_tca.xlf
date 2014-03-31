@@ -20,13 +20,13 @@
       <target state="translated">À faire</target></trans-unit>
       <trans-unit id="sys_note.subject" xml:space="preserve">
         <source>Subject:</source>
-      </trans-unit>
-      <trans-unit id="sys_note.message" xml:space="preserve">
+      <target></target></trans-unit>
+      <trans-unit id="sys_note.message" xml:space="preserve" approved="yes">
         <source>Message:</source>
-      </trans-unit>
-      <trans-unit id="sys_note.personal" xml:space="preserve">
+      <target state="translated">Message :</target></trans-unit>
+      <trans-unit id="sys_note.personal" xml:space="preserve" approved="yes">
         <source>Personal:</source>
-      </trans-unit>
+      <target state="translated">Personnel :</target></trans-unit>
     </body>
   </file>
 </xliff>

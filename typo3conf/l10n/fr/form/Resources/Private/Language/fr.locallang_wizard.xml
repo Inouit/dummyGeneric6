@@ -188,7 +188,7 @@
       <label index="postprocessor_properties_recipientemail">Adresse e-mail du destinataire</label>
       <label index="postprocessor_properties_senderemail">Adresse e-mail de l'expéditeur</label>
       <label index="postprocessor_properties_subject">Objet</label>
-      <label index="postprocessor_properties_destination">Rediriger vers</label>
+      <label index="postprocessor_properties_destination">Destination vers laquelle rediriger</label>
       <label index="prefix_prefix">Préfixe</label>
       <label index="elements_dummy_title">Vous n'avez pas ajouté d'éléments !</label>
       <label index="elements_dummy_description">Pour commencer, glisser un élément du panneau de gauche dans cette zone</label>

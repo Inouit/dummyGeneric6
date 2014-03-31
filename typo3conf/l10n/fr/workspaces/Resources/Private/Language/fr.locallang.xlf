@@ -296,22 +296,22 @@
       <target state="translated">L'enregistrement "%s" dépend de la langue de l'enregistrement</target></trans-unit>
       <trans-unit id="integrity.isDefaultLanguageRecord" xml:space="preserve">
         <source><![CDATA[Default language record for record "%s"]]></source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="integrity.hasIssuesDescription" xml:space="preserve">
         <source>The integrity check discovered several issues, see status icons infront of each record for further details.</source>
-      </trans-unit>
-      <trans-unit id="integrity.hasIssuesQuestion" xml:space="preserve">
+      <target></target></trans-unit>
+      <trans-unit id="integrity.hasIssuesQuestion" xml:space="preserve" approved="yes">
         <source>Do you want to continue?</source>
-      </trans-unit>
-      <trans-unit id="status.info" xml:space="preserve">
+      <target state="translated">Voulez-vous continuer ?</target></trans-unit>
+      <trans-unit id="status.info" xml:space="preserve" approved="yes">
         <source>Information</source>
-      </trans-unit>
-      <trans-unit id="status.warning" xml:space="preserve">
+      <target state="translated">Information</target></trans-unit>
+      <trans-unit id="status.warning" xml:space="preserve" approved="yes">
         <source>Warning</source>
-      </trans-unit>
-      <trans-unit id="status.error" xml:space="preserve">
+      <target state="translated">Attention</target></trans-unit>
+      <trans-unit id="status.error" xml:space="preserve" approved="yes">
         <source>Error</source>
-      </trans-unit>
+      <target state="translated">Erreur</target></trans-unit>
     </body>
   </file>
 </xliff>

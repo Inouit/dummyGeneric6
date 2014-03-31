@@ -510,12 +510,6 @@ return array (
       'packagePath' => 'typo3conf/ext/in_news/',
       'classesPath' => 'Classes/',
     ),
-    'adx_gridelements_accordion' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/adx_gridelements_accordion/',
-      'classesPath' => 'Classes/',
-    ),
   ),
   'version' => 4,
 )

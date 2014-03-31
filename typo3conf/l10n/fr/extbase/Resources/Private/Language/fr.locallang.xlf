@@ -21,48 +21,48 @@
       <trans-unit id="validator.stringlength.exceed" xml:space="preserve" approved="yes">
         <source>The length of the given string exceeded %s characters.</source>
       <target state="translated">La longueur de la chaîne donnée excède %s caractères.</target></trans-unit>
-      <trans-unit id="validator.alphanumeric.notvalid" xml:space="preserve">
+      <trans-unit id="validator.alphanumeric.notvalid" xml:space="preserve" approved="yes">
         <source>The given subject was not a valid alphanumeric string.</source>
-      </trans-unit>
-      <trans-unit id="validator.datetime.notvalid" xml:space="preserve">
+      <target state="translated">La valeur n'est pas une chaîne alphanumérique valide.</target></trans-unit>
+      <trans-unit id="validator.datetime.notvalid" xml:space="preserve" approved="yes">
         <source>The given subject was not a valid DateTime. Got: '%s'</source>
-      </trans-unit>
-      <trans-unit id="validator.genericobject.noobject" xml:space="preserve">
+      <target state="translated">La valeur n'est pas un objet DateTime. Reçu : '%s'</target></trans-unit>
+      <trans-unit id="validator.genericobject.noobject" xml:space="preserve" approved="yes">
         <source>Value is no object.</source>
-      </trans-unit>
-      <trans-unit id="validator.float.notvalid" xml:space="preserve" approved="no">
+      <target state="translated">La valeur n'est pas un objet.</target></trans-unit>
+      <trans-unit id="validator.float.notvalid" xml:space="preserve" approved="yes">
         <source>The given subject was not a valid float.</source>
-      <target state="needs-translation">Le sujet donné n'est pas une adresse email valide.</target><note>77%</note></trans-unit>
-      <trans-unit id="validator.text.notvalid" xml:space="preserve">
+      <target state="translated">La valeur n'est pas une adresse email valide.</target><note>77%</note></trans-unit>
+      <trans-unit id="validator.text.notvalid" xml:space="preserve" approved="yes">
         <source>The given subject was not a valid text (e.g. contained XML tags).</source>
-      </trans-unit>
-      <trans-unit id="validator.regularexpression.empty" xml:space="preserve">
+      <target state="translated">La valeur n'est pas un texte valide (p. ex. contient des balises XML).</target></trans-unit>
+      <trans-unit id="validator.regularexpression.empty" xml:space="preserve" approved="yes">
         <source>The regular expression was empty.</source>
-      </trans-unit>
-      <trans-unit id="validator.regularexpression.nomatch" xml:space="preserve">
+      <target state="translated">L'expression régulière est vide.</target></trans-unit>
+      <trans-unit id="validator.regularexpression.nomatch" xml:space="preserve" approved="yes">
         <source>The given subject did not match the pattern.</source>
-      </trans-unit>
-      <trans-unit id="validator.regularexpression.error" xml:space="preserve">
-        <source>The reguar expression '%s' contained an error.</source>
-      </trans-unit>
-      <trans-unit id="validator.numberrange.notvalid" xml:space="preserve" approved="no">
+      <target state="translated">La valeur ne correspond pas au motif.</target></trans-unit>
+      <trans-unit id="validator.regularexpression.error" xml:space="preserve" approved="yes">
+        <source>The regular expression '%s' contained an error.</source>
+      <target state="translated">L'expression régulière '%s' contient une erreur.</target></trans-unit>
+      <trans-unit id="validator.numberrange.notvalid" xml:space="preserve" approved="yes">
         <source>The given subject was not a valid number.</source>
-      <target state="needs-translation">Le sujet donné n'est pas une adresse email valide.</target><note>75%</note></trans-unit>
-      <trans-unit id="validator.numberrange.range" xml:space="preserve">
+      <target state="translated">La valeur n'est pas une adresse email valide.</target><note>75%</note></trans-unit>
+      <trans-unit id="validator.numberrange.range" xml:space="preserve" approved="yes">
         <source>The given subject was not in the valid range (%s - %s).</source>
-      </trans-unit>
-      <trans-unit id="validator.notempty.null" xml:space="preserve">
+      <target state="translated">La valeur n'est pas comprise dans l'intervalle autorisé (%s - %s).</target></trans-unit>
+      <trans-unit id="validator.notempty.null" xml:space="preserve" approved="yes">
         <source>The given subject was NULL.</source>
-      </trans-unit>
-      <trans-unit id="validator.notempty.empty" xml:space="preserve">
+      <target state="translated">La valeur est NULL.</target></trans-unit>
+      <trans-unit id="validator.notempty.empty" xml:space="preserve" approved="yes">
         <source>The given subject was empty.</source>
-      </trans-unit>
-      <trans-unit id="validator.number.notvalid" xml:space="preserve" approved="no">
+      <target state="translated">La valeur est vide.</target></trans-unit>
+      <trans-unit id="validator.number.notvalid" xml:space="preserve" approved="yes">
         <source>The given subject was not a valid number.</source>
-      <target state="needs-translation">Le sujet donné n'est pas une adresse email valide.</target><note>75%</note></trans-unit>
-      <trans-unit id="validator.integer.notvalid" xml:space="preserve" approved="no">
-        <source>The given subject was not a valid integer</source>
-      <target state="needs-translation">Le sujet donné n'est pas une adresse email valide.</target><note>75%</note></trans-unit>
+      <target state="translated">La valeur n'est pas un nombre valide.</target><note>75%</note></trans-unit>
+      <trans-unit id="validator.integer.notvalid" xml:space="preserve" approved="yes">
+        <source>The given subject was not a valid integer.</source>
+      <target state="translated">La valeur n'est pas un entier valide.</target><note>75%</note></trans-unit>
     </body>
   </file>
 </xliff>

@@ -22,9 +22,9 @@
       <label index="tx_documentation_domain_model_documentformat">Format de document</label>
       <label index="tx_documentation_domain_model_documentformat.format">Format</label>
       <label index="tx_documentation_domain_model_documentformat.path">Chemin</label>
-      <label index="tx_documentation_domain_model_documentformat.format.title"/>
+      <label index="tx_documentation_domain_model_documentformat.format.title">Afficher la documentation en %s</label>
       <label index="showDocumentation">Afficher la documentation</label>
-      <label index="downloadDocumentation"/>
+      <label index="downloadDocumentation">Télécharger la documentation</label>
       <label index="searchTemplate.submitButton">Aller</label>
       <label index="downloadSucceeded">La documentation générée a été téléchargée avec succès.</label>
       <label index="downloadFailed">Échec de téléchargement</label>

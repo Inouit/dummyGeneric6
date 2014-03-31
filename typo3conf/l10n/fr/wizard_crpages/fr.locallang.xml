@@ -11,7 +11,7 @@
       <label index="wiz_newPages_lCreate">Créer les pages</label>
       <label index="wiz_newPages_listEnd">Placer les nouvelles pages à la suite</label>
       <label index="wiz_newPages_hidePages">Masquer les nouvelles pages</label>
-      <label index="wiz_newPages_hidePagesInMenus"/>
+      <label index="wiz_newPages_hidePagesInMenus">Masquer les nouvelles pages dans les menus</label>
       <label index="wiz_newPages_lCreate_msg1">Vous êtes sur le point de créer de nombreuse nouvelles pages. Souhaitez vous continuer ?</label>
       <label index="wiz_newPages_lReset">Vider les champs</label>
       <label index="wiz_newPages_noCreate">Aucune page n'a été créée!</label>

@@ -11,7 +11,7 @@
       <target state="translated">Fichier</target></trans-unit>
       <trans-unit id="sys_file_storage.isOffline" xml:space="preserve">
         <source>offline</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

@@ -453,13 +453,13 @@ Do you want to continue WITHOUT saving?</source>
       <target state="translated">fichiers</target></trans-unit>
       <trans-unit id="file_upload.dropzonehint.title" xml:space="preserve">
         <source>Drag &amp; drop to upload files</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="file_upload.dropzonehint.message" xml:space="preserve">
         <source>Drop your files here, or &lt;u&gt;click, browse &amp; choose files&lt;/u&gt;</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="file_upload.select-and-submit" xml:space="preserve">
         <source>Select &amp; upload files</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="file_upload.maxFileSizeExceeded" xml:space="preserve" approved="no">
         <source>File "{0}" exceeds maximum file size of {1}!</source>
       <target state="needs-translation">Le fichier "{0}" dépasse la taille de fichier maximum de {1} octets !</target><note>85%</note></trans-unit>
@@ -468,7 +468,7 @@ Do you want to continue WITHOUT saving?</source>
       <target state="translated">Le fichier "{0}" n'est pas autorisé !</target><note>100%</note></trans-unit>
       <trans-unit id="file_upload.fileExtensionExpected" xml:space="preserve">
         <source>Upload failed! A file with "{0}" extension is expected!</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="file_upload.uploadFailed" xml:space="preserve" approved="yes">
         <source>Upload of file "{0}" failed!</source>
       <target state="translated">L'envoi du fichier "{0}" a échoué !</target></trans-unit>
@@ -608,7 +608,7 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Déplacer "%s" dans "%s" ?</target></trans-unit>
       <trans-unit id="mess.move_into_colPos" xml:space="preserve">
         <source>Move "%1$s" into column "%3$s" on page "%2$s"?</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="mess.move_after" xml:space="preserve" approved="yes">
         <source>Move "%s" to after "%s"?</source>
       <target state="translated">Déplacer "%s" après "%s" ?</target></trans-unit>
@@ -617,7 +617,7 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Copier "%s" dans "%s" ?</target></trans-unit>
       <trans-unit id="mess.copy_into_colPos" xml:space="preserve">
         <source>Copy "%1$s" into column "%3$s" on page "%2$s"?</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="mess.copy_after" xml:space="preserve" approved="yes">
         <source>Copy "%s" to after "%s"?</source>
       <target state="translated">Copier "%s" après "%s" ?</target></trans-unit>
@@ -776,7 +776,7 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Editer</target></trans-unit>
       <trans-unit id="cm.editcontent" xml:space="preserve">
         <source>Edit content</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="cm.new" xml:space="preserve" approved="yes">
         <source>New</source>
       <target state="translated">Nouveau</target></trans-unit>
@@ -809,10 +809,10 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Afficher</target></trans-unit>
       <trans-unit id="cm.online" xml:space="preserve">
         <source>Turn online</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="cm.offline" xml:space="preserve">
         <source>Turn offline</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="cm.upload" xml:space="preserve" approved="yes">
         <source>Upload Files</source>
       <target state="translated">Envoyer des fichiers</target></trans-unit>
@@ -905,7 +905,7 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Le module d'installation utilise actuellement le mot de passe par défaut "joh316". N'oubliez pas de le modifier dans la section %sAbout section%s du module d'installation.</target></trans-unit>
       <trans-unit id="warning.installtool_default_password" xml:space="preserve">
         <source>The Install Tool is still using the default password "joh316". Update this within the %sImportant actions section%s of the Install Tool.</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="warning.backend_admin" xml:space="preserve" approved="yes">
         <source>The default backend user "admin" with password "password" is still present. %sEdit this account%s, either deleting it completely or changing the username and password.</source>
       <target state="translated">L'utilisateur backend "admin", utilisant le mot de passe "password" est toujours actif. %sEdit this account%s, supprimez ce compte ou modifiez l'identifiant et le mot de passe.</target></trans-unit>
@@ -950,10 +950,13 @@ Would you like to save now in order to refresh the display?</source>
       <target state="translated">Ce contenu fait référence à un fichier qui semble ne pas exister :</target></trans-unit>
       <trans-unit id="warning.header.storage_is_no_public" xml:space="preserve">
         <source>Storage is not public</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="warning.message.storage_is_no_public" xml:space="preserve">
         <source>The storage has been marked to be "publicly available" but is not detected as such by the driver. The setting has been reverted.</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
+      <trans-unit id="warning.inline_use_combination" xml:space="preserve">
+        <source>This record will be modified globally.</source>
+      <target></target></trans-unit>
       <trans-unit id="error.formProtection.tokenInvalid" xml:space="preserve" approved="yes">
         <source>Validating the security token of this form has failed. Please reload the form and submit it again.</source>
       <target state="translated">La validation du jeton de sécurité du formulaire a échoué. Rechargez le formulaire et envoyez le de nouveau.</target></trans-unit>
@@ -1048,13 +1051,13 @@ Check also the following points:\n
       <target state="translated">Chargement de l'aide...</target></trans-unit>
       <trans-unit id="error.database_schema_mismatch" xml:space="preserve">
         <source>A SQL error occurred. This may indicate a schema mismatch between TCA and the database. Try running database compare in the Install Tool.</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="error.database_schema_mismatch_title" xml:space="preserve" approved="yes">
         <source>Database Error</source>
       <target state="translated">Erreur en base de données</target></trans-unit>
       <trans-unit id="error.items_proc_func_error" xml:space="preserve">
         <source>An error occurred trying to process items for field "%1$s" (%2$s).</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

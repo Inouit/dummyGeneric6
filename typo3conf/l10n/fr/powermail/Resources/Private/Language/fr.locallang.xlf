@@ -212,7 +212,7 @@
       <target state="translated">décembre</target></trans-unit>
       <trans-unit id="JsValidationCheckCheckboxes" xml:space="preserve" approved="yes">
         <source>Please check min. 1</source>
-      <target state="translated">Sélectionner au moins une option s\'il vous plaît.</target></trans-unit>
+      <target state="translated">Sélectionner au moins une option s'il vous plaît.</target></trans-unit>
       <trans-unit id="JsValidationCheckInteger" xml:space="preserve" approved="yes">
         <source>Not a valid number</source>
       <target state="translated">Nombre invalide</target></trans-unit>

@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="PasteToggleTooltip" xml:space="preserve">
         <source>Toggle paste behaviour</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="plainText" xml:space="preserve" approved="yes">
         <source>Paste as plain text</source>
       <target state="translated">Coller en texte brut</target></trans-unit>
@@ -14,10 +14,10 @@
       <target state="translated">Coller uniquement la structure</target></trans-unit>
       <trans-unit id="pasteFormat" xml:space="preserve">
         <source>Paste structure and basic format</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="PasteBehaviourTooltip" xml:space="preserve">
         <source>Select alternate paste behaviour</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="Paste-as-Plain-Text" xml:space="preserve" approved="yes">
         <source>Paste as plain text</source>
       <target state="translated">Coller en texte brut</target></trans-unit>
@@ -26,28 +26,28 @@
       <target state="translated">Le contenu ne peut pas être collé en texte brut, car l'autorisation d'accéder au presse-papiers a été refusée.</target></trans-unit>
       <trans-unit id="enableplainText" xml:space="preserve">
         <source>Enable paste as plain text</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="enablepasteStructure" xml:space="preserve" approved="yes">
         <source>Enable paste structure only</source>
-      <target state="translated">Activer seulement la copie de la structure</target></trans-unit>
+      <target state="translated">Activer seulement la copie de la structure</target><alt-trans xml:space="preserve" origin="thirot"><target>Activer coller uniquement la structure</target></alt-trans></trans-unit>
       <trans-unit id="enablepasteFormat" xml:space="preserve">
         <source>Enable paste structure and basic format</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="disableplainText" xml:space="preserve">
         <source>Disable paste as plain text</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="disablepasteStructure" xml:space="preserve" approved="no">
         <source>Disable paste structure only</source>
-      <target state="needs-translation">Activer seulement la copie de la structure</target><note>89%</note></trans-unit>
+      <target state="needs-translation">Activer seulement la copie de la structure</target><note>89%</note><alt-trans xml:space="preserve" origin="thirot"><target>Inactiver coller uniquement la structure</target></alt-trans></trans-unit>
       <trans-unit id="disablepasteFormat" xml:space="preserve">
         <source>Disable paste structure and basic format</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="pasteInPastingPad" xml:space="preserve">
         <source>Paste the content into this pasting pad and click OK.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="rteCleanPasteBehaviour" xml:space="preserve">
         <source>Clean paste behaviour</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

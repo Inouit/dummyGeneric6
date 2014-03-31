@@ -11,7 +11,7 @@
       <target state="translated">Gestionnaire d'extensions de TYPO3</target></trans-unit>
       <trans-unit id="mlang_labels_tabdescr" xml:space="preserve">
         <source>Manages TYPO3 extensions from a central repository. TYPO3 extensions include plugins, modules, class extensions, configuration code, etc. &lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

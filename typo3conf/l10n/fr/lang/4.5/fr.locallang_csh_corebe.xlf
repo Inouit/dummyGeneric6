@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="new_regular.image_descr" xml:space="preserve">
         <source>The selection of records a user can create on this particular page. The selection depends on the user's permissions and the page type. For example a Folder page type can contain any kind of record while regular pages can contain only some types (like Content Elements).</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

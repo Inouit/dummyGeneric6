@@ -66,10 +66,10 @@
       <label index="be_groups.file_permissions.folder_read"/>
       <label index="be_groups.file_permissions.folder_write">Dossier : Copier</label>
       <label index="be_groups.file_permissions.folder_add"/>
-      <label index="be_groups.file_permissions.folder_rename"/>
+      <label index="be_groups.file_permissions.folder_rename">Dossier : Copier</label>
       <label index="be_groups.file_permissions.folder_move">Dossier : Copier</label>
       <label index="be_groups.file_permissions.folder_copy">Dossier : Copier</label>
-      <label index="be_groups.file_permissions.folder_delete"/>
+      <label index="be_groups.file_permissions.folder_delete">Dossier : Copier</label>
       <label index="be_groups.file_permissions.folder_recursivedelete">Dossier : Suppression récursive (rm -Rf)</label>
       <label index="be_groups.file_permissions.files"/>
       <label index="be_groups.file_permissions.files_read"/>

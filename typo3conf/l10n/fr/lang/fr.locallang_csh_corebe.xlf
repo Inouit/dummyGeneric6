@@ -102,7 +102,7 @@ Using the page tree (Animation) | FILE:EXT:welcome/modsub/ani_01.gif
 Clicking Icons or Titles? (Animation) | FILE:EXT:welcome/modsub/ani_06.gif
 Creating pages (Animation) | FILE:EXT:welcome/modsub/ani_07.gif
 Moving pages (Animation) | FILE:EXT:welcome/modsub/ani_08.gif</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_pagetree.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_4.png,
@@ -144,7 +144,7 @@ Uploading Files | http://typo3.org/documentation/document-library/doc_tut_quicks
 Details about file mounts | http://typo3.org/documentation/document-library/doc_core_inside/More_about_File_Moun/,
 sys_filemounts,
 xMOD_csh_corebe:filelist_module</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_filetree.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_8.png,
@@ -159,7 +159,7 @@ If you click the folder title in the Folder Tree you will see the sub-module loa
       <target state="translated">L'arborescence des dossiers du dossier "fileadmin/". C'est monté par défaut pour les utilisateurs "Admin". Les autres utilisateurs doivent avoir d'abord un point de montage configuré pour eux. Cliquer un icône de dossier affichera un menu contextuel pour ce dossier. Si vous cliquez le titre d'un dossier dans l'arborescence des dossiers, vous verrez le sous-module chargé dans le cadre droit. Ici, c'est le module Fichiers &gt; Liste des fichiers qui affichera les fichiers et les dossiers à l'intérieur. Cliquer l'icône d'un fichier affichera un menu contextuel pour ce fichier.</target></trans-unit>
       <trans-unit id="tcatree.collapseAll" xml:space="preserve">
         <source>Collapse All</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="tcatree" xml:space="preserve" approved="yes">
         <source>TYPO3 TCA tree</source>
       <target state="translated">Arborescence TYPO3 du TCA</target></trans-unit>
@@ -177,7 +177,7 @@ If you click the folder title in the Folder Tree you will see the sub-module loa
       <target state="translated">contient</target></trans-unit>
       <trans-unit id="tcatree.enableRecursiveSelection" xml:space="preserve">
         <source>enable recursive selection</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="list_module.alttitle" xml:space="preserve" approved="yes">
         <source>The Web&gt;List module</source>
       <target state="translated">Le module Web&gt;Liste</target></trans-unit>
@@ -199,7 +199,7 @@ xMOD_csh_corebe:filelist_module,
 xMOD_csh_corebe:TCEforms
 Selective Editing | http://typo3.org/documentation/document-library/doc_tut_quickstart/Selective_editing/
 The List module ("Inside TYPO3") | http://typo3.org/documentation/document-library/doc_core_inside/List_module/,</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_list_module.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_11.png,
@@ -235,7 +235,7 @@ Usually records that are located in the page tree root are somehow "global" for 
       <trans-unit id="_list_module_root.seeAlso" xml:space="preserve">
         <source>xMOD_csh_corebe:list_module
 The List module ("Inside TYPO3") | http://typo3.org/documentation/document-library/doc_core_inside/List_module/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_list_module_root.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_13.png,
@@ -259,7 +259,7 @@ Using the clipboard | http://typo3.org/documentation/document-library/doc_tut_qu
 Numeric Clipboard pads | http://typo3.org/documentation/document-library/doc_tut_quickstart/The_numeric_clipboar/
 Clipboard details [Technical] | http://typo3.org/documentation/document-library/doc_core_inside/Clipboard/,
 Accessing clipboard in scripts [Technical] | http://typo3.org/documentation/document-library/doc_core_api/Accessing_the_clipbo/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_list_clipboard.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_16.png,
@@ -333,7 +333,7 @@ xMOD_csh_corebe:new_pages</source>
         <source>xMOD_csh_corebe:new_regular,
 xMOD_csh_corebe:new_ce,
 How to create a new page | http://typo3.org/documentation/document-library/doc_tut_quickstart/New_page/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_new_pages.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_20.png,
@@ -359,7 +359,7 @@ xMOD_csh_corebe:new_regular,
 How to create new page content | http://typo3.org/documentation/document-library/doc_tut_quickstart/New_page/
 More about Content Element types | http://typo3.org/documentation/document-library/doc_tut_quickstart/Content_element_type/
 Adding Custom elements [Technical] | http://typo3.org/documentation/document-library/doc_core_api/Adding_elements_to_t/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_new_ce.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_22.png,
@@ -385,7 +385,7 @@ You can access the Content Element wizard from the Create new record dialog.</so
         <source>xMOD_csh_corebe:move_el_cs,
 xMOD_csh_corebe:new_pages,
 Moving pages | http://typo3.org/documentation/document-library/doc_tut_quickstart/Move_page/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_move_el_pages.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_27.png,
@@ -439,7 +439,7 @@ If you want to extend the number of history states to above the default 20 you c
         <source>xMOD_csh_corebe:history_sum,
 Configuring History using Page TSconfig | http://typo3.org/documentation/document-library/doc_core_tsconfig/MOD/
 Undo/History article | http://typo3.org/documentation/tips-tricks/the-undohistory-feature/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_history_log.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_37.png,
@@ -465,7 +465,7 @@ Finally you can revert either the whole record to this state in history by the r
       <trans-unit id="_history_sum.seeAlso" xml:space="preserve">
         <source>xMOD_csh_corebe:history_entry,
 Undo/History article | http://typo3.org/documentation/tips-tricks/the-undohistory-feature/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_history_sum.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_39.png</source>
@@ -516,7 +516,7 @@ xMOD_csh_corebe:list_module
 User TSconfig related to forms | http://typo3.org/documentation/document-library/doc_core_tsconfig/OPTIONS/
 Page TSconfig related to forms | http://typo3.org/documentation/document-library/doc_core_tsconfig/RTE/
 Linking to the edit forms [Technical] | http://typo3.org/documentation/document-library/doc_core_api/Links_to_edit_record/</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_TCEforms.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_30.png,
 EXT:lang/cshimages/core_29.png,
@@ -554,7 +554,7 @@ If cache options are not available for you, you should ask your administrator to
       <target state="translated">Effacer le cache des pages et effacer tous les caches peut être effectué aussi de ce menu. Si vous ne comprenez pas pourquoi le contenu du site est différent de ce qu'il y a dans base de données, vous devriez effacer le cache de la page en utilisant une de ces options. Si les options de cache ne vous sont pas accessibles, vous devez demander à votre administrateur de vous les activer (Admin : voir les liens ci-dessous pour TSconfig).</target></trans-unit>
       <trans-unit id="_TCEforms_cacheSelector.seeAlso" xml:space="preserve">
         <source>User TSconfig (See "clearCache.pages/.all") | http://typo3.org/documentation/document-library/doc_core_tsconfig/OPTIONS/</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_TCEforms_cacheSelector.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_36.png,</source>
         <target state="translated">EXT:lang/cshimages/core_36.png,</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -580,7 +580,7 @@ Shows the permissions settings for owner / group / everybody. You will be able t
 User Management Howto | http://typo3.org/documentation/document-library/doc_tut_quickstart/Setting_up_user_perm/
 Permission system in TYPO3 [Technical] | http://typo3.org/documentation/document-library/doc_core_inside/Access_Control_optio/,
 _MOD_user_setup:option_helpText</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_perm_module.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_43.png,
@@ -614,7 +614,7 @@ Allows users to create sub-pages to this page.</source>
       <trans-unit id="_perm_module_setting.seeAlso" xml:space="preserve">
         <source>xMOD_csh_corebe:perm_module,
 User Management Howto | http://typo3.org/documentation/document-library/doc_tut_quickstart/Setting_up_user_perm/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_perm_module_setting.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_42.png</source>
@@ -664,7 +664,7 @@ When you click a file icon you see a context menu appear over it. Here you can p
       <trans-unit id="_filelist_clipboard.seeAlso" xml:space="preserve">
         <source>xMOD_csh_corebe:list_clipboard,
 About the Clipboard [Technical] | http://typo3.org/documentation/document-library/doc_core_inside/Clipboard/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_filelist_clipboard.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_44.png,
@@ -796,7 +796,7 @@ Notice that file uploads may take a significant amount of time, even if you have
       <trans-unit id="_file_upload.seeAlso" xml:space="preserve">
         <source>xMOD_csh_corebe:filelist_module,
 Howto upload files | http://typo3.org/documentation/document-library/doc_tut_quickstart/Uploading_images_to/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_file_upload.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_58.png,
@@ -824,7 +824,7 @@ The most typical application of the Form wizard is with Content Elements of the 
       <trans-unit id="_wizard_forms_wiz.seeAlso" xml:space="preserve">
         <source>xMOD_csh_corebe:wizard_table_wiz,
 Form Wizard details [Technical]| http://typo3.org/documentation/document-library/doc_core_api/Wizards_Configuratio/,</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_wizard_forms_wiz.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_60.png,
@@ -856,7 +856,7 @@ Usually you enter the Form Wizard by clicking the form wizard icon next for a te
       <target state="translated">Note : Pour entrer les adresses, vous avez besoin d'accéder au champ sous-titre de l'élément de contenu. Oui, c'est bizarre, mais c'est comme ça. Demandez à votre administrateur l'accès si vous ne l'avez pas.</target></trans-unit>
       <trans-unit id="_wizard_forms_wiz_formmail_info.seeAlso" xml:space="preserve">
         <source>Howto create Mail Forms | http://typo3.org/documentation/document-library/doc_tut_quickstart/Email_form/</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_wizard_forms_wiz_formmail_info.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_61.png,</source>
         <target state="translated">EXT:lang/cshimages/core_61.png,</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
@@ -874,7 +874,7 @@ You can also disable the setting "Small fields" below the wizard if you want lar
       <trans-unit id="_wizard_table_wiz.seeAlso" xml:space="preserve">
         <source>xMOD_csh_corebe:wizard_forms_wiz,
 Table Wizard details [Technical]| http://typo3.org/documentation/document-library/doc_core_api/Wizard_scripts_in_th/</source>
-        <target/><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
+        <target></target><note from="developer">A part of this string is an internal text, which must not be changed. Just copy this part into the translation field and do not change it. For more information have a look at the Tutorial.</note>
       </trans-unit>
       <trans-unit id="_wizard_table_wiz.image" xml:space="preserve" approved="yes">
         <source>EXT:lang/cshimages/core_63.png</source>
@@ -926,10 +926,10 @@ You can name shortcuts, you can even group them and share them. If you want to e
       <target state="translated">Favoris Backend</target></trans-unit>
       <trans-unit id="bookmarks.description" xml:space="preserve">
         <source>You can create bookmarks to modules in TYPO3 quite easily. The treat is that you can jump between screens in TYPO3 in &lt;em&gt;one&lt;/em&gt; click rather than multiple clicks through backend modules etc. The frame also contains a field for entering a page or record id to edit or just search records.</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="bookmarks.details" xml:space="preserve">
         <source>In order to create a bookmark it must be supported by the module you want to create the bookmark to. Whether bookmarks are supported can be seen in the top of a module. If there is a small star icon you can click it to create the bookmark.</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="_bookmarks.seeAlso" xml:space="preserve" approved="yes">
         <source>User TSconfig -&gt;SETUP | http://typo3.org/documentation/document-library/doc_core_tsconfig/OPTIONS/</source>
       <target state="translated">TSconfig utilisateur -&gt;SETUP | http://typo3.org/documentation/document-library/doc_core_tsconfig/OPTIONS/</target></trans-unit>
@@ -945,7 +945,7 @@ EXT:lang/cshimages/core_68.png,</source>
 You will have to confirm the creation of the bookmark. It is nothing dangerous - only annoying to clean up if you happen to create bookmarks against your own will. Just answer "OK" here.
 When you answer "OK" you should immediately see the bookmark icon in the toolbar reloading and, after opening the menu, the new entry appear. If you click this entry, you will now jump to the page you created the bookmark from!
 You can name bookmarks, you can even group them and share them. If you want to edit or delete a bookmark you select the "Edit" checkbox and then click the bookmark icon.</source>
-      <target/></trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="workspaceSelector.alttitle" xml:space="preserve" approved="yes">
         <source>Workspace Selector</source>
       <target state="translated">Sélecteur d'espace de travail</target></trans-unit>

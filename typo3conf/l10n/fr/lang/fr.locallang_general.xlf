@@ -11,13 +11,13 @@
       <target state="translated">Cacher :</target></trans-unit>
       <trans-unit id="LGL.timestamp" xml:space="preserve">
         <source>Last Modified:</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="LGL.creationDate" xml:space="preserve">
         <source>Created At:</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="LGL.creationUserId" xml:space="preserve">
         <source>Created By:</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="LGL.starttime" xml:space="preserve" approved="yes">
         <source>Start:</source>
       <target state="translated">Lancement :</target></trans-unit>
@@ -146,10 +146,10 @@
       <target state="translated">Désactiver :</target></trans-unit>
       <trans-unit id="LGL.baseStorage" xml:space="preserve">
         <source>Storage:</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="LGL.folder" xml:space="preserve">
         <source>Folder:</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="LGL.startingpoint" xml:space="preserve" approved="yes">
         <source>Startingpoint:</source>
       <target state="translated">Point d'entrée :</target></trans-unit>

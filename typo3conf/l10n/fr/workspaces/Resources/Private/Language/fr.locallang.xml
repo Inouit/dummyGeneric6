@@ -102,10 +102,10 @@
       <label index="integrity.dependsOnDefaultLanguageRecord">L'enregistrement "%s" dépend de la langue de l'enregistrement</label>
       <label index="integrity.isDefaultLanguageRecord"/>
       <label index="integrity.hasIssuesDescription"/>
-      <label index="integrity.hasIssuesQuestion"/>
-      <label index="status.info"/>
-      <label index="status.warning"/>
-      <label index="status.error"/>
+      <label index="integrity.hasIssuesQuestion">Voulez-vous continuer ?</label>
+      <label index="status.info">Information</label>
+      <label index="status.warning">Attention</label>
+      <label index="status.error">Erreur</label>
     </languageKey>
   </data>
 </T3locallangExt>

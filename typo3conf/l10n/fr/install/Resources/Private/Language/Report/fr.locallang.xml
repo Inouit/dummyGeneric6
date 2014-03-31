@@ -2,7 +2,7 @@
 <T3locallangExt>
   <data type="array">
     <languageKey index="fr" type="array">
-      <label index="environment.status.title"/>
+      <label index="environment.status.title">Vérification de l'environnement système</label>
       <label index="environment.status.value">%1s test(s)</label>
       <label index="environment.status.message.error"/>
       <label index="environment.status.message.warning"/>
@@ -11,7 +11,7 @@
       <label index="environment.status.message.info"/>
       <label index="status_fileSystem">Système de fichiers</label>
       <label index="status_writable">Autorisé en écriture</label>
-      <label index="status_missingDirectory">Le répertoire requis est manquant</label>
+      <label index="status_missingDirectory">Un répertoire nécessaire manque</label>
       <label index="status_nonExistingDirectory">Le répertoire n'existe pas</label>
       <label index="status_recommendedWritableDirectory">Le répertoire devrait être autorisé en écriture</label>
       <label index="status_requiredWritableDirectory">Le répertoire est interdit en écriture</label>

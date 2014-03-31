@@ -5,10 +5,10 @@
     <body>
       <trans-unit id="No type" xml:space="preserve">
         <source>No type</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="No property" xml:space="preserve">
         <source>No property</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>

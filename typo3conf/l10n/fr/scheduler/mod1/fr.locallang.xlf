@@ -111,12 +111,12 @@
       <trans-unit id="label.start" xml:space="preserve" approved="yes">
         <source>Start (HH:MM DD-MM-YYYY)</source>
       <target state="translated">Début (HH:MM DD-MM-YYYY)</target></trans-unit>
-      <trans-unit id="label.fileStorageIndexing.storage" xml:space="preserve">
+      <trans-unit id="label.fileStorageIndexing.storage" xml:space="preserve" approved="yes">
         <source>Storage to index</source>
-      </trans-unit>
-      <trans-unit id="label.fileStorageExtraction.fileCount" xml:space="preserve">
+      <target state="translated">Stockage à indexer</target></trans-unit>
+      <trans-unit id="label.fileStorageExtraction.fileCount" xml:space="preserve" approved="yes">
         <source>Number of files per run</source>
-      </trans-unit>
+      <target state="translated">Nombre de fichiers par exécution</target></trans-unit>
       <trans-unit id="label.tableGarbageCollection.allTables" xml:space="preserve" approved="yes">
         <source>Clean all available tables</source>
       <target state="translated">Nettoyer toutes les tables disponibles</target></trans-unit>
@@ -125,7 +125,7 @@
       <target state="translated">Table à nettoyer</target></trans-unit>
       <trans-unit id="label.tableGarbageCollection.additionalInformationTable" xml:space="preserve" approved="yes">
         <source>Table: %s</source>
-      <target state="translated">Table: %s</target></trans-unit>
+      <target state="translated">Table : %s</target></trans-unit>
       <trans-unit id="label.tableGarbageCollection.additionalInformationAllTables" xml:space="preserve" approved="yes">
         <source>All tables</source>
       <target state="translated">Toutes les tables</target></trans-unit>
@@ -152,16 +152,16 @@
       <target state="translated">La tâche a été ajoutée avec succès.</target></trans-unit>
       <trans-unit id="msg.cliScript" xml:space="preserve" approved="yes">
         <source>The script to execute the Scheduler from the command line is: &lt;strong&gt;"%s scheduler"&lt;/strong&gt;.</source>
-      <target state="translated">Le script pour exécuter le planificateur de tâches de la ligne de commande est: &lt;strong&gt;"%s scheduler"&lt;/strong&gt;.</target></trans-unit>
+      <target state="translated">Le script pour exécuter le planificateur de tâches de la ligne de commande est : &lt;strong&gt;"%s scheduler"&lt;/strong&gt;.</target></trans-unit>
       <trans-unit id="msg.cliScriptExecutable" xml:space="preserve" approved="yes">
         <source>The webserver user is allowed execute this script.</source>
-      <target state="translated">L'utilisateur webserveur est autorisé à exécuter ce script.</target></trans-unit>
+      <target state="translated">L'utilisateur du serveur web est autorisé à exécuter ce script.</target></trans-unit>
       <trans-unit id="msg.cliScriptNotExecutable" xml:space="preserve" approved="yes">
         <source>The webserver user is not allowed to execute this script.</source>
-      <target state="translated">L'utilisateur webserveur n'est pas autorisé à exécuter ce script.</target></trans-unit>
+      <target state="translated">L'utilisateur du serveur web n'est pas autorisé à exécuter ce script.</target></trans-unit>
       <trans-unit id="msg.delete" xml:space="preserve" approved="yes">
         <source>Are you sure you want to delete this task?</source>
-      <target state="translated">Etes vous certain de vouloir supprimer cette tâche ?</target></trans-unit>
+      <target state="translated">Êtes-vous certain de vouloir supprimer cette tâche ?</target></trans-unit>
       <trans-unit id="msg.deleteError" xml:space="preserve" approved="yes">
         <source>The task could not be deleted.</source>
       <target state="translated">La tâche n'a pas pu être supprimée.</target></trans-unit>
@@ -206,13 +206,13 @@
       <target state="translated">Veuillez entrer une adresse e-mail.</target></trans-unit>
       <trans-unit id="msg.noFrequency" xml:space="preserve" approved="yes">
         <source>No frequency was defined, either as an interval or as a cron command.</source>
-      <target state="translated">La fréquence n'a pas été définie, ni en nombre de seconde, ni comme commande cron.</target></trans-unit>
+      <target state="translated">La fréquence n'a pas été définie, ni en nombre de secondes, ni comme commande cron.</target></trans-unit>
       <trans-unit id="msg.noLastRun" xml:space="preserve" approved="yes">
         <source>The Scheduler has never yet run or the information about the last run has been lost.</source>
       <target state="translated">Le planificateur n'a jamais été exécuté ou l'information concernant la dernière exécution a été perdue.</target></trans-unit>
       <trans-unit id="msg.noTasksDefined" xml:space="preserve" approved="yes">
         <source>There are currently no task classes available at all. To be able to create new tasks, you must either enable the samples provided by the Scheduler or install some other extension that relies on the Scheduler.</source>
-      <target state="translated">Il n'y a actuellement aucune classe de tâche disponible. Pour pouvoir créer une nouvelle tâche, vous devez soit activer les tâches d'exemples fournies avec le Planificateur ou installer des extensions qui utilisent le Planificateur.</target></trans-unit>
+      <target state="translated">Il n'y a actuellement aucune classe de tâches disponible. Pour pouvoir créer une nouvelle tâche, vous devez soit activer les tâches d'exemples fournies avec le planificateur ou installer des extensions qui utilisent le planificateur.</target></trans-unit>
       <trans-unit id="msg.noTaskClassFound" xml:space="preserve" approved="yes">
         <source>The selected task class could not be found. You should probably contact the task's developers.</source>
       <target state="translated">La classe de la tâche sélectionnée n'a pas été trouvée. Veuillez contacter les développeurs de l'extension ayant ajouté cette tâche.</target></trans-unit>
@@ -224,7 +224,7 @@
       <target state="translated">Pas exécuté : %s</target></trans-unit>
       <trans-unit id="msg.executionFailed" xml:space="preserve" approved="yes">
         <source>Execution of task "%1$s" failed with the following message: %2$s</source>
-      <target state="translated">L'exécution de la tâche "%1$s" a échouée avec le message suivant : %2$s</target></trans-unit>
+      <target state="translated">L'exécution de la tâche "%1$s" a échoué avec le message suivant : %2$s</target></trans-unit>
       <trans-unit id="msg.executionFailureDefault" xml:space="preserve" approved="yes">
         <source>The execution failed, but the error message could not be retrieved (it was probably too large). Sorry.</source>
       <target state="translated">L'exécution a échoué, mais le message d'erreur ne peut pas être récupéré (il était probablement trop grand). Désolé.</target></trans-unit>
@@ -245,13 +245,13 @@
       <target state="translated">Nombre de jours invalide</target></trans-unit>
       <trans-unit id="msg.selectionOfNonExistingCacheBackends" xml:space="preserve" approved="yes">
         <source>Some of the selected cache backends do not exist. Please select valid backends only.</source>
-      <target state="translated">Certain des caches backend sélectionnés n’existe pas. Sélectionner un backend valide.</target></trans-unit>
+      <target state="translated">Certains des caches backend sélectionnés n’existent pas. Sélectionnez un backend valide.</target></trans-unit>
       <trans-unit id="msg.noCacheBackendSelected" xml:space="preserve" approved="yes">
         <source>Please select at least one cache backend.</source>
       <target state="translated">Sélectionner au moins un cache backend.</target></trans-unit>
       <trans-unit id="msg.invalidTaskClass" xml:space="preserve" approved="yes">
         <source>Class %s of the registered task could not be found. You should re-install the extension that provided it or simply delete this task.</source>
-      <target state="translated">Classe %s de la tâche enregistrée n'a pas été trouvée. Veuillez ré-installer l'extension qui l'a ajoutée ou supprimer cette tâche.</target></trans-unit>
+      <target state="translated">La classe %s de la tâche enregistrée n'a pas été trouvée. Veuillez réinstaller l'extension qui l'a ajoutée ou supprimer cette tâche.</target></trans-unit>
       <trans-unit id="msg.invalidTaskClassEdit" xml:space="preserve" approved="yes">
         <source>The current class (%s) could not be found. Change it below or consider deleting this task altogether.</source>
       <target state="translated">La classe courante (%s) n'a pas été trouvée. Veuillez la changer ci-dessous ou supprimer la tâche.</target></trans-unit>
@@ -266,7 +266,7 @@
       <target state="translated">L'utilisateur backend "_cli_scheduler" a été trouvé.</target></trans-unit>
       <trans-unit id="msg.schedulerUserFoundButDisabled" xml:space="preserve" approved="yes">
         <source>The backend user "_cli_scheduler" exists but is currently disabled.</source>
-      <target state="translated">L'utilisateur backend "_cli_scheduler" existe mais est présentement désactivé.</target></trans-unit>
+      <target state="translated">L'utilisateur backend "_cli_scheduler" existe mais est actuellement désactivé.</target></trans-unit>
       <trans-unit id="msg.schedulerUserMissing" xml:space="preserve" approved="yes">
         <source>The backend user "_cli_scheduler" was not found. &lt;a href="%s" title="Click to create the missing user"&gt;Create the user now&lt;/a&gt;.</source>
       <target state="translated">L'utilisateur backend "_cli_scheduler" n'a pas été trouvé. &lt;a href="%s" title="Cliquez pour créer l'utilisateur"&gt;Créer l'utilisateur&lt;/a&gt;.</target></trans-unit>
@@ -278,7 +278,7 @@
       <target state="translated">Toutes les dates et les heures du planificateur sont mesurées selon l'heure du serveur, étant donné que le planificateur est exécuté uniquement du côté serveur.</target></trans-unit>
       <trans-unit id="msg.stop" xml:space="preserve" approved="yes">
         <source>Are you sure you want to mark this task as not running? Note that this will not stop the actual script (if unsure please refer to the manual).</source>
-      <target state="translated">Etes-vous certain de vouloir marquer cette tâche comme n'étant pas en cours d'exécution ? Veuillez noter que cela ne va pas arrêter l'exécution réelle (veuillez vous référer au manuel si besoin).</target></trans-unit>
+      <target state="translated">Êtes-vous certain de vouloir marquer cette tâche comme n'étant pas en cours d'exécution ? Veuillez noter que cela ne va pas arrêter l'exécution réelle (veuillez vous référer au manuel si besoin).</target></trans-unit>
       <trans-unit id="msg.stopError" xml:space="preserve" approved="yes">
         <source>The task could not be marked as non-running.</source>
       <target state="translated">La tâche n'a pas pu être marquée comme n'étant pas en cours d'exécution.</target></trans-unit>
@@ -287,7 +287,7 @@
       <target state="translated">La tâche a été marquée avec succès comme n'étant pas en cours d'exécution.</target></trans-unit>
       <trans-unit id="msg.taskNotFound" xml:space="preserve" approved="yes">
         <source>The requested task (UID: %d) was not found.</source>
-      <target state="translated">La tâche demandée (UID: %d) n'a pas été trouvée.</target></trans-unit>
+      <target state="translated">La tâche demandée (UID : %d) n'a pas été trouvée.</target></trans-unit>
       <trans-unit id="msg.updateSuccess" xml:space="preserve" approved="yes">
         <source>The task was updated successfully.</source>
       <target state="translated">La tâche a été mise à jour avec succès.</target></trans-unit>
@@ -299,7 +299,7 @@
       <target state="translated">L'utilisateur "_cli_scheduler" a été créé avec succès.</target></trans-unit>
       <trans-unit id="msg.userExists" xml:space="preserve" approved="yes">
         <source>The "_cli_scheduler" user already exists. It was not created.</source>
-      <target state="translated">L'utilisateur "_cli_scheduler" existe déjà. Il n'a pas été re-créé.</target></trans-unit>
+      <target state="translated">L'utilisateur "_cli_scheduler" existe déjà. Il n'a pas été recréé.</target></trans-unit>
       <trans-unit id="msg.userNotCreated" xml:space="preserve" approved="yes">
         <source>The creation of the "_cli_scheduler" user failed.</source>
       <target state="translated">La création de l'utilisateur "_cli_scheduler a échoué.</target></trans-unit>

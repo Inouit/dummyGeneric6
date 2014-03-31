@@ -65,16 +65,22 @@
       <target state="translated">Index de référence</target></trans-unit>
       <trans-unit id="status_fal" xml:space="preserve">
         <source>File Abstraction Layer</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_missingFiles" xml:space="preserve">
         <source>Files flagged as missing</source>
-      </trans-unit>
+      <target></target></trans-unit>
+      <trans-unit id="status_contentAdapterActive" xml:space="preserve">
+        <source>Content Adapter is active</source>
+      <target></target></trans-unit>
       <trans-unit id="status_missingFilesCount" xml:space="preserve">
         <source>%1$s files</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_missingFilesMessage" xml:space="preserve">
         <source>These files are flagged as missing. Restore the files and run the indexer to reset the missing flag.</source>
-      </trans-unit>
+      <target></target></trans-unit>
+      <trans-unit id="status_contentAdapterActiveMessage" xml:space="preserve">
+        <source>The Install Tool option [FE][activateContentAdapter] is active to provide compatibility with TypoScript from TYPO3 4.x regarding file handling. This has quite an impact on the performance of frontend rendering. Change TypoScript to support FAL in handling files and disable the setting to increase performance.</source>
+      <target></target></trans-unit>
       <trans-unit id="status_memcachedConfiguration" xml:space="preserve" approved="yes">
         <source>Memcached Configuration</source>
       <target state="translated">Configuration du cache</target></trans-unit>
@@ -89,13 +95,13 @@
       <target state="translated">Permissions des fichiers créés</target></trans-unit>
       <trans-unit id="status_CreatedFilePermissions.writable" xml:space="preserve">
         <source>Files created by TYPO3 are configured to be world writeable. Depending on your server configuration, this can be a security risk. It is usually better to configure the create mask to not allow writing to files by "others". A sane default is often '0660' for $GLOBALS['TYPO3_CONF_VARS']['BE']['fileCreateMask']. This can be set in the install tool.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_CreatedDirectoryPermissions" xml:space="preserve" approved="no">
         <source>Permissions of created directories</source>
       <target state="needs-translation">Permissions des fichiers créés</target><note>76%</note></trans-unit>
       <trans-unit id="status_CreatedDirectoryPermissions.writable" xml:space="preserve">
         <source>Directories created by TYPO3 are configured to be world writeable. Depending on your server configuration, this can be a security risk. It is usually better to configure the create mask to not allow writing to directories by "others". A sane default is often '2770' for $GLOBALS['TYPO3_CONF_VARS']['BE']['folderCreateMask']. This can be set in the install tool.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_adminUserAccount" xml:space="preserve" approved="yes">
         <source>Admin User Account</source>
       <target state="translated">Compte d'utilisateur admin</target></trans-unit>
@@ -104,13 +110,13 @@
       <target state="translated">Clé de chiffrement</target></trans-unit>
       <trans-unit id="status_saltedPasswords" xml:space="preserve">
         <source>Backend user password hashes</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Le mot de passe de l'utilisateur pour se connecter au back-office est coupé</target></alt-trans></trans-unit>
       <trans-unit id="status_saltedPasswords_infoText" xml:space="preserve" approved="yes">
         <source>During the configuration check of saltedpasswords the following issues have been found:</source>
       <target state="translated">Durant la vérification de la configuration des mots de passe, les problèmes suivants ont été trouvés</target></trans-unit>
       <trans-unit id="status_saltedPasswords_notAllPasswordsHashed" xml:space="preserve">
         <source>Some backend user passwords are found to be only md5 hashed. Run the scheduler task to convert all passwords to salted hashes.</source>
-      </trans-unit>
+      <target></target><alt-trans xml:space="preserve" origin="badr"><target>Certains mot de passe utilisateurs sont convertis en md5 seulement. lancez la tâche planifiée pour les convertir en salted mot de passe</target></alt-trans></trans-unit>
       <trans-unit id="status_fileDenyPattern" xml:space="preserve" approved="yes">
         <source>File Deny Pattern</source>
       <target state="translated">Motif de fichier refusé</target></trans-unit>
@@ -185,7 +191,7 @@ You can increase the size to 8MB (default on unix) by adding to the httpd.conf:
 <br />ThreadStackSize 8388608
 <br />&lt;/IfModule&gt;
 <br />Restart Apache after this change.]]></source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_phpModules" xml:space="preserve" approved="yes">
         <source>PHP Modules</source>
       <target state="translated">Modules PHP</target></trans-unit>
@@ -245,7 +251,7 @@ You can increase the size to 8MB (default on unix) by adding to the httpd.conf:
       <target state="translated">Adresse email de notification</target></trans-unit>
       <trans-unit id="status_updateTaskField_notificationEmails" xml:space="preserve">
         <source>Notification Email Addresses (one per line)</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_updateTaskField_notificationEmail_invalid" xml:space="preserve" approved="yes">
         <source>Empty or invalid notification email address.</source>
       <target state="translated">Adresse email de notification vide ou invalide</target></trans-unit>
@@ -263,25 +269,25 @@ You can increase the size to 8MB (default on unix) by adding to the httpd.conf:
       <target state="translated">Publications</target></trans-unit>
       <trans-unit id="status_oldXclassUsage" xml:space="preserve">
         <source>Old XCLASS method used</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_oldXclassUsageFound" xml:space="preserve">
         <source>Old XCLASS method is used in %d cases:</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_oldXclassUsageFound_message" xml:space="preserve">
         <source>The old XCLASS registration does not work since TYPO3 CMS version 6.0. This is not necessarily a bad thing, the registration might be done by an extension author to keep compatibility with older TYPO3 CMS versions. Please check the affected extension for TYPO3 CMS 6.0 compatibility to verify whether this is a problem for you.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_xclassUsage" xml:space="preserve">
         <source>XCLASS used</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_xclassUsageFound" xml:space="preserve">
         <source>Your system registers XCLASS</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_xclassUsageFound_message" xml:space="preserve">
         <source>XCLASS can overwrite methods or classes of the core or other extensions. This is not necessarily a bad thing, but those XCLASS might break during extension or core upgrades. You should keep an eye on extension compatibility and make sure the intended functionality is still given after updates.</source>
-      </trans-unit>
+      <target></target></trans-unit>
       <trans-unit id="status_xclassUsageFound_message_detail" xml:space="preserve">
         <source>%2s registers an XCLASS of %1s</source>
-      </trans-unit>
+      <target></target></trans-unit>
     </body>
   </file>
 </xliff>
