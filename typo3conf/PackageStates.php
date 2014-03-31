@@ -378,18 +378,6 @@ return array (
       'packagePath' => 'typo3conf/ext/skinFlex/',
       'classesPath' => 'Classes/',
     ),
-    'adx_gridelements_accordion' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/adx_gridelements_accordion/',
-      'classesPath' => 'Classes/',
-    ),
-    'in_news' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/in_news/',
-      'classesPath' => 'Classes/',
-    ),
     'indexed_search_mysql' => 
     array (
       'manifestPath' => '',
@@ -510,16 +498,22 @@ return array (
       'packagePath' => 'typo3/sysext/workspaces/',
       'classesPath' => 'Classes/',
     ),
-    'in_events' => 
-    array (
-      'state' => 'inactive',
-      'packagePath' => 'typo3conf/ext/in_events/',
-      'classesPath' => 'Classes/',
-    ),
     'news' => 
     array (
       'state' => 'inactive',
       'packagePath' => 'typo3conf/ext/news/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_news' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_news/',
+      'classesPath' => 'Classes/',
+    ),
+    'adx_gridelements_accordion' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/adx_gridelements_accordion/',
       'classesPath' => 'Classes/',
     ),
   ),
