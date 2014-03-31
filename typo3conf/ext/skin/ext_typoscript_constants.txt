@@ -1,40 +1,39 @@
-
 config {
-    siteName   = Dummy Generic
+  siteName   = Dummy Generic
 
-    noCache = 0
-    cachePeriod = 0
-    sendCacheHeaders = 0
-    cacheClearAtMidnight = 0
+  noCache = 0
+  cachePeriod = 0
+  sendCacheHeaders = 0
+  cacheClearAtMidnight = 0
 
-    adminPanel = 0
+  adminPanel = 0
 
-    debug      = 0
+  debug      = 0
 
-    realURL    = 0
+  realURL    = 0
 }
 
 page{
-    homeID         = 1
-    topID          = 3
-    bottomID       = 4
-    searchResultID = 13
+  homeID         = 1
+  topID          = 3
+  bottomID       = 4
+  searchResultID = 13
 }
 
 tx_news{
-    news{
-        singlePid = 19
-        storage = 17
-    }
-    events{
-        singlePid =
-        storage = 18
-    }
+  news{
+    singlePid = 19
+    storage = 17
+  }
+  events {
+    singlePid =
+    storage = 18
+  }
 }
 
 indexed_search{
-    rootPidList = {$page.homeID}
-    targetPid   = {$page.searchResultID}
+  rootPidList = {$page.homeID}
+  targetPid   = {$page.searchResultID}
 }
 
 sitemap{
@@ -43,7 +42,7 @@ sitemap{
 }
 
 images{
-    maxW = 1200
+  maxW = 1200
 }
 
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/ext_typoscript_constants_local.txt">

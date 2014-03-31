@@ -71,7 +71,7 @@
       <label index="datepicker_month_oct">octobre</label>
       <label index="datepicker_month_nov">novembre</label>
       <label index="datepicker_month_dec">décembre</label>
-      <label index="JsValidationCheckCheckboxes">Sélectionner au moins une option s'il vous plaît.</label>
+      <label index="JsValidationCheckCheckboxes">Sélectionner au moins une option s\'il vous plaît.</label>
       <label index="JsValidationCheckInteger">Nombre invalide</label>
       <label index="JsValidationCheckRequired">Ce champs est requis</label>
       <label index="JsValidationCheckRequiredOption">Sélectionner une option svp</label>

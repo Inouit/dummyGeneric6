@@ -18,14 +18,10 @@ config {
     #disableAllHeaderCode = 1
 
     ### Langage ###
-    sys_language_uid = 0
     sys_language_mode = strict
 
     ### Locale ###
     uniqueLinkVars = 1
-    language              = fr
-    locale_all            = fr_FR.utf8
-    htmlTag_langKey       = fr
     linkVars = L
 
     ## Supression du JS par default
@@ -39,7 +35,6 @@ config {
     #### Rewriting Adresse (Real URL) ###
     simulateStaticDocuments = 0
     prefixLocalAnchors = all
-    baseURL = http://{$config.domain}/
     tx_realurl_enable = {$config.realURL}
 
     #### Suppression des commentaires dans le html ###
