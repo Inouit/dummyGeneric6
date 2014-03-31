@@ -6,5 +6,7 @@ tx_gridelements.setup.imageCaption {
   icon = EXT:skinFlex/Resources/Public/Icons/imageCaption.gif
 
   config {
+    # field's name wich will be displayed
+    display = file, caption
   }
 }

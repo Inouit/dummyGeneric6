@@ -21,14 +21,14 @@
               </config>
             </TCEforms>
           </file>
-          <title>
+          <caption>
             <TCEforms>
-              <label>LLL:EXT:skinFlex/Resources/Private/Language/locallang_db.xlf:flexform.imageCaption.title</label>
+              <label>LLL:EXT:skinFlex/Resources/Private/Language/locallang_db.xlf:flexform.imageCaption.caption</label>
               <config>
                 <type>input</type>
               </config>
             </TCEforms>
-          </title>
+          </caption>
         </el>
       </ROOT>
       </sDEF>
