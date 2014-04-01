@@ -3,13 +3,13 @@
       <sDEF>
       <ROOT>
         <TCEforms>
-          <sheetTitle>LLL:EXT:skinFlex/Resources/Private/Language/locallang_db.xlf:flexform.sheets.general</sheetTitle>
+          <sheetTitle>LLL:EXT:skinFlex/Resources/Private/Language/imageCaption.xlf:flexform.sheets.general</sheetTitle>
             </TCEforms>
         <type>array</type>
         <el>
           <file>
             <TCEforms>
-              <label>LLL:EXT:skinFlex/Resources/Private/Language/locallang_db.xlf:flexform.imageCaption.image</label>
+              <label>LLL:EXT:skinFlex/Resources/Private/Language/imageCaption.xlf:flexform.imageCaption.image</label>
               <config>
                 <type>group</type>
                 <internal_type>file</internal_type>
@@ -23,7 +23,7 @@
           </file>
           <caption>
             <TCEforms>
-              <label>LLL:EXT:skinFlex/Resources/Private/Language/locallang_db.xlf:flexform.imageCaption.caption</label>
+              <label>LLL:EXT:skinFlex/Resources/Private/Language/imageCaption.xlf:flexform.imageCaption.caption</label>
               <config>
                 <type>input</type>
               </config>
