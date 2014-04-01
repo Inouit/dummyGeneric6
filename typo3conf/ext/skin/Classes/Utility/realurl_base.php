@@ -73,11 +73,6 @@ $TYPO3_CONF_VARS['FE']['addRootLineFields'] .= ',tx_realurl_pathsegment,alias,na
   require_once('realurl_ingalleryflickr.php');
 
   /***
-  **** Inclusion des règles de réécritures pour l'extensions in_documents
-  ***/
-  // require_once('realurl_indocuments.php');
-
-  /***
   **** Paramètrage de la réécriture des url fixes : sitemap, RSS, print, ...
   ***/
   $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY']['fileName'] = array(
