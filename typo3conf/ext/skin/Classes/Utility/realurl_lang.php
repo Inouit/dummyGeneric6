@@ -12,4 +12,7 @@
     $TYPO3_CONF_VARS['EXTCONF']['realurl'][$domain] = $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY'];
     $TYPO3_CONF_VARS['EXTCONF']['realurl'][$domain]['pagePath']['rootpage_id'] = $params['rootPid'];
   }
+
+  // Unset the default configuration
+  unset($TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY']);
 ?>

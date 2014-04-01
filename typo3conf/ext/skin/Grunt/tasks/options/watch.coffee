@@ -6,11 +6,12 @@ module.exports =
     files:'<%= in8.htmlSrc %>/**'
     tasks: 'newer:coffee:build'
 
+  php:
+    files:'<%= in8.phpSrc %>/**'
+    tasks: 'newer:coffee:build'
+
   typoscript:
-    files:[
-      '<%= in8.tsSrc %>/**/*.ts'
-      '<%= in8.tsSrc %>/**/*.txt'
-    ]
+    files:'<%= in8.tsSrc %>/**'
     tasks: 'newer:coffee:build'
 
   sass:

@@ -1,7 +1,7 @@
 <?php
 return array(
 	'BE' => array(
-		'debug' => FALSE,
+		'debug' => true,
 		'explicitADmode' => 'explicitAllow',
 		'installToolPassword' => '$P$CEy5/L5KgF9YjLoE2l/h6zXWNQk17F.',
 		'loginSecurityLevel' => 'rsa',
@@ -14,6 +14,7 @@ return array(
 			'adx_gridelements_accordion' => 'a:0:{}',
 			'adx_gridelements_columns' => 'a:0:{}',
 			'gridelements' => 'a:1:{s:20:"additionalStylesheet";s:0:"";}',
+			'in_gallery_flickr' => 'a:1:{s:12:"flickrApiKey";s:32:"ef7366e2cba648332329cdc3223841f1";}',
 			'in_news' => 'a:1:{s:11:"newsDoktype";s:3:"180";}',
 			'powermail' => 'a:6:{s:12:"disableIpLog";s:1:"0";s:20:"disableBackendModule";s:1:"0";s:24:"disablePluginInformation";s:1:"0";s:13:"enableCaching";s:1:"0";s:15:"l10n_mode_merge";s:1:"0";s:29:"replaceIrreWithElementBrowser";s:1:"0";}',
 			'realurl' => 'a:5:{s:10:"configFile";s:51:"typo3conf/ext/skin/Classes/Utility/realurl_base.php";s:14:"enableAutoConf";s:1:"0";s:14:"autoConfFormat";s:1:"0";s:12:"enableDevLog";s:1:"0";s:19:"enableChashUrlDebug";s:1:"0";}',
@@ -83,7 +84,7 @@ return array(
 	),
 	'FE' => array(
 		'activateContentAdapter' => FALSE,
-		'debug' => FALSE,
+		'debug' => 2,
 		'loginSecurityLevel' => 'rsa',
 	),
 	'GFX' => array(

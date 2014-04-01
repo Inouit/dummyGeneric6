@@ -1,8 +1,8 @@
-[globalString = IENV:HTTP_HOST = en.dummygeneric6.local.inouit.com]
+[globalString = IENV:HTTP_HOST = en.dummygeneric6.*.inouit.com]
   config{
     ### Locale ###
     language              = en
-    locale_all            = en_EN.utf8
+    locale_all            = en_US.utf8
     htmlTag_langKey       = en
 
     baseURL = http://{$config.domainEN}/

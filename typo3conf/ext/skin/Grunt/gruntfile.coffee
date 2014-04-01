@@ -31,6 +31,7 @@ module.exports = (grunt) ->
     pkg: grunt.file.readJSON('package.json')
     env: process.env
     in8:
+      phpSrc         : '../Classes'
       tsSrc          : '../Configuration/Typoscript'
       jsSrc          : '../Resources/Public/js/src'
       jsComponentSrc : '../Resources/Public/js/components'

@@ -1,4 +1,5 @@
 <?php
+$TYPO3_CONF_VARS['FE']['addRootLineFields'] .= ',tx_realurl_pathsegment,alias,nav_title,title';
   $TYPO3_CONF_VARS['EXTCONF']['realurl'] = array();
   $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY'] = array();
 
@@ -29,7 +30,7 @@
 
 
   /***
-  **** Paramètrage des redirections 301
+  **** Paramètrage des variables preset
   ***/
   $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY']['preVars'] = array(
     'langValues' => array(
@@ -47,7 +48,7 @@
   );
 
   /***
-  **** Paramètrage des redirections 301
+  **** Paramètrage de la réecriture des chemins
   ***/
   $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY']['pagePath'] = array(
       'type' => 'user',
@@ -63,18 +64,13 @@
   **** Paramètrage de la réécriture d'url des varialbes GET
   ***/
   $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY']['postVarSets'] = array(
-      '_DUMMY' => array()
+      '_DEFAULT' => array()
   );
-
-  /***
-  **** Inclusion des règles de réécritures pour l'extensions tt_news
-  ***/
-  // require_once('realurl_ttnews.php');
 
   /***
   **** Inclusion des règles de réécritures pour l'extensions in_gallery
   ***/
-  // require_once('realurl_ingallery.php');
+  require_once('realurl_ingalleryflickr.php');
 
   /***
   **** Inclusion des règles de réécritures pour l'extensions in_documents
@@ -82,7 +78,7 @@
   // require_once('realurl_indocuments.php');
 
   /***
-  **** Paramètrage de la réécriture d'url des varialbes GET
+  **** Paramètrage de la réécriture des url fixes : sitemap, RSS, print, ...
   ***/
   $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY']['fileName'] = array(
       'defaultToHTMLsuffixOnPrev'=> '.html',
