@@ -4,16 +4,16 @@
     <header/>
     <body>
       <trans-unit id="TSconfig.imageCaption.title" xml:space="preserve">
-        <source>Image légendée</source>
+        <source>Image Caption</source>
       </trans-unit>
       <trans-unit id="TSconfig.imageCaption.description" xml:space="preserve">
-        <source>Image avec légende</source>
+        <source>Image with caption below</source>
       </trans-unit>
       <trans-unit id="flexform.imageCaption.image" xml:space="preserve">
         <source>Image</source>
       </trans-unit>
       <trans-unit id="flexform.imageCaption.caption" xml:space="preserve">
-        <source>Légende</source>
+        <source>Caption</source>
       </trans-unit>
     </body>
   </file>

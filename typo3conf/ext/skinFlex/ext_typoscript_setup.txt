@@ -4,4 +4,14 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-33-33-33.ts">
 # // Image Caption
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">
+# // Image Caption
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">
+# // Image Caption
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">
+# // Image Caption
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">
+# // Image Caption
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">
+# // Image Caption
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">
 ## // insert here

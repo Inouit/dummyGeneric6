@@ -71,19 +71,6 @@
       <trans-unit id="TSconfig.columns-33-33-33.field-3" xml:space="preserve">
         <source>Colonne 3</source>
       </trans-unit>
-
-      <trans-unit id="TSconfig.imageCaption.title" xml:space="preserve">
-        <source>Image légendée</source>
-      </trans-unit>
-      <trans-unit id="TSconfig.imageCaption.description" xml:space="preserve">
-        <source>Image avec légende</source>
-      </trans-unit>
-      <trans-unit id="flexform.imageCaption.image" xml:space="preserve">
-        <source>Image</source>
-      </trans-unit>
-      <trans-unit id="flexform.imageCaption.caption" xml:space="preserve">
-        <source>Légende</source>
-      </trans-unit>
     </body>
   </file>
 </xliff>
