@@ -10,7 +10,7 @@ config {
 
   debug      = 0
 
-  realURL    = 0
+  realURL    = 1
 }
 
 page{
