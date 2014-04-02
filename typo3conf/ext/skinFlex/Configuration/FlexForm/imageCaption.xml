@@ -3,7 +3,7 @@
       <sDEF>
       <ROOT>
         <TCEforms>
-          <sheetTitle>LLL:EXT:skinFlex/Resources/Private/Language/imageCaption.xlf:flexform.sheets.general</sheetTitle>
+          <sheetTitle>LLL:EXT:skinFlex/Resources/Private/Language/locallang_db.xlf:flexform.sheets.general</sheetTitle>
             </TCEforms>
         <type>array</type>
         <el>
