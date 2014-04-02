@@ -6,6 +6,7 @@
  - lire la doc de `[fluid][1]`
  - nouvelle façon de faire des FCE
  - redécoupage de la conf de realurl
+ - variables globales du site dans la template default (skinDummy ou skin pour la surcharge)
 
 ## Pour les CDP ##
 ### powermail ###

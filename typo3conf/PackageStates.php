@@ -356,6 +356,12 @@ return array (
       'packagePath' => 'typo3/sysext/indexed_search/',
       'classesPath' => 'Classes/',
     ),
+    'scriptmerger' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/scriptmerger/',
+      'classesPath' => 'Classes/',
+    ),
     'realurl' => 
     array (
       'state' => 'active',

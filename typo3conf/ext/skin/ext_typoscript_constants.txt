@@ -50,4 +50,43 @@ images{
   maxW = 1200
 }
 
+plugin.tx_scriptmerger {
+  css {
+    enable = 1
+    addContentInDocument = 0
+    minify {
+      enable = 1
+      ignore = \.min\.
+    }
+    compress {
+      enable = 1
+      ignore = \.gz\.
+    }
+    merge {
+      enable = 1
+      ignore =
+    }
+  }
+  javascript {
+    enable = 1
+    parseBody = 1
+    addBeforeBody = 0
+    doNotRemoveInDocInBody = 1
+    addContentInDocument = 0
+    minify {
+      enable = 1
+      useJSMinPlus = 1
+      ignore = \?,\.min\.,\google\
+    }
+    compress {
+      enable = 1
+      ignore = \?,\.gz\.,\google\
+    }
+    merge {
+      enable = 1
+      ignore = \?,\google\
+    }
+  }
+}
+
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/ext_typoscript_constants_local.txt">
