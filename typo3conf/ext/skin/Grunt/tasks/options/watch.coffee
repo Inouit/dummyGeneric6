@@ -13,7 +13,7 @@ module.exports =
       reload: true
 
   typoscript:
-    files:'<%= in8.tsSrc %>/**'
+    files: ['<%= in8.tsSrc %>/**', '../ext_typoscript_constants**']
     options:
       reload: true
 
