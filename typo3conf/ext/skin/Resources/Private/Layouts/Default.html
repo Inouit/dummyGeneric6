@@ -5,7 +5,10 @@
          <f:cObject typoscriptObjectPath="lib.logo" />
 
          <!--topNav-->
-         <f:cObject typoscriptObjectPath="menu.top" />
+         <div class="menuTop">
+            <f:cObject typoscriptObjectPath="menu.top" />
+            <f:render partial="SearchForm" arguments="{searchFormAction:searchFormAction}"/>
+        </div>
 
          <!--mainNav-->
          <f:cObject typoscriptObjectPath="menu.main" />

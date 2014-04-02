@@ -11,6 +11,8 @@ config {
   debug      = 0
 
   realURL    = 1
+
+  index_enable    = 1
 }
 
 page{
@@ -32,8 +34,11 @@ tx_news{
 }
 
 indexed_search{
+  index_externals = 0
+  index_metatags  = 1
+  index_descrLgd  = 200
+
   rootPidList = {$page.homeID}
-  targetPid   = {$page.searchResultID}
 }
 
 sitemap{

@@ -3,7 +3,7 @@ module.exports =
     livereload: '<%= in8.liveport %>'
 
   html:
-    files:'<%= in8.htmlSrc %>/**.ts'
+    files:'<%= in8.htmlSrc %>/**'
     options:
       reload: true
 

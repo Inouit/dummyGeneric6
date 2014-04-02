@@ -1,5 +1,5 @@
 plugin.tx_indexedsearch {
-  templateFile = {$filepaths.extensions}indexed_search/searchResults.tmpl
+  templateFile = {$filepaths.extensions}indexed_search/searchResults.html
   config.language = fr
   show {
     rules = 0
@@ -37,9 +37,6 @@ plugin.tx_indexedsearch {
     defaultFreeIndexUidList =
     skipExtendToSubpagesChecking = 0
     exactCount = 0
-    targetPid.data = TSFE:id
-    search.targetPid >
-    search.targetPid = {$indexed_search.targetPid}
   }
   _DEFAULT_PI_VARS.lang = 0
   whatis_stdWrap.cObject = COA

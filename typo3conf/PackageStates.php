@@ -348,6 +348,14 @@ return array (
       'packagePath' => 'typo3/sysext/rtehtmlarea/',
       'classesPath' => 'Classes/',
     ),
+    'indexed_search' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-indexed-search',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/indexed_search/',
+      'classesPath' => 'Classes/',
+    ),
     'realurl' => 
     array (
       'state' => 'active',
@@ -406,14 +414,6 @@ return array (
       'composerName' => 'typo3/cms-version',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/version/',
-      'classesPath' => 'Classes/',
-    ),
-    'indexed_search' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-indexed-search',
-      'state' => 'inactive',
-      'packagePath' => 'typo3/sysext/indexed_search/',
       'classesPath' => 'Classes/',
     ),
     'adodb' => 
@@ -508,6 +508,12 @@ return array (
     array (
       'state' => 'inactive',
       'packagePath' => 'typo3conf/ext/news/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_news' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_news/',
       'classesPath' => 'Classes/',
     ),
   ),

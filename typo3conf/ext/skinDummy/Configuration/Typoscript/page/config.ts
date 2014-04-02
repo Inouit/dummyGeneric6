@@ -57,7 +57,7 @@ config {
     }
 
     ### Indexation des pages pour le moteur de recherche ###
-    index_enable    = {$indexed_search.index_enable}
+    index_enable    = {$config.index_enable}
     index_externals = {$indexed_search.index_externals}
     index_metatags = {$indexed_search.index_metatags}
     index_descrLgd = {$indexed_search.index_descrLgd}
