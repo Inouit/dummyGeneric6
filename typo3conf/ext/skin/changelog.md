@@ -4,6 +4,8 @@
 
  - en TS, on ne change pas le chemin entier vers la template mais juste le dossier des templates, layout et partials
  - lire la doc de `[fluid][1]`
+ - nouvelle façon de faire des FCE
+ - redécoupage de la conf de realurl
 
 ## Pour les CDP ##
 ### powermail ###

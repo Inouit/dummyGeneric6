@@ -11,11 +11,11 @@ Todo:
   ✘ Install & conf tx_news @cancelled (14-03-19 16:39)
   ✘ Install & conf event @cancelled (14-03-19 16:39)
   ☐ Develop in_news
-  ☐ Install & conf sitemap
+  ☐ Develop sitemap
   ☐ Conf indexed_search
   ✔ Install & conf gridelements @done (14-03-26 14:29)
   ✔ Install FCE with gridelements @done (14-03-31 16:07)
-  ☐ Install & conf de realurl
+  ✔ Install & conf de realurl @done (14-04-02 09:38)
   ☐ install integrator and publisher profile
   ☐ install scriptmerger
   ☐ install & conf d'image_autoresize (http://typo3.org/extensions/repository/view/image_autoresize)
