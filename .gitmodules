@@ -1,3 +1,6 @@
 [submodule "typo3conf/ext/in_sitemap"]
 	path = typo3conf/ext/in_sitemap
 	url = git@github.com:Inouit/in_sitemap.git
+[submodule "typo3conf/ext/in_news"]
+	path = typo3conf/ext/in_news
+	url = git@github.com:Inouit/in_news.git
