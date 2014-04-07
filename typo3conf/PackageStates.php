@@ -356,34 +356,22 @@ return array (
       'packagePath' => 'typo3/sysext/indexed_search/',
       'classesPath' => 'Classes/',
     ),
-    'in_sitemap' => 
+    'image_autoresize' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/in_sitemap/',
+      'packagePath' => 'typo3conf/ext/image_autoresize/',
       'classesPath' => 'Classes/',
     ),
-    'scriptmerger' => 
+    'realurl' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/scriptmerger/',
-      'classesPath' => 'Classes/',
-    ),
-    'powermail' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
+      'packagePath' => 'typo3conf/ext/realurl/',
       'classesPath' => 'Classes/',
     ),
     'skinDummy' => 
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/skinDummy/',
-      'classesPath' => 'Classes/',
-    ),
-    'skin' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
     'gridelements' => 
@@ -398,10 +386,28 @@ return array (
       'packagePath' => 'typo3conf/ext/skinFlex/',
       'classesPath' => 'Classes/',
     ),
-    'realurl' => 
+    'skin' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/realurl/',
+      'packagePath' => 'typo3conf/ext/skin/',
+      'classesPath' => 'Classes/',
+    ),
+    'powermail' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
+      'classesPath' => 'Classes/',
+    ),
+    'scriptmerger' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/scriptmerger/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_sitemap' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/in_sitemap/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 
@@ -520,6 +526,12 @@ return array (
     array (
       'state' => 'inactive',
       'packagePath' => 'typo3conf/ext/news/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_news' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_news/',
       'classesPath' => 'Classes/',
     ),
   ),
