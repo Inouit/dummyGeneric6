@@ -2,7 +2,7 @@
 	$_EXTCONF = unserialize($_EXTCONF);
 
   // # Page TSConfig
-  t3lib_extMgm::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/ext_pageTSconfig.txt">');
+  t3lib_extMgm::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin/ext_pageTSConfig.txt">');
 
 	//  # Setup TS automatic generation
   $tsDirectory = 'Configuration/Typoscript/';
