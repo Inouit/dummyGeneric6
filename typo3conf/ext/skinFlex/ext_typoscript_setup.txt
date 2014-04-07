@@ -14,4 +14,6 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">
 # // Image Caption
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/imageCaption.ts">
+# // Slideshow
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/slideshow.ts">
 ## // insert here

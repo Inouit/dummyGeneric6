@@ -356,18 +356,6 @@ return array (
       'packagePath' => 'typo3/sysext/indexed_search/',
       'classesPath' => 'Classes/',
     ),
-    'image_autoresize' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/image_autoresize/',
-      'classesPath' => 'Classes/',
-    ),
-    'realurl' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/realurl/',
-      'classesPath' => 'Classes/',
-    ),
     'skinDummy' => 
     array (
       'state' => 'active',
@@ -384,6 +372,18 @@ return array (
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/skinFlex/',
+      'classesPath' => 'Classes/',
+    ),
+    'image_autoresize' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/image_autoresize/',
+      'classesPath' => 'Classes/',
+    ),
+    'realurl' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/realurl/',
       'classesPath' => 'Classes/',
     ),
     'skin' => 

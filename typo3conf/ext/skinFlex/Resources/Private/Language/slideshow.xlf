@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2012-06-13T20:22:32Z" product-name="slideshow">
+    <header/>
+    <body>
+      <trans-unit id="TSconfig.slideshow.title" xml:space="preserve">
+        <source>Slideshow</source>
+      </trans-unit>
+      <trans-unit id="TSconfig.slideshow.description" xml:space="preserve">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="flexform.slideshow.image" xml:space="preserve">
+        <source>Image</source>
+      </trans-unit>
+      <trans-unit id="flexform.slideshow.caption" xml:space="preserve">
+        <source>Caption</source>
+      </trans-unit>
+      <trans-unit id="flexform.slideshow.link" xml:space="preserve">
+        <source>Link</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
