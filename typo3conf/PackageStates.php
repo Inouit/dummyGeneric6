@@ -398,6 +398,12 @@ return array (
       'packagePath' => 'typo3conf/ext/realurl/',
       'classesPath' => 'Classes/',
     ),
+    'in_sitemap' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_sitemap/',
+      'classesPath' => 'Classes/',
+    ),
     'indexed_search_mysql' => 
     array (
       'manifestPath' => '',
@@ -514,6 +520,12 @@ return array (
     array (
       'state' => 'inactive',
       'packagePath' => 'typo3conf/ext/news/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_news' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_news/',
       'classesPath' => 'Classes/',
     ),
   ),

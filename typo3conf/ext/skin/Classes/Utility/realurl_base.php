@@ -30,7 +30,7 @@ $TYPO3_CONF_VARS['FE']['addRootLineFields'] .= ',tx_realurl_pathsegment,alias,na
 
 
   /***
-  **** Paramètrage des variables preset
+  **** Paramètrage des variables de préfixage des urls : no_cache, fr/en/dk, ...
   ***/
   $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY']['preVars'] = array(
     'langValues' => array(

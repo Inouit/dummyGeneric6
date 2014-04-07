@@ -3,6 +3,7 @@
   require_once('realurl_local.php');
 
   // Prepare L possible values
+  // Comment those lines if you want to hide the en/, de/ prefix in your urls
   foreach ($domains as $domain => $params) {
     $TYPO3_CONF_VARS['EXTCONF']['realurl']['_DUMMY']['preVars']['langValues']['valueMap'][$params['langKey']] = $params['langId'];
   }

@@ -8,7 +8,7 @@ module.exports =
       reload: true
 
   php:
-    files:'<%= in8.phpSrc %>/**.php'
+    files:'<%= in8.phpSrc %>/**/*.php'
     options:
       reload: true
 
