@@ -1,4 +1,4 @@
-// # Internet Explorer Styles
+// # ie: Internet Explorer Styles
 
 // import all scss files needed
 @import 'config';
@@ -25,13 +25,12 @@
 }
 
 // inline block (overrided in IE)
-@mixin inline-block { display: inline-block; }
+@mixin inline-block { display: inline; zoom: 1}
 
 
 @import 'columns';
 @import 'layout';
 @import 'modules';
-@import 'powermail';
 
 
 // override css
