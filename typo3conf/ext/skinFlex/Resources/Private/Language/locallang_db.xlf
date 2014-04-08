@@ -3,16 +3,6 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2012-06-13T20:22:32Z" product-name="adx_gridelements_columns">
     <header/>
     <body>
-      <trans-unit id="flexform.CType" xml:space="preserve">
-        <source>Type de contenu : </source>
-      </trans-unit>
-      <trans-unit id="flexform.fieldName" xml:space="preserve">
-        <source>Champ</source>
-      </trans-unit>
-      <trans-unit id="flexform.value" xml:space="preserve">
-        <source>Valeur</source>
-      </trans-unit>
-
       <trans-unit id="flexform.sheets.general" xml:space="preserve">
         <source>Contenu général</source>
       </trans-unit>

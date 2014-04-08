@@ -356,6 +356,12 @@ return array (
       'packagePath' => 'typo3/sysext/indexed_search/',
       'classesPath' => 'Classes/',
     ),
+    'skinDummy' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/skinDummy/',
+      'classesPath' => 'Classes/',
+    ),
     'gridelements' => 
     array (
       'state' => 'active',
@@ -366,12 +372,6 @@ return array (
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/gridelements_fce/',
-      'classesPath' => 'Classes/',
-    ),
-    'skinDummy' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skinDummy/',
       'classesPath' => 'Classes/',
     ),
     'skinFlex' => 
