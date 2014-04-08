@@ -1,4 +1,6 @@
-// Use class **page** to set the max-width of the website
+// # modules: the site elements
+
+// Use class `page` to set the max-width of the website
 .page { @include page; }
 
 // ## Alignment
@@ -10,9 +12,4 @@
 // ## Navigation
 .nav {
     @include nav;
-}
-// # BreadCrumb
-.breadCrumb{
-  li { margin: 0; padding: 0; }
-  li+li:before{ margin: 0 5px; content: ">" }
 }

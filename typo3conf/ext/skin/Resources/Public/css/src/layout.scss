@@ -1,13 +1,16 @@
+// # layout: the commun websites styles
+// ( header/footer ) & template specific.
+
 // ## Reset
 // Reset font-size for easier use : 1.6em = 16px
 html { font-size: 62.5%; line-height: 1.3em; }
 body{ margin: 0; padding: 0; font-family: $font; font-size: 1em; color: $black;  font-weight: 300;}
 
 // ## Links
-a { text-decoration: none;
-	color: $red;
-    img{ border: 0; } }
- a:hover { text-decoration: underline; }
+a { text-decoration: none; color: $red;
+  img{ border: 0; }
+  &:hover { text-decoration: underline; }
+}
 
 // ## Default margins
 h1, .h1-like  { margin: 2.5*$u 0; }
@@ -36,7 +39,7 @@ h6, .h6-like { font-size: 1.4em; }
 
 // ## Separator
 hr { margin: 4*$u auto; border: none; height: 1px; background-color: $grey; }
-hr.clear {clear: both;  height: 0px; }
+hr.clear { clear: both;  height: 0px; }
 
 // ## General
 body { color: $grey; }

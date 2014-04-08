@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head><title>Public/css/src/columns</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content="../../../"><meta name="groc-document-path" content="Public/css/src/columns"><meta name="groc-project-path" content="Resources/Public/css/src/columns.scss"><link rel="stylesheet" type="text/css" media="all" href="../../../assets/style.css"><script type="text/javascript" src="../../../assets/behavior.js"></script><body><div id="meta"><div class="file-path">Resources/Public/css/src/columns.scss</div></div><div id="document"><div class="segment"><div class="comments "><div class="wrapper"><h1 id="columns-the-grid-system">columns: the grid system</h1></div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Set the columns base property</p></div></div><div class="code"><div class="wrapper"><span class="nc">.column</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="p">}</span></div></div></div><div class="segment"><div class="comments "><div class="wrapper"><p>Preset columns sizes</p></div></div><div class="code"><div class="wrapper"><span class="nv">$col80</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.80</span><span class="o">,</span> <span class="mf">.25</span><span class="p">);</span>
+<span class="nv">$col75</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.75</span><span class="o">,</span> <span class="mf">.3333333333</span><span class="p">);</span>
+<span class="nv">$col70</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.6666666666</span><span class="o">,</span> <span class="mf">.5</span><span class="p">);</span>
+<span class="nv">$col60</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.60</span><span class="o">,</span> <span class="mf">.6666666666</span><span class="p">);</span>
+<span class="nv">$col50</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.50</span><span class="o">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="nv">$col40</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.40</span><span class="o">,</span> <span class="mi">1</span><span class="mf">.5</span><span class="p">);</span>
+<span class="nv">$col30</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.3333333333</span><span class="o">,</span> <span class="mi">2</span><span class="p">);</span>
+<span class="nv">$col25</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.25</span><span class="o">,</span> <span class="mi">3</span><span class="p">);</span>
+<span class="nv">$col20</span><span class="o"> :</span> <span class="nf">column-width</span><span class="p">(</span><span class="mf">.20</span><span class="o">,</span> <span class="mi">4</span><span class="p">);</span></div></div></div><div class="segment"><div class="comments "><div class="wrapper"><h2 id="columns-classes">Columns classes</h2>
+
+<p>Used with inline-block display mode, you'll need to use comments
+to remove white-space size between columns</p>
+
+<p>HTML columns :</p>
+
+<pre><code class=" html">&lt;div&gt;
+   &lt;div class="column-50"&gt;
+       &lt;h1&gt;50&lt;/h1&gt;
+   &lt;/div&gt;&lt;!--
+--&gt;&lt;div class="column-25"&gt;
+       &lt;h1&gt;25&lt;/h1&gt;
+   &lt;/div&gt;&lt;!--
+--&gt;&lt;div class="column-25"&gt;
+       &lt;h1&gt;25&lt;/h1&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div><div class="code"><div class="wrapper"><span class="nc">.column-80</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col80</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.column-75</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col75</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.column-70</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col70</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.column-60</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col60</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.column-50</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col50</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.column-40</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col40</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.column-30</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col30</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.column-25</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col25</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.column-20</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> column</span><span class="p">;</span> <span class="na">width</span><span class="o">:</span> <span class="nv">$col20</span><span class="p">;</span> <span class="p">}</span></div></div></div></div></body></html>
