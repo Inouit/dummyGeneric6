@@ -39,6 +39,7 @@ $EM_CONF[$_EXTKEY] = array (
         'fluid' => '',
         'skinDummy' => '',
         'gridelements' => '2.0.2',
+        'gridelements_fce' => '',
       ),
     'conflicts' =>
       array (
