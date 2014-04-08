@@ -4,3 +4,6 @@
 [submodule "typo3conf/ext/in_news"]
 	path = typo3conf/ext/in_news
 	url = git@github.com:Inouit/in_news.git
+[submodule "typo3conf/ext/gridelements_fce"]
+	path = typo3conf/ext/gridelements_fce
+	url = git@github.com:Inouit/gridelements_fce.git

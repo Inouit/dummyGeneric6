@@ -6,8 +6,8 @@
  - lire la doc de `[fluid][1]`
  - nouvelle façon de faire des FCE
  - redécoupage de la conf de realurl
- - variables globales du site dans la template default (skinDummy ou skin pour la surcharge)
- - in_sitemap et le futur in_news sont des submodules de git (à expliquer)
+ - variables globales du site dans la template default (skinDummy ou skin pour la surcharge) (+ important pour des variables que des objets typoscript. manipulation possible derrière avec des foreach, etc.)
+ - in_sitemap, gridelements_fce et le futur in_news sont des submodules de git (à expliquer)
 
 ## Pour les CDP ##
 ### powermail ###
