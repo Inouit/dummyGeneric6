@@ -12,6 +12,12 @@
 return array (
   'packages' => 
   array (
+    'skinFlex' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/skinFlex/',
+      'classesPath' => 'Classes/',
+    ),
     'core' => 
     array (
       'manifestPath' => '',
@@ -348,28 +354,22 @@ return array (
       'packagePath' => 'typo3/sysext/sv/',
       'classesPath' => 'Classes/',
     ),
-    'in_news' => 
+    'gridelements' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/in_news/',
+      'packagePath' => 'typo3conf/ext/gridelements/',
       'classesPath' => 'Classes/',
     ),
-    'in_sitemap' => 
+    'scriptmerger' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/in_sitemap/',
+      'packagePath' => 'typo3conf/ext/scriptmerger/',
       'classesPath' => 'Classes/',
     ),
-    'image_autoresize' => 
+    'powermail' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/image_autoresize/',
-      'classesPath' => 'Classes/',
-    ),
-    'realurl' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/realurl/',
+      'packagePath' => 'typo3conf/ext/powermail/',
       'classesPath' => 'Classes/',
     ),
     'skinDummy' => 
@@ -384,34 +384,28 @@ return array (
       'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
-    'powermail' => 
+    'realurl' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
+      'packagePath' => 'typo3conf/ext/realurl/',
       'classesPath' => 'Classes/',
     ),
-    'scriptmerger' => 
+    'image_autoresize' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/scriptmerger/',
+      'packagePath' => 'typo3conf/ext/image_autoresize/',
       'classesPath' => 'Classes/',
     ),
-    'gridelements' => 
+    'in_sitemap' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/gridelements/',
+      'packagePath' => 'typo3conf/ext/in_sitemap/',
       'classesPath' => 'Classes/',
     ),
-    'gridelements_fce' => 
+    'in_news' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/gridelements_fce/',
-      'classesPath' => 'Classes/',
-    ),
-    'skinFlex' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skinFlex/',
+      'packagePath' => 'typo3conf/ext/in_news/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 
