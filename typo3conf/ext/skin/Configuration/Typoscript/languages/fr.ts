@@ -1,4 +1,4 @@
-[globalString = IENV:HTTP_HOST = dummygeneric6.*.inouit.com]
+[globalString = IENV:HTTP_HOST = dummyGeneric6.*.inouit.com]
   config{
     ### Locale ###
     language              = fr
