@@ -12,12 +12,6 @@
 return array (
   'packages' => 
   array (
-    'skinFlex' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skinFlex/',
-      'classesPath' => 'Classes/',
-    ),
     'core' => 
     array (
       'manifestPath' => '',
@@ -354,22 +348,22 @@ return array (
       'packagePath' => 'typo3/sysext/sv/',
       'classesPath' => 'Classes/',
     ),
+    'in_news' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/in_news/',
+      'classesPath' => 'Classes/',
+    ),
     'gridelements' => 
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/gridelements/',
       'classesPath' => 'Classes/',
     ),
-    'scriptmerger' => 
+    'gridelements_fce' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/scriptmerger/',
-      'classesPath' => 'Classes/',
-    ),
-    'powermail' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
+      'packagePath' => 'typo3conf/ext/gridelements_fce/',
       'classesPath' => 'Classes/',
     ),
     'skinDummy' => 
@@ -384,16 +378,10 @@ return array (
       'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
-    'realurl' => 
+    'skinFlex' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/realurl/',
-      'classesPath' => 'Classes/',
-    ),
-    'image_autoresize' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/image_autoresize/',
+      'packagePath' => 'typo3conf/ext/skinFlex/',
       'classesPath' => 'Classes/',
     ),
     'in_sitemap' => 
@@ -402,10 +390,28 @@ return array (
       'packagePath' => 'typo3conf/ext/in_sitemap/',
       'classesPath' => 'Classes/',
     ),
-    'in_news' => 
+    'image_autoresize' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/in_news/',
+      'packagePath' => 'typo3conf/ext/image_autoresize/',
+      'classesPath' => 'Classes/',
+    ),
+    'realurl' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/realurl/',
+      'classesPath' => 'Classes/',
+    ),
+    'powermail' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
+      'classesPath' => 'Classes/',
+    ),
+    'scriptmerger' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/scriptmerger/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 

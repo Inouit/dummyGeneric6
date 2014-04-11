@@ -37,7 +37,7 @@ $EM_CONF[$_EXTKEY] = array (
         'cms' => '1.1.0-0.0.0',
         'extbase' => '',
         'fluid' => '',
-        'skinDummy' => '',
+        'skin' => '',
         'gridelements' => '2.0.2',
         'gridelements_fce' => '',
       ),
