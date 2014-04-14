@@ -1,9 +1,14 @@
 <f:layout name="Default" />
 <f:section name="mainContent">
 	<div id="mainContent" class="page">
-     <f:cObject typoscriptObjectPath="menu.breadCrumb" />
+    <div class="column-30">
+      <f:cObject typoscriptObjectPath="lib.newsCategories" />
+    </div>
+    <div class="column-70">
+      <f:cObject typoscriptObjectPath="menu.breadCrumb" />
       <h1>{pageTitle}</h1>
       <f:cObject typoscriptObjectPath="menu.addthis" />
 	    <f:cObject typoscriptObjectPath="lib.centerColumn" />
+    </div>
 	</div>
 </f:section>

@@ -354,6 +354,36 @@ return array (
       'packagePath' => 'typo3conf/ext/in_news/',
       'classesPath' => 'Classes/',
     ),
+    'scriptmerger' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/scriptmerger/',
+      'classesPath' => 'Classes/',
+    ),
+    'powermail' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
+      'classesPath' => 'Classes/',
+    ),
+    'realurl' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/realurl/',
+      'classesPath' => 'Classes/',
+    ),
+    'image_autoresize' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/image_autoresize/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_sitemap' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/in_sitemap/',
+      'classesPath' => 'Classes/',
+    ),
     'gridelements' => 
     array (
       'state' => 'active',
@@ -384,34 +414,10 @@ return array (
       'packagePath' => 'typo3conf/ext/skinFlex/',
       'classesPath' => 'Classes/',
     ),
-    'in_sitemap' => 
+    'debug_mysql_db' => 
     array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/in_sitemap/',
-      'classesPath' => 'Classes/',
-    ),
-    'image_autoresize' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/image_autoresize/',
-      'classesPath' => 'Classes/',
-    ),
-    'realurl' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/realurl/',
-      'classesPath' => 'Classes/',
-    ),
-    'powermail' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
-      'classesPath' => 'Classes/',
-    ),
-    'scriptmerger' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/scriptmerger/',
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/debug_mysql_db/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 
