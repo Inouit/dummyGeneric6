@@ -348,6 +348,14 @@ return array (
       'packagePath' => 'typo3/sysext/sv/',
       'classesPath' => 'Classes/',
     ),
+    'scheduler' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'typo3/cms-scheduler',
+      'state' => 'active',
+      'packagePath' => 'typo3/sysext/scheduler/',
+      'classesPath' => 'Classes/',
+    ),
     'in_news' => 
     array (
       'state' => 'active',
@@ -412,6 +420,12 @@ return array (
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/scriptmerger/',
+      'classesPath' => 'Classes/',
+    ),
+    'in8_reports' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/in8_reports/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 
@@ -510,14 +524,6 @@ return array (
       'packagePath' => 'typo3/sysext/recycler/',
       'classesPath' => 'Classes/',
     ),
-    'scheduler' => 
-    array (
-      'manifestPath' => '',
-      'composerName' => 'typo3/cms-scheduler',
-      'state' => 'inactive',
-      'packagePath' => 'typo3/sysext/scheduler/',
-      'classesPath' => 'Classes/',
-    ),
     'workspaces' => 
     array (
       'manifestPath' => '',
@@ -538,6 +544,36 @@ return array (
       'composerName' => 'typo3/cms-perm',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/perm/',
+      'classesPath' => 'Classes/',
+    ),
+    'tstemplate_analyzer' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3/sysext/tstemplate_analyzer/',
+      'classesPath' => 'Classes/',
+    ),
+    'tstemplate_ceditor' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3/sysext/tstemplate_ceditor/',
+      'classesPath' => 'Classes/',
+    ),
+    'tsconfig_help' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3/sysext/tsconfig_help/',
+      'classesPath' => 'Classes/',
+    ),
+    'tstemplate_objbrowser' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3/sysext/tstemplate_objbrowser/',
+      'classesPath' => 'Classes/',
+    ),
+    'tstemplate_info' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3/sysext/tstemplate_info/',
       'classesPath' => 'Classes/',
     ),
   ),
