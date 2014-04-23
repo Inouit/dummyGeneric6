@@ -83,7 +83,7 @@ class tx_in8reports_report_DumpSql implements tx_reports_StatusProvider {
 			}
 
 			/* On ne tient pas compte du dump SQL destiné à la plateforme de développement */
-			if ( strpos($documentRoot,'/dev/') !== false || strpos($documentRoot,'/preprod/') !== false ){
+			if ( strpos($documentRoot,'/dev/') !== false || strpos($documentRoot,'/preprod/') !== false || strpos($documentRoot,'/var/') !== false || strpos($documentRoot,'/home/') !== false ){
 				if ($dumpFile && is_array($dumpFile) && count($dumpFile) > 0){
 					foreach ($dumpFile as $key => $file) {
 						if (strpos($file,"db_dev_typo3_") !== false){
