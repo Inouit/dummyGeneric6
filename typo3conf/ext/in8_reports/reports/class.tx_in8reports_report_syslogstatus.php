@@ -93,7 +93,7 @@ class tx_in8reports_report_SyslogStatus implements tx_reports_StatusProvider {
 			$GLOBALS['TYPO3_DB']->exec_DELETEquery('sys_log', 'details LIKE "Core: Error handler (%)%typo3_src-4.5.23/%"');
 
 			/*Core: Error handler (FE): PHP Warning: file_get_contents(%typo3temp/scriptmerger/uncompressed/javascript_%.min.js) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in %/typo3conf/ext/scriptmerger/class.tx_scriptmerger.php line%*/
-			$GLOBALS['TYPO3_DB']->exec_DELETEquery('sys_log', 'details LIKE "Core: Error handler (%): PHP Warning: file_get_contents(%typo3temp/%uncompressed/%) [<a href=\'function.file-get-contents\'>function.file-get-contents</a>]: failed to open stream: No such file or directory in %/typo3conf/ext/scriptmerger/class.tx_scriptmerger.php line%"');
+			$GLOBALS['TYPO3_DB']->exec_DELETEquery('sys_log', 'details LIKE "Core: Error handler (%): PHP Warning: file_get_contents(%typo3temp/%) [<a href=\'function.file-get-contents\'>function.file-get-contents</a>]: failed to open stream: No such file or directory in %/typo3conf/ext/scriptmerger/class.tx_scriptmerger.php line%"');
 
 			/*Core: Error handler (%): PHP Warning: fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in %typo3conf/ext/in_info_meteo/pi1/class.tx_ininfometeo_pi1.php line%*/
 			$GLOBALS['TYPO3_DB']->exec_DELETEquery('sys_log', 'details LIKE "Core: Error handler (%): PHP Warning: fread() [<a href=\'function.fread\'>function.fread</a>]: Length parameter must be greater than 0 in %typo3conf/ext/in_info_meteo/pi1/class.tx_ininfometeo_pi1.php line%"');
