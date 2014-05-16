@@ -99,7 +99,10 @@ class tx_in8reports_report_SyslogStatus implements tx_reports_StatusProvider {
 			$GLOBALS['TYPO3_DB']->exec_DELETEquery('sys_log', 'details LIKE "Core: Error handler (%): PHP Warning: fread() [<a href=\'function.fread\'>function.fread</a>]: Length parameter must be greater than 0 in %typo3conf/ext/in_info_meteo/pi1/class.tx_ininfometeo_pi1.php line%"');
 
 			/*Core: Error handler (FE): PHP Warning: is_dir() [<a href='function.is-dir'>function.is-dir</a>]: Unable to find the wrapper &quot;ttp&quot; - did you forget to enable it when you configured PHP? in /opt/nfs/www-data/typo3/src/typo3_src4.5/t3lib/class.t3lib_div.php line 1270*/
-			$GLOBALS['TYPO3_DB']->exec_DELETEquery('sys_log', 'details LIKE "%Unable to find the wrapper &quot;ttp&quot;%"');
+			$GLOBALS['TYPO3_DB']->exec_DELETEquery('sys_log', 'details LIKE "%Unable to find the wrapper &quot;ttp&quot;%"');ref=\'function.fread\'>function.fread</a>]: Length parameter must be greater than 0 in %typo3conf/ext/in_info_meteo/pi1/class.tx_ininfometeo_pi1.php line%"');
+
+			/*Core: Error handler (FE): PHP Warning: is_dir() [<a href='function.is-dir'>function.is-dir</a>]: Unable to find the wrapper &quot;cgi-http&quot; - did you forget to enable it when you configured PHP? in /opt/nfs/www-data/typo3/src/typo3_src4.5/t3lib/class.t3lib_div.php line 1270*/
+			$GLOBALS['TYPO3_DB']->exec_DELETEquery('sys_log', 'details LIKE "%Unable to find the wrapper &quot;cgi-http&quot;%"');
 
 			/* On définit et éxecute la requête SQL */
 			$sC = array(
