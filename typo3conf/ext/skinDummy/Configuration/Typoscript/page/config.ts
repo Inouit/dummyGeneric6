@@ -18,6 +18,7 @@ config {
     #disableAllHeaderCode = 1
 
     ### Langage ###
+    baseURL = http://{$config.domain}/
     sys_language_mode = strict
 
     ### Locale ###

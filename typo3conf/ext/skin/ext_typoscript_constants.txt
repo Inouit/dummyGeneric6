@@ -52,7 +52,7 @@ images{
 
 plugin.tx_scriptmerger {
   css {
-    enable = 1
+    enable = 0
     addContentInDocument = 0
     minify {
       enable = 1
@@ -68,7 +68,7 @@ plugin.tx_scriptmerger {
     }
   }
   javascript {
-    enable = 1
+    enable = 0
     parseBody = 0
     addBeforeBody = 0
     doNotRemoveInDocInBody = 1

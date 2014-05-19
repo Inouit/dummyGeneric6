@@ -5,7 +5,7 @@ page.headerData {
             <script src="{$filepaths.js}components/modernizr.js"></script>
             <meta name="viewport" content="initial-scale=1" >
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-            <link rel="icon" href=favicon.ico">
+            <link rel="icon" href="favicon.ico" />
 
             <link rel="stylesheet" type="text/css" href="{$filepaths.css}components/jquery.jscrollpane.css" media="all">
             <link rel="stylesheet" type="text/css" href="{$filepaths.css}main.css" media="all">
