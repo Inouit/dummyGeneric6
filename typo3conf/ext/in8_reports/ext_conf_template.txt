@@ -1,0 +1,32 @@
+# cat=basic/enable/010; type=boolean; label= Enable Blacklist Extensions.
+enableBlaclistExtensions = 1
+
+# cat=basic/enable/011; type=string; label= Extensions list separated by a comma.
+listExtBlackLIst =
+
+# cat=basic/enable/020; type=boolean; label= Enable Quota for Database.
+enableDatabaseSize = 1
+
+# cat=basic/enable/021; type=interger; label=Maximum DB size status Warning.
+dbSizeOkThreshold = 157286400
+
+# cat=basic/enable/022; type=interger; label=Maximum DB size status Error.
+dbSizeWarningThreshold = 367001600
+
+# cat=basic/enable/030; type=boolean; label= Enable monitoring of sql file in the root path (default "/*sql").
+enableCheckDumpSql = 1
+
+# cat=basic/enable/040; type=boolean; label= Enable monitoring of html file (default "google*.html").
+enableCheckWebmasterTools = 1
+
+# cat=basic/enable/040; type=boolean; label= Enable Quota for file project.
+enableProjectSize = 1
+
+# cat=basic/enable/041; type=interger; label=Maximum Project size status Warning.
+projectSizeOkThreshold = 943718400
+
+# cat=basic/enable/042; type=interger; label=Maximum Project size status Error.
+projectSizeWarningThreshold = 1073741824
+
+# cat=basic/enable/050; type=boolean; label= Enable monitoring of errors in the syslog table.
+enableCheckSyslog = 1

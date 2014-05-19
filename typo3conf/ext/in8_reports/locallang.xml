@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Labels for Extension in8_reports</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="blacklistextensions.title">Extensions Blacklist Status</label>
+			<label index="blacklistextensions.default.header">ERROR</label>
+			<label index="blacklistextensions.default.message">documentRoot not find: </label>
+			<label index="blacklistextensions.ok.header">OK</label>
+			<label index="blacklistextensions.ok.message">Checked</label>
+			<label index="blacklistextensions.error.header">Problems detected</label>
+			<label index="blacklistextensions.error.message">Extension was find: </label>
+
+			<label index="databasesize.title">Database Size Status</label>
+			<label index="databasesize.default.header">DB Name Not Found</label>
+			<label index="databasesize.default.message">ERROR</label>
+			<label index="databasesize.ok.header">OK</label>
+			<label index="databasesize.ok.message">Database size of </label>
+			<label index="databasesize.warning.header">Warning</label>
+			<label index="databasesize.warning.message">Database size of </label>
+			<label index="databasesize.error.header">Too Big</label>
+			<label index="databasesize.error.message">Database size of </label>
+
+			<label index="dumpsql.title">SQL files Status </label>
+			<label index="dumpsql.default.header">OK</label>
+			<label index="dumpsql.default.message">Checked</label>
+			<label index="dumpsql.error.header">Dump SQL find</label>
+			<label index="dumpsql.error.message">Dump SQL file was found</label>
+
+			<label index="googlewebmastertools.title">Google Webmaster Tools Status</label>
+			<label index="googlewebmastertools.default.header">ERROR</label>
+			<label index="googlewebmastertools.default.message">documentRoot not find:</label>
+			<label index="googlewebmastertools.ok.header">OK</label>
+			<label index="googlewebmastertools.ok.message">Checked</label>
+			<label index="googlewebmastertools.error.header">NOT FIND</label>
+			<label index="googlewebmastertools.error.message">This site is not related to google webmaster tools</label>
+
+			<label index="projectsize.title">Project Size Status</label>
+			<label index="projectsize.default.header">ERROR</label>
+			<label index="projectsize.default.message">documentRoot not find: </label>
+			<label index="projectsize.sizeError.header">Problems detected</label>
+			<label index="projectsize.sizeError.message">Size project not found: </label>
+			<label index="projectsize.ok.header">OK</label>
+			<label index="projectsize.ok.message">Project's size: </label>
+			<label index="projectsize.warning.header">Warning</label>
+			<label index="projectsize.warning.message">Project's size: </label>
+			<label index="projectsize.error.header">Too Big</label>
+			<label index="projectsize.error.message">Project's size: </label>
+
+			<label index="syslogstatus.title">Syslog Status</label>
+			<label index="syslogstatus.default.header">OK</label>
+			<label index="syslogstatus.default.message">Checked</label>
+			<label index="syslogstatus.error.header">Errors found</label>
+			<label index="syslogstatus.error.message"> errors were found in the syslog table</label>
+
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="blacklistextensions.title">Etat du blacklistage d'extensions</label>
+			<label index="blacklistextensions.default.header">Problèmes detectés</label>
+			<label index="blacklistextensions.default.message">documentRoot n'a pas été trouvé: </label>
+			<label index="blacklistextensions.ok.header">OK</label>
+			<label index="blacklistextensions.ok.message">Vérifié</label>
+			<label index="blacklistextensions.error.header">Problèmes detectés</label>
+			<label index="blacklistextensions.error.message">Cette extension a été trouvée: </label>
+
+			<label index="databasesize.title">Etat de la taille de la BDD</label>
+			<label index="databasesize.default.header">Nom de la BDD introuvable</label>
+			<label index="databasesize.default.message">ERREUR</label>
+			<label index="databasesize.ok.header">OK</label>
+			<label index="databasesize.ok.message">Taille de la BDD </label>
+			<label index="databasesize.warning.header">Approche du quota</label>
+			<label index="databasesize.warning.message">Taille de la BDD </label>
+			<label index="databasesize.error.header">Dépassement du quota</label>
+			<label index="databasesize.error.message">Taille de la BDD </label>
+
+			<label index="dumpsql.title">Etat des dump SQL résiduels </label>
+			<label index="dumpsql.default.header">OK</label>
+			<label index="dumpsql.default.message">Vérifié</label>
+			<label index="dumpsql.error.header">Dump SQL find</label>
+			<label index="dumpsql.error.message">Un ou plusiers dump SQL ont été trouvés à la racine du projet</label>
+
+			<label index="googlewebmastertools.title">Présence d'un ou plusieurs fichiers de Google Webmaster Tools</label>
+			<label index="googlewebmastertools.default.header">Problèmes detectés</label>
+			<label index="googlewebmastertools.default.message">documentRoot n'a pas été trouvé: </label>
+			<label index="googlewebmastertools.ok.header">OK</label>
+			<label index="googlewebmastertools.ok.message">Vérifié</label>
+			<label index="googlewebmastertools.error.header">Aucun fichier détecté</label>
+			<label index="googlewebmastertools.error.message">Ce projet n'est relié à aucun compte</label>
+
+			<label index="projectsize.title">Etat de la taille du projet</label>
+			<label index="projectsize.default.header">Problèmes detectés</label>
+			<label index="projectsize.default.message">documentRoot n'a pas été trouvé: </label>
+			<label index="projectsize.sizeError.header">Problèmes detectés</label>
+			<label index="projectsize.sizeError.message">La taille du projet n'a pas été récupérée</label>
+			<label index="projectsize.ok.header">OK</label>
+			<label index="projectsize.ok.message">Taille du projet: </label>
+			<label index="projectsize.warning.header">Approche du quota</label>
+			<label index="projectsize.warning.message">Taille du projet: </label>
+			<label index="projectsize.error.header">Dépassement du quota</label>
+			<label index="projectsize.error.message">Taille du projet: </label>
+
+			<label index="syslogstatus.title">Etat de la table sys_log</label>
+			<label index="syslogstatus.default.header">OK</label>
+			<label index="syslogstatus.default.message">Vérifié</label>
+			<label index="syslogstatus.error.header">Erreurs trouvées</label>
+			<label index="syslogstatus.error.message"> erreurs ont été trouvée dans la table sys_log</label>
+
+		</languageKey>
+	</data>
+</T3locallang>
