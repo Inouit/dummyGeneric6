@@ -6,15 +6,18 @@ TCEFORM.tt_content.header_layout {
     addItems.15 = h5-like
 }
 
-RTE.default.buttons{
-  blockstyle.tags{
-    # div.allowedClasses := addToList()
-    # p.allowedClasses := addToList(introduction)
-    # table.allowedClasses := addToList()
-    # td.allowedClasses := addToList()
-  }
-  textstyle.tags.span{
-    # allowedClasses := addToList()
+RTE.default {
+  # proc.allowedClasses := addToList(introduction)
+  buttons{
+    blockstyle.tags{
+      # div.allowedClasses := addToList()
+      # p.allowedClasses := addToList(introduction)
+      # table.allowedClasses := addToList()
+      # td.allowedClasses := addToList()
+    }
+    textstyle.tags.span{
+      # allowedClasses := addToList()
+    }
   }
 }
 RTE.default.FE < RTE.default
