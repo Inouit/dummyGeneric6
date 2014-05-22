@@ -9,8 +9,9 @@
 class Tx_Powermail_ViewHelpers_String_RawAndRemoveXssViewHelper extends Tx_Fluid_ViewHelpers_Form_AbstractFormFieldViewHelper {
 
 	/**
-	 * Disable the escaping interceptor because otherwise the child nodes would be escaped before this view helper
-	 * can decode the text's entities.
+	 * Disable the escaping interceptor because
+	 * 		otherwise the child nodes would be escaped before this view helper
+	 * 		can decode the text's entities.
 	 *
 	 * @var boolean
 	 */
@@ -29,9 +30,9 @@ class Tx_Powermail_ViewHelpers_String_RawAndRemoveXssViewHelper extends Tx_Fluid
 	public function render() {
 		$string = $this->renderChildren();
 
-		// parse string
+		/** @var Tx_Fluid_View_StandaloneView $parseObject */
 		$parseObject = $this->objectManager->create('Tx_Fluid_View_StandaloneView');
-		$parseObject->setTemplateSource($string);
+		$parseObject->setTemplateSource((string) $string);
 		$string = $parseObject->render();
 
 		// remove XSS
@@ -50,5 +51,3 @@ class Tx_Powermail_ViewHelpers_String_RawAndRemoveXssViewHelper extends Tx_Fluid
 		$this->objectManager = $objectManager;
 	}
 }
-
-?>
