@@ -2,6 +2,7 @@ tx_gridelements.setup.columns-33-33-33 {
 
   title = LLL:EXT:skinFlex/Resources/Private/Language/locallang_db.xlf:TSconfig.columns-33-33-33.title
   description = LLL:EXT:skinFlex/Resources/Private/Language/locallang_db.xlf:TSconfig.columns-33-33-33.description
+  flexformDS = FILE:EXT:skinFlex/Configuration/FlexForm/columns-x3.xml
   icon = EXT:skinFlex/Resources/Public/Icons/columns-33-33-33.gif
 
   config {
