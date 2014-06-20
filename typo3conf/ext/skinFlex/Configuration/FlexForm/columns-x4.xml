@@ -64,40 +64,36 @@
               </TCEforms>
             </sliceWithMargin>
 
-            <color>
+            <additionalStyle>
               <TCEforms>
-                <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.color</label>
+                <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle</label>
                 <config>
                   <type>select</type>
                   <items type="array">
                     <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.color.empty</numIndex>
+                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.empty</numIndex>
                       <numIndex index="1"></numIndex>
                     </numIndex>
                     <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.color.green</numIndex>
+                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.green</numIndex>
                       <numIndex index="1">greenContainer</numIndex>
                     </numIndex>
                     <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.color.orange</numIndex>
-                      <numIndex index="1">orangeContainer</numIndex>
-                    </numIndex>
-                    <numIndex index="3" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.color.purple</numIndex>
-                      <numIndex index="1">purpleContainer</numIndex>
-                    </numIndex>
-                    <numIndex index="4" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.color.blue</numIndex>
+                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.blue</numIndex>
                       <numIndex index="1">blueContainer</numIndex>
                     </numIndex>
-                    <numIndex index="5" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.color.yellow</numIndex>
+                    <numIndex index="3" type="array">
+                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.yellow</numIndex>
                       <numIndex index="1">yellowContainer</numIndex>
+                    </numIndex>
+                    <numIndex index="4" type="array">
+                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.red</numIndex>
+                      <numIndex index="1">redContainer</numIndex>
                     </numIndex>
                   </items>
                 </config>
               </TCEforms>
-            </color>
+            </additionalStyle>
           </el>
         </ROOT>
       </sDEF>

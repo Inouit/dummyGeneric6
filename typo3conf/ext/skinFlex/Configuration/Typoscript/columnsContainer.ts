@@ -119,10 +119,10 @@ temp.columnsContainer {
             if.isTrue.field = flexform_sliceWithMargin
           }
 
-          # color
+          # additionalStyle
           70 = TEXT
           70{
-            field = flexform_color
+            field = flexform_additionalStyle
             noTrimWrap = | ||
           }
         }

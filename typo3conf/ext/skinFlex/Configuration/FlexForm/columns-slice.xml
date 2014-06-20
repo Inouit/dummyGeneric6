@@ -45,15 +45,6 @@
               </TCEforms>
             </rightBorder>
 
-            <separationBorder>
-              <TCEforms>
-               <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.separationBorder</label>
-               <config>
-                <type>check</type>
-               </config>
-              </TCEforms>
-            </separationBorder>
-
             <sliceWithMargin>
               <TCEforms>
                <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.sliceWithMargin</label>
@@ -94,113 +85,6 @@
                 </config>
               </TCEforms>
             </additionalStyle>
-          </el>
-        </ROOT>
-      </sDEF>
-      <col0>
-        <ROOT>
-          <TCEforms>
-            <sheetTitle>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.0</sheetTitle>
-          </TCEforms>
-          <type>array</type>
-          <el>
-
-            <c0-columnWithPadding>
-              <TCEforms>
-               <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.columnWithPadding</label>
-               <config>
-                <type>check</type>
-                <default>1</default>
-               </config>
-              </TCEforms>
-            </c0-columnWithPadding>
-
-            <c0-bkgImg>
-              <TCEforms>
-                <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgImg</label>
-                <config>
-                  <type>group</type>
-                  <internal_type>file</internal_type>
-                  <allowed>gif,jpg,jpeg,tif,bmp,pcx,tga,png,pdf,ai</allowed>
-                  <max_size>5000</max_size>
-                  <uploadfolder>uploads/skinFlex/columns/</uploadfolder>
-                  <show_thumbs>1</show_thumbs>
-                  <maxitems>1</maxitems>
-                </config>
-              </TCEforms>
-            </c0-bkgImg>
-
-            <c0-bkgPos>
-              <TCEforms>
-                <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos</label>
-                <config>
-                  <type>select</type>
-                  <items type="array">
-                    <numIndex index="0" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.tl</numIndex>
-                      <numIndex index="1">0 0</numIndex>
-                    </numIndex>
-                    <numIndex index="1" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.tc</numIndex>
-                      <numIndex index="1">50% 0</numIndex>
-                    </numIndex>
-                    <numIndex index="2" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.tr</numIndex>
-                      <numIndex index="1">100% 0</numIndex>
-                    </numIndex>
-                    <numIndex index="3" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.ml</numIndex>
-                      <numIndex index="1">0 50%</numIndex>
-                    </numIndex>
-                    <numIndex index="4" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.mc</numIndex>
-                      <numIndex index="1">50% 50%</numIndex>
-                    </numIndex>
-                    <numIndex index="5" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.mr</numIndex>
-                      <numIndex index="1">100% 50%</numIndex>
-                    </numIndex>
-                    <numIndex index="6" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.bl</numIndex>
-                      <numIndex index="1">0 100%</numIndex>
-                    </numIndex>
-                    <numIndex index="7" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.bc</numIndex>
-                      <numIndex index="1">50% 100%</numIndex>
-                    </numIndex>
-                    <numIndex index="8" type="array">
-                      <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos.br</numIndex>
-                      <numIndex index="1">100% 100%</numIndex>
-                    </numIndex>
-                    <numIndex index="9" type="array">
-                      <numIndex index="0"></numIndex>
-                      <numIndex index="1"></numIndex>
-                    </numIndex>
-                  </items>
-                </config>
-              </TCEforms>
-            </c0-bkgPos>
-
-          </el>
-        </ROOT>
-      </col0>
-      <col1>
-        <ROOT>
-          <TCEforms>
-            <sheetTitle>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.1</sheetTitle>
-          </TCEforms>
-          <type>array</type>
-          <el>
-
-            <c1-columnWithPadding>
-              <TCEforms>
-               <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.columnWithPadding</label>
-               <config>
-                <type>check</type>
-                <default>1</default>
-               </config>
-              </TCEforms>
-            </c1-columnWithPadding>
 
             <c1-bkgImg>
               <TCEforms>
@@ -267,9 +151,8 @@
                 </config>
               </TCEforms>
             </c1-bkgPos>
-
           </el>
         </ROOT>
-      </col1>
+      </sDEF>
     </sheets>
 </T3DataStructure>

@@ -31,32 +31,28 @@
         <source>Afficher les marges externes</source>
       </trans-unit>
 
-      <trans-unit id="flexform.columns.color" xml:space="preserve">
-        <source>Couleur</source>
+      <trans-unit id="flexform.columns.additionalStyle" xml:space="preserve">
+        <source>Style supplémentaire</source>
       </trans-unit>
 
-      <trans-unit id="flexform.columns.color.empty" xml:space="preserve">
+      <trans-unit id="flexform.columns.additionalStyle.empty" xml:space="preserve">
         <source></source>
       </trans-unit>
 
-      <trans-unit id="flexform.columns.color.green" xml:space="preserve">
+      <trans-unit id="flexform.columns.additionalStyle.green" xml:space="preserve">
         <source>Vert</source>
       </trans-unit>
 
-      <trans-unit id="flexform.columns.color.orange" xml:space="preserve">
-        <source>Orange</source>
-      </trans-unit>
-
-      <trans-unit id="flexform.columns.color.purple" xml:space="preserve">
-        <source>Violet</source>
-      </trans-unit>
-
-      <trans-unit id="flexform.columns.color.yellow" xml:space="preserve">
+      <trans-unit id="flexform.columns.additionalStyle.yellow" xml:space="preserve">
         <source>Jaune</source>
       </trans-unit>
 
-      <trans-unit id="flexform.columns.color.blue" xml:space="preserve">
+      <trans-unit id="flexform.columns.additionalStyle.blue" xml:space="preserve">
         <source>Bleu</source>
+      </trans-unit>
+
+      <trans-unit id="flexform.columns.additionalStyle.red" xml:space="preserve">
+        <source>Rouge</source>
       </trans-unit>
 
       <trans-unit id="flexform.column.0" xml:space="preserve">

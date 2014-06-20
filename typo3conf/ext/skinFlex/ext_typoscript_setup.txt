@@ -1,6 +1,7 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columnsContainer.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-slice.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-50-50.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-30-70.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-70-30.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-33-66.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-66-33.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skinFlex/Configuration/Typoscript/columns-33-33-33.ts">
 ## // insert here
