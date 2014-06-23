@@ -58,6 +58,12 @@ temp.columnsContainer < temp.gridelements.defaultGridSetup
 temp.columnsContainer {
   prepend = COA
   prepend {
+    1 = INCLUDE_JS_FOOTER
+    1{
+      jquery = EXT:skinFlex/Resources/Public/js/jquery.min.js
+      columnHeight = EXT:skinFlex/Resources/Public/js/columnHeight.js
+    }
+
     10 = COA
     10 {
       5 =< lib.stdheader
@@ -124,6 +130,22 @@ temp.columnsContainer {
           70{
             field = flexform_additionalStyle
             noTrimWrap = | ||
+          }
+
+          # extended container
+          80 = TEXT
+          80{
+            value = extended
+            noTrimWrap = | ||
+            if.isTrue.field = flexform_extend
+          }
+
+          # force columns height
+          90 = TEXT
+          90{
+            value = forceEqualHeights
+            noTrimWrap = | ||
+            if.isTrue.field = flexform_forceEqualHeights
           }
         }
       }

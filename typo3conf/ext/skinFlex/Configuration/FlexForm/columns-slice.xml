@@ -53,6 +53,15 @@
                 <default>1</default>
                </config>
               </TCEforms>
+
+            <extend>
+              <TCEforms>
+               <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.extend</label>
+               <config>
+                <type>check</type>
+               </config>
+              </TCEforms>
+            </extend>
             </sliceWithMargin>
 
             <additionalStyle>
@@ -67,26 +76,26 @@
                     </numIndex>
                     <numIndex index="1" type="array">
                       <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.green</numIndex>
-                      <numIndex index="1">greenContainer</numIndex>
+                      <numIndex index="1">green</numIndex>
                     </numIndex>
                     <numIndex index="2" type="array">
                       <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.blue</numIndex>
-                      <numIndex index="1">blueContainer</numIndex>
+                      <numIndex index="1">blue</numIndex>
                     </numIndex>
                     <numIndex index="3" type="array">
                       <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.yellow</numIndex>
-                      <numIndex index="1">yellowContainer</numIndex>
+                      <numIndex index="1">yellow</numIndex>
                     </numIndex>
                     <numIndex index="4" type="array">
                       <numIndex index="0">LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.columns.additionalStyle.red</numIndex>
-                      <numIndex index="1">redContainer</numIndex>
+                      <numIndex index="1">red</numIndex>
                     </numIndex>
                   </items>
                 </config>
               </TCEforms>
             </additionalStyle>
 
-            <c1-bkgImg>
+            <c0-bkgImg>
               <TCEforms>
                 <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgImg</label>
                 <config>
@@ -99,9 +108,9 @@
                   <maxitems>1</maxitems>
                 </config>
               </TCEforms>
-            </c1-bkgImg>
+            </c0-bkgImg>
 
-            <c1-bkgPos>
+            <c0-bkgPos>
               <TCEforms>
                 <label>LLL:EXT:skinFlex/Resources/Private/Language/columns.xlf:flexform.column.bkgPos</label>
                 <config>
@@ -150,7 +159,7 @@
                   </items>
                 </config>
               </TCEforms>
-            </c1-bkgPos>
+            </c0-bkgPos>
           </el>
         </ROOT>
       </sDEF>

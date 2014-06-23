@@ -356,40 +356,16 @@ return array (
       'packagePath' => 'typo3/sysext/scheduler/',
       'classesPath' => 'Classes/',
     ),
-    'in8_reports' => 
+    'skinDummy' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/in8_reports/',
+      'packagePath' => 'typo3conf/ext/skinDummy/',
       'classesPath' => 'Classes/',
     ),
-    'scriptmerger' => 
+    'skin' => 
     array (
       'state' => 'active',
-      'packagePath' => 'typo3conf/ext/scriptmerger/',
-      'classesPath' => 'Classes/',
-    ),
-    'powermail' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/powermail/',
-      'classesPath' => 'Classes/',
-    ),
-    'realurl' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/realurl/',
-      'classesPath' => 'Classes/',
-    ),
-    'image_autoresize' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/image_autoresize/',
-      'classesPath' => 'Classes/',
-    ),
-    'in_sitemap' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/in_sitemap/',
+      'packagePath' => 'typo3conf/ext/skin/',
       'classesPath' => 'Classes/',
     ),
     'gridelements' => 
@@ -404,18 +380,6 @@ return array (
       'packagePath' => 'typo3conf/ext/gridelements_fce/',
       'classesPath' => 'Classes/',
     ),
-    'skinDummy' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skinDummy/',
-      'classesPath' => 'Classes/',
-    ),
-    'skin' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/skin/',
-      'classesPath' => 'Classes/',
-    ),
     'skinFlex' => 
     array (
       'state' => 'active',
@@ -426,6 +390,42 @@ return array (
     array (
       'state' => 'active',
       'packagePath' => 'typo3conf/ext/in_news/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_sitemap' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/in_sitemap/',
+      'classesPath' => 'Classes/',
+    ),
+    'image_autoresize' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/image_autoresize/',
+      'classesPath' => 'Classes/',
+    ),
+    'realurl' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/realurl/',
+      'classesPath' => 'Classes/',
+    ),
+    'powermail' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/powermail/',
+      'classesPath' => 'Classes/',
+    ),
+    'scriptmerger' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/scriptmerger/',
+      'classesPath' => 'Classes/',
+    ),
+    'in8_reports' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/in8_reports/',
       'classesPath' => 'Classes/',
     ),
     'indexed_search_mysql' => 
@@ -544,6 +544,12 @@ return array (
       'composerName' => 'typo3/cms-perm',
       'state' => 'inactive',
       'packagePath' => 'typo3/sysext/perm/',
+      'classesPath' => 'Classes/',
+    ),
+    'in_glossary' => 
+    array (
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/in_glossary/',
       'classesPath' => 'Classes/',
     ),
   ),

@@ -31,6 +31,14 @@
         <source>Afficher les marges externes</source>
       </trans-unit>
 
+      <trans-unit id="flexform.columns.extend" xml:space="preserve">
+        <source>Étendre horizontalement la tranche</source>
+      </trans-unit>
+
+      <trans-unit id="flexform.columns.forceEqualHeights" xml:space="preserve">
+        <source>Forcer la hauteur égale des colonnes</source>
+      </trans-unit>
+
       <trans-unit id="flexform.columns.additionalStyle" xml:space="preserve">
         <source>Style supplémentaire</source>
       </trans-unit>
