@@ -11,7 +11,7 @@
         <source>Tranche</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-slice.description" xml:space="preserve">
-        <source></source>
+        <source>Contenu inséré dans une tranche skinnable</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-slice.field-1" xml:space="preserve">
         <source>Contenu</source>
@@ -21,7 +21,7 @@
         <source>Colonne 50/50</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-50-50.description" xml:space="preserve">
-        <source>Contenu divisé en deux colonnes de 50%</source>
+        <source>Contenu divisé en deux colonnes de 50% skinnables</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-50-50.field-1" xml:space="preserve">
         <source>Colonne 1</source>
@@ -34,7 +34,7 @@
         <source>Colonne 33/66</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-33-66.description" xml:space="preserve">
-        <source>Contenu divisé en deux colonnes de 33 et 66%</source>
+        <source>Contenu divisé en deux colonnes de 33 et 66% skinnables</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-33-66.field-1" xml:space="preserve">
         <source>Contenu adjacent</source>
@@ -47,7 +47,7 @@
         <source>Colonne 66/33</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-66-33.description" xml:space="preserve">
-        <source>Contenu divisé en deux colonnes de 66 et 33%</source>
+        <source>Contenu divisé en deux colonnes de 66 et 33% skinnables</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-66-33.field-1" xml:space="preserve">
         <source>Contenu principal</source>
@@ -60,7 +60,7 @@
         <source>Colonne 33/33/33</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-33-33-33.description" xml:space="preserve">
-        <source>Contenu divisé en deux colonnes de 33%</source>
+        <source>Contenu divisé en deux colonnes de 33% skinnables</source>
       </trans-unit>
       <trans-unit id="TSconfig.columns-33-33-33.field-1" xml:space="preserve">
         <source>Colonne 1</source>
