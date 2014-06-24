@@ -2,9 +2,9 @@ config {
   siteName   = Dummy Generic
 
   noCache = 0
-  cachePeriod = 0
-  sendCacheHeaders = 0
-  cacheClearAtMidnight = 0
+  cachePeriod = 86400
+  sendCacheHeaders = 1
+  cacheClearAtMidnight = 1
 
   adminPanel = 0
 
@@ -13,6 +13,9 @@ config {
   realURL    = 1
 
   index_enable    = 1
+
+  compressJs = 9
+  compressCss = 9
 }
 
 page{
@@ -22,16 +25,7 @@ page{
   searchResultID = 13
 }
 
-tx_news{
-  news{
-    singlePid = 19
-    storage = 17
-  }
-  events {
-    singlePid =
-    storage = 18
-  }
-}
+content.defaultHeaderType = 100
 
 indexed_search{
   index_externals = 0
@@ -52,7 +46,7 @@ images{
 
 plugin.tx_scriptmerger {
   css {
-    enable = 0
+    enable = 1
     addContentInDocument = 0
     minify {
       enable = 1
@@ -68,23 +62,23 @@ plugin.tx_scriptmerger {
     }
   }
   javascript {
-    enable = 0
-    parseBody = 0
+    enable = 1
+    parseBody = 1
     addBeforeBody = 0
     doNotRemoveInDocInBody = 1
     addContentInDocument = 0
     minify {
       enable = 1
       useJSMinPlus = 1
-      ignore = \?,\.min\.,\google\
+      ignore = \?,\.min\.,google
     }
     compress {
       enable = 1
-      ignore = \?,\.gz\.,\google\
+      ignore = \?,\.gz\.,google
     }
     merge {
-      enable = 1
-      ignore = \?,\google\
+      enable = 0
+      ignore = google,menu,slider
     }
   }
 }

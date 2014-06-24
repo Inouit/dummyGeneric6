@@ -7,7 +7,7 @@ page.headerData {
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
             <link rel="icon" href="favicon.ico" />
 
-            <link rel="stylesheet" type="text/css" href="{$filepaths.css}components/jquery.jscrollpane.css" media="all">
+            <!--link rel="stylesheet" type="text/css" href="{$filepaths.css}components/jquery.jscrollpane.css" media="all"-->
             <link rel="stylesheet" type="text/css" href="{$filepaths.css}main.css" media="all">
             <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="{$filepaths.css}ie.css" media="all"><![endif]-->
         )

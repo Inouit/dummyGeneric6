@@ -6,5 +6,5 @@
 
 	//  # Setup TS automatic generation
   $tsDirectory = 'Configuration/Typoscript/';
-  Tx_SkinDummy_Utility_Typoscript::autoGenerateSetup($_EXTKEY, array($tsDirectory.'extensions', $tsDirectory.'blocks', $tsDirectory.'menus', $tsDirectory.'page', $tsDirectory.'templates', $tsDirectory.'languages'));
+  Tx_SkinDummy_Utility_Typoscript::autoGenerateSetup($_EXTKEY, array($tsDirectory.'extensions', $tsDirectory.'menus', $tsDirectory.'blocks', $tsDirectory.'page', $tsDirectory.'templates', $tsDirectory.'languages'));
 ?>

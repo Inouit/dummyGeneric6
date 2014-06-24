@@ -18,12 +18,20 @@ config {
     #disableAllHeaderCode = 1
 
     ### Langage ###
+    language              = fr
+    locale_all            = fr_FR.utf8
+    htmlTag_langKey       = fr
+
+    ### Langage ###
     baseURL = http://{$config.domain}/
+    sys_language_uid    = 0
     sys_language_mode = strict
 
     ### Locale ###
+    htmlTag_langKey = fr
+    linkVars := addToList(L)
     uniqueLinkVars = 1
-    linkVars = L
+    # linkVars = L
 
     ## Supression du JS par default
     removeDefaultJS = external
@@ -46,6 +54,12 @@ config {
     cache_period = {$config.cachePeriod}
     sendCacheHeaders = {$config.sendCacheHeaders}
     cache_clearAtMidnight = {$config.cacheClearAtMidnight}
+
+    ### Compression JS ###
+    compressJs = {$config.compressJs}
+
+    ### Compression CSS ###
+    compressCss = {$config.compressCss}
 
     ### Debug ###
     debug = {$config.debug}

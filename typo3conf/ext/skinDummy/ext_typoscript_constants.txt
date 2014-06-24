@@ -3,7 +3,7 @@ filepaths {
   templates  = typo3conf/ext/skin/Resources/Private/Templates/
   partials   = typo3conf/ext/skin/Resources/Private/Partials/
   extensions = typo3conf/ext/skin/Resources/Private/Extensions/
-  js         = /typo3conf/ext/skin/Resources/Public/js/
-  css        = /typo3conf/ext/skin/Resources/Public/css/
-  images     = /typo3conf/ext/skin/Resources/Public/img/
+  js         = typo3conf/ext/skin/Resources/Public/js/
+  css        = typo3conf/ext/skin/Resources/Public/css/
+  images     = typo3conf/ext/skin/Resources/Public/img/
 }
