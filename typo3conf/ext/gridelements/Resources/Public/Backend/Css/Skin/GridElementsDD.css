@@ -3,10 +3,14 @@
 	position: relative;
 	background: red;
 	opacity: 0.5;
+	filter: alpha(opacity=50);
 }
 .x-dd-tpl {
 	display: none;
 }
+.x-dd-makedroptarget {
+}
+
 .x-dd-droptargetarea {
 	visibility: hidden;
 	color: #73ab61;
@@ -14,9 +18,11 @@
 	text-align: center;
 	position: relative;
 	margin: 0px 0px 0px 0px;
-	line-height: 19px;
-	height: 19px;
+	line-height: 25px;
+	height: 25px;
 	border: 1px dotted #73ab61;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 .x-dd-droptargetarea.x-dd-showdroptarget {
 	visibility: visible;
@@ -58,38 +64,53 @@
 	visibility: hidden;
 	position: fixed;
 	height: auto;
-	top: 52px;
-	left: 0px;
-	width: 100%;
-	z-index: 20000;
+	top: 65px;
+	right: 38px;
+	max-width: 90%;
+ 	z-index: 20000;
 	/* setting overflow makes items disappear when dragging
 	 * solution:  when dragging starts, put the element right after body in DOM
 	 */
 }
 
 #x-dd-draggablecontainer .typo3-dyntabmenu-tabs {
-	margin:  0px 24px 0px 11px;
+	margin: 0px;
+	float: right;
 }
 
 #x-dd-draggablecontainer .typo3-dyntabmenu-tabs a {
-	padding: 0px 5px;
-	font-weight: bold;
+    padding: 2px 10px;
+    font-weight: normal;
+}
+
+#x-dd-draggablecontainer .typo3-dyntabmenu-tabs a img {
+    display: none;
 }
 
 #x-dd-draggablecontainer .typo3-dyntabmenu-divs {
-	margin:  0px 24px 0px 11px;
+	margin: 0px 1px 0px 0px;
+	clear: both;
+}
+
+#x-dd-draggablecontainer .typo3-dyntabmenu-divs:hover {
+	min-height: 122px;
+}
+
+#x-dd-draggablecontainer.dragging-active .typo3-dyntabmenu-divs:hover {
+	min-height: 0px;
 }
 
 #x-dd-draggablecontainer .typo3-dyntabmenu-divs .c-tablayer {
 	display: block;
 	width: 100%;
+	margin: 0px 12px 0px 2px;
 }
 
 #x-dd-draggablecontainer .typo3-dyntabmenu-divs .x-dd-new-element-link {
 	display: inline-block;
 	vertical-align: top;
 	margin:  0px;
-	padding: 0px;
+	padding: 7px 0px 2px 5px;
 }
 
 #x-dd-draggablecontainer .typo3-dyntabmenu-divs a {
@@ -111,10 +132,20 @@
 #x-dd-draggablecontainer .typo3-dyntabmenu-divs .c-tablayer div {
 	cursor: pointer;
 }
+.x-dd-draggableiteminfo {
+	width: 90%;
+	margin: 0px;
+}
 .x-dd-draggableiteminfo > div {
-	padding: 10px 5px 5px 0px;
-	width: 95%;
-	float: left;
+	width: 90%;
+	margin: 0px;
+	display: inline-block;
+}
+.x-dd-draggableiteminfo > div > div {
+    padding: 0px 5px 10px 0px;
+	display: inline-block;
+	width: 70%;
+	max-width: 500px;
 }
 .x-dd-draggableiteminfo > br {
 	clear: both;
@@ -123,12 +154,12 @@
 	height: 1px;
 }
 .x-dd-draggableiteminfoimg {
-	padding: 0 10px 0 0;
-	width: 68px;
-	height: auto;
+	margin: 0px 0px 10px 10px;
+	width: auto;
+	height: 68px;
+	display: block;
 	float: left;
 }
-.draggableiteminfotext {
-	float: right;
+.x-dd-draggableiteminfotext {
+	margin: 0px 0px 10px 10px;
 }
-

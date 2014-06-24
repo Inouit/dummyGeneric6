@@ -22,7 +22,6 @@ Local files
 
 /typo3conf/ext/skin/Classes/Utility/realurl_lang.php
 ``` php
-    // Define domains and theirs root pid
     require_once('realurl_local.php');
 
     [...]
@@ -40,6 +39,9 @@ Local files
 
 /typo3conf/AdditionalConfiguration.php
 ```  php
+    /***
+    **** Database Configuration
+    ***/
     $GLOBALS['TYPO3_CONF_VARS'] = array_merge($GLOBALS['TYPO3_CONF_VARS'], array(
       'DB' => array(
         'host'     => 'myHost',

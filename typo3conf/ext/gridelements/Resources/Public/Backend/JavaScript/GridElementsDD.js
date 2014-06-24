@@ -78,6 +78,7 @@ GridElementsDD = function() {
 				}else{
 					// new ce
 					top.elementCType = dragEl.select('div[class^=t3-ctype-]').elements[0].className.substr(9).replace(/ t3-gridTLContainer/g, '');
+					Ext.select('#x-dd-draggablecontainer').addClass('dragging-active');
 				}
 
 				// always cache the original XY Coordinates of the element
@@ -246,9 +247,9 @@ GridElementsDD = function() {
 					// when it is "id=12345" the position is after element 12345
 					// otherwise the position is on top of column x of the current page
 					var targetTitle = Ext.get(targetElId).getAttribute('title');
-					if(targetTitle.substr(0,7) == 'column-') {
+					if(targetTitle.substr(0,7) === 'column-') {
 						top.targetUID = targetTitle.substr(7);
-					} else if(targetTitle.substr(0,3) == 'id=') {
+					} else if(targetTitle.substr(0,3) === 'id=') {
 						top.targetUID = targetTitle.substr(3);
 						columnInsert = false;
 					} else {
@@ -351,6 +352,7 @@ GridElementsDD = function() {
 
 				// set isDragging for other scripts
 				top.isDragging = false;
+				Ext.select('.dragging-active').removeClass('dragging-active');
 			}
 		},
 
@@ -366,7 +368,7 @@ GridElementsDD = function() {
 		this.invalidDrop = false;
 
 		// move node only if the drag element's parent is not the same as the drop target
-		if(this.el.dom.parentNode.id != targetElId && Ext.get(targetElId).hasClass('x-dd-showdroptarget')) {
+		if(this.el.dom.parentNode.id !== targetElId && Ext.get(targetElId).hasClass('x-dd-showdroptarget')) {
 
 			// clone template element
 			var newContentEl = Ext.get(this.el).dom.cloneNode(true);
@@ -439,9 +441,9 @@ GridElementsDD = function() {
 			// set title
 			var targetTitle = Ext.get(targetElId).getAttribute('title');
 
-			if(targetTitle.substr(0,7) == 'column-') {
+			if(targetTitle.substr(0,7) === 'column-') {
 				top.targetUID = targetTitle.substr(7);
-			} else if(targetTitle.substr(0,3) == 'id=') {
+			} else if(targetTitle.substr(0,3) === 'id=') {
 				top.targetUID = targetTitle.substr(3);
 			} else {
 				top.targetUID = targetTitle.replace(/DD_DROP_PID/g, 'NEW');
@@ -664,14 +666,14 @@ GridElementsDD = function() {
 						colPosMatch = onclickAttr.match(/colPos=([-\d]+)/),
 						containerMatch = onclickAttr.match(/tx_gridelements_container=([-\d]+)/),
 						containerColPosMatch = onclickAttr.match(/tx_gridelements_columns=([-\d]+)/),
-						uidPid = uidPidMatch !== null && typeof uidPidMatch != 'undefined' ? uidPidMatch[1] : '';
-						colPos = colPosMatch !== null && typeof colPosMatch != 'undefined' ? colPosMatch[1] : '';
-						container = containerMatch !== null && typeof containerMatch != 'undefined' ? containerMatch[1] : '';
-						containerColPos = containerColPosMatch !== null && typeof containerColPosMatch != 'undefined' ? containerColPosMatch[1] : '';
+						uidPid = uidPidMatch !== null && typeof uidPidMatch !== 'undefined' ? uidPidMatch[1] : '';
+						colPos = colPosMatch !== null && typeof colPosMatch !== 'undefined' ? colPosMatch[1] : '';
+						container = containerMatch !== null && typeof containerMatch !== 'undefined' ? containerMatch[1] : '';
+						containerColPos = containerColPosMatch !== null && typeof containerColPosMatch !== 'undefined' ? containerColPosMatch[1] : '';
 
-					if(container > 0 && containerColPos > 0) {
+					if(container > 0) {
 						newFromPageIconConf.rel = - container + 'x' + containerColPos;
-					} else if(container == '' && colPos > 0 && uidPid > 0) {
+					} else if(container === '' && uidPid > 0) {
 						newFromPageIconConf.rel = uidPid + 'x' + colPos;
 					} else {
 						newFromPageIconConf.rel = uidPid;
@@ -796,10 +798,10 @@ GridElementsDD = function() {
 		handleClipboardItem: function(clipboardItemUid, params) {
 
 			// set top vars so they're instantly available in reloaded frames
-			if(params.search(/setCopyMode.+/) != -1) {
-				top.DDclipboardfilled = (top.DDclipboardfilled == "copy" && top.DDclipboardElId == clipboardItemUid) ? "" : "copy";
+			if(params.search(/setCopyMode.+/) !== -1) {
+				top.DDclipboardfilled = (top.DDclipboardfilled === "copy" && top.DDclipboardElId === clipboardItemUid) ? "" : "copy";
 			} else {
-				top.DDclipboardfilled = (top.DDclipboardfilled == "move" && top.DDclipboardElId == clipboardItemUid) ? "" : "move";
+				top.DDclipboardfilled = (top.DDclipboardfilled === "move" && top.DDclipboardElId === clipboardItemUid) ? "" : "move";
 			}
 
 			top.DDclipboardElId = top.DDclipboardfilled ? clipboardItemUid : 0;
@@ -817,44 +819,24 @@ GridElementsDD = function() {
 			// remove all existing paste-copy icons
 			var pasteIcons = Ext.select('.t3-icon-gridelements-pastecopy').elements;
 			Ext.each(pasteIcons, function(iconEl) {
-				Ext.get(iconEl).remove();
+				Ext.get(iconEl).parent().remove();
 			});
 
 			// remove all existing paste-reference icons
 			var pasteRefIcons = Ext.select('.t3-icon-gridelements-pasteref').elements;
 			Ext.each(pasteRefIcons, function(iconEl) {
-				Ext.get(iconEl).remove();
+				Ext.get(iconEl).parent().remove();
 			});
 		},
 
 		addPasteAndRefIcons: function(clipboardItemUid) {
 			// console.log('addPasteAndRefIcons reached');
 			// add paste icons to column headers
-			if(clipboardItemUid.substr(0,5) != '_FILE') {
+			if(clipboardItemUid.substr(0,5) !== '_FILE') {
 				colHeader = Ext.select('.t3-page-ce-wrapper-new-ce, .t3-page-ce-new-ce').elements;
 				Ext.each(colHeader, function(currentColHeader) {
-					var dropZoneID = null,
-						parentCell = Ext.get(currentColHeader).hasClass('t3-page-ce-new-ce') ? Ext.get(currentColHeader).parent('.t3-page-ce').select('.t3-icon-mimetypes').elements[0] : Ext.get(currentColHeader).parent('.t3-page-column');
-
-					if(Ext.get(currentColHeader).hasClass('t3-page-ce-wrapper-new-ce') && Ext.get(parentCell).id.substr(0, 6) != 'column') {
-						var parentCellClass = Ext.get(parentCell).dom.className.split(' ');
-						for(i = 0; i < parentCellClass.length; i++) {
-							if(parentCellClass[i].substr(0, 15) == 't3-page-column-') {
-								// add page id - must be negative to identify it as a PID
-								dropZoneID = top.DDpid + 'x' + parentCellClass[i].substr(15);
-							}
-						};
-					} else {
-						if(Ext.get(currentColHeader).hasClass('t3-page-ce-new-ce')) {
-							dropZoneID = '-' + parentCell.getAttribute('title').substr(3);
-						} else {
-							dropZoneID = '-' + Ext.get(parentCell).id.substr(7);
-						}
-					}
-
-					// dropZoneID now has this format: column-1234567x0 or DD_PAGECOLUMNx0
-					// the number after the "x" can be positive and negative, e.g. DD_PAGECOLUMNx-2 for "unused elements"
 					var lastColHeaderLink = Ext.get(currentColHeader).select('a:last').elements[0];
+					var dropZoneID = lastColHeaderLink.rel;
 
 					// add "paste copy" icon
 					var
@@ -870,22 +852,22 @@ GridElementsDD = function() {
 						},
 						pasteCopyIcon = Ext.DomHelper.insertAfter(lastColHeaderLink, pasteCopyIconConf, true);
 
-					if(top.DDclipboardfilled == 'move'){
+					if(top.DDclipboardfilled === 'move'){
 
 						// bind click event
 						pasteCopyIcon.on('click', function(){
 							GridElementsDD.ajaxThenReload(
-								top.moveURL.replace('DD_DRAG_UID', clipboardItemUid).replace('DD_DROP_UID', dropZoneID) + "&CB[paste]=tt_content%7C-" + clipboardItemUid + "&CB[pad]=normal"
+								top.moveURL.replace('DD_DRAG_UID', clipboardItemUid).replace('DD_DROP_UID', dropZoneID) + "&CB[paste]=tt_content%7C" + dropZoneID + "&CB[pad]=normal"
 							);
 							return false;
 						});
 
-					} else if(top.DDclipboardfilled == 'copy'){
+					} else if(top.DDclipboardfilled === 'copy'){
 
 						// bind click event
 						pasteCopyIcon.on('click', function(){
 							GridElementsDD.ajaxThenReload(
-								top.pasteTpl.replace('DD_REFYN', '0&DDcopy=1').replace('DD_DRAG_UID', clipboardItemUid).replace('DD_DROP_UID', dropZoneID)
+								top.pasteTpl.replace('DD_REFYN', '0').replace('DD_DRAG_UID', clipboardItemUid).replace('DD_DROP_UID', dropZoneID)
 							);
 							return false;
 						});

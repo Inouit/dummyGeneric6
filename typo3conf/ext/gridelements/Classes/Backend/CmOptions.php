@@ -17,10 +17,9 @@ class CmOptions {
 	 * @return array
 	 */
 	public function main(\TYPO3\CMS\Backend\ClickMenu\ClickMenu &$backRef, array $menuItems, $table, $uid) {
-		global $BE_USER;
 
 		// add copied item handler to "(un)copy" link in clickmenu
-		if(strpos($menuItems['copy'][0], 't3-icon-edit-copy-release') === false) {
+		if(strpos($menuItems['copy'][0], 't3-icon-edit-copy-release') === FALSE) {
 			preg_match('@&uid=(?P<digit>\d+)&@', $menuItems['copy'][3], $arrMatches);
 			$strUidInLink = $arrMatches[1];
 			$menuItems['copy'][3] = str_replace('return false;', ' GridElementsDD.listenForCopyItem(' . $strUidInLink . '); return false;', $menuItems['copy'][3]);
@@ -31,7 +30,7 @@ class CmOptions {
 		if($parkItem) {
 			unset($menuItems['pasteafter']);
 			$menuItems['pasteafter'] = $parkItem;
-			if($backRef->clipObj->currentMode() == 'copy') {
+			if($backRef->clipObj->currentMode() === 'copy') {
 				$parkItem[1] = $GLOBALS['LANG']->sL('LLL:EXT:gridelements/Resources/Private/Language/locallang_db.xml:tx_gridelements_clickmenu_pastereference');
 				$parkItem[3] = preg_replace('/formToken/', 'reference=1&formToken', $parkItem[3]);
 				$menuItems['pastereference'] = $parkItem;
@@ -41,8 +40,3 @@ class CmOptions {
 	}
 
 }
-
-if (defined('TYPO3_MODE') && isset($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Backend/CmOptions.php'])) {
-	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Backend/CmOptions.php']);
-}
-?>

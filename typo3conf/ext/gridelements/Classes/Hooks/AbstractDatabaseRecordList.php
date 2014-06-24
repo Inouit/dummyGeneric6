@@ -1,5 +1,4 @@
 <?php
-
 namespace GridElementsTeam\Gridelements\Hooks;
 
 /***************************************************************
@@ -36,15 +35,6 @@ namespace GridElementsTeam\Gridelements\Hooks;
 class AbstractDatabaseRecordList {
 
 	/**
-	 * @var t3lib_BEfunc
-	 */
-	var $beFunc;
-
-	public function __construct() {
-		$this->beFunc = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Backend\Utility\BackendUtility');
-	}
-
-	/**
 	 * ItemProcFunc for columns items
 	 *
 	 * @param array	        $queryParts: The array containing the parts to build the query from
@@ -57,7 +47,7 @@ class AbstractDatabaseRecordList {
 	 * @return	void
 	 */
 	public function makeQueryArray_post(&$queryParts, &$parent, $table, $pageId, &$addWhere, &$fieldList, &$params)	{
-		if ($table == 'tt_content' && get_class($parent) == 'GridElementsTeam\Gridelements\Xclass\DatabaseRecordList') {
+		if ($table === 'tt_content' && get_class($parent) === 'GridElementsTeam\Gridelements\Xclass\DatabaseRecordList') {
 			$queryParts['ORDERBY'] = $this->addValueToList($queryParts['ORDERBY'], 'colPos');
 			$queryParts['WHERE'] .= ' AND colPos != -1';
 
@@ -75,8 +65,7 @@ class AbstractDatabaseRecordList {
 	 * @return string
 	 */
 	public function addValueToList($list, $value) {
-		$parts = \TYPO3\CMS\Core\Utility\GeneralUtility::trimExplode(',', $list, TRUE);
-		array_unshift($parts, $value);
-		return implode(',', array_unique($parts));
+		$parts = \TYPO3\CMS\Core\Utility\GeneralUtility::trimExplode(',', $value . ',' . $list, TRUE);
+		return implode(',', array_flip(array_flip($parts)));
 	}
 }

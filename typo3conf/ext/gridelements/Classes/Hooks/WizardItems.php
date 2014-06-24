@@ -23,6 +23,7 @@ namespace GridElementsTeam\Gridelements\Hooks;
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
+use TYPO3\CMS\Backend\Utility\BackendUtility;
 
 /**
  * Class/Function which manipulates the rendering of items within the new content element wizard
@@ -39,11 +40,6 @@ class WizardItems implements \TYPO3\CMS\Backend\Wizard\NewContentElementWizardHo
 	protected $layoutSetup;
 
 	/**
-	 * @var \TYPO3\CMS\Backend\Utility\BackendUtility
-	 */
-	protected $beFunc;
-
-	/**
 	 * inject layout setup
 	 *
 	 * @param \GridElementsTeam\Gridelements\Backend\LayoutSetup $layoutSetup
@@ -53,25 +49,13 @@ class WizardItems implements \TYPO3\CMS\Backend\Wizard\NewContentElementWizardHo
 	}
 
 	/**
-	 * inject BE func
-	 *
-	 * @param \TYPO3\CMS\Backend\Utility\BackendUtility $beFunc
-	 */
-	public function injectBeFunc(\TYPO3\CMS\Backend\Utility\BackendUtility $beFunc) {
-		$this->beFunc = $beFunc;
-	}
-
-	/**
 	 * initializes this class
 	 *
 	 * @param type $pageUid
 	 */
 	public function init($pageUid) {
 		if (!$this->layoutSetup instanceof \GridElementsTeam\Gridelements\Backend\LayoutSetup) {
-			$this->layoutSetup = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('GridElementsTeam\Gridelements\Backend\LayoutSetup')->init($pageUid);
-		}
-		if (!$this->beFunc instanceof \TYPO3\CMS\Backend\Utility\BackendUtility) {
-			$this->beFunc = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Backend\Utility\BackendUtility');
+			$this->layoutSetup = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('GridElementsTeam\\Gridelements\\Backend\\LayoutSetup')->init($pageUid);
 		}
 	}
 
@@ -88,13 +72,17 @@ class WizardItems implements \TYPO3\CMS\Backend\Wizard\NewContentElementWizardHo
 			$pageID = $parentObject->pageinfo['uid'];
 			$this->init($pageID);
 
-			$container = intval(\TYPO3\CMS\Core\Utility\GeneralUtility::_GP('tx_gridelements_container'));
-			$column = intval(\TYPO3\CMS\Core\Utility\GeneralUtility::_GP('tx_gridelements_columns'));
-			$allowed = \TYPO3\CMS\Core\Utility\GeneralUtility::trimExplode(',', \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('tx_gridelements_allowed'), 1);
+			$container = (int)\TYPO3\CMS\Core\Utility\GeneralUtility::_GP('tx_gridelements_container');
+			$column = (int)\TYPO3\CMS\Core\Utility\GeneralUtility::_GP('tx_gridelements_columns');
+			$allowed_GP = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('tx_gridelements_allowed');
+			if(!empty($allowed_GP)) {
+				$allowed = array_flip(explode(',', $allowed_GP));
+				$this->removeDisallowedWizardItems($allowed, $wizardItems);
+			} else {
+				$allowed = NULL;
+			}
 
-			$this->removeDisallowedWizardItems($allowed, $wizardItems);
-
-			if(empty($allowed) || in_array('gridelements_pi1', $allowed)){
+			if(empty($allowed) || isset($allowed['gridelements_pi1'])){
 
 				$excludeLayouts = $this->getExcludeLayouts($container, $parentObject);
 
@@ -119,7 +107,7 @@ class WizardItems implements \TYPO3\CMS\Backend\Wizard\NewContentElementWizardHo
 		foreach ($wizardItems as $key => $wizardItem) {
 			$isElement = strpos($key, '_', 1);
 			if ($isElement){
-				$headersWithElements[] = substr($key, 0 , $isElement);
+				$headersWithElements[] = substr($key, 0, $isElement);
 			}
 		}
 		foreach($wizardItems as $key => $wizardItem) {
@@ -139,10 +127,10 @@ class WizardItems implements \TYPO3\CMS\Backend\Wizard\NewContentElementWizardHo
 	 * @return void
 	 */
 	public function removeDisallowedWizardItems($allowed, &$wizardItems) {
-		if(!in_array('*', $allowed)) {
+		if(!isset($allowed['*'])) {
 			foreach($wizardItems as $key => $wizardItem) {
 				if (!$wizardItems[$key]['header']) {
-					if (count($allowed) && !in_array($wizardItems[$key]['tt_content_defValues']['CType'], $allowed)){
+					if (count($allowed) && !isset($allowed[$wizardItems[$key]['tt_content_defValues']['CType']])){
 						unset($wizardItems[$key]);
 					}
 				}
@@ -159,29 +147,29 @@ class WizardItems implements \TYPO3\CMS\Backend\Wizard\NewContentElementWizardHo
 	 */
 	public function getExcludeLayouts($container, &$parentObject) {
 		$excludeLayouts = 0;
+		$excludeArray = array();
 
 		$pageID = $parentObject->pageinfo['uid'];
 
-		$BEfunc = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Backend\Utility\BackendUtility');
-		$TSconfig = $BEfunc->getPagesTSconfig($pageID);
+		$TSconfig = BackendUtility::getPagesTSconfig($pageID);
 
 		if($container && $TSconfig['TCEFORM.']['tt_content.']['tx_gridelements_backend_layout.']['itemsProcFunc.']['topLevelLayouts']) {
-			$excludeArray[] = $TSconfig['TCEFORM.']['tt_content.']['tx_gridelements_backend_layout.']['itemsProcFunc.']['topLevelLayouts'];
+			$excludeArray[] = trim($TSconfig['TCEFORM.']['tt_content.']['tx_gridelements_backend_layout.']['itemsProcFunc.']['topLevelLayouts']);
 		}
 
 		$excludeLayoutsTS = $TSconfig['TCEFORM.']['tt_content.']['tx_gridelements_backend_layout.']['itemsProcFunc.']['excludeLayouts'];
 
 		if($excludeLayoutsTS) {
-			$excludeArray[] = $excludeLayoutsTS;
+			$excludeArray[] = trim($excludeLayoutsTS);
 		}
 
 		$userExcludeLayoutsTS = $TSconfig['TCEFORM.']['tt_content.']['tx_gridelements_backend_layout.']['itemsProcFunc.']['userExcludeLayouts'];
 
 		if($userExcludeLayoutsTS) {
-			$excludeArray[] = $userExcludeLayoutsTS;
+			$excludeArray[] = trim($userExcludeLayoutsTS);
 		}
 
-		if(count($excludeArray) > 0) {
+		if(count($excludeArray)) {
 			$excludeLayouts = implode(',', $excludeArray);
 		}
 
@@ -246,11 +234,11 @@ class WizardItems implements \TYPO3\CMS\Backend\Wizard\NewContentElementWizardHo
 	public function addGridValuesToWizardItems(&$wizardItems, $container, $column) {
 		foreach($wizardItems as $key => $wizardItem) {
 			if(!$wizardItems[$key]['header']){
-				if($container != 0) {
+				if($container !== 0) {
 					$wizardItems[$key]['tt_content_defValues']['tx_gridelements_container'] = $container;
 					$wizardItems[$key]['params'] .= '&defVals[tt_content][tx_gridelements_container]=' . $container;
 				}
-				if($column != 0) {
+				if($column !== 0) {
 					$wizardItems[$key]['tt_content_defValues']['tx_gridelements_columns'] = $column;
 					$wizardItems[$key]['params'] .= '&defVals[tt_content][tx_gridelements_columns]=' . $column;
 				}
@@ -259,8 +247,3 @@ class WizardItems implements \TYPO3\CMS\Backend\Wizard\NewContentElementWizardHo
 	}
 
 }
-
-if (defined('TYPO3_MODE') && isset($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Hooks/WizardItems.php'])) {
-	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Hooks/WizardItems.php']);
-}
-?>

@@ -11,7 +11,7 @@ namespace GridElementsTeam\Gridelements\Hooks;
 class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInterface {
 
 	/**
-	 * @var language
+	 * @var \TYPO3\CMS\Lang\LanguageService
 	 */
 	var $lang;
 
@@ -21,7 +21,7 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 	protected $tree;
 
 	public function __construct() {
-		$this->lang = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Lang\LanguageService');
+		$this->lang = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Lang\\LanguageService');
 		$this->lang->init($GLOBALS['BE_USER']->uc['lang']);
 	}
 
@@ -49,8 +49,8 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 				case 'gridelements_pi1':
 					$drawItem = FALSE;
 					$itemContent .= $this->renderCTypeGridelements($parentObject, $row, $showHidden, $deleteClause);
-					$refIndexObj = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Core\Database\ReferenceIndex');
-					/* @var $refIndexObj t3lib_refindex */
+					$refIndexObj = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Database\\ReferenceIndex');
+					/* @var $refIndexObj \TYPO3\CMS\Core\Database\ReferenceIndex */
 					$refIndexObj->updateRefIndexTable('tt_content', $row['uid']);
 					break;
 				case 'shortcut':
@@ -81,11 +81,13 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 		// get the layout record for the selected backend layout if any
 		$gridContainerId = $row['uid'];
 		/** @var $layoutSetup \GridElementsTeam\Gridelements\Backend\LayoutSetup */
-		$layoutSetup = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('GridElementsTeam\Gridelements\Backend\LayoutSetup');
+		$layoutSetup = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('GridElementsTeam\\Gridelements\\Backend\\LayoutSetup');
 		$gridElement = $layoutSetup->init($row['pid'])->cacheCurrentParent($gridContainerId, TRUE);
 		$layoutUid = $gridElement['tx_gridelements_backend_layout'];
 		$layout = $layoutSetup->getLayoutSetup($layoutUid);
-		$parserRows = $layout['config']['rows.'];
+		if(isset($layout['config']) && isset($layout['config']['rows.'])) {
+			$parserRows = $layout['config']['rows.'];
+		}
 
 		// if there is anything to parse, lets check for existing columns in the layout
 
@@ -125,9 +127,10 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 	public function renderCTypeShortcut(\TYPO3\CMS\Backend\View\PageLayoutView $parentObject, &$row, &$showHidden, &$deleteClause) {
 		$shortcutContent = '';
 		if ($row['records']) {
-			$shortcutItems = \TYPO3\CMS\Core\Utility\GeneralUtility::trimExplode(',', $row['records']);
+			$shortcutItems = explode(',', $row['records']);
 			$collectedItems = array();
 			foreach ($shortcutItems as $shortcutItem) {
+				$shortcutItem = trim($shortcutItem);
 				if (strpos($shortcutItem, 'pages_') !== FALSE) {
 					$this->collectContentDataFromPages($shortcutItem, $collectedItems, $row['recursive'], $showHidden, $deleteClause);
 				} else if (strpos($shortcutItem, '_') === FALSE || strpos($shortcutItem, 'tt_content_') !== FALSE) {
@@ -162,9 +165,9 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 			foreach ($parserRows as $parserRow) {
 				if (is_array($parserRow['columns.']) && count($parserRow['columns.']) > 0) {
 					foreach ($parserRow['columns.'] as $parserColumns) {
-						$name = $this->lang->sL($parserColumns['name'], true);
+						$name = $this->lang->sL($parserColumns['name'], TRUE);
 						if ($parserColumns['colPos'] !== '') {
-							$colPosValues[intval($parserColumns['colPos'])] = array(
+							$colPosValues[(int)$parserColumns['colPos']] = array(
 								'name' => $name,
 								'allowed' => $parserColumns['allowed']
 							);
@@ -259,6 +262,14 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 		$originalPidSelect = $parentObject->pidSelect;
 		$parentObject->pidSelect = 'pid = ' . $row['pid'];
 
+		if(!$parentObject->tt_contentConfig['languageMode']) {
+			$showLanguage = ' AND (sys_language_uid = -1 OR sys_language_uid=' . $parentObject->tt_contentConfig['sys_language_uid'] . ')';
+		} else if($row['sys_language_uid'] > 0) {
+			$showLanguage = ' AND sys_language_uid=' . $row['sys_language_uid'];
+		} else {
+			$showLanguage = '';
+		}
+
 		$specificUid = \GridElementsTeam\Gridelements\Helper\Helper::getInstance()->getSpecificUid($row);
 		$queryParts = $parentObject->makeQueryArray(
 			'tt_content',
@@ -269,7 +280,7 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 				$colPos .
 				$showHidden .
 				$deleteClause .
-				$parentObject->showLanguage
+				$showLanguage
 		);
 
 		// Due to the pid being "NOT USED" in makeQueryArray we have to reset pidSelect here
@@ -418,7 +429,7 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 
 		$grid = '<div class="t3-gridContainer' .
 			($layoutSetup['frame']
-				? ' t3-gridContainer-' . $layoutSetup['frame']
+				? ' t3-gridContainer-framed t3-gridContainer-' . $layoutSetup['frame']
 				: ''
 			) .
 			($layoutSetup['top_level_layout']
@@ -433,8 +444,16 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 		}
 		$grid .= '<table border="0" cellspacing="1" cellpadding="4" width="100%" height="100%" class="t3-page-columns t3-gridTable">';
 		// add colgroups
-		$colCount = intval($layoutSetup['config']['colCount']);
-		$rowCount = intval($layoutSetup['config']['rowCount']);
+		$colCount = 0;
+		$rowCount = 0;
+		if(isset($layoutSetup['config'])) {
+			if(isset($layoutSetup['config']['colCount'])) {
+				$colCount = (int)$layoutSetup['config']['colCount'];
+			}
+			if(isset($layoutSetup['config']['rowCount'])) {
+				$rowCount = (int)$layoutSetup['config']['rowCount'];
+			}
+		}
 		$grid .= '<colgroup>';
 		for ($i = 0; $i < $colCount; $i++) {
 			$grid .= '<col style="width:' . (100 / $colCount) . '%"></col>';
@@ -453,19 +472,19 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 					continue;
 				}
 				// which column should be displayed inside this cell
-				$columnKey = $columnConfig['colPos'] != '' ? intval($columnConfig['colPos']) : 32768;
+				$columnKey = $columnConfig['colPos'] !== '' ? (int)$columnConfig['colPos'] : 32768;
 				// allowed CTypes
-				$allowedCTypes = \TYPO3\CMS\Core\Utility\GeneralUtility::trimExplode(',', $columnConfig['allowed'], 1);
-				if(!in_array('*', $allowedCTypes)) {
-					foreach($allowedCTypes as &$ctype){
-						$ctype = 't3-allow-' . $ctype;
+				if(!empty($columnConfig['allowed'])) {
+					$allowedCTypes = array_flip(explode(',', $columnConfig['allowed']));
+					if(!isset($allowedCTypes['*'])) {
+						foreach($allowedCTypes as $key => &$ctype){
+							$ctype = 't3-allow-' . $key;
+						}
 					}
-				} else {
-					unset($allowedCTypes);
 				}
 				// render the grid cell
-				$colSpan = intval($columnConfig['colspan']);
-				$rowSpan = intval($columnConfig['rowspan']);
+				$colSpan = (int)$columnConfig['colspan'];
+				$rowSpan = (int)$columnConfig['rowspan'];
 				$grid .= '<td valign="top"' .
 					(isset($columnConfig['colspan'])
 						? ' colspan="' . $colSpan . '"'
@@ -474,13 +493,13 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 						? ' rowspan="' . $rowSpan . '"'
 						: '') .
 					'id="column-' . $specificUid . 'x' . $columnKey . '" class="t3-gridCell t3-page-column t3-page-column-' . $columnKey .
-					(!isset($columnConfig['colPos']) || $columnConfig['colPos'] == ''
+					(!isset($columnConfig['colPos']) || $columnConfig['colPos'] === ''
 						? ' t3-gridCell-unassigned'
 						: '') .
-					(isset($columnConfig['colspan']) && $columnConfig['colPos'] != ''
+					(isset($columnConfig['colspan']) && $columnConfig['colPos'] !== ''
 						? ' t3-gridCell-width' . $colSpan
 						: '') .
-					(isset($columnConfig['rowspan']) && $columnConfig['colPos'] != ''
+					(isset($columnConfig['rowspan']) && $columnConfig['colPos'] !== ''
 						? ' t3-gridCell-height' . $rowSpan
 						: '') .
 					' ' . (count($allowedCTypes) ? join(' ', $allowedCTypes) : 't3-allow-all') .
@@ -509,9 +528,9 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 		$itemList = str_replace('pages_', '', $shortcutItem);
 		if ($recursive) {
 			if (!$this->tree instanceof \TYPO3\CMS\Core\Database\QueryGenerator) {
-				$this->tree = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('\TYPO3\CMS\Core\Database\QueryGenerator');
+				$this->tree = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Database\\QueryGenerator');
 			}
-			$itemList = $this->tree->getTreeList($itemList, intval($recursive), 0, 1);
+			$itemList = $this->tree->getTreeList($itemList, (int)$recursive, 0, 1);
 		}
 		$itemRows = $GLOBALS['TYPO3_DB']->exec_SELECTgetRows(
 			'*',
@@ -579,12 +598,22 @@ class DrawItem implements \TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInte
 			'><div class="t3-page-ce-body-inner t3-page-ce-body-inner-' . $itemRow['CType'] . '">' .
 			$parentObject->tt_content_drawItem($itemRow, $isRTE) .
 			'</div></div>';
+		$footerContent = '';
+		// Get processed values:
+		$info = array();
+		$parentObject->getProcessedValue('tt_content', 'starttime,endtime,fe_group,spaceBefore,spaceAfter', $itemRow, $info);
+		// Display info from records fields:
+		if (count($info)) {
+			$footerContent = '<div class="t3-page-ce-info">
+				' . implode('<br />', $info) . '
+				</div>';
+		}
+		// Wrap it
+		if (!empty($footerContent)) {
+			$singleElementHTML .= '<div class="t3-page-ce-footer">' . $footerContent . '</div>';
+		}
 		return $singleElementHTML;
 	}
 }
 
-if (defined('TYPO3_MODE') && isset($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Hooks/DrawItem.php'])) {
-	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Hooks/DrawItem.php']);
-}
 
-?>

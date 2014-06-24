@@ -46,7 +46,7 @@ class ColPosList extends AbstractItemsProcFunc {
 		} else {
 			// negative uid_pid values indicate that the element has been inserted after an existing element
 			// so there is no pid to get the backendLayout for and we have to get that first
-			$existingElement = $GLOBALS['TYPO3_DB']->exec_SELECTgetSingleRow('pid, CType', 'tt_content', 'uid=' . -(intval($params['row']['pid'])));
+			$existingElement = $GLOBALS['TYPO3_DB']->exec_SELECTgetSingleRow('pid, CType', 'tt_content', 'uid=' . -((int)$params['row']['pid']));
 			if ($existingElement['pid'] > 0) {
 				$params['items'] = $this->addColPosListLayoutItems($existingElement['pid'], $params['items'], $existingElement['CType']);
 			}
@@ -56,17 +56,18 @@ class ColPosList extends AbstractItemsProcFunc {
 	/**
 	 * Adds items to a colpos list
 	 *
-	 * @param	integer $pageId: The uid of the page we are currently working on
-	 * @param	array	$items: The array of items before the action
-	 * @return array $items: The ready made array of items
+	 * @param   integer $pageId : The uid of the page we are currently working on
+	 * @param   array   $items : The array of items before the action
+	 * @param   string  $CType : The content type of the item holding the colPosList
+	 * @return  array   $items: The ready made array of items
 	 */
 	protected function addColPosListLayoutItems($pageId, array $items, $CType = '') {
 		$layout = $this->getSelectedBackendLayout($pageId);
 
 		if($layout) {
-			if($CType != '' && count($layout['__items']) > 0) {
+			if($CType !== '' && count($layout['__items']) > 0) {
 				foreach($layout['__items'] as $itemKey => $itemArray) {
-					if($itemArray[3] != '' && !\TYPO3\CMS\Core\Utility\GeneralUtility::inList($itemArray[3], $CType) && !\TYPO3\CMS\Core\Utility\GeneralUtility::inList($itemArray[3], '*')) {
+					if($itemArray[3] !== '' && !\TYPO3\CMS\Core\Utility\GeneralUtility::inList($itemArray[3], $CType) && !\TYPO3\CMS\Core\Utility\GeneralUtility::inList($itemArray[3], '*')) {
 						unset($layout['__items'][$itemKey]);
 					}
 				}
@@ -85,8 +86,3 @@ class ColPosList extends AbstractItemsProcFunc {
 		return $items;
 	}
 }
-
-if (defined('TYPO3_MODE') && isset($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Backend/ItemsProcFuncs/ColPosList.php'])) {
-	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Backend/ItemsProcFuncs/ColPosList.php']);
-}
-?>

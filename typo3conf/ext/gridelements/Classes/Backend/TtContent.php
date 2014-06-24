@@ -56,7 +56,7 @@ class TtContent {
 	public function init($pageUid) {
 		if (!$this->layoutSetup instanceof \GridElementsTeam\Gridelements\Backend\LayoutSetup) {
 			$this->injectLayoutSetup(
-				\TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('GridElementsTeam\Gridelements\Backend\LayoutSetup')
+				\TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('GridElementsTeam\\Gridelements\\Backend\\LayoutSetup')
 					->init($pageUid)
 			);
 		}
@@ -70,16 +70,16 @@ class TtContent {
 	 */
 	public function columnsItemsProcFunc(&$params) {
 		$this->init($params['row']['pid']);
-		$gridContainerId = intval($params['row']['tx_gridelements_container']);
+		$gridContainerId = (int)$params['row']['tx_gridelements_container'];
 
 		if ($gridContainerId > 0) {
 			$gridElement = $this->layoutSetup->cacheCurrentParent($gridContainerId, TRUE);
 			$params['items'] = $this->layoutSetup
 				->getLayoutColumnsSelectItems($gridElement['tx_gridelements_backend_layout']);
 
-			if($params['row']['CType'] != '' && count($params['items']) > 0) {
+			if($params['row']['CType'] !== '' && count($params['items']) > 0) {
 				foreach($params['items'] as $itemKey => $itemArray) {
-					if($itemArray[3] != '' && !\TYPO3\CMS\Core\Utility\GeneralUtility::inList($itemArray[3], $params['row']['CType'])) {
+					if($itemArray[3] !== '' && $itemArray[3] !== '*' && !\TYPO3\CMS\Core\Utility\GeneralUtility::inList($itemArray[3], $params['row']['CType'])) {
 						unset($params['items'][$itemKey]);
 					}
 				}
@@ -105,7 +105,7 @@ class TtContent {
 
 		$itemUidList = '';
 		if(count($params['items']) > 1) {
-			foreach($params['items'] as $key => $container) {
+			foreach($params['items'] as $container) {
 				if($container[1] > 0) {
 					$itemUidList .= $itemUidList ? ',' . $container[1] : $container[1];
 				}
@@ -125,7 +125,7 @@ class TtContent {
 	 * @return void
 	 */
 	public function removesItemsFromListOfSelectableContainers(array &$params, &$possibleContainers) {
-		if ($params['row']['CType'] == 'gridelements_pi1' && count($params['items']) > 1) {
+		if ($params['row']['CType'] === 'gridelements_pi1' && count($params['items']) > 1) {
 			$items = $params['items'];
 			$params['items'] = array(
 				0 => array_shift($items)
@@ -136,7 +136,7 @@ class TtContent {
 			}
 
 			if ($params['row']['uid'] > 0) {
-				$this->lookForChildContainersRecursively(intval($params['row']['uid']), $possibleContainers);
+				$this->lookForChildContainersRecursively((int)$params['row']['uid'], $possibleContainers);
 			}
 		}
 	}
@@ -192,18 +192,18 @@ class TtContent {
 	 * Recursive function to remove any container from the list of possible containers
 	 * that is already a subcontainer on any level of the current container
 	 *
-	 * @param CSV	$containerIds: A list determining containers that should be checked
+	 * @param string	$containerIds: A list determining containers that should be checked
 	 * @param array	$possibleContainers: The result list containing the remaining containers after the check
 	 * @return	void
 	 */
 	public function lookForChildContainersRecursively($containerIds, &$possibleContainers) {
-		if($containerIds) {
-			$childrenOnNextLevel = $GLOBALS['TYPO3_DB']->exec_SELECTgetRows(
-				'uid, tx_gridelements_container',
-				'tt_content',
-				'CType=\'gridelements_pi1\' AND tx_gridelements_container IN (' . $containerIds . ')'
-			);
+		if (!$containerIds) {
+			return;
 		}
+		$childrenOnNextLevel = $GLOBALS['TYPO3_DB']->exec_SELECTgetRows(
+			'uid, tx_gridelements_container',
+			'tt_content', 'CType=\'gridelements_pi1\' AND tx_gridelements_container IN (' . $containerIds . ')'
+		);
 
 		if (count($childrenOnNextLevel) && count($possibleContainers)) {
 			$containerIds = '';
@@ -214,18 +214,13 @@ class TtContent {
 				}
 
 				$containerIds .= $containerIds
-					? ',' . intval($childOnNextLevel['uid'])
-					: intval($childOnNextLevel['uid']);
+					? ',' . (int)$childOnNextLevel['uid']
+					: (int)$childOnNextLevel['uid'];
 
-				if ($containerIds != '') {
+				if ($containerIds !== '') {
 					$this->lookForChildContainersRecursively($containerIds, $possibleContainers);
 				}
 			}
 		}
 	}
 }
-
-if (defined('TYPO3_MODE') && isset($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Backend/TtContent.php'])) {
-	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Backend/TtContent.php']);
-}
-?>

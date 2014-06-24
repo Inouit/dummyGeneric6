@@ -58,7 +58,7 @@ class MoveRecord extends AbstractDataHandler {
 	 */
 	public function execute_moveRecord($table, $uid, &$destPid, &$propArr, &$moveRec, $resolvedPid, &$recordWasMoved, &$parentObj) {
 		$this->init($table, $uid, $parentObj);
-		if ($table == 'tt_content' && !$this->getTceMain()->isImporting) {
+		if ($table === 'tt_content' && !$this->getTceMain()->isImporting) {
 			$copyAfterDuplFields = $GLOBALS['TCA']['tt_content']['ctrl']['copyAfterDuplFields'];
 			$GLOBALS['TCA']['tt_content']['ctrl']['copyAfterDuplFields'] .= ',tx_gridelements_container,tx_gridelements_columns';
 			$cmd = \TYPO3\CMS\Core\Utility\GeneralUtility::_GET('cmd');
@@ -69,22 +69,20 @@ class MoveRecord extends AbstractDataHandler {
 			);
 			$containerUpdateArray[$originalElement['tx_gridelements_container']] = -1;
 
-			if (strpos($cmd['tt_content'][$uid]['move'], 'x') !== false) {
-				$target = \TYPO3\CMS\Core\Utility\GeneralUtility::trimExplode('x', $cmd['tt_content'][$uid]['move']);
-				$targetUid = abs(intval($target[0]));
+			if (strpos($cmd['tt_content'][$uid]['move'], 'x') !== FALSE) {
+				$target = explode('x', $cmd['tt_content'][$uid]['move']);
+				$targetUid = abs((int)$target[0]);
 				$updateArray = $this->createUpdateArrayForSplitElements($uid, $destPid, $targetUid, $target, $containerUpdateArray);
 			} else if($cmd['tt_content'][$uid]['move']) {
 				// to be done: handle moving with the up and down arrows via list module correctly
-				$targetElement = $GLOBALS['TYPO3_DB']->exec_SELECTgetSingleRow(
-					'*',
-					'tt_content',
-					'uid=' . -$destPid
-				);
+				$targetElement = \TYPO3\CMS\Backend\Utility\BackendUtility::getRecordWSOL('tt_content', -$destPid, 'tx_gridelements_container');
 				$containerUpdateArray[$targetElement['tx_gridelements_container']] += 1;
 				$this->getTceMain()->moveRecord_raw('tt_content', $uid, $destPid);
 				$this->getTceMain()->updateRefIndex('tt_content', $uid);
-				$recordWasMoved = true;
+				$recordWasMoved = TRUE;
 			} else if(!count($cmd) && !$this->getTceMain()->moveChildren) {
+				$this->getTceMain()->moveRecord_raw('tt_content', $uid, $destPid);
+				$this->getTceMain()->updateRefIndex('tt_content', $uid);
 				$updateArray = $this->createUpdateArrayForContainerMove($originalElement);
 			}
 			if(count($updateArray) > 0) {
@@ -106,24 +104,26 @@ class MoveRecord extends AbstractDataHandler {
 	 * @return array UpdateArray
 	 */
 	public function createUpdateArrayForSplitElements($recordUid, &$destPid, $targetUid, array $target, array &$containerUpdateArray) {
-		if ($targetUid != $recordUid && intval($target[0]) < 0) {
+		if ($targetUid !== $recordUid && (int)$target[0] < 0) {
+			$targetElement = \TYPO3\CMS\Backend\Utility\BackendUtility::getRecordWSOL('tt_content', $targetUid, 'pid');
 			$containerUpdateArray[$targetUid] += 1;
-			$column = intval($target[1]);
+			$column = (int)$target[1];
 			$updateArray = array(
 				'colPos' => -1,
 				'sorting' => 0,
 				'tx_gridelements_container' => $targetUid,
-				'tx_gridelements_columns' => $column
+				'tx_gridelements_columns' => $column,
+				'pid' => $targetElement['pid']
 			);
 		} else {
 			$updateArray = array(
-				'colPos' => intval($target[1]),
+				'colPos' => (int)$target[1],
 				'sorting' => 0,
 				'tx_gridelements_container' => 0,
 				'tx_gridelements_columns' => 0
 			);
-			if($targetUid != $recordUid) {
-				$updateArray['pid'] = intval($target[0]);
+			if($targetUid !== $recordUid) {
+				$updateArray['pid'] = (int)$target[0];
 			}
 		}
 
@@ -139,8 +139,8 @@ class MoveRecord extends AbstractDataHandler {
 	 * @return array UpdateArray
 	 */
 	public function createUpdateArrayForContainerMove(array $originalElement) {
-		if($originalElement['CType'] == 'gridelements_pi1') {
-			$this->getTceMain()->moveChildren = true;
+		if($originalElement['CType'] === 'gridelements_pi1') {
+			$this->getTceMain()->moveChildren = TRUE;
 		}
 
 		$updateArray = array(
@@ -153,8 +153,3 @@ class MoveRecord extends AbstractDataHandler {
 		return $updateArray;
 	}
 }
-
-if (defined('TYPO3_MODE') && isset($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/DataHandler/MoveRecord.php'])) {
-	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/DataHandler/MoveRecord.php']);
-}
-?>

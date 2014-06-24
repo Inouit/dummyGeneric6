@@ -50,7 +50,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 
 		// fix rowspan in former last row
 		for (var colIndex = 0; colIndex < this.colCount; colIndex++) {
-			if (this.data[this.rowCount - 1][colIndex].spanned == true) {
+			if (this.data[this.rowCount - 1][colIndex].spanned === true) {
 				this.findUpperCellWidthRowspanAndDecreaseByOne(colIndex, this.rowCount - 1);
 			}
 		}
@@ -61,7 +61,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 
 	/**
 	 * Takes a cell and looks above it if there are any cells that have colspans that
-	 * spanns into the given cell. This is used when a row was removed from the grid
+	 * spans into the given cell. This is used when a row was removed from the grid
 	 * to make sure that no cell with wrong colspans exists in the grid.
 	 *
 	 * @param col integer
@@ -72,7 +72,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 		var upperCell = this.getCell(col, row - 1);
 		if (!upperCell) return false;
 
-		if (upperCell.spanned == true) {
+		if (upperCell.spanned === true) {
 			this.findUpperCellWidthRowspanAndDecreaseByOne(col, row - 1);
 		} else {
 			if (upperCell.rowspan > 1) {
@@ -95,7 +95,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 			for (colIndex = 0; colIndex < this.colCount - 1; colIndex++) {
 				newRow.push(this.data[rowIndex][colIndex]);
 			}
-			if (this.data[rowIndex][this.colCount - 1].spanned == true) {
+			if (this.data[rowIndex][this.colCount - 1].spanned === true) {
 				this.findLeftCellWidthColspanAndDecreaseByOne(this.colCount - 1, rowIndex);
 			}
 			newData.push(newRow);
@@ -117,7 +117,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 		var leftCell = this.getCell(col - 1, row);
 		if (!leftCell) return false;
 
-		if (leftCell.spanned == true) {
+		if (leftCell.spanned === true) {
 			this.findLeftCellWidthColspanAndDecreaseByOne(col - 1, row);
 		} else {
 			if (leftCell.colspan > 1) {
@@ -177,7 +177,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 
 		for (var row = 0; row < this.rowCount; row++) {
 			var rowData = this.data[row];
-			if (rowData.length == 0) continue;
+			if (rowData.length === 0) continue;
 
 			var rowSpec = {tag: 'tr', children:[]};
 
@@ -187,32 +187,31 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 					continue;
 				}
 
-
 				var cellHtml = '<div class="cell_container"><a class="link_editor" id="e_'
-						+ col + '_' + row + '" title="' + TYPO3.lang.editCell + '" href="#"><!-- --></a>';
+					+ col + '_' + row + '" title="' + TYPO3.l10n.localize('editCell') + '" href="#"><!-- --></a>';
 				if (this.cellCanSpanRight(col, row)) {
 					cellHtml += '<a href="#" id="r_'
-						+ col + '_' + row + '" title="' + TYPO3.lang.mergeCell + '" class="link_expand_right"><!-- --></a>';
+						+ col + '_' + row + '" title="' + TYPO3.l10n.localize('mergeCell') + '" class="link_expand_right"><!-- --></a>';
 				}
 				if (this.cellCanShrinkLeft(col, row)) {
 					cellHtml += '<a href="#" id="l_'
-						+ col + '_' + row + '" title="' + TYPO3.lang.splitCell + '" class="link_shrink_left"><!-- --></a>';
+						+ col + '_' + row + '" title="' + TYPO3.l10n.localize('splitCell') + '" class="link_shrink_left"><!-- --></a>';
 				}
 				if (this.cellCanSpanDown(col, row)) {
 					cellHtml += '<a href="#" id="d_'
-						+ col + '_' + row + '" title="' + TYPO3.lang.mergeCell + '" class="link_expand_down"><!-- --></a>';
+						+ col + '_' + row + '" title="' + TYPO3.l10n.localize('mergeCell') + '" class="link_expand_down"><!-- --></a>';
 				}
 				if (this.cellCanShrinkUp(col, row)) {
 					cellHtml += '<a href="#" id="u_'
-						+ col + '_' + row + '" title="' + TYPO3.lang.splitCell + '" class="link_shrink_up"><!-- --></a>';
+						+ col + '_' + row + '" title="' + TYPO3.l10n.localize('splitCell') + '" class="link_shrink_up"><!-- --></a>';
 				}
 				cellHtml += '</div>';
 
-				cellHtml += '<div class="cell_data">' + TYPO3.lang.name + ': ' + (cell.name ? cell.name : TYPO3.lang.notSet)
-						+ '<br />' + TYPO3.lang.column + ': '
-						+ (cell.column === undefined ? TYPO3.lang.notSet : parseInt(cell.column, 10))
-						+ '<br />' + TYPO3.lang.allowedElementTypes + ': '
-						+ (cell.allowed ? cell.allowed : '*') + '</div>';
+				cellHtml += '<div class="cell_data">' + TYPO3.l10n.localize('name') + ': ' + (cell.name ? Ext.util.Format.htmlEncode(cell.name) : TYPO3.l10n.localize('notSet'))
+					+ '<br />' + TYPO3.l10n.localize('column') + ': '
+					+ (cell.column === undefined ? TYPO3.lang.notSet : parseInt(cell.column, 10))
+					+ '<br />' + TYPO3.lang.allowedElementTypes + ': '
+					+ (cell.allowed ? Ext.util.Format.htmlEncode(cell.allowed) : '*') + '</div>';
 
 				// create cells
 				var child = {
@@ -358,23 +357,23 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 
 		if (!win) {
 			var fieldName = new Ext.form.TextField({
-				fieldLabel: TYPO3.lang.name,
+				fieldLabel: TYPO3.l10n.localize('name'),
 				name: 'name',
-				width: 260,
+				width: 270,
 				value: cell.name,
 				tabIndex: 1,
 				listeners: {
 					render: function(c) {
 						Ext.QuickTips.register({
 							target: c,
-							text: TYPO3.lang.nameHelp
+							text: TYPO3.l10n.localize('nameHelp')
 						});
 					}
 				}
 			});
 
 			var fieldColumn = new Ext.form.NumberField({
-				fieldLabel: TYPO3.lang.column,
+				fieldLabel: TYPO3.l10n.localize('column'),
 				name: 'column',
 				width: 50,
 				value: cell.column,
@@ -402,7 +401,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 					html: this.getCTypeOptions(cell.allowed)
 				},
 				listeners: {
-					render: function(c){
+					render: function(c) {
 						Ext.QuickTips.register({
 							target: c,
 							text: TYPO3.lang.allowedElementTypesHelp
@@ -413,7 +412,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 
 			win = new Ext.Window({
 				layout: 'fit',
-				title: TYPO3.lang.title,
+				title: TYPO3.l10n.localize('title'),
 				width: 400,
 				modal: true,
 				closable: true,
@@ -434,7 +433,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 				buttons: [
 					{
 						iconCls:'save',
-						text: TYPO3.lang.save,
+						text: TYPO3.l10n.localize('save'),
 						handler: function(fieldName, fieldColumn, fieldAllowed, col, row) {
 							t3Grid.setName(fieldName.getValue(), col, row);
 							t3Grid.setAllowed(t3Grid.getSelectedOptions(fieldAllowed), col, row);
@@ -446,7 +445,6 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 				]
 			});
 		}
-
 		win.show(this);
 	},
 
@@ -507,7 +505,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 	inArray: function(needle, haystack) {
 		var length = haystack.length;
 		for(var i = 0; i < length; i++) {
-			if(haystack[i] == needle) return true;
+			if(haystack[i] === needle) return true;
 		}
 		return false;
 	},
@@ -526,7 +524,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 	},
 
 	/**
-	 * Checks wether a cell can span to the right or not. A cell can span to the right
+	 * Checks whether a cell can span to the right or not. A cell can span to the right
 	 * if it is not in the last column and if there is no cell beside it that is
 	 * already overspanned by some other cell.
 	 *
@@ -536,7 +534,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 	 * @return boolean
 	 */
 	cellCanSpanRight: function(col, row) {
-		if (col == this.colCount - 1) {
+		if (col === this.colCount - 1) {
 			return false;
 		}
 
@@ -544,13 +542,13 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 		if (cell.rowspan > 1) {
 			for (var rowIndex = row; rowIndex < row + cell.rowspan; rowIndex++) {
 				var checkCell = this.getCell(col + cell.colspan, rowIndex);
-				if (!checkCell || checkCell.spanned == true || checkCell.colspan > 1 || checkCell.rowspan > 1) {
+				if (!checkCell || checkCell.spanned === true || checkCell.colspan > 1 || checkCell.rowspan > 1) {
 					return false;
 				}
 			}
 		} else {
 			var checkCell = this.getCell(col + cell.colspan, row);
-			if (!checkCell || cell.spanned == true || checkCell.spanned == true || checkCell.colspan > 1 || checkCell.rowspan > 1) {
+			if (!checkCell || cell.spanned === true || checkCell.spanned === true || checkCell.colspan > 1 || checkCell.rowspan > 1) {
 				return false;
 			}
 		}
@@ -559,7 +557,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 	},
 
 	/**
-	 * Checks wether a cell can span down or not.
+	 * Checks whether a cell can span down or not.
 	 *
 	 * @param col integer
 	 * @param row integer
@@ -567,7 +565,7 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 	 * @return boolean
 	 */
 	cellCanSpanDown: function(col, row) {
-		if (row == this.rowCount - 1) {
+		if (row === this.rowCount - 1) {
 			return false;
 		}
 
@@ -576,13 +574,13 @@ TYPO3.Backend.t3Grid = Ext.extend(Ext.Component, {
 			// we have to check all cells on the right side for the complete colspan
 			for (var colIndex = col; colIndex < col + cell.colspan; colIndex++) {
 				var checkCell = this.getCell(colIndex, row + cell.rowspan);
-				if (!checkCell || checkCell.spanned == true || checkCell.colspan > 1 || checkCell.rowspan > 1) {
+				if (!checkCell || checkCell.spanned === true || checkCell.colspan > 1 || checkCell.rowspan > 1) {
 					return false;
 				}
 			}
 		} else {
 			var checkCell = this.getCell(col, row + cell.rowspan);
-			if (!checkCell || cell.spanned == true || checkCell.spanned == true || checkCell.colspan > 1 || checkCell.rowspan > 1) {
+			if (!checkCell || cell.spanned === true || checkCell.spanned === true || checkCell.colspan > 1 || checkCell.rowspan > 1) {
 				return false;
 			}
 		}

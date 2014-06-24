@@ -25,6 +25,8 @@ namespace GridElementsTeam\Gridelements\Backend\ItemsProcFuncs;
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
 
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+
 /**
  * Class/Function which offers TCE main hook functions.
  *
@@ -41,72 +43,26 @@ class AbstractItemsProcFunc {
 	 * @return	array|null	$backendLayout: An array containing the data of the selected backend layout as well as a parsed version of the layout configuration
 	 */
 	public function getSelectedBackendLayout($id) {
-		$rootline = $this->getRootline($id);
-		$backendLayoutUid = NULL;
-
-		for ($i = count($rootline); $i > 0; $i--) {
-			$page = $GLOBALS['TYPO3_DB']->exec_SELECTgetSingleRow(
-				'uid, backend_layout, backend_layout_next_level',
-				'pages',
-				'uid=' . intval($rootline[$i]['uid'])
-			);
-			$selectedBackendLayout = intval($page['backend_layout']);
-			$selectedBackendLayoutNextLevel = intval($page['backend_layout_next_level']);
-			if ($selectedBackendLayout != 0 && $page['uid'] == $id) {
-				if ($selectedBackendLayout > 0) {
-					// Backend layout for current page is set
-					$backendLayoutUid = $selectedBackendLayout;
-				}
-				break;
-			} else if ($selectedBackendLayoutNextLevel == -1 && $page['uid'] != $id) {
-				// Some previous page in our rootline sets layout_next to "None"
-				break;
-			} else if ($selectedBackendLayoutNextLevel > 0 && $page['uid'] != $id) {
-				// Some previous page in our rootline sets some backend_layout, use it
-				$backendLayoutUid = $selectedBackendLayoutNextLevel;
-				break;
-			}
-		}
-		$backendLayout = NULL;
-		if ($backendLayoutUid) {
-			$backendLayout = $GLOBALS['TYPO3_DB']->exec_SELECTgetSingleRow(
-				'*',
-				'backend_layout',
-				'uid=' . $backendLayoutUid
-			);
-
-			if ($backendLayout) {
-				/** @var \TYPO3\CMS\Core\TypoScript\Parser\TypoScriptParser $parser  */
-				$parser = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Core\TypoScript\Parser\TypoScriptParser');
-				$parser->parse($backendLayout['config']);
-
-				$backendLayout['__config'] = $parser->setup;
-				$backendLayout['__items'] = array();
-				$backendLayout['__colPosList'] = array();
-
-				// create items and colPosList
-				if ($backendLayout['__config']['backend_layout.'] && $backendLayout['__config']['backend_layout.']['rows.']) {
-					foreach ($backendLayout['__config']['backend_layout.']['rows.'] as $row) {
-						if (isset($row['columns.']) && is_array($row['columns.'])) {
-							foreach ($row['columns.'] as $column) {
-								$backendLayout['__items'][] = array(
-									\TYPO3\CMS\Core\Utility\GeneralUtility::isFirstPartOfStr($column['name'], 'LLL:')
-										? $GLOBALS['LANG']->sL($column['name']) : $column['name'],
-									$column['colPos'],
-									NULL,
-									$column['allowed']
-								);
-								$backendLayout['__colPosList'][] = $column['colPos'];
-								$backendLayout['columns'][$column['colPos']] = $column['allowed'] ? $column['allowed'] : '*';
-								$backendLayout['allowed'] .= $backendLayout['allowed'] ? ',' . $backendLayout['column'][$column['colPos']] : $backendLayout['column'][$column['colPos']];
-							}
-						}
-					}
-				}
-			}
-		}
-
-		return $backendLayout;
+        $backendLayoutData = GeneralUtility::callUserFunction('TYPO3\\CMS\\Backend\\View\\BackendLayoutView->getSelectedBackendLayout', $id, $this);
+        // add allowed CTypes to the columns, since this is not done by the native core methods
+        if(count($backendLayoutData['__items']) > 0) {
+            if (!empty($backendLayoutData['__config']['backend_layout.']['rows.'])) {
+                foreach ($backendLayoutData['__config']['backend_layout.']['rows.'] as $row) {
+                    if (!empty($row['columns.'])) {
+                        foreach ($row['columns.'] as $column) {
+                            $backendLayoutData['columns'][$column['colPos']] = $column['allowed'] ? $column['allowed'] : '*';
+                            $backendLayoutData['columns']['allowed'] .= $backendLayoutData['columns']['allowed'] ?
+                                ',' . $backendLayoutData['columns'][$column['colPos']] :
+                                $backendLayoutData['columns'][$column['colPos']];
+                        }
+                    }
+                }
+            }
+	        foreach($backendLayoutData['__items'] as $key => $item) {
+		        $backendLayoutData['__items'][$key][3] = $backendLayoutData['columns'][$item[1]];
+	        }
+        };
+		return $backendLayoutData;
 	}
 
 	/**
@@ -119,9 +75,3 @@ class AbstractItemsProcFunc {
 		return \TYPO3\CMS\Backend\Utility\BackendUtility::BEgetRootLine($pageUid);
 	}
 }
-
-if (defined('TYPO3_MODE') && isset($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Backend/ItemsProcFuncs/AbstractItemsProcFunc.php'])) {
-	include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/gridelements/Classes/Backend/ItemsProcFuncs/AbstractItemsProcFunc.php']);
-}
-
-?>

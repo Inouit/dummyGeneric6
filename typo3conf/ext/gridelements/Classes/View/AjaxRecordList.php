@@ -1,5 +1,4 @@
 <?php
-
 namespace GridElementsTeam\Gridelements\View;
 
 // load models and views
@@ -128,7 +127,7 @@ class AjaxRecordList {
 	 * @param string $table
 	 * @param int $uid
 	 * @param array $row
-	 * @return	localRecordList
+	 * @return	\TYPO3\CMS\Recordlist\RecordList\DatabaseRecordList
 	 */
 	private function getRecordList($table, $uid, $row) {
 		$dblist = null;
@@ -137,16 +136,16 @@ class AjaxRecordList {
 
 		// todo
 		// GPvars:
-#		$this->pointer = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('pointer');
-#		$this->imagemode = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('imagemode');
-#		$this->search_field = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('search_field');
-#		$this->search_levels = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('search_levels');
-#		$this->showLimit = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('showLimit');
-#		$this->returnUrl = \TYPO3\CMS\Core\Utility\GeneralUtility::sanitizeLocalUrl(\TYPO3\CMS\Core\Utility\GeneralUtility::_GP('returnUrl'));
+        // $this->pointer = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('pointer');
+        // $this->imagemode = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('imagemode');
+        // $this->search_field = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('search_field');
+        // $this->search_levels = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('search_levels');
+        // $this->showLimit = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('showLimit');
+        // $this->returnUrl = \TYPO3\CMS\Core\Utility\GeneralUtility::sanitizeLocalUrl(\TYPO3\CMS\Core\Utility\GeneralUtility::_GP('returnUrl'));
 
-#		$this->clear_cache = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('clear_cache');
-#		$this->cmd = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('cmd');
-#		$this->cmd_table = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('cmd_table');
+        // $this->clear_cache = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('clear_cache');
+        // $this->cmd = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('cmd');
+        // $this->cmd_table = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('cmd_table');
 		$cmd_table = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('cmd_table');
 
 		// Loading current page record and checking access:
@@ -161,15 +160,14 @@ class AjaxRecordList {
 
 			// Initialize the dblist object:
 			/** @var $dblist \TYPO3\CMS\Recordlist\RecordList\DatabaseRecordList */
-			$dblist = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Recordlist\RecordList\DatabaseRecordList');
+			$dblist = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Recordlist\\RecordList\\DatabaseRecordList');
 			$dblist->calcPerms = $GLOBALS['BE_USER']->calcPerms($pageinfo);
 			$dblist->thumbs = $GLOBALS['BE_USER']->uc['thumbnailsByDefault'];
 
 			$modName = 'web_list';
 			$MOD_MENU = array('bigControlPanel' => '', 'clipBoard' => '', 'localization' => '');
 			// Loading module configuration:
-			$modTSconfig = \TYPO3\CMS\Backend\Utility\BackendUtility::getModTSconfig($uid,'mod.' . $modName);
-
+			$modTSconfig = \TYPO3\CMS\Backend\Utility\BackendUtility::getModTSconfig($uid, 'mod.' . $modName);
 
 			// todo: bring GP settings from outer list to the ajax request
 			$MOD_SETTINGS = \TYPO3\CMS\Backend\Utility\BackendUtility::getModuleData($MOD_MENU, \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('SET'), $modName);
@@ -195,7 +193,7 @@ class AjaxRecordList {
 			$dblist->modTSconfig = $modTSconfig;
 
 			// Clipboard is initialized:
-			$dblist->clipObj = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Backend\Clipboard\Clipboard');		// Start clipboard
+			$dblist->clipObj = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Backend\\Clipboard\\Clipboard');		// Start clipboard
 			$dblist->clipObj->initializeClipboard();	// Initialize - reads the clipboard content from the user session
 
 			// todo
@@ -204,7 +202,7 @@ class AjaxRecordList {
 			if ($this->cmd=='setCB') {
 				// CBH is all the fields selected for the clipboard, CBC is the checkbox fields which were checked. By merging we get a full array of checked/unchecked elements
 				// This is set to the 'el' array of the CB after being parsed so only the table in question is registered.
-				$CB['el'] = $dblist->clipObj->cleanUpCBC(array_merge((array)\TYPO3\CMS\Core\Utility\GeneralUtility::_POST('CBH'),(array)\TYPO3\CMS\Core\Utility\GeneralUtility::_POST('CBC')),$cmd_table);
+				$CB['el'] = $dblist->clipObj->cleanUpCBC(array_merge((array)\TYPO3\CMS\Core\Utility\GeneralUtility::_POST('CBH'), (array)\TYPO3\CMS\Core\Utility\GeneralUtility::_POST('CBC')), $cmd_table);
 			}
 			if (!$MOD_SETTINGS['clipBoard']) {
 				$CB['setP']='normal';
@@ -220,8 +218,6 @@ class AjaxRecordList {
 			$dblist->dontShowClipControlPanels = $GLOBALS['CLIENT']['FORMSTYLE'] && !$MOD_SETTINGS['bigControlPanel']
 				&& $dblist->clipObj->current=='normal' && !$GLOBALS['BE_USER']->uc['disableCMlayers']
 				&& !$modTSconfig['properties']['showClipControlPanelsDespiteOfCMlayers'];
-
-
 
 			// If there is access to the page, then render the list contents and set up the document template object:
 			// todo: there is no browsing in child records
