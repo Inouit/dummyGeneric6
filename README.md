@@ -3,6 +3,10 @@ dummyGeneric6
 
 Dummy for typo3 6.2 or higher
 
+User
+====
+Login/password information for default user in Backend is admin/password, don't forget to change that.
+
 Local files
 ===========
 
